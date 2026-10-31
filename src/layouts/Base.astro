@@ -1,0 +1,25 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource/noto-sans-gujarati/400.css';
+import '@fontsource/noto-sans-gujarati/600.css';
+import '@fontsource/noto-sans-gujarati/700.css';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="gu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-white text-slate-900">
+    <slot />
+  </body>
+</html>

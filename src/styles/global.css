@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter Variable', 'Noto Sans Gujarati', system-ui, sans-serif;
+  --font-gu: 'Noto Sans Gujarati', 'Inter Variable', system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-gu);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* German text uses the Latin font so ä ö ü ß render cleanly */
+:lang(de) {
+  font-family: var(--font-sans);
+}
