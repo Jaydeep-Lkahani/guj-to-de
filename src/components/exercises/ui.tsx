@@ -2,8 +2,8 @@ import type { ButtonHTMLAttributes, InputHTMLAttributes } from 'react';
 import { t } from '../../lib/t';
 
 const variants = {
-  primary: 'bg-brand text-brand-fg hover:opacity-90',
-  secondary: 'bg-surface-2 text-fg border border-line hover:bg-brand-soft',
+  primary: 'bg-brand text-brand-fg shadow-soft hover:-translate-y-0.5 hover:shadow-lift',
+  secondary: 'bg-surface text-fg border border-line hover:border-brand hover:bg-brand-soft',
   ghost: 'text-brand hover:bg-brand-soft',
 };
 
@@ -16,7 +16,7 @@ export function Btn({
     <button
       type="button"
       {...props}
-      className={`inline-flex min-h-11 items-center justify-center rounded-lg px-4 py-2 font-semibold transition disabled:cursor-not-allowed disabled:opacity-50 ${variants[variant]} ${className}`}
+      className={`inline-flex min-h-11 items-center justify-center rounded-xl px-5 py-2 font-bold transition disabled:cursor-not-allowed disabled:opacity-50 ${variants[variant]} ${className}`}
     />
   );
 }
@@ -31,8 +31,10 @@ export function CheckButton({ disabled, onClick }: { disabled?: boolean; onClick
 
 /** Class for a tappable answer choice. */
 export function optionClass(selected: boolean): string {
-  return `min-h-11 rounded-lg border px-4 py-2 text-left font-semibold transition disabled:cursor-default ${
-    selected ? 'border-brand bg-brand-soft text-brand' : 'border-line bg-surface hover:border-brand'
+  return `min-h-11 rounded-xl border-2 px-4 py-2 text-left font-semibold transition disabled:cursor-default ${
+    selected
+      ? 'border-brand bg-brand-soft text-brand'
+      : 'border-line bg-surface hover:border-brand hover:bg-brand-soft/50'
   }`;
 }
 
@@ -65,7 +67,7 @@ export function GermanInput({
         spellCheck={false}
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={(e) => e.key === 'Enter' && onEnter()}
-        className="min-h-11 w-full rounded-lg border border-line bg-surface px-3 py-2 text-lg"
+        className="min-h-11 w-full rounded-xl border-2 border-line bg-surface px-3 py-2 text-lg"
         {...rest}
       />
       {!disabled && (

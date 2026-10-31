@@ -1,4 +1,5 @@
 import { t } from '../lib/t';
+import { CheckIcon } from './icons';
 import { useProgress } from './use-progress';
 
 interface Item {
@@ -19,15 +20,15 @@ export default function ChapterLessons({ lessons }: { lessons: Item[] }) {
           <li key={lesson.id}>
             <a
               href={lesson.href}
-              className="flex items-center gap-3 rounded-xl border border-line bg-surface p-4 transition hover:border-brand"
+              className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 shadow-soft transition hover:-translate-y-0.5 hover:border-brand hover:shadow-lift"
             >
               <span
                 aria-hidden="true"
-                className={`flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
-                  record?.completedOn ? 'bg-ok-soft text-ok' : 'bg-surface-2 text-muted'
+                className={`flex size-10 shrink-0 items-center justify-center rounded-xl text-sm font-extrabold ${
+                  record?.completedOn ? 'bg-ok-soft text-ok' : 'bg-brand-soft text-brand'
                 }`}
               >
-                {record?.completedOn ? '✓' : lesson.number}
+                {record?.completedOn ? <CheckIcon size={20} /> : lesson.number}
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm text-muted">

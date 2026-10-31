@@ -8,6 +8,7 @@ const catalog = await getCatalog();
 ---
 
 <Base title={t('nav.chapters')}>
-  <h1 class="mb-4 text-2xl font-bold">{t('nav.chapters')}</h1>
+  <h1 class="text-3xl font-extrabold tracking-tight">{t('nav.chapters')}</h1>
+  <p class="mt-1 mb-6 text-muted">{t('home.tagline')}</p>
   <ChaptersList client:load catalog={catalog} />
 </Base>

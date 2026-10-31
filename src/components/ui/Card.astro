@@ -5,8 +5,10 @@ interface Props {
 }
 
 const { href, class: extra = '' } = Astro.props;
-const base = 'block rounded-xl border border-line bg-surface p-4';
-const classes = href ? `${base} transition hover:border-brand ${extra}` : `${base} ${extra}`;
+const base = 'block rounded-2xl border border-line bg-surface p-5 shadow-soft';
+const classes = href
+  ? `${base} transition hover:-translate-y-0.5 hover:border-brand hover:shadow-lift ${extra}`
+  : `${base} ${extra}`;
 ---
 
 {href ? (

@@ -45,16 +45,23 @@ const fullTitle = title === t('app.title') ? title : `${title} · ${t('app.title
     <div class="md:flex">
       <Nav />
       <div class="min-w-0 flex-1">
-        <header class="sticky top-0 z-10 flex h-14 items-center justify-between border-b border-line bg-surface px-4 md:hidden">
-          <a href="/" class="text-lg font-bold">
+        <header class="sticky top-0 z-10 flex h-14 items-center justify-between border-b border-line bg-surface/85 px-4 backdrop-blur-md md:hidden">
+          <a href="/" class="flex items-center gap-2 text-lg font-extrabold">
+            <span
+              class="grid size-8 place-items-center rounded-lg bg-gradient-to-br from-brand to-[#7a4be0] text-sm font-extrabold text-white"
+              lang="de"
+              aria-hidden="true"
+            >
+              D
+            </span>
             {t('app.title')}
           </a>
           <ThemeToggle />
         </header>
-        <div class="hidden justify-end px-4 pt-3 md:flex">
+        <div class="hidden justify-end px-6 pt-4 md:flex">
           <ThemeToggle />
         </div>
-        <main class="mx-auto max-w-3xl px-4 pt-6 pb-24 md:pb-10">
+        <main class="mx-auto max-w-4xl px-4 pt-6 pb-28 md:px-8 md:pb-14">
           <slot />
         </main>
       </div>

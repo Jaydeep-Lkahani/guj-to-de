@@ -53,8 +53,8 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
         ← {t('lesson.backToChapter')}
       </a>
     </p>
-    <p class="text-sm font-semibold text-brand">{heading}</p>
-    <h1 class="mb-4 text-2xl font-bold">{data.title_gu}</h1>
+    <p class="text-sm font-bold text-brand">{heading}</p>
+    <h1 class="mb-4 text-3xl leading-snug font-extrabold tracking-tight">{data.title_gu}</h1>
     <div class="mb-6">
       <AudioControls client:load />
     </div>
@@ -66,7 +66,7 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
 
       {data.vocab.length > 0 && (
         <section>
-          <h2 class="mb-3 text-xl font-bold">{t('words.vocabulary')}</h2>
+          <h2 class="section-title">{t('words.vocabulary')}</h2>
           <ul class="grid gap-3 sm:grid-cols-2">
             {data.vocab.map((item) => (
               <li>
@@ -79,7 +79,7 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
 
       {data.grammar.length > 0 && (
         <section>
-          <h2 class="mb-3 text-xl font-bold">{t('words.grammar')}</h2>
+          <h2 class="section-title">{t('words.grammar')}</h2>
           <div class="flex flex-col gap-6">
             {data.grammar.map((block) => (
               <div class="flex flex-col gap-3">
@@ -90,7 +90,7 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
                 ))}
                 <ul class="grid gap-2">
                   {block.examples.map((ex) => (
-                    <li class="flex items-center gap-3 rounded-lg bg-surface-2 p-3">
+                    <li class="flex items-center gap-3 rounded-xl bg-surface-2 p-3">
                       <AudioButton client:visible text={ex.de} />
                       <div>
                         <p lang="de" class="font-semibold">
@@ -110,13 +110,13 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
 
       {data.dialogue && (
         <section>
-          <h2 class="mb-3 text-xl font-bold">{t('words.dialogue')}</h2>
+          <h2 class="section-title">{t('words.dialogue')}</h2>
           <Dialogue client:load lines={data.dialogue.lines} />
         </section>
       )}
 
       <section>
-        <h2 class="mb-3 text-xl font-bold">{t('words.practice')}</h2>
+        <h2 class="section-title">{t('words.practice')}</h2>
         <LessonPractice
           client:only="react"
           lessonId={data.id}
@@ -126,7 +126,7 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
       </section>
 
       <section>
-        <h2 class="mb-3 text-xl font-bold">{t('lesson.speaking')}</h2>
+        <h2 class="section-title">{t('lesson.speaking')}</h2>
         <p class="mb-2 text-sm text-muted">{t('lesson.shadowing')}</p>
         <ShadowingList client:visible lines={data.speaking.shadowing} />
         <p class="mt-4 font-semibold">{t('lesson.freeSpeaking')}</p>
@@ -135,9 +135,9 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
       </section>
 
       <section>
-        <h2 class="mb-3 text-xl font-bold">{t('lesson.writing')}</h2>
+        <h2 class="section-title">{t('lesson.writing')}</h2>
         <p>{data.writing.task_gu}</p>
-        <details class="mt-3 rounded-lg border border-line bg-surface p-3">
+        <details class="mt-3 rounded-xl border border-line bg-surface p-3 shadow-soft">
           <summary class="cursor-pointer font-semibold">{t('lesson.modelAnswer')}</summary>
           <p lang="de" class="mt-2 text-lg">
             {data.writing.model_answer_de}
@@ -157,7 +157,7 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
       </section>
 
       <section>
-        <h2 class="mb-3 text-xl font-bold">{t('lesson.summary')}</h2>
+        <h2 class="section-title">{t('lesson.summary')}</h2>
         <ul class="list-disc space-y-1 pl-5">
           {data.summary_gu.map((point) => (
             <li>{point}</li>

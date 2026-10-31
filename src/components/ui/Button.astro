@@ -9,11 +9,12 @@ interface Props {
 const { href, variant = 'primary', type = 'button', class: extra = '' } = Astro.props;
 
 const variants = {
-  primary: 'bg-brand text-brand-fg hover:opacity-90',
-  secondary: 'bg-surface-2 text-fg border border-line hover:bg-brand-soft',
+  primary: 'bg-brand text-brand-fg shadow-soft hover:-translate-y-0.5 hover:shadow-lift',
+  secondary:
+    'bg-surface text-fg border border-line shadow-soft hover:border-brand hover:bg-brand-soft',
   ghost: 'text-brand hover:bg-brand-soft',
 };
-const classes = `inline-flex min-h-11 items-center justify-center rounded-lg px-4 py-2 font-semibold transition ${variants[variant]} ${extra}`;
+const classes = `inline-flex min-h-11 items-center justify-center rounded-xl px-5 py-2 font-bold transition ${variants[variant]} ${extra}`;
 ---
 
 {href ? (

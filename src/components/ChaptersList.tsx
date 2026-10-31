@@ -1,6 +1,7 @@
 import { LEVELS, chapterSlug } from '../lib/chapters';
 import { chapterProgress, isChapterUnlocked, type Catalog } from '../lib/progress-logic';
 import { t } from '../lib/t';
+import { CheckIcon, LockIcon } from './icons';
 import { useProgress } from './use-progress';
 
 /** All 26 chapters grouped by level, with progress and a lock on chapters that are not open yet. */
@@ -11,13 +12,14 @@ export default function ChaptersList({ catalog }: { catalog: Catalog }) {
     <div>
       {LEVELS.map(({ level, from, to }) => (
         <section key={level} className="mb-8">
-          <h2 className="mb-3">
+          <h2 className="mb-3 flex items-center gap-3">
             <span
               lang="de"
-              className="inline-block rounded-md bg-brand-soft px-2 py-0.5 text-xs font-bold tracking-wide text-brand"
+              className="inline-block rounded-full bg-gradient-to-r from-brand to-[#7a4be0] px-3 py-1 text-sm font-extrabold tracking-wide text-white"
             >
               {level}
             </span>
+            <span aria-hidden="true" className="h-px flex-1 bg-line" />
           </h2>
           <ul className="grid gap-3 sm:grid-cols-2">
             {catalog
@@ -25,52 +27,75 @@ export default function ChaptersList({ catalog }: { catalog: Catalog }) {
               .map((chapter) => {
                 const locked = ready && !isChapterUnlocked(chapter.number, data, catalog);
                 const { percent, units } = chapterProgress(chapter, data);
+                const complete = ready && units > 0 && percent === 100;
                 const body = (
-                  <>
-                    <span className="flex items-center justify-between gap-2">
-                      <span className="font-semibold">
-                        {t('words.chapter')} {chapter.number}
-                      </span>
-                      {locked && (
-                        <span className="text-sm text-muted">🔒 {t('chapter.locked')}</span>
-                      )}
-                      {!locked && ready && units > 0 && (
-                        <span className="text-sm text-muted tabular-nums">{percent}%</span>
+                  <span className="flex items-start gap-3">
+                    <span
+                      aria-hidden="true"
+                      className={`grid size-11 shrink-0 place-items-center rounded-xl text-lg font-extrabold tabular-nums ${
+                        complete
+                          ? 'bg-ok-soft text-ok'
+                          : locked
+                            ? 'bg-surface text-muted'
+                            : 'bg-brand-soft text-brand'
+                      }`}
+                    >
+                      {complete ? (
+                        <CheckIcon size={22} />
+                      ) : locked ? (
+                        <LockIcon size={20} />
+                      ) : (
+                        chapter.number
                       )}
                     </span>
-                    {chapter.lessons.length > 0 && (
-                      <span className="block text-muted">{chapter.title}</span>
-                    )}
-                    {ready && units > 0 && (
-                      <span
-                        role="progressbar"
-                        aria-label={`${t('words.chapter')} ${chapter.number}`}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                        aria-valuenow={percent}
-                        className="mt-2 block h-2 w-full overflow-hidden rounded-full bg-surface-2"
-                      >
-                        <span
-                          className="block h-full rounded-full bg-brand"
-                          style={{ width: `${percent}%` }}
-                        />
+                    <span className="min-w-0 flex-1">
+                      <span className="flex items-center justify-between gap-2">
+                        <span className="text-sm font-semibold text-muted">
+                          {t('words.chapter')} {chapter.number}
+                        </span>
+                        {locked && (
+                          <span className="text-xs text-muted">{t('chapter.locked')}</span>
+                        )}
+                        {!locked && ready && units > 0 && (
+                          <span className="text-sm font-bold text-brand tabular-nums">
+                            {percent}%
+                          </span>
+                        )}
                       </span>
-                    )}
-                  </>
+                      {chapter.lessons.length > 0 && (
+                        <span className="block font-bold">{chapter.title}</span>
+                      )}
+                      {ready && units > 0 && (
+                        <span
+                          role="progressbar"
+                          aria-label={`${t('words.chapter')} ${chapter.number}`}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                          aria-valuenow={percent}
+                          className="mt-2 block h-2 w-full overflow-hidden rounded-full bg-surface-2"
+                        >
+                          <span
+                            className="block h-full rounded-full bg-gradient-to-r from-brand to-accent"
+                            style={{ width: `${percent}%` }}
+                          />
+                        </span>
+                      )}
+                    </span>
+                  </span>
                 );
                 return (
                   <li key={chapter.number}>
                     {locked ? (
                       <div
                         aria-disabled="true"
-                        className="block rounded-xl border border-line bg-surface-2 p-4 opacity-70"
+                        className="block rounded-2xl border border-dashed border-line bg-surface-2 p-4 opacity-75"
                       >
                         {body}
                       </div>
                     ) : (
                       <a
                         href={`/chapters/${chapterSlug(chapter.number)}/`}
-                        className="block rounded-xl border border-line bg-surface p-4 transition hover:border-brand"
+                        className="block rounded-2xl border border-line bg-surface p-4 shadow-soft transition hover:-translate-y-0.5 hover:border-brand hover:shadow-lift"
                       >
                         {body}
                       </a>

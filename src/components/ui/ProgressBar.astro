@@ -16,5 +16,8 @@ const pct = Math.max(0, Math.min(100, Math.round(value)));
   aria-valuenow={pct}
   class="h-2.5 w-full overflow-hidden rounded-full bg-surface-2"
 >
-  <div class="h-full rounded-full bg-brand" style={`width: ${pct}%`}></div>
+  <div
+    class="h-full rounded-full bg-gradient-to-r from-brand to-accent"
+    style={`width: ${pct}%`}
+  ></div>
 </div>
