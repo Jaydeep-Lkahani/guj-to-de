@@ -1,7 +1,7 @@
 # pending.md — German (A0 → B2) Learning Website in Gujarati
 
 > **Who reads this file:** the builder model (Claude Sonnet) and the project owner.
-> **Status:** Planning done (by Opus). Building in progress — Steps 1–2 done, next is Step 3.
+> **Status:** Planning done (by Opus). Building in progress — Steps 1–3 done, next is Step 4.
 > **Rule:** Every time a task below is finished, tick its checkbox `[x]` and add a one-line note in the **Change Log** at the bottom.
 
 ---
@@ -261,10 +261,13 @@ Chapter 1 must teach these with audio and say clearly that ö and ü have no exa
 ├── package.json
 ├── public/                     ← icons, manifest, (later) audio files
 ├── scripts/
-│   └── validate-content.ts     ← checks every chapter JSON against schemas + extra rules
+│   ├── validate-content.ts     ← CLI: checks every chapter JSON against schemas + extra rules
+│   ├── content-rules.ts        ← the cross-file rules (ids, counts, banned words …)
+│   └── fixtures/sample/        ← small valid sample chapter used by tests
 ├── src/
+│   ├── content.config.ts       ← Astro content collections (Astro 7 location)
 │   ├── content/
-│   │   ├── config.ts           ← Zod schemas
+│   │   ├── schemas.ts          ← Zod schemas (shared by Astro and validate-content)
 │   │   └── chapters/
 │   │       ├── ch01/
 │   │       │   ├── meta.json
@@ -390,9 +393,9 @@ Each step = one Sonnet session (or a few). At the end of every step: run build +
 - **Done when:** all pages exist as empty shells with navigation working at 360px width
 
 ### Step 3 — Content schemas & validation
-- [ ] Zod schemas from §6 in `src/content/config.ts`
-- [ ] `scripts/validate-content.ts`: schema check + rules (unique ids, every exercise has explanation, MCQ answer index in range, no "phase"/"તબક્કો" anywhere, every lesson has ≥10 exercises)
-- [ ] Sample tiny chapter to test the pipeline
+- [x] Zod schemas from §6 in `src/content/schemas.ts` (wired into Astro via `src/content.config.ts`)
+- [x] `scripts/validate-content.ts`: schema check + rules (unique ids, every exercise has explanation, MCQ answer index in range, no "phase"/"તબક્કો" anywhere, every lesson has ≥10 exercises)
+- [x] Sample tiny chapter to test the pipeline
 - **Done when:** a broken JSON fails validation with a clear message
 
 ### Step 4 — Lesson page & exercise engine
@@ -491,3 +494,4 @@ tick the boxes, update the Change Log, and tell me what to check.
 | 2026-10-31 | Plan created (Opus 5.5). Defaults chosen for open questions Q1–Q9. |
 | 2026-10-31 | Step 1 done: Astro 7 + React + TS strict + Tailwind 4 project, fonts, Vitest/ESLint/Prettier, `CLAUDE.md`, banned-word check in `validate:content` (full Zod validation comes in Step 3). |
 | 2026-10-31 | Step 2 done: light/dark theme tokens (incl. der/die/das colours), `ui-gu.json` + typed `t()`, phone bottom nav + desktop side nav, base components (Button, Card, ProgressBar, LevelBadge, Callout, Table), empty shells for all page routes. Lesson shells exist only for Chapter 1 until real content (Step 4/8); `/dev/design` showcase is dev-only. |
+| 2026-10-31 | Step 3 done: Zod schemas in `src/content/schemas.ts` (all 9 exercise types), Astro collections in `src/content.config.ts`, `validate:content` with file + path + message errors, sample chapter fixture, 25 rule tests. **Decisions:** `explain_gu` is required on *every* exercise type (§7.6 says so; the §6 type listing omitted it for match/order/listen/translate/speak/truefalse). `test.json` shape is `{chapter, pass_mark (default 70), exercises}`, optional until a chapter is finished, 25–40 exercises when present. Astro 7 reads collections from `src/content.config.ts`, not `src/content/config.ts`. Astro warns "No files found" until Chapter 1 exists (Step 8). |
