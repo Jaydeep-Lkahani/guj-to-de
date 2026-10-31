@@ -3,11 +3,29 @@ import { z } from 'zod';
 // The learner's saved progress (pending.md §6: localStorage, versioned, export/import JSON).
 // Bump CURRENT_VERSION and add an entry to `migrations` whenever the shape changes.
 
-export const CURRENT_VERSION = 1;
+export const CURRENT_VERSION = 2;
 
 const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must look like 2026-10-31');
 const count = z.number().int().min(0);
 const attempt = z.object({ correct: count, total: z.number().int().min(1), at: z.string().min(1) });
+
+/** The ways of reviewing a word. Each has its own schedule (German→Gujarati is easier than the reverse). */
+export const REVIEW_MODES = ['de-gu', 'gu-de', 'article'] as const;
+export type ReviewMode = (typeof REVIEW_MODES)[number];
+
+/** SM-2 state of one word in one review mode. A word without a state has not been reviewed yet. */
+export const cardStateSchema = z.object({
+  ease: z.number().min(1.3).max(5),
+  /** Days until the next review, as of the last review. */
+  interval: count,
+  /** Successful reviews in a row. */
+  reps: count,
+  lapses: count,
+  due: date,
+});
+export type CardState = z.infer<typeof cardStateSchema>;
+
+const deckSchema = z.record(z.string(), cardStateSchema);
 
 export const settingsSchema = z.object({
   examDate: date.nullable().default(null),
@@ -41,6 +59,8 @@ export const progressSchema = z.object({
   topics: z.record(z.string(), z.object({ correct: count, total: count })),
   /** Seconds studied per local date. */
   studySeconds: z.record(date, z.number().min(0)),
+  /** Flashcard schedules per review mode, keyed by vocab id (e.g. "ch01-l01-hallo"). */
+  cards: z.object({ 'de-gu': deckSchema, 'gu-de': deckSchema, article: deckSchema }),
   settings: settingsSchema,
 });
 
@@ -54,12 +74,16 @@ export function emptyProgress(): ProgressData {
     tests: {},
     topics: {},
     studySeconds: {},
+    cards: { 'de-gu': {}, 'gu-de': {}, article: {} },
     settings: settingsSchema.parse({}),
   };
 }
 
 /** Upgrades older saved data step by step. Entry N turns version N data into version N+1. */
-const migrations: Record<number, (data: Record<string, unknown>) => Record<string, unknown>> = {};
+const migrations: Record<number, (data: Record<string, unknown>) => Record<string, unknown>> = {
+  // 1 → 2: flashcards
+  1: (data) => ({ ...data, version: 2, cards: { 'de-gu': {}, 'gu-de': {}, article: {} } }),
+};
 
 export class ProgressError extends Error {}
 

@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { recordReview } from './deck';
 import { addStudySeconds, completeLesson, recordPractice, recordTest } from './progress-logic';
 import {
   CURRENT_VERSION,
@@ -57,6 +58,24 @@ describe('migrateProgress', () => {
       lockChapters: true,
       pronHelper: true,
     });
+  });
+
+  it('upgrades version 1 data (no flashcards) and keeps what was saved', () => {
+    const v1: Record<string, unknown> = { ...filled(), version: 1 };
+    delete v1.cards;
+    const upgraded = migrateProgress(v1);
+    expect(upgraded.version).toBe(CURRENT_VERSION);
+    expect(upgraded.cards).toEqual({ 'de-gu': {}, 'gu-de': {}, article: {} });
+    expect(upgraded.lessons).toEqual(v1.lessons);
+    expect(upgraded.settings).toEqual(v1.settings);
+  });
+
+  it('round-trips flashcard schedules and rejects a damaged one', () => {
+    const data = recordReview(filled(), 'article', 'ch01-l01-mann', 'good', '2026-10-31');
+    expect(migrateProgress(JSON.parse(JSON.stringify(data)))).toEqual(data);
+    const bad = JSON.parse(JSON.stringify(data));
+    bad.cards.article['ch01-l01-mann'].due = 'tomorrow';
+    expect(() => migrateProgress(bad)).toThrow(/cards\.article/);
   });
 
   it('rejects non-objects and missing versions', () => {

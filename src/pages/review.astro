@@ -1,9 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
-import EmptyShell from '../components/EmptyShell.astro';
+import ReviewView from '../components/ReviewView.tsx';
+import StudyTimer from '../components/StudyTimer.tsx';
 import { t } from '../lib/t';
 ---
 
 <Base title={t('nav.review')}>
-  <EmptyShell title={t('nav.review')} />
+  <h1 class="page-title mb-5">{t('nav.review')}</h1>
+  <StudyTimer client:load />
+  <ReviewView client:load />
 </Base>
