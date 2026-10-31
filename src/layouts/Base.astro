@@ -22,6 +22,20 @@ const fullTitle = title === t('app.title') ? title : `${title} · ${t('app.title
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
+    <meta name="description" content={t('app.tagline')} />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content={t('app.title')} />
+    <meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0a1d" media="(prefers-color-scheme: dark)" />
+    {import.meta.env.PROD && <script is:inline>
+      // Offline copy of the site (scripts/pwa.mjs writes /sw.js at build time)
+      if ('serviceWorker' in navigator) {
+        addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+      }
+    </script>}
     <script is:inline>
       // Apply a saved theme before first paint to avoid a flash
       try {
