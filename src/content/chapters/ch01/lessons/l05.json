@@ -1,0 +1,572 @@
+{
+  "id": "ch01-l05",
+  "number": 5,
+  "title_gu": "સર્વનામ અને ક્રિયાપદ sein",
+  "goal_gu": "આ પાઠ પછી તમે ich, du, er, sie, es, wir, ihr, sie, Sie જાણશો, sein ના બધા રૂપો બોલી શકશો અને પોતાનો અને બીજાનો વ્યવસાય કહી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l05-du",
+      "de": "du",
+      "gender": null,
+      "gu": "તું",
+      "pron_gu": "દૂ",
+      "example_de": "Du bist Priya.",
+      "example_gu": "તું પ્રિયા છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-er",
+      "de": "er",
+      "gender": null,
+      "gu": "તે (પુરુષ)",
+      "pron_gu": "એર",
+      "example_de": "Er ist Lukas.",
+      "example_gu": "તે લુકાસ છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-sie-she",
+      "de": "sie",
+      "gender": null,
+      "gu": "તે (સ્ત્રી)",
+      "pron_gu": "ઝી",
+      "example_de": "Sie ist Anna.",
+      "example_gu": "તે અન્ના છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-es",
+      "de": "es",
+      "gender": null,
+      "gu": "તે (નપુંસક / વસ્તુ)",
+      "pron_gu": "એસ",
+      "example_de": "Es ist schön.",
+      "example_gu": "તે સુંદર છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-wir",
+      "de": "wir",
+      "gender": null,
+      "gu": "અમે / આપણે",
+      "pron_gu": "વીર",
+      "example_de": "Wir sind Freunde.",
+      "example_gu": "અમે મિત્રો છીએ.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-ihr",
+      "de": "ihr",
+      "gender": null,
+      "gu": "તમે (મિત્રોનું જૂથ)",
+      "pron_gu": "ઈર",
+      "example_de": "Ihr seid Freunde.",
+      "example_gu": "તમે મિત્રો છો.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-sie-they",
+      "de": "sie",
+      "gender": null,
+      "gu": "તેઓ",
+      "pron_gu": "ઝી",
+      "example_de": "Sie sind in Berlin.",
+      "example_gu": "તેઓ બર્લિનમાં છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-sie-formal",
+      "de": "Sie",
+      "gender": null,
+      "gu": "તમે / આપ (ઔપચારિક)",
+      "pron_gu": "ઝી",
+      "example_de": "Sind Sie Herr Patel?",
+      "example_gu": "શું આપ શ્રી પટેલ છો?",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l05-sein",
+      "de": "sein",
+      "gender": null,
+      "gu": "હોવું (છું / છે / છો)",
+      "pron_gu": "ઝાઇન",
+      "example_de": "Ich bin in Berlin.",
+      "example_gu": "હું બર્લિનમાં છું.",
+      "level": "A1",
+      "tags": ["verb", "irregular"]
+    },
+    {
+      "id": "ch01-l05-student",
+      "de": "Student",
+      "gender": "der",
+      "plural": "die Studenten",
+      "gu": "વિદ્યાર્થી (પુરુષ)",
+      "pron_gu": "શ્ટુડેન્ટ",
+      "example_de": "Raj ist Student.",
+      "example_gu": "રાજ વિદ્યાર્થી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l05-studentin",
+      "de": "Studentin",
+      "gender": "die",
+      "plural": "die Studentinnen",
+      "gu": "વિદ્યાર્થીની",
+      "pron_gu": "શ્ટુડેન્ટિન",
+      "example_de": "Priya ist Studentin.",
+      "example_gu": "પ્રિયા વિદ્યાર્થીની છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l05-lehrerin",
+      "de": "Lehrerin",
+      "gender": "die",
+      "plural": "die Lehrerinnen",
+      "gu": "શિક્ષિકા",
+      "pron_gu": "લેહરરિન",
+      "example_de": "Frau Weber ist Lehrerin.",
+      "example_gu": "શ્રીમતી વેબર શિક્ષિકા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l05-arzt",
+      "de": "Arzt",
+      "gender": "der",
+      "plural": "die Ärzte",
+      "gu": "ડૉક્ટર (પુરુષ)",
+      "pron_gu": "આર્ટ્સ્ટ",
+      "example_de": "Herr Patel ist Arzt.",
+      "example_gu": "શ્રી પટેલ ડૉક્ટર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l05-aerztin",
+      "de": "Ärztin",
+      "gender": "die",
+      "plural": "die Ärztinnen",
+      "gu": "ડૉક્ટર (સ્ત્રી)",
+      "pron_gu": "એર્ત્સ્ટિન",
+      "example_de": "Anna ist Ärztin.",
+      "example_gu": "અન્ના ડૉક્ટર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l05-ingenieur",
+      "de": "Ingenieur",
+      "gender": "der",
+      "plural": "die Ingenieure",
+      "gu": "ઇજનેર (પુરુષ)",
+      "pron_gu": "ઇન્ઝેન્યોર",
+      "example_de": "Lukas ist Ingenieur.",
+      "example_gu": "લુકાસ ઇજનેર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "સર્વનામ (Personal pronouns)",
+      "explanation_gu": "સર્વનામ એટલે “હું, તું, તે…”. જર્મનમાં નવ રૂપો છે (તેમાંથી ત્રણ સરખા દેખાય છે!).\n\n**ધ્યાન રાખવા જેવી બાબતો:**\n- ગુજરાતીમાં “તે” એક જ છે, પણ જર્મનમાં **er** (પુરુષ), **sie** (સ્ત્રી), **es** (નપુંસક/વસ્તુ). વસ્તુઓ માટે પણ: *der Tisch → er*, *die Tür → sie*, *das Haus → es* (વિગતે પ્રકરણ 3).\n- **sie** (તે, સ્ત્રી), **sie** (તેઓ) અને **Sie** (આપ, ઔપચારિક) એકસરખા લખાય છે. **Sie** હંમેશા મોટા S થી. ક્રિયાપદ જોઈને ફરક પારખાય: *sie ist* (તે), *sie sind* (તેઓ / Sie).\n- **ihr** = “તમે” (મિત્રોના જૂથને). **Sie** = “આપ” (ઔપચારિક).",
+      "tables": [
+        {
+          "headers": ["ગુજરાતી", "જર્મન"],
+          "rows": [
+            ["હું", "ich"],
+            ["તું", "du"],
+            ["તે (પુરુષ)", "er"],
+            ["તે (સ્ત્રી)", "sie"],
+            ["તે (વસ્તુ / નપુંસક)", "es"],
+            ["અમે / આપણે", "wir"],
+            ["તમે (મિત્રો)", "ihr"],
+            ["તેઓ", "sie"],
+            ["આપ (ઔપચારિક, એક કે વધુ)", "Sie"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich bin Raj.",
+          "gu": "હું રાજ છું."
+        },
+        {
+          "de": "Du bist Priya.",
+          "gu": "તું પ્રિયા છે."
+        },
+        {
+          "de": "Er ist Lukas.",
+          "gu": "તે (પુરુષ) લુકાસ છે."
+        },
+        {
+          "de": "Sie ist Anna.",
+          "gu": "તે (સ્ત્રી) અન્ના છે.",
+          "note_gu": "sie + ist = એક સ્ત્રી"
+        },
+        {
+          "de": "Sie sind in Berlin.",
+          "gu": "તેઓ બર્લિનમાં છે.",
+          "note_gu": "sie + sind = તેઓ"
+        }
+      ]
+    },
+    {
+      "title_gu": "ક્રિયાપદ sein (છું / છે / છો / છીએ)",
+      "explanation_gu": "**sein** = “હોવું”. ગુજરાતીના “છું, છે, છો, છીએ” માટે. આ જર્મનનું સૌથી મહત્વનું ક્રિયાપદ છે અને તેનાં રૂપો **અનિયમિત** છે, એટલે **મોઢે યાદ કરવાં પડશે**: *bin, bist, ist, sind, seid, sind*.\n\nસરખામણી (અંગ્રેજી): ich bin = I am, er ist = he is, wir sind = we are.",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "sein", "ગુજરાતી"],
+          "rows": [
+            ["ich", "bin", "હું છું"],
+            ["du", "bist", "તું છે"],
+            ["er / sie / es", "ist", "તે છે"],
+            ["wir", "sind", "અમે છીએ"],
+            ["ihr", "seid", "તમે છો"],
+            ["sie (તેઓ)", "sind", "તેઓ છે"],
+            ["Sie (આપ)", "sind", "આપ છો"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich bin Student.",
+          "gu": "હું વિદ્યાર્થી છું."
+        },
+        {
+          "de": "Du bist müde.",
+          "gu": "તું થાકેલો છે."
+        },
+        {
+          "de": "Er ist in Berlin.",
+          "gu": "તે બર્લિનમાં છે."
+        },
+        {
+          "de": "Wir sind Freunde.",
+          "gu": "અમે મિત્રો છીએ."
+        },
+        {
+          "de": "Ihr seid Freunde.",
+          "gu": "તમે મિત્રો છો."
+        },
+        {
+          "de": "Sie sind Lehrer.",
+          "gu": "તેઓ શિક્ષકો છે. / આપ શિક્ષક છો."
+        }
+      ]
+    },
+    {
+      "title_gu": "sein સાથેના વાક્યો: નામ, વ્યવસાય, પ્રશ્ન",
+      "explanation_gu": "**1. વ્યવસાય:** જર્મનમાં વ્યવસાય કહેતી વખતે **ein / eine વપરાતું નથી**: *Ich bin Student* (“હું વિદ્યાર્થી છું”), *Ich bin Ärztin*. અંગ્રેજીની જેમ “a student” નહીં.\n\n**2. સ્ત્રી રૂપ:** પુરુષના વ્યવસાયમાં **-in** ઉમેરવાથી સ્ત્રી રૂપ બને છે: *Student → Studentin*, *Lehrer → Lehrerin*, *Arzt → Ärztin* (a → ä), *Ingenieur → Ingenieurin*.\n\n**3. હા/ના પ્રશ્ન:** ક્રિયાપદ **પહેલા** આવે છે, અવાજ અંતે ઊંચો: *Bist du Student?* જવાબ: *Ja, ich bin Student.* / *Nein, ich bin Ingenieur.*",
+      "tables": [
+        {
+          "headers": ["પુરુષ", "સ્ત્રી"],
+          "rows": [
+            ["der Student", "die Studentin"],
+            ["der Lehrer", "die Lehrerin"],
+            ["der Arzt", "die Ärztin"],
+            ["der Ingenieur", "die Ingenieurin"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bist du Student?",
+          "gu": "શું તું વિદ્યાર્થી છે?"
+        },
+        {
+          "de": "Ja, ich bin Student.",
+          "gu": "હા, હું વિદ્યાર્થી છું."
+        },
+        {
+          "de": "Nein, ich bin Ingenieur.",
+          "gu": "ના, હું ઇજનેર છું."
+        },
+        {
+          "de": "Sind Sie Frau Weber?",
+          "gu": "શું આપ શ્રીમતી વેબર છો?"
+        },
+        {
+          "de": "Priya ist Studentin.",
+          "gu": "પ્રિયા વિદ્યાર્થીની છે."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Hallo! Bist du Priya?",
+        "gu": "નમસ્તે! શું તું પ્રિયા છે?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Ja, ich bin Priya. Und du bist Lukas?",
+        "gu": "હા, હું પ્રિયા છું. અને તું લુકાસ છે?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ja! Und das ist Anna. Sie ist Lehrerin.",
+        "gu": "હા! અને આ અન્ના છે. તે શિક્ષિકા છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Freut mich, Anna!",
+        "gu": "મળીને આનંદ થયો, અન્ના!"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Freut mich auch! Ihr seid Studenten, ja?",
+        "gu": "મને પણ આનંદ થયો! તમે વિદ્યાર્થીઓ છો, ખરું ને?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ja, wir sind Studenten.",
+        "gu": "હા, અમે વિદ્યાર્થીઓ છીએ."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Student.",
+      "answers": ["bin"],
+      "explain_gu": "ich સાથે sein નું રૂપ bin.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ Priya.",
+      "answers": ["bist"],
+      "explain_gu": "du સાથે sein નું રૂપ bist.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Er ___ Arzt.",
+      "answers": ["ist"],
+      "explain_gu": "er સાથે sein નું રૂપ ist.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ Freunde.",
+      "answers": ["sind"],
+      "explain_gu": "wir સાથે sein નું રૂપ sind.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ihr ___ in Berlin.",
+      "answers": ["seid"],
+      "explain_gu": "ihr સાથે sein નું રૂપ seid.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“તમે” (ઔપચારિક, આપ) = ?",
+      "options": ["du", "ihr", "Sie"],
+      "answer": 2,
+      "explain_gu": "ઔપચારિક “આપ” = Sie (મોટા S થી).",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "પ્રિયા (સ્ત્રી) વિશે બોલતાં કયું સર્વનામ?",
+      "options": ["er", "sie", "es"],
+      "answer": 1,
+      "explain_gu": "સ્ત્રી માટે sie: Sie ist Studentin.",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“wir sind” નો અર્થ શું?",
+      "options": ["હું છું", "તમે છો", "અમે છીએ"],
+      "answer": 2,
+      "explain_gu": "wir = અમે, sind = છીએ.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Lukas અને Anna” વિશે “તેઓ …” કહેવું છે: “___ sind Freunde.”",
+      "options": ["Er", "Sie", "Es"],
+      "answer": 1,
+      "explain_gu": "તેઓ = sie (ક્રિયાપદ sind). વાક્યની શરૂઆતમાં Sie.",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "વ્યવસાય કહેતી વખતે શું સાચું છે?",
+      "options": ["Ich bin ein Student.", "Ich bin Student.", "Ich bin eine Student."],
+      "answer": 1,
+      "explain_gu": "વ્યવસાય કહેતાં ein વપરાતું નથી: Ich bin Student.",
+      "topic_gu": "વ્યવસાય"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "ich",
+          "gu": "હું"
+        },
+        {
+          "de": "du",
+          "gu": "તું"
+        },
+        {
+          "de": "er",
+          "gu": "તે (પુરુષ)"
+        },
+        {
+          "de": "wir",
+          "gu": "અમે"
+        },
+        {
+          "de": "ihr",
+          "gu": "તમે (મિત્રો)"
+        }
+      ],
+      "explain_gu": "આ સર્વનામો આ પાઠમાં શીખ્યા.",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "Student",
+          "gu": "વિદ્યાર્થી"
+        },
+        {
+          "de": "Lehrerin",
+          "gu": "શિક્ષિકા"
+        },
+        {
+          "de": "Arzt",
+          "gu": "ડૉક્ટર (પુરુષ)"
+        },
+        {
+          "de": "Ingenieur",
+          "gu": "ઇજનેર"
+        }
+      ],
+      "explain_gu": "વ્યવસાયો આ પાઠના શબ્દભંડોળમાંથી છે.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "order",
+      "words": ["Student.", "bin", "Ich"],
+      "answer": "Ich bin Student.",
+      "gu": "હું વિદ્યાર્થી છું.",
+      "explain_gu": "ક્રિયાપદ બીજા સ્થાને: Ich (1) bin (2) Student.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Priya?", "du", "Bist"],
+      "answer": "Bist du Priya?",
+      "gu": "શું તું પ્રિયા છે?",
+      "explain_gu": "હા/ના પ્રશ્નમાં ક્રિયાપદ પહેલા આવે છે.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "translate",
+      "gu": "હું ડૉક્ટર છું.",
+      "answers_de": ["Ich bin Arzt.", "Ich bin Ärztin."],
+      "explain_gu": "વ્યવસાયમાં ein નથી: Ich bin Arzt (પુરુષ) / Ärztin (સ્ત્રી).",
+      "topic_gu": "વ્યવસાય"
+    },
+    {
+      "type": "translate",
+      "gu": "અમે બર્લિનમાં છીએ.",
+      "answers_de": ["Wir sind in Berlin."],
+      "explain_gu": "wir + sind; “માં” = in.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Er ist Arzt.",
+      "question_gu": "તે શું કામ કરે છે?",
+      "options": ["ડૉક્ટર", "શિક્ષક", "ઇજનેર"],
+      "answer": 0,
+      "explain_gu": "Arzt = ડૉક્ટર.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Wir sind Freunde.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Wir sind Freunde.",
+      "explain_gu": "Freunde = ફ્રોયન્ડે (eu = ઓય), wir = વીર (w = વ).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich bin Ingenieur.",
+      "gu": "હું ઇજનેર છું.",
+      "explain_gu": "Ingenieur ના અંતે eur નો અવાજ ö જેવો (“યોર”) છે, “ઓય” નથી.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Lukas: Ich bin Lukas. Das ist Anna. Sie ist Lehrerin. Priya: Ich bin Priya. Ich bin Studentin.",
+      "statements": [
+        {
+          "de": "Anna ist Lehrerin.",
+          "answer": true
+        },
+        {
+          "de": "Priya ist Lehrerin.",
+          "answer": false
+        },
+        {
+          "de": "Lukas ist Anna.",
+          "answer": false
+        }
+      ],
+      "explain_gu": "લખાણમાં અન્ના શિક્ષિકા છે અને પ્રિયા વિદ્યાર્થીની.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Ich bin Student.",
+      "Du bist Priya.",
+      "Er ist Arzt.",
+      "Sie ist Lehrerin.",
+      "Wir sind Freunde.",
+      "Ihr seid Studenten.",
+      "Sind Sie Herr Patel?"
+    ],
+    "prompt_gu": "તમારા વિશે બોલો: “Ich bin …” (તમારો વ્યવસાય). પછી તમારા મિત્ર કે પરિવારજન વિશે: “Er ist …” કે “Sie ist …”."
+  },
+  "writing": {
+    "task_gu": "ત્રણ વાક્યો લખો: તમારા વિશે, એક પુરુષ વિશે અને એક સ્ત્રી વિશે (sein સાથે).",
+    "model_answer_de": "Ich bin Student. Er ist Arzt. Sie ist Lehrerin.",
+    "checklist_gu": [
+      "sein નાં સાચાં રૂપો: bin, ist, ist",
+      "વ્યવસાય સાથે ein નથી વાપર્યું",
+      "વ્યવસાયો મોટા અક્ષરથી (Student, Arzt, Lehrerin)",
+      "સ્ત્રી માટે -in રૂપ વાપર્યું (Lehrerin)",
+      "દરેક વાક્યને અંતે પૂર્ણવિરામ"
+    ]
+  },
+  "summary_gu": [
+    "ich, du, er, sie, es, wir, ihr, sie, Sie.",
+    "sein: bin, bist, ist, sind, seid, sind, sind. મોઢે યાદ કરો.",
+    "sie (તે) / sie (તેઓ) / Sie (આપ): ક્રિયાપદ અને મોટા અક્ષર જોઈને ઓળખો.",
+    "વ્યવસાય સાથે ein વપરાતું નથી: Ich bin Student.",
+    "સ્ત્રી રૂપ: -in (Studentin, Lehrerin, Ärztin).",
+    "હા/ના પ્રશ્ન: ક્રિયાપદ પહેલા: Bist du Student?"
+  ]
+}

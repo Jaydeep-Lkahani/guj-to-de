@@ -1,0 +1,666 @@
+{
+  "groups": [
+    {
+      "id": "vowels",
+      "title_gu": "સ્વરો અને ઉમલાઉટ",
+      "intro_gu": "સ્વરો લાંબા કે ટૂંકા હોય છે, અને ä, ö, ü, ß ખાસ અક્ષરો છે.",
+      "sounds": [
+        {
+          "id": "long-short",
+          "letters": "a e i o u",
+          "helper_gu": "આ / અ …",
+          "tip_gu": "સ્વર પછી એક જ વ્યંજન હોય તો સ્વર લાંબો (Name), બે વ્યંજન હોય તો ટૂંકો (Mann). લાંબો સ્વર ખેંચીને બોલો.",
+          "examples": [
+            {
+              "de": "Name",
+              "pron_gu": "નામે",
+              "gu": "નામ"
+            },
+            {
+              "de": "Mann",
+              "pron_gu": "માન",
+              "gu": "પુરુષ"
+            },
+            {
+              "de": "Tee",
+              "pron_gu": "તે",
+              "gu": "ચા"
+            },
+            {
+              "de": "Bett",
+              "pron_gu": "બેટ",
+              "gu": "પલંગ"
+            },
+            {
+              "de": "Brot",
+              "pron_gu": "બ્રોટ",
+              "gu": "રોટલી / બ્રેડ"
+            },
+            {
+              "de": "Sonne",
+              "pron_gu": "ઝોને",
+              "gu": "સૂર્ય"
+            },
+            {
+              "de": "Schuh",
+              "pron_gu": "શૂ",
+              "gu": "જૂતું"
+            },
+            {
+              "de": "Mutter",
+              "pron_gu": "મુટર",
+              "gu": "માતા"
+            }
+          ]
+        },
+        {
+          "id": "ae",
+          "letters": "ä",
+          "helper_gu": "એ",
+          "tip_gu": "e જેવો જ બોલાય છે. હોઠ સહેજ પહોળા રાખો.",
+          "examples": [
+            {
+              "de": "Mädchen",
+              "pron_gu": "મેડશેન",
+              "gu": "છોકરી"
+            },
+            {
+              "de": "Käse",
+              "pron_gu": "કેઝે",
+              "gu": "ચીઝ"
+            },
+            {
+              "de": "Hände",
+              "pron_gu": "હેન્ડે",
+              "gu": "હાથ (બહુવચન)"
+            }
+          ]
+        },
+        {
+          "id": "oe",
+          "letters": "ö",
+          "helper_gu": "્યો",
+          "approx": true,
+          "tip_gu": "ગુજરાતીમાં બરાબર એવો અવાજ નથી. “એ” બોલવાની તૈયારી કરો, પણ હોઠ “ઓ” ની જેમ ગોળ કરો.",
+          "examples": [
+            {
+              "de": "schön",
+              "pron_gu": "શ્યોન",
+              "gu": "સુંદર"
+            },
+            {
+              "de": "Österreich",
+              "pron_gu": "શ્યોસ્ટરરાઇશ",
+              "gu": "ઑસ્ટ્રિયા"
+            },
+            {
+              "de": "hören",
+              "pron_gu": "હ્યોરન",
+              "gu": "સાંભળવું"
+            }
+          ]
+        },
+        {
+          "id": "ue",
+          "letters": "ü",
+          "helper_gu": "્યૂ",
+          "approx": true,
+          "tip_gu": "ગુજરાતીમાં બરાબર એવો અવાજ નથી. “ઈ” બોલવાની તૈયારી કરો, પણ હોઠ “ઊ” ની જેમ ગોળ કરો, સીટી વગાડતા હો તેમ.",
+          "examples": [
+            {
+              "de": "für",
+              "pron_gu": "ફ્યૂર",
+              "gu": "માટે"
+            },
+            {
+              "de": "Tür",
+              "pron_gu": "ટ્યૂર",
+              "gu": "દરવાજો"
+            },
+            {
+              "de": "müde",
+              "pron_gu": "મ્યૂડે",
+              "gu": "થાકેલું"
+            }
+          ]
+        },
+        {
+          "id": "sz",
+          "letters": "ß",
+          "helper_gu": "સ",
+          "tip_gu": "તીક્ષ્ણ “સ” (અંગ્રેજી ss). ß પહેલાંનો સ્વર લાંબો હોય છે.",
+          "examples": [
+            {
+              "de": "Straße",
+              "pron_gu": "શ્ટ્રાસે",
+              "gu": "રસ્તો"
+            },
+            {
+              "de": "groß",
+              "pron_gu": "ગ્રોસ",
+              "gu": "મોટું"
+            },
+            {
+              "de": "heißen",
+              "pron_gu": "હાઇસન",
+              "gu": "નામ હોવું"
+            }
+          ]
+        },
+        {
+          "id": "silent-h",
+          "letters": "ah eh ih oh uh",
+          "helper_gu": "(h બોલાતો નથી)",
+          "tip_gu": "સ્વર પછીનો h બોલાતો નથી; તે ફક્ત બતાવે છે કે સ્વર લાંબો છે.",
+          "examples": [
+            {
+              "de": "sehr",
+              "pron_gu": "ઝેર",
+              "gu": "ખૂબ"
+            },
+            {
+              "de": "Uhr",
+              "pron_gu": "ઊર",
+              "gu": "ઘડિયાળ"
+            },
+            {
+              "de": "wohnen",
+              "pron_gu": "વોનન",
+              "gu": "રહેવું"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consonants",
+      "title_gu": "વ્યંજનો",
+      "intro_gu": "આ વ્યંજનો અંગ્રેજી જેવા દેખાય છે પણ જુદા બોલાય છે. ખાસ ધ્યાન રાખો: w, v, z, j.",
+      "sounds": [
+        {
+          "id": "w",
+          "letters": "w",
+          "helper_gu": "વ",
+          "tip_gu": "અંગ્રેજી v જેવો: વ.",
+          "examples": [
+            {
+              "de": "Wasser",
+              "pron_gu": "વાસર",
+              "gu": "પાણી"
+            },
+            {
+              "de": "wir",
+              "pron_gu": "વીર",
+              "gu": "અમે"
+            },
+            {
+              "de": "wo",
+              "pron_gu": "વો",
+              "gu": "ક્યાં"
+            }
+          ]
+        },
+        {
+          "id": "v",
+          "letters": "v",
+          "helper_gu": "ફ",
+          "tip_gu": "મોટે ભાગે “ફ” બોલાય છે.",
+          "examples": [
+            {
+              "de": "Vater",
+              "pron_gu": "ફાટર",
+              "gu": "પિતા"
+            },
+            {
+              "de": "viel",
+              "pron_gu": "ફીલ",
+              "gu": "ઘણું"
+            },
+            {
+              "de": "Vogel",
+              "pron_gu": "ફોગલ",
+              "gu": "પક્ષી"
+            }
+          ]
+        },
+        {
+          "id": "z",
+          "letters": "z",
+          "helper_gu": "ત્સ",
+          "tip_gu": "“ઝ” નહીં, “ત્સ”: જીભ દાંત પાછળ.",
+          "examples": [
+            {
+              "de": "Zeit",
+              "pron_gu": "ત્સાઇટ",
+              "gu": "સમય"
+            },
+            {
+              "de": "Zimmer",
+              "pron_gu": "ત્સિમર",
+              "gu": "ઓરડો"
+            },
+            {
+              "de": "Zucker",
+              "pron_gu": "ત્સુકર",
+              "gu": "ખાંડ"
+            }
+          ]
+        },
+        {
+          "id": "j",
+          "letters": "j",
+          "helper_gu": "ય",
+          "tip_gu": "“જ” નહીં, “ય”.",
+          "examples": [
+            {
+              "de": "ja",
+              "pron_gu": "યા",
+              "gu": "હા"
+            },
+            {
+              "de": "Junge",
+              "pron_gu": "યુંગે",
+              "gu": "છોકરો"
+            },
+            {
+              "de": "Jahr",
+              "pron_gu": "યાર",
+              "gu": "વર્ષ"
+            }
+          ]
+        },
+        {
+          "id": "s",
+          "letters": "s",
+          "helper_gu": "ઝ",
+          "tip_gu": "સ્વર પહેલાં s = “ઝ” (અવાજ સાથે). શબ્દના અંતે કે ss/ß = તીક્ષ્ણ “સ”.",
+          "examples": [
+            {
+              "de": "Sonne",
+              "pron_gu": "ઝોને",
+              "gu": "સૂર્ય"
+            },
+            {
+              "de": "sagen",
+              "pron_gu": "ઝાગન",
+              "gu": "કહેવું"
+            },
+            {
+              "de": "Haus",
+              "pron_gu": "હાઉસ",
+              "gu": "ઘર"
+            }
+          ]
+        },
+        {
+          "id": "sch",
+          "letters": "sch",
+          "helper_gu": "શ",
+          "tip_gu": "“શ” જેવો, હોઠ સહેજ આગળ.",
+          "examples": [
+            {
+              "de": "Schule",
+              "pron_gu": "શૂલે",
+              "gu": "શાળા"
+            },
+            {
+              "de": "Tisch",
+              "pron_gu": "ટિશ",
+              "gu": "ટેબલ"
+            },
+            {
+              "de": "Fisch",
+              "pron_gu": "ફિશ",
+              "gu": "માછલી"
+            }
+          ]
+        },
+        {
+          "id": "tsch",
+          "letters": "tsch",
+          "helper_gu": "ચ",
+          "tip_gu": "“ચ” જેવો.",
+          "examples": [
+            {
+              "de": "Tschüss",
+              "pron_gu": "ચ્યૂસ",
+              "gu": "આવજો"
+            },
+            {
+              "de": "Deutsch",
+              "pron_gu": "દોયચ",
+              "gu": "જર્મન"
+            }
+          ]
+        },
+        {
+          "id": "sp-st",
+          "letters": "sp, st (શબ્દના આરંભે)",
+          "helper_gu": "શ્પ / શ્ટ",
+          "tip_gu": "શબ્દના આરંભે s નો અવાજ “શ” થાય છે.",
+          "examples": [
+            {
+              "de": "Sprache",
+              "pron_gu": "શ્પ્રાખે",
+              "gu": "ભાષા"
+            },
+            {
+              "de": "Stadt",
+              "pron_gu": "શ્ટાટ",
+              "gu": "શહેર"
+            },
+            {
+              "de": "Stuhl",
+              "pron_gu": "શ્ટૂલ",
+              "gu": "ખુરશી"
+            }
+          ]
+        },
+        {
+          "id": "r",
+          "letters": "r",
+          "helper_gu": "ર (ગળામાંથી)",
+          "approx": true,
+          "tip_gu": "જર્મન r ગળામાં બોલાય છે. શરૂઆતમાં ગુજરાતી “ર” બોલશો તો પણ સમજાશે.",
+          "examples": [
+            {
+              "de": "rot",
+              "pron_gu": "રોટ",
+              "gu": "લાલ"
+            },
+            {
+              "de": "Reis",
+              "pron_gu": "રાઇસ",
+              "gu": "ચોખા"
+            },
+            {
+              "de": "Brot",
+              "pron_gu": "બ્રોટ",
+              "gu": "બ્રેડ"
+            }
+          ]
+        },
+        {
+          "id": "final-bdg",
+          "letters": "b, d, g (શબ્દના અંતે)",
+          "helper_gu": "પ, ટ, ક",
+          "tip_gu": "શબ્દના અંતે b, d, g કડક બોલાય છે.",
+          "examples": [
+            {
+              "de": "Hand",
+              "pron_gu": "હાન્ટ",
+              "gu": "હાથ"
+            },
+            {
+              "de": "Tag",
+              "pron_gu": "ટાક",
+              "gu": "દિવસ"
+            },
+            {
+              "de": "Berg",
+              "pron_gu": "બેર્ક",
+              "gu": "પર્વત"
+            }
+          ]
+        },
+        {
+          "id": "ch-ach",
+          "letters": "ch (a, o, u, au પછી)",
+          "helper_gu": "ખ",
+          "tip_gu": "ગળાની અંદરથી, કડક “ખ”.",
+          "examples": [
+            {
+              "de": "Buch",
+              "pron_gu": "બૂખ",
+              "gu": "પુસ્તક"
+            },
+            {
+              "de": "Nacht",
+              "pron_gu": "નાખ્ટ",
+              "gu": "રાત"
+            },
+            {
+              "de": "auch",
+              "pron_gu": "આઉખ",
+              "gu": "પણ"
+            }
+          ]
+        },
+        {
+          "id": "ch-ich",
+          "letters": "ch (બાકી બધા પછી)",
+          "helper_gu": "શ (હળવો)",
+          "tip_gu": "જીભ તાળવા પાસે, હળવો “શ”.",
+          "examples": [
+            {
+              "de": "ich",
+              "pron_gu": "ઇશ",
+              "gu": "હું"
+            },
+            {
+              "de": "Milch",
+              "pron_gu": "મિલશ",
+              "gu": "દૂધ"
+            },
+            {
+              "de": "Küche",
+              "pron_gu": "ક્યૂશે",
+              "gu": "રસોડું"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combinations",
+      "title_gu": "સંયુક્ત સ્વરો અને અંત",
+      "intro_gu": "આ સંયોજનો એક જ અવાજ બનાવે છે. ei અને ie ગૂંચવાય છે, ધ્યાન રાખો.",
+      "sounds": [
+        {
+          "id": "ei",
+          "letters": "ei",
+          "helper_gu": "આઇ",
+          "tip_gu": "અંગ્રેજી eye જેવો.",
+          "examples": [
+            {
+              "de": "Eis",
+              "pron_gu": "આઇસ",
+              "gu": "આઇસક્રીમ"
+            },
+            {
+              "de": "nein",
+              "pron_gu": "નાઇન",
+              "gu": "ના"
+            },
+            {
+              "de": "Zeit",
+              "pron_gu": "ત્સાઇટ",
+              "gu": "સમય"
+            }
+          ]
+        },
+        {
+          "id": "ie",
+          "letters": "ie",
+          "helper_gu": "ઈ",
+          "tip_gu": "લાંબો ઈ, અંગ્રેજી see જેવો.",
+          "examples": [
+            {
+              "de": "viel",
+              "pron_gu": "ફીલ",
+              "gu": "ઘણું"
+            },
+            {
+              "de": "Brief",
+              "pron_gu": "બ્રીફ",
+              "gu": "પત્ર"
+            },
+            {
+              "de": "Papier",
+              "pron_gu": "પાપીર",
+              "gu": "કાગળ"
+            }
+          ]
+        },
+        {
+          "id": "eu",
+          "letters": "eu, äu",
+          "helper_gu": "ઓય",
+          "tip_gu": "અંગ્રેજી boy જેવો.",
+          "examples": [
+            {
+              "de": "heute",
+              "pron_gu": "હોયટે",
+              "gu": "આજે"
+            },
+            {
+              "de": "Freund",
+              "pron_gu": "ફ્રોયન્ટ",
+              "gu": "મિત્ર"
+            },
+            {
+              "de": "Häuser",
+              "pron_gu": "હોયઝર",
+              "gu": "ઘરો"
+            }
+          ]
+        },
+        {
+          "id": "au",
+          "letters": "au",
+          "helper_gu": "આઉ",
+          "tip_gu": "અંગ્રેજી now જેવો.",
+          "examples": [
+            {
+              "de": "Haus",
+              "pron_gu": "હાઉસ",
+              "gu": "ઘર"
+            },
+            {
+              "de": "Auto",
+              "pron_gu": "આઉટો",
+              "gu": "ગાડી"
+            },
+            {
+              "de": "auch",
+              "pron_gu": "આઉખ",
+              "gu": "પણ"
+            }
+          ]
+        },
+        {
+          "id": "er",
+          "letters": "-er (અંતે)",
+          "helper_gu": "અ / અર",
+          "tip_gu": "શબ્દના અંતે ખૂબ હળવો “અ”, r લગભગ બોલાતો નથી.",
+          "examples": [
+            {
+              "de": "Lehrer",
+              "pron_gu": "લેહરર",
+              "gu": "શિક્ષક"
+            },
+            {
+              "de": "Vater",
+              "pron_gu": "ફાટર",
+              "gu": "પિતા"
+            },
+            {
+              "de": "Mutter",
+              "pron_gu": "મુટર",
+              "gu": "માતા"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "listen",
+      "audio_text_de": "Wien",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["Wein", "Wien"],
+      "answer": 1,
+      "explain_gu": "Wien માં ie = ઈ; Wein માં ei = આઇ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Zeit",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["Zeit", "Seit"],
+      "answer": 0,
+      "explain_gu": "Zeit માં z = ત્સ; Seit માં s = ઝ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Buch",
+      "question_gu": "ch નો અવાજ કયો હતો?",
+      "options": ["ખ (ગળાનો)", "શ (હળવો)"],
+      "answer": 0,
+      "explain_gu": "u પછી ch = ગળાનો “ખ”.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "ich",
+      "question_gu": "ch નો અવાજ કયો હતો?",
+      "options": ["ખ (ગળાનો)", "શ (હળવો)"],
+      "answer": 1,
+      "explain_gu": "i પછી ch = હળવો “શ”.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Vater",
+      "question_gu": "પહેલો અક્ષર કેવો બોલાયો?",
+      "options": ["વ", "ફ"],
+      "answer": 1,
+      "explain_gu": "v = “ફ”: ફાટર.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "schön",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["schon", "schön"],
+      "answer": 1,
+      "explain_gu": "schön માં ö (ગોળ હોઠ); schon (પહેલેથી) માં o.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Tür",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["Tür", "Tier"],
+      "answer": 0,
+      "explain_gu": "Tür માં ü (ગોળ હોઠ); Tier માં ie.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Straße",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Straße",
+      "explain_gu": "ß = તીક્ષ્ણ સ (ss લખો તો પણ ચાલે).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "heute",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "heute",
+      "explain_gu": "eu = ઓય.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Sprache",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Sprache",
+      "explain_gu": "sp = શ્પ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ]
+}

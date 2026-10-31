@@ -185,7 +185,34 @@ export const chapterTestSchema = z.object({
   exercises: z.array(exerciseSchema),
 });
 
+// Not in pending.md §6: the sounds shown on the pronunciation page (src/content-shared/sounds.json)
+export const soundSchema = z.object({
+  id: z.string().regex(/^[a-z-]+$/, 'must be lowercase letters and dashes'),
+  letters: text,
+  helper_gu: text,
+  /** True when the Gujarati helper is only an approximation (ö, ü, r). */
+  approx: z.boolean().optional(),
+  tip_gu: text,
+  examples: z.array(z.object({ de: text, pron_gu: text, gu: text })).min(1),
+});
+
+export const soundsSchema = z.object({
+  groups: z
+    .array(
+      z.object({
+        id: z.string().regex(/^[a-z-]+$/),
+        title_gu: text,
+        intro_gu: text,
+        sounds: z.array(soundSchema).min(1),
+      }),
+    )
+    .min(1),
+  quiz: z.array(exerciseSchema),
+});
+
 export type Exercise = z.infer<typeof exerciseSchema>;
+export type Sound = z.infer<typeof soundSchema>;
+export type Sounds = z.infer<typeof soundsSchema>;
 export type VocabItem = z.infer<typeof vocabItemSchema>;
 export type GrammarBlock = z.infer<typeof grammarBlockSchema>;
 export type Lesson = z.infer<typeof lessonSchema>;

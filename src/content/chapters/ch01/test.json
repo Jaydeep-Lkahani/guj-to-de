@@ -1,0 +1,331 @@
+{
+  "chapter": 1,
+  "pass_mark": 70,
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "ö અને ü બોલતી વખતે હોઠ કેવા રાખવા?",
+      "options": ["ગોળ", "પહોળા", "બંધ"],
+      "answer": 0,
+      "explain_gu": "ö અને ü બંનેમાં હોઠ ગોળ રાખવાના છે; ગુજરાતીમાં આ અવાજો નથી.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Wasser માં w નો અવાજ?",
+      "options": ["વ", "ફ", "ત્સ"],
+      "answer": 0,
+      "explain_gu": "જર્મન w = વ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Vater માં v નો અવાજ?",
+      "options": ["વ", "ફ", "ય"],
+      "answer": 1,
+      "explain_gu": "જર્મન v મોટે ભાગે “ફ” છે.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Zeit માં z નો અવાજ?",
+      "options": ["ઝ", "જ", "ત્સ"],
+      "answer": 2,
+      "explain_gu": "જર્મન z = ત્સ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ja માં j નો અવાજ?",
+      "options": ["ય", "જ", "ઝ"],
+      "answer": 0,
+      "explain_gu": "જર્મન j = ય.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ich માં ch નો અવાજ?",
+      "options": ["ગળાનો “ખ”", "હળવો “શ”", "“ક”"],
+      "answer": 1,
+      "explain_gu": "i પછી ch = હળવો “શ”.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Buch માં ch નો અવાજ?",
+      "options": ["ગળાનો “ખ”", "હળવો “શ”", "“ક”"],
+      "answer": 0,
+      "explain_gu": "u પછી ch = “ખ”.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ie (viel) અને ei (nein) નો સાચો અવાજ?",
+      "options": ["ie = ઈ, ei = આઇ", "ie = આઇ, ei = ઈ", "બંને = ઈ"],
+      "answer": 0,
+      "explain_gu": "ie = લાંબો ઈ (viel), ei = આઇ (nein).",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Freund માં eu કેવો બોલાય?",
+      "options": ["આઇ", "ઈ", "ઓય"],
+      "answer": 2,
+      "explain_gu": "eu / äu = ઓય.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Wien",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["Wein", "Wien"],
+      "answer": 1,
+      "explain_gu": "Wien (ie = ઈ) અને Wein (ei = આઇ) માં ફરક છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "સવારે કોઈને મળતાં શું કહેશો?",
+      "options": ["Guten Morgen", "Guten Abend", "Gute Nacht"],
+      "answer": 0,
+      "explain_gu": "સવારે Guten Morgen.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "તમારા શિક્ષકને (ઔપચારિક) “આપ કેમ છો?” પૂછવા?",
+      "options": ["Wie geht’s?", "Wie geht es Ihnen?", "Und dir?"],
+      "answer": 1,
+      "explain_gu": "ઔપચારિક (Sie) માં Wie geht es Ihnen?",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Guten ___!",
+      "answers": ["Abend"],
+      "hint_gu": "સાંજ",
+      "explain_gu": "સાંજે Guten Abend. નામ (Abend) મોટા અક્ષરથી.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "translate",
+      "gu": "આભાર, સારું છે. અને તને?",
+      "answers_de": ["Danke, gut. Und dir?"],
+      "explain_gu": "મિત્રને (du) “અને તને?” = Und dir?",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Gute Nacht",
+      "question_gu": "ક્યારે કહેવાય?",
+      "options": ["સવારે", "સાંજે", "સૂતાં પહેલાં"],
+      "answer": 2,
+      "explain_gu": "Gute Nacht = સૂતાં પહેલાં.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "order",
+      "words": ["Weber!", "Frau", "Wiedersehen,", "Auf"],
+      "answer": "Auf Wiedersehen, Frau Weber!",
+      "gu": "આવજો, શ્રીમતી વેબર!",
+      "explain_gu": "Auf Wiedersehen ઔપચારિક “આવજો” છે, પછી નામ.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Priya.",
+      "answers": ["heiße"],
+      "hint_gu": "નામ છે",
+      "explain_gu": "ich સાથે heißen → heiße.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ in Berlin.",
+      "answers": ["wohne"],
+      "hint_gu": "રહેવું",
+      "explain_gu": "ich સાથે wohnen → wohne.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Woher ___ Sie?",
+      "answers": ["kommen"],
+      "hint_gu": "આવવું",
+      "explain_gu": "Sie સાથે અંત -en: kommen.",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "order",
+      "words": ["du?", "kommst", "Woher"],
+      "answer": "Woher kommst du?",
+      "gu": "તું ક્યાંથી આવે છે?",
+      "explain_gu": "પ્રશ્નશબ્દ પહેલા, ક્રિયાપદ બીજા.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "translate",
+      "gu": "હું સુરતથી આવું છું.",
+      "answers_de": ["Ich komme aus Surat."],
+      "explain_gu": "“…થી” = aus; આવવું = kommen.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich wohne in München.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Ich wohne in München.",
+      "explain_gu": "વાક્ય: Ich wohne in München. (ü = હોઠ ગોળ).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ Studenten.",
+      "answers": ["sind"],
+      "explain_gu": "wir સાથે sein → sind.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ müde.",
+      "answers": ["bist"],
+      "explain_gu": "du સાથે sein → bist.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Sie ___ in Berlin.",
+      "answers": ["sind"],
+      "hint_gu": "તેઓ",
+      "explain_gu": "sie (તેઓ) સાથે sein → sind.",
+      "topic_gu": "ક્રિયાપદ sein"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“હું ડૉક્ટર છું” (પુરુષ) = ?",
+      "options": ["Ich bin ein Arzt.", "Ich bin Arzt.", "Ich ist Arzt."],
+      "answer": 1,
+      "explain_gu": "વ્યવસાય સાથે ein નથી, અને ich સાથે bin.",
+      "topic_gu": "વ્યવસાય"
+    },
+    {
+      "type": "translate",
+      "gu": "તે (સ્ત્રી) શિક્ષિકા છે.",
+      "answers_de": ["Sie ist Lehrerin."],
+      "explain_gu": "સ્ત્રી = sie, તેથી sie ist; સ્ત્રી વ્યવસાય -in.",
+      "topic_gu": "વ્યવસાય"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "ich",
+          "gu": "હું"
+        },
+        {
+          "de": "du",
+          "gu": "તું"
+        },
+        {
+          "de": "er",
+          "gu": "તે (પુરુષ)"
+        },
+        {
+          "de": "wir",
+          "gu": "અમે"
+        },
+        {
+          "de": "ihr",
+          "gu": "તમે (મિત્રો)"
+        }
+      ],
+      "explain_gu": "આ પાંચ સર્વનામો પાઠ 5 માં શીખ્યા.",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ઔપચારિક “આપ” માટે કયું સર્વનામ?",
+      "options": ["du", "ihr", "Sie"],
+      "answer": 2,
+      "explain_gu": "ઔપચારિક = Sie (મોટા S).",
+      "topic_gu": "સર્વનામ"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Gujarati und Englisch.",
+      "answers": ["spreche"],
+      "explain_gu": "ich સાથે sprechen → spreche.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ Hindi.",
+      "answers": ["sprichst"],
+      "explain_gu": "du સાથે e → i અને -st: sprichst.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "કયા દેશ સાથે article die?",
+      "options": ["Indien", "die Schweiz", "Italien"],
+      "answer": 1,
+      "explain_gu": "die Schweiz અપવાદ છે.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "translate",
+      "gu": "હું થોડું જર્મન બોલું છું.",
+      "answers_de": ["Ich spreche ein bisschen Deutsch."],
+      "explain_gu": "બોલવું = sprechen; થોડું = ein bisschen; Deutsch મોટા અક્ષરથી.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "article",
+      "noun": "Schule",
+      "answer": "die",
+      "explain_gu": "Schule સ્ત્રીલિંગ → die Schule.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Tisch",
+      "answer": "der",
+      "explain_gu": "Tisch પુલ્લિંગ → der Tisch.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Land",
+      "answer": "das",
+      "explain_gu": "Land નપુંસક → das Land.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich heiße Raj und ich komme aus Indien.",
+      "gu": "મારું નામ રાજ છે અને હું ભારતથી આવું છું.",
+      "explain_gu": "ei (heiße) = આઇ, ch (ich) = હળવો શ.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Priya: Ich heiße Priya. Ich komme aus Surat. Ich bin Studentin. Ich spreche Gujarati und ein bisschen Deutsch.",
+      "statements": [
+        {
+          "de": "Priya kommt aus Indien.",
+          "answer": true
+        },
+        {
+          "de": "Priya ist Lehrerin.",
+          "answer": false
+        },
+        {
+          "de": "Priya spricht Gujarati.",
+          "answer": true
+        }
+      ],
+      "explain_gu": "લખાણમાં પ્રિયા સુરતથી (ભારત) આવે છે, વિદ્યાર્થીની છે અને ગુજરાતી બોલે છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ]
+}

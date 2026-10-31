@@ -1,0 +1,607 @@
+{
+  "id": "ch01-l03",
+  "number": 3,
+  "title_gu": "નમસ્તે, આભાર અને “કેમ છો?”",
+  "goal_gu": "આ પાઠ પછી તમે સમય પ્રમાણે અભિવાદન કરી શકશો, આભાર અને માફી કહી શકશો, “કેમ છો?” પૂછી અને જવાબ આપી શકશો, અને ઔપચારિક (Sie) અને મિત્રોવાળી (du) રીત વચ્ચેનો ફરક સમજી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l03-hallo",
+      "de": "Hallo",
+      "gender": null,
+      "gu": "નમસ્તે / હાય",
+      "pron_gu": "હાલો",
+      "example_de": "Hallo, Anna!",
+      "example_gu": "નમસ્તે, અન્ના!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-guten-morgen",
+      "de": "Guten Morgen",
+      "gender": null,
+      "gu": "શુભ સવાર",
+      "pron_gu": "ગૂટન મોર્ગન",
+      "example_de": "Guten Morgen, Herr Patel!",
+      "example_gu": "શુભ સવાર, શ્રી પટેલ!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-guten-tag",
+      "de": "Guten Tag",
+      "gender": null,
+      "gu": "નમસ્તે (દિવસ દરમિયાન)",
+      "pron_gu": "ગૂટન ટાક",
+      "example_de": "Guten Tag, Frau Weber!",
+      "example_gu": "નમસ્તે, શ્રીમતી વેબર!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-guten-abend",
+      "de": "Guten Abend",
+      "gender": null,
+      "gu": "શુભ સાંજ",
+      "pron_gu": "ગૂટન આબન્ટ",
+      "example_de": "Guten Abend, Herr Patel!",
+      "example_gu": "શુભ સાંજ, શ્રી પટેલ!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-gute-nacht",
+      "de": "Gute Nacht",
+      "gender": null,
+      "gu": "શુભ રાત્રિ (સૂતાં પહેલાં)",
+      "pron_gu": "ગૂટે નાખ્ટ",
+      "example_de": "Gute Nacht, Priya!",
+      "example_gu": "શુભ રાત્રિ, પ્રિયા!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-tschuess",
+      "de": "Tschüss",
+      "gender": null,
+      "gu": "આવજો (મિત્રો સાથે)",
+      "pron_gu": "ચ્યૂસ",
+      "example_de": "Tschüss, Lukas!",
+      "example_gu": "આવજો, લુકાસ!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-auf-wiedersehen",
+      "de": "Auf Wiedersehen",
+      "gender": null,
+      "gu": "આવજો (ઔપચારિક)",
+      "pron_gu": "આઉફ વીડરઝેહન",
+      "example_de": "Auf Wiedersehen, Frau Weber!",
+      "example_gu": "આવજો, શ્રીમતી વેબર!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-bis-bald",
+      "de": "Bis bald",
+      "gender": null,
+      "gu": "ફરી જલદી મળીશું",
+      "pron_gu": "બિસ બાલ્ટ",
+      "example_de": "Tschüss, bis bald!",
+      "example_gu": "આવજો, ફરી જલદી મળીશું!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-danke",
+      "de": "Danke",
+      "gender": null,
+      "gu": "આભાર",
+      "pron_gu": "ડાન્કે",
+      "example_de": "Danke, Anna!",
+      "example_gu": "આભાર, અન્ના!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-bitte",
+      "de": "Bitte",
+      "gender": null,
+      "gu": "કૃપા કરીને / કંઈ નહીં (આભારના જવાબમાં)",
+      "pron_gu": "બિટે",
+      "example_de": "Danke! – Bitte!",
+      "example_gu": "આભાર! – કંઈ નહીં!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-entschuldigung",
+      "de": "Entschuldigung",
+      "gender": null,
+      "gu": "માફ કરજો",
+      "pron_gu": "એન્ટશુલ્ડિગુંગ",
+      "example_de": "Entschuldigung, Frau Weber!",
+      "example_gu": "માફ કરજો, શ્રીમતી વેબર!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-wie-gehts",
+      "de": "Wie geht’s?",
+      "gender": null,
+      "gu": "કેમ છો? (મિત્રોને)",
+      "pron_gu": "વી ગેટ્સ",
+      "example_de": "Hallo Raj, wie geht’s?",
+      "example_gu": "નમસ્તે રાજ, કેમ છો?",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-wie-geht-es-ihnen",
+      "de": "Wie geht es Ihnen?",
+      "gender": null,
+      "gu": "આપ કેમ છો? (ઔપચારિક)",
+      "pron_gu": "વી ગેટ એસ ઈનન",
+      "example_de": "Guten Tag, Frau Weber. Wie geht es Ihnen?",
+      "example_gu": "નમસ્તે શ્રીમતી વેબર. આપ કેમ છો?",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-und-dir",
+      "de": "Und dir?",
+      "gender": null,
+      "gu": "અને તમને / તને? (મિત્રોને)",
+      "pron_gu": "ઉન્ટ ડીર",
+      "example_de": "Danke, gut. Und dir?",
+      "example_gu": "આભાર, સારું છે. અને તને?",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-gut",
+      "de": "gut",
+      "gender": null,
+      "gu": "સારું",
+      "pron_gu": "ગૂટ",
+      "example_de": "Danke, gut.",
+      "example_gu": "આભાર, સારું છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l03-sehr-gut",
+      "de": "sehr gut",
+      "gender": null,
+      "gu": "ખૂબ સારું",
+      "pron_gu": "ઝેર ગૂટ",
+      "example_de": "Sehr gut, danke!",
+      "example_gu": "ખૂબ સારું, આભાર!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-es-geht",
+      "de": "Es geht.",
+      "gender": null,
+      "gu": "ચાલે છે / ઠીકઠાક",
+      "pron_gu": "એસ ગેટ",
+      "example_de": "Es geht.",
+      "example_gu": "ચાલે છે.",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l03-schlecht",
+      "de": "schlecht",
+      "gender": null,
+      "gu": "ખરાબ",
+      "pron_gu": "શ્લેશ્ટ",
+      "example_de": "Und dir? – Schlecht.",
+      "example_gu": "અને તને? – ખરાબ.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l03-herr",
+      "de": "Herr",
+      "gender": "der",
+      "plural": "die Herren",
+      "gu": "શ્રી (પુરુષ માટે)",
+      "pron_gu": "હેર",
+      "example_de": "Das ist Herr Patel.",
+      "example_gu": "આ શ્રી પટેલ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l03-frau",
+      "de": "Frau",
+      "gender": "die",
+      "plural": "die Frauen",
+      "gu": "શ્રીમતી / સ્ત્રી",
+      "pron_gu": "ફ્રાઉ",
+      "example_de": "Das ist Frau Weber.",
+      "example_gu": "આ શ્રીમતી વેબર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "સમય પ્રમાણે અભિવાદન",
+      "explanation_gu": "જર્મનમાં “નમસ્તે” માટે સમય પ્રમાણે જુદા શબ્દો વપરાય છે. આ દરેક શબ્દસમૂહ **તૈયાર** શીખી લો.\n\n**ધ્યાન:** *Gute Nacht* માત્ર **સૂતાં પહેલાં** કે રાત્રે છૂટા પડતી વખતે કહેવાય, કોઈને મળતી વખતે નહીં. રાત્રે મળો તો *Guten Abend* કહો.",
+      "tables": [
+        {
+          "headers": ["સમય", "જર્મન", "કેવા સંબંધમાં"],
+          "rows": [
+            ["સવાર", "Guten Morgen", "બધા સાથે"],
+            ["દિવસ", "Guten Tag", "બધા સાથે"],
+            ["સાંજ", "Guten Abend", "બધા સાથે"],
+            ["સૂતાં પહેલાં", "Gute Nacht", "બધા સાથે"],
+            ["કોઈ પણ સમયે", "Hallo", "મિત્રો, સાથીદારો"],
+            ["છૂટા પડતાં", "Tschüss / Auf Wiedersehen", "મિત્રો / ઔપચારિક"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Guten Morgen!",
+          "gu": "શુભ સવાર!",
+          "note_gu": "લગભગ સવારથી 10–11 વાગ્યા સુધી"
+        },
+        {
+          "de": "Guten Tag!",
+          "gu": "નમસ્તે!",
+          "note_gu": "દિવસ દરમિયાન; ઔપચારિક અને રોજિંદું બંને"
+        },
+        {
+          "de": "Guten Abend!",
+          "gu": "શુભ સાંજ!",
+          "note_gu": "લગભગ સાંજે 5–6 પછી"
+        },
+        {
+          "de": "Gute Nacht!",
+          "gu": "શુભ રાત્રિ!",
+          "note_gu": "સૂતાં પહેલાં"
+        },
+        {
+          "de": "Hallo!",
+          "gu": "નમસ્તે / હાય!",
+          "note_gu": "મિત્રો અને સાથીદારો સાથે, કોઈ પણ સમયે"
+        },
+        {
+          "de": "Tschüss!",
+          "gu": "આવજો!",
+          "note_gu": "મિત્રો સાથે"
+        },
+        {
+          "de": "Auf Wiedersehen!",
+          "gu": "આવજો!",
+          "note_gu": "ઔપચારિક"
+        }
+      ]
+    },
+    {
+      "title_gu": "du અને Sie — “તું” અને “આપ”",
+      "explanation_gu": "ગુજરાતીમાં “તું / તમે / આપ” છે, તેમ જર્મનમાં “you” માટે બે શબ્દો છે:\n\n- **du** = તું (મિત્રો, પરિવાર, બાળકો, સાથી વિદ્યાર્થીઓ)\n- **Sie** = તમે / આપ (અજાણ્યા લોકો, બોસ, અધિકારી, ગ્રાહક, મોટી ઉંમરના). **હંમેશા મોટા S થી** લખાય.\n\n**નિયમ:** શંકા હોય તો **Sie** વાપરો. સામેવાળી વ્યક્તિ કહે “Wir können uns duzen” (આપણે *du* કહીએ) ત્યારે *du* શરૂ કરો.\n\nઔપચારિક સંબોધનમાં **Herr / Frau + અટક** વાપરો: *Herr Patel, Frau Weber*. મિત્રોને પહેલા નામથી બોલાવાય: *Raj, Anna*.",
+      "tables": [
+        {
+          "headers": ["મિત્રો સાથે (du)", "ઔપચારિક (Sie)"],
+          "rows": [
+            ["Hallo!", "Guten Tag!"],
+            ["Tschüss!", "Auf Wiedersehen!"],
+            ["Wie geht’s?", "Wie geht es Ihnen?"],
+            ["Und dir?", "Und Ihnen?"],
+            ["Anna, Lukas", "Frau Weber, Herr Patel"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wie geht’s?",
+          "gu": "કેમ છો? (du)"
+        },
+        {
+          "de": "Wie geht es Ihnen?",
+          "gu": "આપ કેમ છો? (Sie)"
+        },
+        {
+          "de": "Und dir?",
+          "gu": "અને તને? (du)"
+        },
+        {
+          "de": "Und Ihnen?",
+          "gu": "અને આપને? (Sie)"
+        },
+        {
+          "de": "Guten Tag, Frau Weber.",
+          "gu": "નમસ્તે, શ્રીમતી વેબર.",
+          "note_gu": "ઔપચારિક: Frau/Herr + અટક"
+        }
+      ]
+    },
+    {
+      "title_gu": "“કેમ છો?” — જવાબ આપવો",
+      "explanation_gu": "જર્મનમાં “કેમ છો?” ના જવાબમાં પહેલાં **Danke** (આભાર) કહેવાય છે, પછી જવાબ. અને સામે **“Und dir?”** (અથવા **“Und Ihnen?”**) પૂછવાનો શિષ્ટાચાર છે.\n\nજવાબની નિસરણી (સારામાંથી ખરાબ):",
+      "tables": [
+        {
+          "headers": ["જવાબ", "અર્થ"],
+          "rows": [
+            ["Sehr gut", "ખૂબ સારું"],
+            ["Gut", "સારું"],
+            ["Es geht", "ચાલે છે"],
+            ["Nicht so gut", "બહુ સારું નથી"],
+            ["Schlecht", "ખરાબ"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sehr gut, danke!",
+          "gu": "ખૂબ સારું, આભાર!"
+        },
+        {
+          "de": "Danke, gut. Und dir?",
+          "gu": "આભાર, સારું. અને તને?"
+        },
+        {
+          "de": "Es geht.",
+          "gu": "ચાલે છે."
+        },
+        {
+          "de": "Nicht so gut.",
+          "gu": "બહુ સારું નથી.",
+          "note_gu": "Nicht ની વિગત પ્રકરણ 3 માં; હાલ તૈયાર શબ્દસમૂહ"
+        },
+        {
+          "de": "Schlecht.",
+          "gu": "ખરાબ."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Hallo Priya! Wie geht’s?",
+        "gu": "નમસ્તે પ્રિયા! કેમ છો?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Hallo Lukas! Danke, gut. Und dir?",
+        "gu": "નમસ્તે લુકાસ! આભાર, સારું. અને તને?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Es geht.",
+        "gu": "ચાલે છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Guten Tag, Frau Weber. Wie geht es Ihnen?",
+        "gu": "નમસ્તે, શ્રીમતી વેબર. આપ કેમ છો?"
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Guten Tag, Herr Patel. Sehr gut, danke. Und Ihnen?",
+        "gu": "નમસ્તે, શ્રી પટેલ. ખૂબ સારું, આભાર. અને આપને?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Gut, danke. Auf Wiedersehen!",
+        "gu": "સારું, આભાર. આવજો!"
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Auf Wiedersehen!",
+        "gu": "આવજો!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "સવારે નમસ્તે કહેવા માટે કયું?",
+      "options": ["Guten Morgen", "Guten Abend", "Gute Nacht"],
+      "answer": 0,
+      "explain_gu": "સવારે Guten Morgen કહેવાય.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "સાંજે કોઈને મળતાં શું કહેશો?",
+      "options": ["Guten Morgen", "Guten Abend", "Gute Nacht"],
+      "answer": 1,
+      "explain_gu": "સાંજે મળો ત્યારે Guten Abend. Gute Nacht માત્ર સૂતાં પહેલાં.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "સૂતાં પહેલાં શું કહેવાય?",
+      "options": ["Guten Tag", "Hallo", "Gute Nacht"],
+      "answer": 2,
+      "explain_gu": "સૂતાં પહેલાં (કે રાત્રે છૂટા પડતાં) Gute Nacht કહેવાય.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ઑફિસમાં તમે તમારા બોસને પહેલી વાર મળો છો. કયું સાચું?",
+      "options": ["Hallo, wie geht’s?", "Guten Tag, wie geht es Ihnen?", "Tschüss!"],
+      "answer": 1,
+      "explain_gu": "બોસ સાથે ઔપચારિક Sie-રૂપ: Guten Tag, wie geht es Ihnen?",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "તમારા મિત્રને “કેમ છો?” પૂછવા શું કહેશો?",
+      "options": ["Wie geht es Ihnen?", "Wie geht’s?", "Auf Wiedersehen?"],
+      "answer": 1,
+      "explain_gu": "મિત્રને du-રૂપ: Wie geht’s?",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Und Ihnen?” કોને કહેવાય?",
+      "options": ["મિત્રને", "બાળકને", "અજાણ્યા કે ઔપચારિક વ્યક્તિને"],
+      "answer": 2,
+      "explain_gu": "Ihnen = Sie નું રૂપ, તેથી ઔપચારિક વ્યક્તિને.",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Guten ___, Frau Weber!",
+      "answers": ["Morgen"],
+      "hint_gu": "સવાર",
+      "explain_gu": "સવારે Guten Morgen. નામ (Morgen) મોટા અક્ષરથી.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wie geht es ___?",
+      "answers": ["Ihnen"],
+      "hint_gu": "આપને (ઔપચારિક)",
+      "explain_gu": "ઔપચારિક (Sie) માં Ihnen વપરાય, મોટા I થી.",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "Danke",
+          "gu": "આભાર"
+        },
+        {
+          "de": "Entschuldigung",
+          "gu": "માફ કરજો"
+        },
+        {
+          "de": "Tschüss",
+          "gu": "આવજો (મિત્રો)"
+        },
+        {
+          "de": "Hallo",
+          "gu": "નમસ્તે / હાય"
+        },
+        {
+          "de": "Bis bald",
+          "gu": "ફરી જલદી મળીશું"
+        }
+      ],
+      "explain_gu": "આ બધા શબ્દસમૂહો આ પાઠમાં શીખ્યા.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "order",
+      "words": ["Ihnen?", "es", "geht", "Wie"],
+      "answer": "Wie geht es Ihnen?",
+      "gu": "આપ કેમ છો?",
+      "explain_gu": "ક્રિયાપદ geht બીજા સ્થાને: Wie (1) geht (2) es Ihnen.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["gut.", "Danke,"],
+      "answer": "Danke, gut.",
+      "gu": "આભાર, સારું.",
+      "explain_gu": "પહેલાં Danke કહેવાય, પછી જવાબ.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Guten Abend",
+      "question_gu": "ક્યારે કહેવાય?",
+      "options": ["સવારે", "સાંજે", "સૂતાં પહેલાં"],
+      "answer": 1,
+      "explain_gu": "Guten Abend = શુભ સાંજ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Auf Wiedersehen",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Auf Wiedersehen",
+      "explain_gu": "આ ઔપચારિક “આવજો” છે; Wiedersehen એક જ શબ્દ છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "નમસ્તે, આપ કેમ છો?",
+      "answers_de": ["Guten Tag, wie geht es Ihnen?", "Hallo, wie geht es Ihnen?"],
+      "explain_gu": "આપ = Sie, તેથી Wie geht es Ihnen?",
+      "topic_gu": "du અને Sie"
+    },
+    {
+      "type": "translate",
+      "gu": "આવજો! ફરી જલદી મળીશું.",
+      "answers_de": ["Tschüss, bis bald!", "Tschüss! Bis bald!"],
+      "explain_gu": "Tschüss (મિત્રો) અને Bis bald (ફરી જલદી).",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "speak",
+      "text_de": "Guten Tag, wie geht es Ihnen?",
+      "gu": "નમસ્તે, આપ કેમ છો?",
+      "explain_gu": "Guten માં u લાંબો; Ihnen માં ih = ઈ.",
+      "topic_gu": "અભિવાદન"
+    },
+    {
+      "type": "article",
+      "noun": "Herr",
+      "answer": "der",
+      "explain_gu": "Herr પુલ્લિંગ છે, તેથી der Herr.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Lukas: Hallo Priya! Wie geht’s? Priya: Danke, gut. Und dir? Lukas: Es geht.",
+      "statements": [
+        {
+          "de": "Priya: Danke, gut.",
+          "answer": true
+        },
+        {
+          "de": "Lukas: Sehr gut.",
+          "answer": false
+        },
+        {
+          "de": "Lukas: Es geht.",
+          "answer": true
+        }
+      ],
+      "explain_gu": "લુકાસ કહે છે “Es geht” (ચાલે છે), “sehr gut” નહીં.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Guten Morgen!",
+      "Guten Tag, Herr Patel!",
+      "Wie geht’s?",
+      "Danke, gut. Und dir?",
+      "Wie geht es Ihnen?",
+      "Auf Wiedersehen!",
+      "Tschüss, bis bald!"
+    ],
+    "prompt_gu": "કલ્પના કરો: સવારે તમે તમારા શિક્ષકને મળો છો. તેમને ઔપચારિક રીતે નમસ્તે કહો અને “કેમ છો?” પૂછો. પછી મિત્ર સાથે એ જ વાતચીત બોલો."
+  },
+  "writing": {
+    "task_gu": "મિત્ર (du) સાથે ચાર નાની લીટીનો સંવાદ લખો: નમસ્તે, કેમ છો?, જવાબ, આવજો.",
+    "model_answer_de": "Raj: Hallo Lukas! Wie geht’s? Lukas: Danke, gut. Und dir? Raj: Sehr gut, danke. Tschüss! Lukas: Tschüss, bis bald!",
+    "checklist_gu": [
+      "સંવાદ Hallo થી શરૂ થાય છે",
+      "Wie geht’s? અને Und dir? વાપર્યા (du-રૂપ)",
+      "Danke કહ્યું",
+      "છેલ્લે Tschüss કહ્યું",
+      "દરેક વાક્ય મોટા અક્ષરથી શરૂ થાય છે"
+    ]
+  },
+  "summary_gu": [
+    "સમય પ્રમાણે: Guten Morgen, Guten Tag, Guten Abend; સૂતાં પહેલાં Gute Nacht.",
+    "મિત્રો (du): Hallo, Tschüss, Wie geht’s?, Und dir?",
+    "ઔપચારિક (Sie): Guten Tag, Auf Wiedersehen, Wie geht es Ihnen?, Und Ihnen?",
+    "શંકા હોય તો Sie વાપરો; Herr / Frau + અટક.",
+    "“કેમ છો?” નો જવાબ: Danke, … પછી Und dir?"
+  ]
+}

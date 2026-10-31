@@ -1,0 +1,560 @@
+{
+  "id": "ch01-l06",
+  "number": 6,
+  "title_gu": "દેશો અને ભાષાઓ",
+  "goal_gu": "આ પાઠ પછી તમે કહી શકશો તમે કયા દેશથી આવો છો, કઈ ભાષાઓ બોલો છો, જર્મન શીખો છો, અને બીજાને તેમની ભાષા વિશે પૂછી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l06-indien",
+      "de": "Indien",
+      "gender": null,
+      "gu": "ભારત",
+      "pron_gu": "ઇન્ડિયન",
+      "example_de": "Ich komme aus Indien.",
+      "example_gu": "હું ભારતથી આવું છું.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-deutschland",
+      "de": "Deutschland",
+      "gender": null,
+      "gu": "જર્મની",
+      "pron_gu": "દોયચલાન્ટ",
+      "example_de": "Lukas ist in Deutschland.",
+      "example_gu": "લુકાસ જર્મનીમાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-oesterreich",
+      "de": "Österreich",
+      "gender": null,
+      "gu": "ઑસ્ટ્રિયા",
+      "pron_gu": "શ્યોસ્ટરરાઇશ",
+      "example_de": "Wien ist in Österreich.",
+      "example_gu": "વિયેના ઑસ્ટ્રિયામાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-schweiz",
+      "de": "Schweiz",
+      "gender": "die",
+      "gu": "સ્વિટ્ઝર્લૅન્ડ",
+      "pron_gu": "શ્વાઇત્સ",
+      "example_de": "Die Schweiz ist schön.",
+      "example_gu": "સ્વિટ્ઝર્લૅન્ડ સુંદર છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-frankreich",
+      "de": "Frankreich",
+      "gender": null,
+      "gu": "ફ્રાન્સ",
+      "pron_gu": "ફ્રાન્કરાઇશ",
+      "example_de": "Paris ist in Frankreich.",
+      "example_gu": "પેરિસ ફ્રાન્સમાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-italien",
+      "de": "Italien",
+      "gender": null,
+      "gu": "ઇટાલી",
+      "pron_gu": "ઇટાલ્યેન",
+      "example_de": "Rom ist in Italien.",
+      "example_gu": "રોમ ઇટાલીમાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-england",
+      "de": "England",
+      "gender": null,
+      "gu": "ઇંગ્લૅન્ડ",
+      "pron_gu": "એન્ગલાન્ટ",
+      "example_de": "London ist in England.",
+      "example_gu": "લંડન ઇંગ્લૅન્ડમાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-europa",
+      "de": "Europa",
+      "gender": null,
+      "gu": "યુરોપ",
+      "pron_gu": "ઓયરોપા",
+      "example_de": "Deutschland ist in Europa.",
+      "example_gu": "જર્મની યુરોપમાં છે.",
+      "level": "A1",
+      "tags": ["country"]
+    },
+    {
+      "id": "ch01-l06-land",
+      "de": "Land",
+      "gender": "das",
+      "plural": "die Länder",
+      "gu": "દેશ",
+      "pron_gu": "લાન્ટ",
+      "example_de": "Indien ist ein Land.",
+      "example_gu": "ભારત એક દેશ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l06-inder",
+      "de": "Inder",
+      "gender": "der",
+      "plural": "die Inder",
+      "gu": "ભારતીય (પુરુષ)",
+      "pron_gu": "ઇન્ડર",
+      "example_de": "Raj ist Inder.",
+      "example_gu": "રાજ ભારતીય છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l06-inderin",
+      "de": "Inderin",
+      "gender": "die",
+      "plural": "die Inderinnen",
+      "gu": "ભારતીય (સ્ત્રી)",
+      "pron_gu": "ઇન્ડરિન",
+      "example_de": "Priya ist Inderin.",
+      "example_gu": "પ્રિયા ભારતીય છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l06-englisch",
+      "de": "Englisch",
+      "gender": null,
+      "gu": "અંગ્રેજી (ભાષા)",
+      "pron_gu": "એન્ગ્લિશ",
+      "example_de": "Ich spreche Englisch.",
+      "example_gu": "હું અંગ્રેજી બોલું છું.",
+      "level": "A1",
+      "tags": ["language"]
+    },
+    {
+      "id": "ch01-l06-gujarati",
+      "de": "Gujarati",
+      "gender": null,
+      "gu": "ગુજરાતી (ભાષા)",
+      "example_de": "Ich spreche Gujarati.",
+      "example_gu": "હું ગુજરાતી બોલું છું.",
+      "level": "A1",
+      "tags": ["language"]
+    },
+    {
+      "id": "ch01-l06-hindi",
+      "de": "Hindi",
+      "gender": null,
+      "gu": "હિન્દી (ભાષા)",
+      "pron_gu": "હિન્ડી",
+      "example_de": "Ich spreche auch Hindi.",
+      "example_gu": "હું હિન્દી પણ બોલું છું.",
+      "level": "A1",
+      "tags": ["language"]
+    },
+    {
+      "id": "ch01-l06-sprechen",
+      "de": "sprechen",
+      "gender": null,
+      "gu": "બોલવું",
+      "pron_gu": "શ્પ્રેશન",
+      "example_de": "Sprichst du Deutsch?",
+      "example_gu": "તું જર્મન બોલે છે?",
+      "level": "A1",
+      "tags": ["verb", "irregular"]
+    },
+    {
+      "id": "ch01-l06-lernen",
+      "de": "lernen",
+      "gender": null,
+      "gu": "શીખવું",
+      "pron_gu": "લેર્નન",
+      "example_de": "Ich lerne Deutsch.",
+      "example_gu": "હું જર્મન શીખું છું.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch01-l06-ein-bisschen",
+      "de": "ein bisschen",
+      "gender": null,
+      "gu": "થોડું",
+      "pron_gu": "આઇન બિસ્શેન",
+      "example_de": "Ich spreche ein bisschen Deutsch.",
+      "example_gu": "હું થોડું જર્મન બોલું છું.",
+      "level": "A1",
+      "tags": ["phrase"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "દેશો અને ભાષાઓ",
+      "explanation_gu": "મોટા ભાગના દેશોના નામ **article વગર** વપરાય છે: *Indien, Deutschland, Italien*. કેટલાક અપવાદ છે, જેમ કે **die Schweiz**.\n\n**ક્યાંથી, ક્યાં:**\n- **aus + દેશ** = “…થી”: *Ich komme aus Indien.*\n- **in + દેશ** = “…માં”: *Ich wohne in Deutschland.*\n\n**ભાષાઓ** જર્મનમાં **મોટા અક્ષરથી** લખાય (નામ છે!) અને **sprechen** પછી article નથી આવતો: *Ich spreche Englisch.* ઘણા દેશોમાં એક કરતાં વધુ ભાષા બોલાય છે.",
+      "tables": [
+        {
+          "headers": ["દેશ", "ભાષા(ઓ)"],
+          "rows": [
+            ["Indien", "Hindi, Gujarati, Englisch …"],
+            ["Deutschland", "Deutsch"],
+            ["Österreich", "Deutsch"],
+            ["die Schweiz", "Deutsch, Französisch, Italienisch"],
+            ["Frankreich", "Französisch"],
+            ["Italien", "Italienisch"],
+            ["England", "Englisch"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich komme aus Indien.",
+          "gu": "હું ભારતથી આવું છું."
+        },
+        {
+          "de": "Ich wohne in Deutschland.",
+          "gu": "હું જર્મનીમાં રહું છું."
+        },
+        {
+          "de": "Die Schweiz ist schön.",
+          "gu": "સ્વિટ્ઝર્લૅન્ડ સુંદર છે.",
+          "note_gu": "Schweiz માં die છે, તેથી ખાસ યાદ રાખો"
+        },
+        {
+          "de": "Paris ist in Frankreich.",
+          "gu": "પેરિસ ફ્રાન્સમાં છે."
+        },
+        {
+          "de": "Indien ist ein Land.",
+          "gu": "ભારત એક દેશ છે."
+        }
+      ]
+    },
+    {
+      "title_gu": "sprechen અને lernen — ક્રિયાપદના અંત",
+      "explanation_gu": "ક્રિયાપદ વ્યક્તિ પ્રમાણે **અંત બદલે** છે. મોટા ભાગના ક્રિયાપદો (**નિયમિત**) એક જ નિયમ પાળે છે, જેમ **lernen**. કેટલાક (**અનિયમિત**) સ્વર બદલે છે, જેમ **sprechen** (e → i, માત્ર *du* અને *er/sie/es* માં).\n\n**અંતો (નિયમિત):** ich **-e**, du **-st**, er/sie/es **-t**, wir **-en**, ihr **-t**, sie/Sie **-en**.\n\nઆ પાઠના *wohnen, kommen, heißen* (પાઠ 4) પણ આ જ નિયમ પાળે છે. બધા ક્રિયાપદોની સંપૂર્ણ સમજૂતી પ્રકરણ 2 માં.",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "lernen (નિયમિત)", "sprechen (e → i)"],
+          "rows": [
+            ["ich", "lerne", "spreche"],
+            ["du", "lernst", "sprichst"],
+            ["er / sie / es", "lernt", "spricht"],
+            ["wir", "lernen", "sprechen"],
+            ["ihr", "lernt", "sprecht"],
+            ["sie / Sie", "lernen", "sprechen"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich lerne Deutsch.",
+          "gu": "હું જર્મન શીખું છું."
+        },
+        {
+          "de": "Du lernst Deutsch.",
+          "gu": "તું જર્મન શીખે છે."
+        },
+        {
+          "de": "Sprichst du Deutsch?",
+          "gu": "તું જર્મન બોલે છે?",
+          "note_gu": "sprechen: du sprichst (e → i)"
+        },
+        {
+          "de": "Er spricht Hindi.",
+          "gu": "તે હિન્દી બોલે છે."
+        },
+        {
+          "de": "Wir sprechen Englisch.",
+          "gu": "અમે અંગ્રેજી બોલીએ છીએ."
+        }
+      ]
+    },
+    {
+      "title_gu": "ભાષા વિશે પૂછવું અને જવાબ",
+      "explanation_gu": "“શું તું જર્મન બોલે છે?” પૂછવા માટે **sprechen** ને વાક્યમાં પહેલા મૂકો (હા/ના પ્રશ્ન). જવાબમાં **ein bisschen** (થોડું) ખૂબ ઉપયોગી છે: શરૂઆતમાં બધા એ જ કહે છે!\n\nઔપચારિક રીતે: *Sprechen Sie Englisch?* (આપ અંગ્રેજી બોલો છો?)",
+      "examples": [
+        {
+          "de": "Sprichst du Deutsch?",
+          "gu": "તું જર્મન બોલે છે?"
+        },
+        {
+          "de": "Ja, ein bisschen.",
+          "gu": "હા, થોડું."
+        },
+        {
+          "de": "Sprechen Sie Englisch?",
+          "gu": "આપ અંગ્રેજી બોલો છો?"
+        },
+        {
+          "de": "Ja, ich spreche Gujarati, Hindi und Englisch.",
+          "gu": "હા, હું ગુજરાતી, હિન્દી અને અંગ્રેજી બોલું છું."
+        },
+        {
+          "de": "Ich lerne Deutsch.",
+          "gu": "હું જર્મન શીખું છું."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Woher kommst du, Raj?",
+        "gu": "તું ક્યાંથી આવે છે, રાજ?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ich komme aus Indien, aus Gujarat.",
+        "gu": "હું ભારતથી આવું છું, ગુજરાતથી."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Sprichst du Englisch?",
+        "gu": "તું અંગ્રેજી બોલે છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ja, ich spreche Gujarati, Hindi und Englisch.",
+        "gu": "હા, હું ગુજરાતી, હિન્દી અને અંગ્રેજી બોલું છું."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Und Deutsch?",
+        "gu": "અને જર્મન?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ein bisschen. Ich lerne Deutsch.",
+        "gu": "થોડું. હું જર્મન શીખું છું."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Super!",
+        "gu": "સરસ!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Gujarati.",
+      "answers": ["spreche"],
+      "explain_gu": "ich સાથે sprechen નું રૂપ spreche.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ Deutsch.",
+      "answers": ["sprichst"],
+      "explain_gu": "du સાથે sprechen માં e → i અને અંતે -st: sprichst.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Deutsch.",
+      "answers": ["lerne"],
+      "explain_gu": "ich સાથે lernen નું રૂપ lerne.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ Englisch.",
+      "answers": ["sprechen"],
+      "explain_gu": "wir સાથે અંત -en: wir sprechen.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wien ist in ___.",
+      "answers": ["Österreich"],
+      "explain_gu": "Wien ઑસ્ટ્રિયામાં છે = Österreich (oe લખશો તો પણ ચાલશે).",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich komme ___ Indien.",
+      "answers": ["aus"],
+      "explain_gu": "“…થી” = aus.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich wohne ___ Deutschland.",
+      "answers": ["in"],
+      "explain_gu": "“…માં” = in.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“હું થોડું જર્મન બોલું છું” = ?",
+      "options": [
+        "Ich spreche ein bisschen Deutsch.",
+        "Ich lerne ein bisschen Deutsch aus.",
+        "Ich bin ein bisschen Deutsch."
+      ],
+      "answer": 0,
+      "explain_gu": "બોલવું = sprechen; થોડું = ein bisschen.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "કયા દેશ સાથે article die વપરાય છે?",
+      "options": ["Indien", "die Schweiz", "Deutschland"],
+      "answer": 1,
+      "explain_gu": "die Schweiz અપવાદ છે; બાકીના દેશો article વગર.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Er ___ Hindi.” (તે હિન્દી બોલે છે)",
+      "options": ["spreche", "sprichst", "spricht"],
+      "answer": 2,
+      "explain_gu": "er સાથે sprechen → er spricht (e → i, અંત -t).",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "જર્મનમાં ભાષાનું નામ (Englisch, Hindi) કેવી રીતે લખાય?",
+      "options": ["નાના અક્ષરથી", "મોટા અક્ષરથી", "બંને ચાલે"],
+      "answer": 1,
+      "explain_gu": "ભાષાનાં નામ નામ (noun) છે, તેથી મોટા અક્ષરથી.",
+      "topic_gu": "દેશો અને ભાષાઓ"
+    },
+    {
+      "type": "article",
+      "noun": "Land",
+      "answer": "das",
+      "explain_gu": "Land નપુંસક છે, તેથી das Land.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "Indien",
+          "gu": "ભારત"
+        },
+        {
+          "de": "Deutschland",
+          "gu": "જર્મની"
+        },
+        {
+          "de": "Österreich",
+          "gu": "ઑસ્ટ્રિયા"
+        },
+        {
+          "de": "die Schweiz",
+          "gu": "સ્વિટ્ઝર્લૅન્ડ"
+        },
+        {
+          "de": "Frankreich",
+          "gu": "ફ્રાન્સ"
+        }
+      ],
+      "explain_gu": "આ દેશોનાં નામ આ પાઠમાં શીખ્યા.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "order",
+      "words": ["Deutsch.", "bisschen", "ein", "spreche", "Ich"],
+      "answer": "Ich spreche ein bisschen Deutsch.",
+      "gu": "હું થોડું જર્મન બોલું છું.",
+      "explain_gu": "ક્રિયાપદ બીજા સ્થાને: Ich (1) spreche (2) ein bisschen Deutsch.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich spreche Gujarati, Hindi und Englisch.",
+      "question_gu": "વક્તા કેટલી ભાષાઓ બોલે છે?",
+      "options": ["બે", "ત્રણ", "ચાર"],
+      "answer": 1,
+      "explain_gu": "ત્રણ ભાષાઓ: Gujarati, Hindi, Englisch.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich lerne Deutsch.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Ich lerne Deutsch.",
+      "explain_gu": "ich = ઇશ; Deutsch = દોયચ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "હું અંગ્રેજી અને ગુજરાતી બોલું છું.",
+      "answers_de": ["Ich spreche Englisch und Gujarati.", "Ich spreche Gujarati und Englisch."],
+      "explain_gu": "sprechen → ich spreche; ભાષાનાં નામ મોટા અક્ષરથી, article વગર.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "translate",
+      "gu": "તું જર્મન બોલે છે?",
+      "answers_de": ["Sprichst du Deutsch?"],
+      "explain_gu": "હા/ના પ્રશ્નમાં ક્રિયાપદ પહેલા: Sprichst du Deutsch?",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich komme aus Indien und ich lerne Deutsch.",
+      "gu": "હું ભારતથી આવું છું અને જર્મન શીખું છું.",
+      "explain_gu": "Indien = ઇન્ડિયન; Deutsch માં eu = ઓય.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Raj: Ich komme aus Indien. Ich spreche Gujarati, Hindi und Englisch. Deutsch spreche ich ein bisschen.",
+      "statements": [
+        {
+          "de": "Raj kommt aus Indien.",
+          "answer": true
+        },
+        {
+          "de": "Raj spricht Gujarati.",
+          "answer": true
+        },
+        {
+          "de": "Raj spricht viel Deutsch.",
+          "answer": false
+        }
+      ],
+      "explain_gu": "રાજ કહે છે કે જર્મન તે થોડું (ein bisschen) બોલે છે, ઘણું નહીં.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Ich komme aus Indien.",
+      "Ich spreche Gujarati und Englisch.",
+      "Sprichst du Deutsch?",
+      "Ich spreche ein bisschen Deutsch.",
+      "Ich lerne Deutsch."
+    ],
+    "prompt_gu": "પોતાનો પરિચય બોલો: નામ, દેશ, શહેર, ભાષાઓ, વ્યવસાય. સમય લઈને ધીમેથી બોલો."
+  },
+  "writing": {
+    "task_gu": "પાંચ વાક્યોમાં તમારો પરિચય લખો: નામ, વ્યવસાય, દેશ અને શહેર, ભાષાઓ, જર્મન શીખવું.",
+    "model_answer_de": "Ich heiße Raj. Ich bin Student. Ich komme aus Indien, aus Ahmedabad. Ich spreche Gujarati, Hindi und Englisch. Ich lerne Deutsch.",
+    "checklist_gu": [
+      "પાંચેય વાક્યો લખ્યાં",
+      "ક્રિયાપદ દરેક વાક્યમાં બીજા સ્થાને છે",
+      "દેશ, શહેર અને ભાષાનાં નામ મોટા અક્ષરથી",
+      "વ્યવસાય સાથે ein નથી",
+      "ક્રિયાપદનાં રૂપો ich સાથે બરાબર છે: heiße, bin, komme, spreche, lerne"
+    ]
+  },
+  "summary_gu": [
+    "દેશોનાં નામ મોટા ભાગે article વગર; અપવાદ: die Schweiz.",
+    "aus + દેશ = …થી; in + દેશ = …માં.",
+    "ભાષાઓ મોટા અક્ષરથી લખાય, sprechen પછી article નથી.",
+    "નિયમિત અંતો: -e, -st, -t, -en, -t, -en. sprechen: du sprichst, er spricht.",
+    "“Sprichst du Deutsch?” – “Ja, ein bisschen.”"
+  ]
+}

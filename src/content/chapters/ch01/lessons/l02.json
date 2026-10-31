@@ -1,0 +1,675 @@
+{
+  "id": "ch01-l02",
+  "number": 2,
+  "title_gu": "વ્યંજનો અને ખાસ ધ્વનિ",
+  "goal_gu": "આ પાઠ પછી તમે w, v, z, j, s, sch, sp/st, ch, ei, ie, eu અને -er જેવા ખાસ જર્મન અવાજો ઓળખી અને બોલી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l02-wasser",
+      "de": "Wasser",
+      "gender": "das",
+      "gu": "પાણી",
+      "pron_gu": "વાસર",
+      "example_de": "Das ist Wasser.",
+      "example_gu": "આ પાણી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-zeit",
+      "de": "Zeit",
+      "gender": "die",
+      "plural": "die Zeiten",
+      "gu": "સમય",
+      "pron_gu": "ત્સાઇટ",
+      "example_de": "Es ist Zeit.",
+      "example_gu": "સમય થઈ ગયો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-ja",
+      "de": "ja",
+      "gender": null,
+      "gu": "હા",
+      "pron_gu": "યા",
+      "example_de": "Ja, das ist ein Haus.",
+      "example_gu": "હા, આ એક ઘર છે.",
+      "level": "A1",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "ch01-l02-nein",
+      "de": "nein",
+      "gender": null,
+      "gu": "ના",
+      "pron_gu": "નાઇન",
+      "example_de": "Nein, das ist ein Auto.",
+      "example_gu": "ના, આ એક ગાડી છે.",
+      "level": "A1",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "ch01-l02-junge",
+      "de": "Junge",
+      "gender": "der",
+      "plural": "die Jungen",
+      "gu": "છોકરો",
+      "pron_gu": "યુંગે",
+      "example_de": "Das ist ein Junge.",
+      "example_gu": "આ એક છોકરો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-viel",
+      "de": "viel",
+      "gender": null,
+      "gu": "ઘણું",
+      "pron_gu": "ફીલ",
+      "example_de": "Das ist viel.",
+      "example_gu": "આ ઘણું છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l02-sonne",
+      "de": "Sonne",
+      "gender": "die",
+      "plural": "die Sonnen",
+      "gu": "સૂર્ય",
+      "pron_gu": "ઝોને",
+      "example_de": "Das ist die Sonne.",
+      "example_gu": "આ સૂર્ય છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-schule",
+      "de": "Schule",
+      "gender": "die",
+      "plural": "die Schulen",
+      "gu": "શાળા",
+      "pron_gu": "શૂલે",
+      "example_de": "Das ist eine Schule.",
+      "example_gu": "આ એક શાળા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-tisch",
+      "de": "Tisch",
+      "gender": "der",
+      "plural": "die Tische",
+      "gu": "ટેબલ",
+      "pron_gu": "ટિશ",
+      "example_de": "Das ist ein Tisch.",
+      "example_gu": "આ એક ટેબલ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-sprache",
+      "de": "Sprache",
+      "gender": "die",
+      "plural": "die Sprachen",
+      "gu": "ભાષા",
+      "pron_gu": "શ્પ્રાખે",
+      "example_de": "Deutsch ist eine Sprache.",
+      "example_gu": "જર્મન એક ભાષા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-stadt",
+      "de": "Stadt",
+      "gender": "die",
+      "plural": "die Städte",
+      "gu": "શહેર",
+      "pron_gu": "શ્ટાટ",
+      "example_de": "Das ist eine Stadt.",
+      "example_gu": "આ એક શહેર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-stuhl",
+      "de": "Stuhl",
+      "gender": "der",
+      "plural": "die Stühle",
+      "gu": "ખુરશી",
+      "pron_gu": "શ્ટૂલ",
+      "example_de": "Das ist ein Stuhl.",
+      "example_gu": "આ એક ખુરશી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-ich",
+      "de": "ich",
+      "gender": null,
+      "gu": "હું",
+      "pron_gu": "ઇશ",
+      "example_de": "Ich bin Raj.",
+      "example_gu": "હું રાજ છું.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l02-milch",
+      "de": "Milch",
+      "gender": "die",
+      "gu": "દૂધ",
+      "pron_gu": "મિલશ",
+      "example_de": "Das ist Milch.",
+      "example_gu": "આ દૂધ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-nacht",
+      "de": "Nacht",
+      "gender": "die",
+      "plural": "die Nächte",
+      "gu": "રાત",
+      "pron_gu": "નાખ્ટ",
+      "example_de": "Das ist die Nacht.",
+      "example_gu": "આ રાત છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-heute",
+      "de": "heute",
+      "gender": null,
+      "gu": "આજે",
+      "pron_gu": "હોયટે",
+      "example_de": "Ich bin heute müde.",
+      "example_gu": "હું આજે થાકેલો છું.",
+      "level": "A1",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "ch01-l02-freund",
+      "de": "Freund",
+      "gender": "der",
+      "plural": "die Freunde",
+      "gu": "મિત્ર",
+      "pron_gu": "ફ્રોયન્ટ",
+      "example_de": "Raj ist ein Freund.",
+      "example_gu": "રાજ એક મિત્ર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-deutsch",
+      "de": "Deutsch",
+      "gender": null,
+      "gu": "જર્મન (ભાષા)",
+      "pron_gu": "દોયચ",
+      "example_de": "Das ist Deutsch.",
+      "example_gu": "આ જર્મન છે.",
+      "level": "A1",
+      "tags": ["language"]
+    },
+    {
+      "id": "ch01-l02-lehrer",
+      "de": "Lehrer",
+      "gender": "der",
+      "plural": "die Lehrer",
+      "gu": "શિક્ષક",
+      "pron_gu": "લેહરર",
+      "example_de": "Das ist ein Lehrer.",
+      "example_gu": "આ એક શિક્ષક છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l02-eis",
+      "de": "Eis",
+      "gender": "das",
+      "gu": "આઇસક્રીમ / બરફ",
+      "pron_gu": "આઇસ",
+      "example_de": "Das ist Eis.",
+      "example_gu": "આ આઇસક્રીમ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "એવા વ્યંજનો જે અંગ્રેજી/ગુજરાતીથી જુદા છે",
+      "explanation_gu": "ઘણા જર્મન વ્યંજનો અંગ્રેજી જેવા લાગે છે પણ **જુદું બોલાય છે**. નીચેનું કોષ્ટક યાદ રાખો. ઑડિયો સાથે ધ્યાનથી સાંભળો: ગુજરાતી લિપિ માત્ર મદદ છે.\n\n**ખાસ યાદ રાખવા જેવું:**\n- **w = વ** (Wasser). અંગ્રેજીમાં *v* જેવો.\n- **v = ફ** (Vater, viel). *v* લગભગ હંમેશા “ફ” બોલાય છે.\n- **z = ત્સ** (Zeit). “ઝ” નહીં!\n- **j = ય** (ja). “જ” નહીં!\n- **s + સ્વર = ઝ** (Sonne), પણ ß અને શબ્દના અંતે s = તીક્ષ્ણ સ.\n- **sch = શ** (Schule).\n- **શબ્દના આરંભે sp / st = શ્પ / શ્ટ** (Sprache, Stadt, Stuhl). *s* નો અવાજ “શ” થાય છે.\n- **શબ્દના અંતે b, d, g = પ, ટ, ક**: *Hand* = હાન્ટ, *Tag* = ટાક.",
+      "tables": [
+        {
+          "headers": ["અક્ષર", "જર્મન અવાજ", "ગુજરાતી મદદ", "ઉદાહરણ"],
+          "rows": [
+            ["w", "વ", "વ", "Wasser → વાસર"],
+            ["v", "ફ", "ફ", "Vater → ફાટર"],
+            ["z", "ત્સ", "ત્સ", "Zeit → ત્સાઇટ"],
+            ["j", "ય", "ય", "ja → યા"],
+            ["s + સ્વર", "ઝ", "ઝ", "Sonne → ઝોને"],
+            ["sch", "શ", "શ", "Schule → શૂલે"],
+            ["sp / st (આરંભે)", "શ્પ / શ્ટ", "શ્પ / શ્ટ", "Stadt → શ્ટાટ"],
+            ["b, d, g (અંતે)", "પ, ટ, ક", "પ, ટ, ક", "Hand → હાન્ટ"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wasser",
+          "gu": "પાણી",
+          "note_gu": "w = વ → વાસર"
+        },
+        {
+          "de": "Vater",
+          "gu": "પિતા",
+          "note_gu": "v = ફ → ફાટર"
+        },
+        {
+          "de": "Zeit",
+          "gu": "સમય",
+          "note_gu": "z = ત્સ → ત્સાઇટ"
+        },
+        {
+          "de": "ja",
+          "gu": "હા",
+          "note_gu": "j = ય → યા"
+        },
+        {
+          "de": "Sonne",
+          "gu": "સૂર્ય",
+          "note_gu": "s = ઝ → ઝોને"
+        },
+        {
+          "de": "Schule",
+          "gu": "શાળા",
+          "note_gu": "sch = શ → શૂલે"
+        },
+        {
+          "de": "Sprache",
+          "gu": "ભાષા",
+          "note_gu": "sp = શ્પ → શ્પ્રાખે"
+        },
+        {
+          "de": "Stadt",
+          "gu": "શહેર",
+          "note_gu": "st = શ્ટ → શ્ટાટ"
+        },
+        {
+          "de": "Hand",
+          "gu": "હાથ",
+          "note_gu": "અંતે d = ટ → હાન્ટ"
+        },
+        {
+          "de": "Tag",
+          "gu": "દિવસ",
+          "note_gu": "અંતે g = ક → ટાક"
+        }
+      ]
+    },
+    {
+      "title_gu": "ch — બે જુદા અવાજ",
+      "explanation_gu": "જર્મન **ch** બે રીતે બોલાય છે. તે કયા અક્ષર પછી આવ્યો છે તેના પર આધાર રાખે છે.\n\n1. **a, o, u, au પછી** → ગળાની અંદરથી **“ખ”** (કડક): *Buch, Nacht, auch*\n2. **બીજા બધા પછી** (e, i, ä, ö, ü, ei, eu, l, n, r) → જીભ તાળવા પાસે રાખીને હળવો **“શ”**: *ich, Milch, Küche*\n\nબંને અવાજ ગુજરાતીમાં બરાબર નથી, પણ “ખ” અને “શ” નજીક છે. ઑડિયો સાંભળીને નકલ કરો.",
+      "tables": [
+        {
+          "headers": ["ch ની પહેલાં", "અવાજ", "ઉદાહરણ"],
+          "rows": [
+            ["a, o, u, au", "ખ (ગળાનો, કડક)", "Buch, Nacht, auch, noch"],
+            ["e, i, ä, ö, ü, ei, eu, l, n, r", "શ (હળવો)", "ich, nicht, Milch, Küche, Mädchen"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Buch",
+          "gu": "પુસ્તક",
+          "note_gu": "ch પહેલાં u → ખ: બૂખ"
+        },
+        {
+          "de": "Nacht",
+          "gu": "રાત",
+          "note_gu": "ch પહેલાં a → ખ: નાખ્ટ"
+        },
+        {
+          "de": "auch",
+          "gu": "પણ",
+          "note_gu": "ch પહેલાં au → ખ: આઉખ"
+        },
+        {
+          "de": "ich",
+          "gu": "હું",
+          "note_gu": "ch પહેલાં i → શ: ઇશ"
+        },
+        {
+          "de": "Milch",
+          "gu": "દૂધ",
+          "note_gu": "ch પહેલાં l → શ: મિલશ"
+        },
+        {
+          "de": "Küche",
+          "gu": "રસોડું",
+          "note_gu": "ch પહેલાં ü → શ: ક્યૂશે"
+        }
+      ]
+    },
+    {
+      "title_gu": "ei, ie, eu, äu",
+      "explanation_gu": "આ બે-અક્ષરના સંયોજનોમાં **બીજો** અક્ષર નહીં, આખું સંયોજન એક અવાજ છે. અંગ્રેજીની મદદથી યાદ રાખો:\n\n- **ei = આઇ** (અંગ્રેજી *eye* જેવો): *Eis, nein, Zeit*\n- **ie = લાંબો ઈ** (અંગ્રેજી *see* જેવો): *viel, Brief, Papier*\n- **eu / äu = ઓય** (અંગ્રેજી *boy* જેવો): *heute, Freund, Deutsch, Häuser*\n\n**સાવધાન:** *ei* અને *ie* ગૂંચવાય છે. *nein* = નાઇન (ના), *Wien* = વીન (ઑસ્ટ્રિયાનું શહેર).",
+      "tables": [
+        {
+          "headers": ["લખાણ", "અવાજ", "ઉદાહરણ"],
+          "rows": [
+            ["ei", "આઇ", "Eis → આઇસ, nein → નાઇન, Zeit → ત્સાઇટ"],
+            ["ie", "લાંબો ઈ", "viel → ફીલ, Brief → બ્રીફ"],
+            ["eu, äu", "ઓય", "heute → હોયટે, Freund → ફ્રોયન્ટ"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eis",
+          "gu": "આઇસક્રીમ",
+          "note_gu": "ei = આઇ"
+        },
+        {
+          "de": "nein",
+          "gu": "ના",
+          "note_gu": "ei = આઇ"
+        },
+        {
+          "de": "viel",
+          "gu": "ઘણું",
+          "note_gu": "ie = ઈ"
+        },
+        {
+          "de": "Brief",
+          "gu": "પત્ર",
+          "note_gu": "ie = ઈ"
+        },
+        {
+          "de": "heute",
+          "gu": "આજે",
+          "note_gu": "eu = ઓય"
+        },
+        {
+          "de": "Freund",
+          "gu": "મિત્ર",
+          "note_gu": "eu = ઓય"
+        },
+        {
+          "de": "Häuser",
+          "gu": "ઘરો",
+          "note_gu": "äu = ઓય"
+        }
+      ]
+    },
+    {
+      "title_gu": "શબ્દના અંતે -er અને -e",
+      "explanation_gu": "- **-er** (શબ્દના અંતે) → ખૂબ હળવો **“અ”**; r નો અવાજ લગભગ બોલાતો નથી: *Lehrer* = લેહરર, *Vater* = ફાટર, *Mutter* = મુટર.\n- **-e** (શબ્દના અંતે) → ટૂંકો, હળવો **“એ / અ”**: *Sonne* = ઝોને, *Schule* = શૂલે, *Straße* = શ્ટ્રાસે.\n\n**r વિશે:** જર્મન r ગળામાં બોલાય છે (ફ્રેંચ જેવો). શરૂઆતમાં ગુજરાતી “ર” બોલશો તો પણ સમજાશે; સાંભળીને ધીમે ધીમે સુધારો.",
+      "examples": [
+        {
+          "de": "Lehrer",
+          "gu": "શિક્ષક",
+          "note_gu": "-er = હળવો અ: લેહરર"
+        },
+        {
+          "de": "Vater",
+          "gu": "પિતા",
+          "note_gu": "વાટર નહીં, ફાટર"
+        },
+        {
+          "de": "Schule",
+          "gu": "શાળા",
+          "note_gu": "-e = હળવો એ"
+        },
+        {
+          "de": "Sonne",
+          "gu": "સૂર્ય",
+          "note_gu": "ઝોને"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Das ist eine Schule.",
+        "gu": "આ એક શાળા છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ja, und das ist ein Lehrer.",
+        "gu": "હા, અને આ એક શિક્ષક છે."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Der Lehrer ist heute müde.",
+        "gu": "શિક્ષક આજે થાકેલા છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Nein, der Junge ist müde!",
+        "gu": "ના, છોકરો થાકેલો છે!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "Wasser માં w નો અવાજ કયો?",
+      "options": ["વ", "ફ", "બ"],
+      "answer": 0,
+      "explain_gu": "જર્મન w = વ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Vater માં v નો અવાજ કયો?",
+      "options": ["વ", "ફ", "ભ"],
+      "answer": 1,
+      "explain_gu": "જર્મનમાં v મોટે ભાગે “ફ” બોલાય છે: ફાટર.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Zeit માં z નો અવાજ કયો?",
+      "options": ["ત્સ", "ઝ", "જ"],
+      "answer": 0,
+      "explain_gu": "જર્મન z = ત્સ: ત્સાઇટ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ja માં j નો અવાજ કયો?",
+      "options": ["ય", "જ", "ઝ"],
+      "answer": 0,
+      "explain_gu": "જર્મન j = ય: યા.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Eis શબ્દમાં ei કેવો બોલાય?",
+      "options": ["આઇ (eye)", "ઈ (see)", "ઓય (boy)"],
+      "answer": 0,
+      "explain_gu": "ei = આઇ: આઇસ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "viel શબ્દમાં ie કેવો બોલાય?",
+      "options": ["આઇ (eye)", "ઈ (see)", "ઓય (boy)"],
+      "answer": 1,
+      "explain_gu": "ie = લાંબો ઈ: ફીલ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "heute શબ્દમાં eu કેવો બોલાય?",
+      "options": ["આઇ", "ઈ", "ઓય"],
+      "answer": 2,
+      "explain_gu": "eu = ઓય: હોયટે.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Buch માં ch નો અવાજ કયો?",
+      "options": ["ગળાનો “ખ”", "હળવો “શ”", "“ક”"],
+      "answer": 0,
+      "explain_gu": "u પછી ch = “ખ”: બૂખ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ich માં ch નો અવાજ કયો?",
+      "options": ["ગળાનો “ખ”", "હળવો “શ”", "“ક”"],
+      "answer": 1,
+      "explain_gu": "i પછી ch = હળવો “શ”: ઇશ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "Sprache શબ્દની શરૂઆતનો sp કેવો બોલાય?",
+      "options": ["સ્પ", "શ્પ", "સ્ફ"],
+      "answer": 1,
+      "explain_gu": "શબ્દના આરંભે sp = શ્પ.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "Wasser",
+          "gu": "પાણી"
+        },
+        {
+          "de": "Schule",
+          "gu": "શાળા"
+        },
+        {
+          "de": "Sonne",
+          "gu": "સૂર્ય"
+        },
+        {
+          "de": "Lehrer",
+          "gu": "શિક્ષક"
+        },
+        {
+          "de": "Stadt",
+          "gu": "શહેર"
+        }
+      ],
+      "explain_gu": "આ બધા શબ્દો આ પાઠના શબ્દભંડોળમાંથી છે.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "article",
+      "noun": "Sonne",
+      "answer": "die",
+      "explain_gu": "Sonne સ્ત્રીલિંગ છે, તેથી die Sonne.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Tisch",
+      "answer": "der",
+      "explain_gu": "Tisch પુલ્લિંગ છે, તેથી der Tisch.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Wasser",
+      "answer": "das",
+      "explain_gu": "Wasser નપુંસક છે, તેથી das Wasser.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Wien",
+      "question_gu": "કયો શબ્દ સંભળાયો?",
+      "options": ["Wein", "Wien"],
+      "answer": 1,
+      "explain_gu": "Wien માં ie = ઈ (વીન); Wein માં ei = આઇ (વાઇન).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Sprache",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Sprache",
+      "explain_gu": "શબ્દ Sprache છે (શ્પ્રાખે).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Das ist ein ___.",
+      "answers": ["Tisch"],
+      "hint_gu": "ટેબલ",
+      "explain_gu": "ટેબલ = Tisch (der-શબ્દ, તેથી ein Tisch). નામ હંમેશા મોટા અક્ષરથી લખો.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "translate",
+      "gu": "આ પાણી છે.",
+      "answers_de": ["Das ist Wasser."],
+      "explain_gu": "Wasser સાથે ein વપરાતું નથી, તેથી Das ist Wasser.",
+      "topic_gu": "Das ist …"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich bin heute müde.",
+      "gu": "હું આજે થાકેલો છું.",
+      "explain_gu": "ch (ich) = હળવો શ; eu (heute) = ઓય.",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Anna: Das ist eine Schule. Raj: Ja, und das ist ein Lehrer. Anna: Der Lehrer ist heute müde. Raj: Nein, der Junge ist müde!",
+      "statements": [
+        {
+          "de": "Das ist eine Schule.",
+          "answer": true
+        },
+        {
+          "de": "Der Junge ist müde.",
+          "answer": true
+        },
+        {
+          "de": "Der Lehrer ist müde.",
+          "answer": false
+        }
+      ],
+      "explain_gu": "રાજ કહે છે કે શિક્ષક નહીં, છોકરો થાકેલો છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Das ist Wasser.",
+      "Die Sonne ist schön.",
+      "Das ist eine Schule.",
+      "Ich bin heute müde.",
+      "Deutsch ist eine Sprache."
+    ],
+    "prompt_gu": "આ શબ્દોની જોડી મોટેથી બોલો: Buch – ich (ખ અને શ), Wein – Wien, Zeit – Sonne. પછી પોતાનું નામ અને શહેર બોલો."
+  },
+  "writing": {
+    "task_gu": "પાઠના શબ્દોમાંથી “Das ist …” થી ત્રણ વાક્યો લખો.",
+    "model_answer_de": "Das ist eine Schule. Das ist ein Tisch. Das ist Wasser.",
+    "checklist_gu": [
+      "દરેક વાક્ય Das ist … થી શરૂ થાય છે",
+      "નામ મોટા અક્ષરથી લખ્યા (Schule, Tisch, Wasser)",
+      "die-શબ્દ સાથે eine અને der-શબ્દ સાથે ein વાપર્યા",
+      "દરેક વાક્યને અંતે પૂર્ણવિરામ છે"
+    ]
+  },
+  "summary_gu": [
+    "w = વ, v = ફ, z = ત્સ, j = ય.",
+    "s + સ્વર = ઝ; sch = શ; શબ્દના આરંભે sp/st = શ્પ/શ્ટ.",
+    "ch: a, o, u, au પછી “ખ”; બાકી બધા પછી હળવો “શ”.",
+    "ei = આઇ, ie = ઈ, eu/äu = ઓય.",
+    "-er અને -e શબ્દના અંતે ખૂબ હળવા બોલાય છે.",
+    "અંતે b, d, g = પ, ટ, ક."
+  ]
+}

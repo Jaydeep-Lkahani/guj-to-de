@@ -1,0 +1,557 @@
+{
+  "id": "ch01-l04",
+  "number": 4,
+  "title_gu": "પોતાનો પરિચય",
+  "goal_gu": "આ પાઠ પછી તમે તમારું નામ, તમે ક્યાંથી આવો છો અને ક્યાં રહો છો તે જર્મનમાં કહી શકશો, અને સામેવાળાને તે જ પ્રશ્નો પૂછી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l04-heissen",
+      "de": "heißen",
+      "gender": null,
+      "gu": "નામ હોવું (…નામ છે)",
+      "pron_gu": "હાઇસન",
+      "example_de": "Ich heiße Raj.",
+      "example_gu": "મારું નામ રાજ છે.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch01-l04-kommen",
+      "de": "kommen",
+      "gender": null,
+      "gu": "આવવું",
+      "pron_gu": "કોમન",
+      "example_de": "Ich komme aus Indien.",
+      "example_gu": "હું ભારતથી આવું છું.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch01-l04-wohnen",
+      "de": "wohnen",
+      "gender": null,
+      "gu": "રહેવું",
+      "pron_gu": "વોનન",
+      "example_de": "Ich wohne in Ahmedabad.",
+      "example_gu": "હું અમદાવાદમાં રહું છું.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch01-l04-aus",
+      "de": "aus",
+      "gender": null,
+      "gu": "…થી / …માંથી",
+      "pron_gu": "આઉસ",
+      "example_de": "Ich komme aus Gujarat.",
+      "example_gu": "હું ગુજરાતથી આવું છું.",
+      "level": "A1",
+      "tags": ["preposition"]
+    },
+    {
+      "id": "ch01-l04-in",
+      "de": "in",
+      "gender": null,
+      "gu": "…માં",
+      "pron_gu": "ઇન",
+      "example_de": "Ich wohne in Berlin.",
+      "example_gu": "હું બર્લિનમાં રહું છું.",
+      "level": "A1",
+      "tags": ["preposition"]
+    },
+    {
+      "id": "ch01-l04-woher",
+      "de": "woher",
+      "gender": null,
+      "gu": "ક્યાંથી?",
+      "pron_gu": "વોહેર",
+      "example_de": "Woher kommst du?",
+      "example_gu": "તું ક્યાંથી આવે છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch01-l04-wo",
+      "de": "wo",
+      "gender": null,
+      "gu": "ક્યાં?",
+      "pron_gu": "વો",
+      "example_de": "Wo wohnst du?",
+      "example_gu": "તું ક્યાં રહે છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch01-l04-wie",
+      "de": "wie",
+      "gender": null,
+      "gu": "કેવી રીતે? / કેમ?",
+      "pron_gu": "વી",
+      "example_de": "Wie heißt du?",
+      "example_gu": "તારું નામ શું છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch01-l04-und",
+      "de": "und",
+      "gender": null,
+      "gu": "અને",
+      "pron_gu": "ઉન્ટ",
+      "example_de": "Ich bin Raj und das ist Priya.",
+      "example_gu": "હું રાજ છું અને આ પ્રિયા છે.",
+      "level": "A1",
+      "tags": ["conjunction"]
+    },
+    {
+      "id": "ch01-l04-auch",
+      "de": "auch",
+      "gender": null,
+      "gu": "પણ",
+      "pron_gu": "આઉખ",
+      "example_de": "Ich komme auch aus Indien.",
+      "example_gu": "હું પણ ભારતથી આવું છું.",
+      "level": "A1",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "ch01-l04-mein",
+      "de": "mein",
+      "gender": null,
+      "gu": "મારું / મારો / મારી",
+      "pron_gu": "માઇન",
+      "example_de": "Mein Name ist Raj.",
+      "example_gu": "મારું નામ રાજ છે.",
+      "level": "A1",
+      "tags": ["pronoun"]
+    },
+    {
+      "id": "ch01-l04-vorname",
+      "de": "Vorname",
+      "gender": "der",
+      "plural": "die Vornamen",
+      "gu": "પહેલું નામ",
+      "pron_gu": "ફોરનામે",
+      "example_de": "Mein Vorname ist Raj.",
+      "example_gu": "મારું પહેલું નામ રાજ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l04-nachname",
+      "de": "Nachname",
+      "gender": "der",
+      "plural": "die Nachnamen",
+      "gu": "અટક (છેલ્લું નામ)",
+      "pron_gu": "નાખનામે",
+      "example_de": "Mein Nachname ist Patel.",
+      "example_gu": "મારી અટક પટેલ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l04-freut-mich",
+      "de": "Freut mich.",
+      "gender": null,
+      "gu": "મળીને આનંદ થયો",
+      "pron_gu": "ફ્રોયટ મિશ",
+      "example_de": "Ich bin Raj. – Freut mich!",
+      "example_gu": "હું રાજ છું. – મળીને આનંદ થયો!",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l04-wie-bitte",
+      "de": "Wie bitte?",
+      "gender": null,
+      "gu": "શું કહ્યું? (ફરી કહેશો?)",
+      "pron_gu": "વી બિટે",
+      "example_de": "Wie bitte? Wie heißt du?",
+      "example_gu": "શું કહ્યું? તારું નામ શું છે?",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l04-noch-einmal",
+      "de": "Noch einmal, bitte.",
+      "gender": null,
+      "gu": "ફરી એકવાર, કૃપા કરીને.",
+      "pron_gu": "નોખ આઇનમાલ, બિટે",
+      "example_de": "Noch einmal, bitte. Wie heißen Sie?",
+      "example_gu": "ફરી એકવાર, કૃપા કરીને. આપનું નામ શું છે?",
+      "level": "A1",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "ch01-l04-wie-schreibt-man-das",
+      "de": "Wie schreibt man das?",
+      "gender": null,
+      "gu": "આ કેવી રીતે લખાય?",
+      "pron_gu": "વી શ્રાઇપ્ટ માન ડાસ",
+      "example_de": "Patel – wie schreibt man das?",
+      "example_gu": "Patel – આ કેવી રીતે લખાય?",
+      "level": "A1",
+      "tags": ["phrase"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "પોતાનો પરિચય — ત્રણ વાક્યો",
+      "explanation_gu": "પરિચય માટે ત્રણ સૌથી જરૂરી વાક્યો: **નામ, ક્યાંથી આવો છો, ક્યાં રહો છો.**\n\nહાલ આ વાક્યોને **તૈયાર નમૂના** તરીકે શીખો, અને ખાલી જગ્યાએ તમારું નામ, દેશ કે શહેર મૂકો. ક્રિયાપદનાં રૂપો (heißen, kommen, wohnen) આખા વ્યવસ્થિત રીતે પ્રકરણ 2 માં શીખીશું.\n\n**નામ કહેવાની બે રીત:** *Ich heiße Raj.* (રોજિંદી) અને *Mein Name ist Raj.* (થોડી વધુ ઔપચારિક).\n\n**યાદ રાખો:** જર્મન વાક્યમાં **ક્રિયાપદ હંમેશા બીજા સ્થાને** હોય છે: *Ich* (1) *heiße* (2) *Raj.* આ નિયમ આખી ભાષામાં સૌથી મહત્વનો છે.",
+      "tables": [
+        {
+          "headers": ["શું કહેવું", "જર્મન", "ગુજરાતીમાં"],
+          "rows": [
+            ["નામ", "Ich heiße Raj. / Mein Name ist Raj.", "મારું નામ રાજ છે."],
+            ["ક્યાંથી", "Ich komme aus Indien.", "હું ભારતથી આવું છું."],
+            ["ક્યાં રહો છો", "Ich wohne in Ahmedabad.", "હું અમદાવાદમાં રહું છું."]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich heiße Raj.",
+          "gu": "મારું નામ રાજ છે."
+        },
+        {
+          "de": "Mein Name ist Priya.",
+          "gu": "મારું નામ પ્રિયા છે."
+        },
+        {
+          "de": "Ich komme aus Indien.",
+          "gu": "હું ભારતથી આવું છું."
+        },
+        {
+          "de": "Ich komme aus Surat.",
+          "gu": "હું સુરતથી આવું છું."
+        },
+        {
+          "de": "Ich wohne in Berlin.",
+          "gu": "હું બર્લિનમાં રહું છું."
+        },
+        {
+          "de": "Ich wohne in Ahmedabad.",
+          "gu": "હું અમદાવાદમાં રહું છું."
+        }
+      ]
+    },
+    {
+      "title_gu": "પ્રશ્નો પૂછવા — du અને Sie",
+      "explanation_gu": "પૂછવા માટેના શબ્દો (**Wie, Woher, Wo**) વાક્યમાં **પહેલા** આવે છે અને ક્રિયાપદ **બીજા** સ્થાને.\n\nક્રિયાપદનો અંત વ્યક્તિ પ્રમાણે બદલાય છે (શરૂઆતનો પૂર્વદર્શન):\n- **ich** → અંતે **-e** (ich heiße, ich komme, ich wohne)\n- **du** → અંતે **-st** (du kommst, du wohnst; *heißen* માં du heißt)\n- **Sie** → અંતે **-en** (Sie heißen, Sie kommen, Sie wohnen)\n\nમિત્રો સાથે **du**, અજાણ્યા કે ઔપચારિક વ્યક્તિ સાથે **Sie**.",
+      "tables": [
+        {
+          "headers": ["પ્રશ્ન", "du (મિત્રો)", "Sie (ઔપચારિક)"],
+          "rows": [
+            ["નામ?", "Wie heißt du?", "Wie heißen Sie?"],
+            ["ક્યાંથી?", "Woher kommst du?", "Woher kommen Sie?"],
+            ["ક્યાં રહો?", "Wo wohnst du?", "Wo wohnen Sie?"]
+          ]
+        },
+        {
+          "headers": ["ich", "du", "Sie"],
+          "rows": [
+            ["heiße", "heißt", "heißen"],
+            ["komme", "kommst", "kommen"],
+            ["wohne", "wohnst", "wohnen"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wie heißt du?",
+          "gu": "તારું નામ શું છે?"
+        },
+        {
+          "de": "Wie heißen Sie?",
+          "gu": "આપનું નામ શું છે?"
+        },
+        {
+          "de": "Woher kommst du?",
+          "gu": "તું ક્યાંથી આવે છે?"
+        },
+        {
+          "de": "Woher kommen Sie?",
+          "gu": "આપ ક્યાંથી આવો છો?"
+        },
+        {
+          "de": "Wo wohnst du?",
+          "gu": "તું ક્યાં રહે છે?"
+        },
+        {
+          "de": "Wo wohnen Sie?",
+          "gu": "આપ ક્યાં રહો છો?"
+        }
+      ]
+    },
+    {
+      "title_gu": "જો સમજાય નહીં તો",
+      "explanation_gu": "જર્મનમાં શરૂઆતમાં સામે વાળાની વાત ન સમજાય તે સ્વાભાવિક છે. આ વાક્યો હંમેશા યાદ રાખો:",
+      "examples": [
+        {
+          "de": "Wie bitte?",
+          "gu": "શું કહ્યું?"
+        },
+        {
+          "de": "Noch einmal, bitte.",
+          "gu": "ફરી એકવાર, કૃપા કરીને."
+        },
+        {
+          "de": "Wie schreibt man das?",
+          "gu": "આ કેવી રીતે લખાય?"
+        },
+        {
+          "de": "Ich verstehe nicht.",
+          "gu": "મને સમજાયું નહીં.",
+          "note_gu": "વિગતે પછી; હાલ તૈયાર શબ્દસમૂહ"
+        },
+        {
+          "de": "Patel: P – A – T – E – L.",
+          "gu": "Patel નો સ્પેલિંગ.",
+          "note_gu": "પહેલા પાઠના અક્ષરોનાં નામ વાપરો"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Hallo! Ich heiße Anna. Wie heißt du?",
+        "gu": "નમસ્તે! મારું નામ અન્ના છે. તારું નામ શું છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Hallo Anna! Ich heiße Raj. Freut mich!",
+        "gu": "નમસ્તે અન્ના! મારું નામ રાજ છે. મળીને આનંદ થયો!"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Freut mich auch! Woher kommst du, Raj?",
+        "gu": "મને પણ આનંદ થયો! તું ક્યાંથી આવે છે, રાજ?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ich komme aus Indien, aus Ahmedabad. Und du?",
+        "gu": "હું ભારતથી આવું છું, અમદાવાદથી. અને તું?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ich komme aus Deutschland. Ich wohne in Berlin.",
+        "gu": "હું જર્મનીથી આવું છું. હું બર્લિનમાં રહું છું."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ich wohne auch in Berlin!",
+        "gu": "હું પણ બર્લિનમાં રહું છું!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "“હું અમદાવાદમાં રહું છું” = ?",
+      "options": ["Ich wohne in Ahmedabad.", "Ich komme in Ahmedabad.", "Ich heiße aus Ahmedabad."],
+      "answer": 0,
+      "explain_gu": "રહેવું = wohnen, “માં” = in.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "મિત્રને તેનું નામ પૂછવા શું કહેશો?",
+      "options": ["Wie heißt du?", "Wie heißen Sie?", "Wo wohnst du?"],
+      "answer": 0,
+      "explain_gu": "મિત્ર = du, તેથી Wie heißt du?",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "અજાણ્યા વ્યક્તિને “આપ ક્યાંથી આવો છો?” પૂછવું છે.",
+      "options": ["Woher kommst du?", "Woher kommen Sie?", "Wo kommen Sie?"],
+      "answer": 1,
+      "explain_gu": "ઔપચારિક = Sie → kommen. “ક્યાંથી” = woher.",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Raj.",
+      "answers": ["heiße"],
+      "hint_gu": "નામ છે",
+      "explain_gu": "ich સાથે heißen નું રૂપ heiße (ß ની જગ્યાએ ss લખી શકાય).",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ aus Indien.",
+      "answers": ["komme"],
+      "hint_gu": "આવવું",
+      "explain_gu": "ich સાથે kommen નું રૂપ komme.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ in Berlin.",
+      "answers": ["wohne"],
+      "hint_gu": "રહેવું",
+      "explain_gu": "ich સાથે wohnen નું રૂપ wohne.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Woher ___ du?",
+      "answers": ["kommst"],
+      "explain_gu": "du સાથે ક્રિયાપદના અંતે -st: du kommst.",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wie ___ Sie?",
+      "answers": ["heißen"],
+      "explain_gu": "Sie સાથે ક્રિયાપદના અંતે -en: Sie heißen.",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        {
+          "de": "wo",
+          "gu": "ક્યાં"
+        },
+        {
+          "de": "woher",
+          "gu": "ક્યાંથી"
+        },
+        {
+          "de": "wie",
+          "gu": "કેવી રીતે / કેમ"
+        },
+        {
+          "de": "und",
+          "gu": "અને"
+        },
+        {
+          "de": "auch",
+          "gu": "પણ"
+        }
+      ],
+      "explain_gu": "આ બધા પ્રશ્નશબ્દો/જોડાણ આ પાઠમાં શીખ્યા.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "order",
+      "words": ["Berlin.", "in", "wohne", "Ich"],
+      "answer": "Ich wohne in Berlin.",
+      "gu": "હું બર્લિનમાં રહું છું.",
+      "explain_gu": "ક્રિયાપદ બીજા સ્થાને: Ich (1) wohne (2) in Berlin.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["du?", "kommst", "Woher"],
+      "answer": "Woher kommst du?",
+      "gu": "તું ક્યાંથી આવે છે?",
+      "explain_gu": "પ્રશ્નશબ્દ પહેલા, ક્રિયાપદ બીજા: Woher (1) kommst (2) du?",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Priya.", "ist", "Name", "Mein"],
+      "answer": "Mein Name ist Priya.",
+      "gu": "મારું નામ પ્રિયા છે.",
+      "explain_gu": "Mein Name (1 ભાગ) ist (2) Priya.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich heiße Priya.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Ich heiße Priya.",
+      "explain_gu": "વાક્ય: Ich heiße Priya. (heißen = ઇશ હાઇસે).",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich komme aus Indien.",
+      "question_gu": "વક્તા ક્યાંથી આવે છે?",
+      "options": ["ભારત", "જર્મની", "ઑસ્ટ્રિયા"],
+      "answer": 0,
+      "explain_gu": "aus Indien = ભારતથી.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "હું રાજ છું અને અમદાવાદથી આવું છું.",
+      "answers_de": [
+        "Ich heiße Raj und ich komme aus Ahmedabad.",
+        "Ich bin Raj und ich komme aus Ahmedabad.",
+        "Ich heiße Raj und komme aus Ahmedabad.",
+        "Ich bin Raj und komme aus Ahmedabad."
+      ],
+      "explain_gu": "નામ: heiße કે bin; ક્યાંથી: komme aus.",
+      "topic_gu": "પોતાનો પરિચય"
+    },
+    {
+      "type": "translate",
+      "gu": "આપનું નામ શું છે? (ઔપચારિક)",
+      "answers_de": ["Wie heißen Sie?"],
+      "explain_gu": "ઔપચારિક = Sie → Wie heißen Sie?",
+      "topic_gu": "પ્રશ્નો (du / Sie)"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich heiße Raj und ich komme aus Indien.",
+      "gu": "મારું નામ રાજ છે અને હું ભારતથી આવું છું.",
+      "explain_gu": "ch (ich) = હળવો શ; ei (heiße) = આઇ.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Anna: Ich komme aus Deutschland. Ich wohne in Berlin. Raj: Ich wohne auch in Berlin!",
+      "statements": [
+        {
+          "de": "Anna: Ich wohne in Berlin.",
+          "answer": true
+        },
+        {
+          "de": "Raj: Ich wohne in Ahmedabad.",
+          "answer": false
+        },
+        {
+          "de": "Raj: Ich wohne in Berlin.",
+          "answer": true
+        }
+      ],
+      "explain_gu": "બંને બર્લિનમાં રહે છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Ich heiße Raj.",
+      "Ich komme aus Indien.",
+      "Ich wohne in Berlin.",
+      "Wie heißt du?",
+      "Woher kommst du?",
+      "Freut mich!"
+    ],
+    "prompt_gu": "તમારો પરિચય બોલો: નામ, ક્યાંથી આવો છો, ક્યાં રહો છો. પછી મિત્રને ત્રણે પ્રશ્નો પૂછો."
+  },
+  "writing": {
+    "task_gu": "તમારો પરિચય ત્રણ વાક્યોમાં લખો: નામ, તમે ક્યાંથી આવો છો, ક્યાં રહો છો.",
+    "model_answer_de": "Hallo! Ich heiße Priya. Ich komme aus Surat. Ich wohne in München.",
+    "checklist_gu": [
+      "પહેલા વાક્યમાં નામ છે (Ich heiße …)",
+      "બીજા વાક્યમાં komme aus + શહેર/દેશ",
+      "ત્રીજા વાક્યમાં wohne in + શહેર",
+      "શહેર અને દેશના નામ મોટા અક્ષરથી",
+      "દરેક વાક્યમાં ક્રિયાપદ બીજા સ્થાને છે"
+    ]
+  },
+  "summary_gu": [
+    "નામ: Ich heiße … / Mein Name ist …",
+    "ક્યાંથી: Ich komme aus …",
+    "ક્યાં રહો: Ich wohne in …",
+    "પ્રશ્નો: Wie heißt du? Woher kommst du? Wo wohnst du? (ઔપચારિક: Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie?)",
+    "ક્રિયાપદ હંમેશા બીજા સ્થાને.",
+    "સમજાય નહીં તો: Wie bitte? Noch einmal, bitte."
+  ]
+}

@@ -1,71 +1,342 @@
 {
   "id": "ch01-l01",
   "number": 1,
-  "title_gu": "નમસ્તે અને પરિચય",
-  "goal_gu": "આ પાઠ પછી તમે નમસ્તે કહી શકશો અને પોતાનું નામ જર્મનમાં કહી શકશો.",
+  "title_gu": "જર્મન મૂળાક્ષરો અને સ્વરો",
+  "goal_gu": "આ પાઠ પછી તમે જર્મન મૂળાક્ષરો વાંચી શકશો, લાંબા-ટૂંકા સ્વરો ઓળખી શકશો, ä ö ü ß બોલી શકશો અને “Das ist …” જેવા સરળ વાક્ય બોલી શકશો.",
   "vocab": [
     {
-      "id": "ch01-l01-hallo",
-      "de": "Hallo",
-      "gender": null,
-      "gu": "નમસ્તે",
-      "pron_gu": "હાલો",
-      "example_de": "Hallo, ich bin Raj.",
-      "example_gu": "નમસ્તે, હું રાજ છું.",
-      "level": "A1"
-    },
-    {
-      "id": "ch01-l01-mann",
-      "de": "Mann",
-      "gender": "der",
-      "plural": "die Männer",
-      "gu": "પુરુષ",
-      "pron_gu": "માન",
-      "example_de": "Der Mann heißt Lukas.",
-      "example_gu": "તે પુરુષનું નામ લુકાસ છે.",
-      "level": "A1",
-      "tags": ["noun"]
-    },
-    {
-      "id": "ch01-l01-frau",
-      "de": "Frau",
+      "id": "ch01-l01-hand",
+      "de": "Hand",
       "gender": "die",
-      "plural": "die Frauen",
-      "gu": "સ્ત્રી",
-      "pron_gu": "ફ્રાઉ",
-      "example_de": "Die Frau heißt Priya.",
-      "example_gu": "તે સ્ત્રીનું નામ પ્રિયા છે.",
+      "plural": "die Hände",
+      "gu": "હાથ",
+      "pron_gu": "હાન્ટ",
+      "example_de": "Das ist eine Hand.",
+      "example_gu": "આ એક હાથ છે.",
       "level": "A1",
       "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-buch",
+      "de": "Buch",
+      "gender": "das",
+      "plural": "die Bücher",
+      "gu": "પુસ્તક",
+      "pron_gu": "બૂખ",
+      "example_de": "Das ist ein Buch.",
+      "example_gu": "આ એક પુસ્તક છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-haus",
+      "de": "Haus",
+      "gender": "das",
+      "plural": "die Häuser",
+      "gu": "ઘર",
+      "pron_gu": "હાઉસ",
+      "example_de": "Das ist ein Haus.",
+      "example_gu": "આ એક ઘર છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-auto",
+      "de": "Auto",
+      "gender": "das",
+      "plural": "die Autos",
+      "gu": "ગાડી (કાર)",
+      "pron_gu": "આઉટો",
+      "example_de": "Das ist ein Auto.",
+      "example_gu": "આ એક ગાડી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-name",
+      "de": "Name",
+      "gender": "der",
+      "plural": "die Namen",
+      "gu": "નામ",
+      "pron_gu": "નામે",
+      "example_de": "Raj ist ein Name.",
+      "example_gu": "રાજ એક નામ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-mutter",
+      "de": "Mutter",
+      "gender": "die",
+      "plural": "die Mütter",
+      "gu": "માતા (મમ્મી)",
+      "pron_gu": "મુટર",
+      "example_de": "Das ist die Mutter.",
+      "example_gu": "આ માતા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-vater",
+      "de": "Vater",
+      "gender": "der",
+      "plural": "die Väter",
+      "gu": "પિતા (પપ્પા)",
+      "pron_gu": "ફાટર",
+      "example_de": "Das ist der Vater.",
+      "example_gu": "આ પિતા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-maedchen",
+      "de": "Mädchen",
+      "gender": "das",
+      "plural": "die Mädchen",
+      "gu": "છોકરી",
+      "pron_gu": "મેડશેન",
+      "example_de": "Das ist ein Mädchen.",
+      "example_gu": "આ એક છોકરી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-kaese",
+      "de": "Käse",
+      "gender": "der",
+      "gu": "પનીર / ચીઝ",
+      "pron_gu": "કેઝે",
+      "example_de": "Das ist Käse.",
+      "example_gu": "આ ચીઝ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-tuer",
+      "de": "Tür",
+      "gender": "die",
+      "plural": "die Türen",
+      "gu": "દરવાજો",
+      "pron_gu": "ટ્યૂર",
+      "example_de": "Das ist eine Tür.",
+      "example_gu": "આ એક દરવાજો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-strasse",
+      "de": "Straße",
+      "gender": "die",
+      "plural": "die Straßen",
+      "gu": "રસ્તો (શેરી)",
+      "pron_gu": "શ્ટ્રાસે",
+      "example_de": "Das ist eine Straße.",
+      "example_gu": "આ એક રસ્તો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-schoen",
+      "de": "schön",
+      "gender": null,
+      "gu": "સુંદર / સરસ",
+      "pron_gu": "શ્યોન",
+      "example_de": "Das ist schön.",
+      "example_gu": "આ સુંદર છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l01-gross",
+      "de": "groß",
+      "gender": null,
+      "gu": "મોટું",
+      "pron_gu": "ગ્રોસ",
+      "example_de": "Das ist groß.",
+      "example_gu": "આ મોટું છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l01-mued",
+      "de": "müde",
+      "gender": null,
+      "gu": "થાકેલું",
+      "pron_gu": "મ્યૂડે",
+      "example_de": "Raj ist müde.",
+      "example_gu": "રાજ થાકેલો છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch01-l01-fuer",
+      "de": "für",
+      "gender": null,
+      "gu": "માટે",
+      "pron_gu": "ફ્યૂર",
+      "example_de": "Das ist für Anna.",
+      "example_gu": "આ અન્ના માટે છે.",
+      "level": "A1",
+      "tags": ["preposition"]
     }
   ],
   "grammar": [
     {
-      "title_gu": "ક્રિયાપદ sein (છું / છે / છો)",
-      "explanation_gu": "જર્મનમાં \"છું, છે, છો\" માટે *sein* વપરાય છે. વ્યક્તિ પ્રમાણે તેનું રૂપ બદલાય છે.",
+      "title_gu": "જર્મન મૂળાક્ષરો (Alphabet)",
+      "explanation_gu": "જર્મન મૂળાક્ષરો અંગ્રેજી જેવા જ **26 અક્ષરો** છે. તેમાં ચાર વધારાના અક્ષરો છે: **ä, ö, ü** (ઉમલાઉટ) અને **ß** (એસ-ત્સેટ). દરેક અક્ષરનું જર્મન નામ અંગ્રેજી કરતાં જુદું છે, તેથી નામ-સરનામાનો સ્પેલિંગ બોલવા માટે નીચેનું કોષ્ટક શીખો.\n\nકોઈ શબ્દ વાંચવાનો મોટો નિયમ: **જર્મન જેમ લખાય છે તેમ જ બોલાય છે.** અંગ્રેજીની જેમ ગૂંચવણ નથી.",
       "tables": [
         {
-          "headers": ["વ્યક્તિ", "sein"],
+          "headers": ["અક્ષર", "નામ", "અક્ષર", "નામ"],
           "rows": [
-            ["ich", "bin"],
-            ["du", "bist"],
-            ["er / sie / es", "ist"]
+            ["A", "આ", "N", "એન"],
+            ["B", "બે", "O", "ઓ"],
+            ["C", "ત્સે", "P", "પે"],
+            ["D", "દે", "Q", "કૂ"],
+            ["E", "એ", "R", "એર"],
+            ["F", "એફ", "S", "એસ"],
+            ["G", "ગે", "T", "તે"],
+            ["H", "હા", "U", "ઊ"],
+            ["I", "ઈ", "V", "ફાઉ"],
+            ["J", "યોટ", "W", "વે"],
+            ["K", "કા", "X", "ઇક્સ"],
+            ["L", "એલ", "Y", "ઉપ્સિલોન"],
+            ["M", "એમ", "Z", "ત્સેટ"]
           ]
         }
       ],
       "examples": [
         {
-          "de": "Ich bin Raj.",
-          "gu": "હું રાજ છું."
+          "de": "R – A – J",
+          "gu": "રાજ નો સ્પેલિંગ: ર, આ, યોટ",
+          "note_gu": "આ બોલવાની રીત: એર – આ – યોટ"
         },
         {
-          "de": "Du bist Priya.",
-          "gu": "તું પ્રિયા છે."
+          "de": "P – R – I – Y – A",
+          "gu": "પ્રિયા નો સ્પેલિંગ",
+          "note_gu": "પે – એર – ઈ – ઉપ્સિલોન – આ"
         },
         {
-          "de": "Er ist Lukas.",
-          "gu": "તે લુકાસ છે.",
-          "note_gu": "er = તે (પુરુષ)"
+          "de": "Ä, Ö, Ü, ß",
+          "gu": "ચાર ખાસ અક્ષરો",
+          "note_gu": "બોલવાની રીત: એ-ઉમલાઉટ, ઓ-ઉમલાઉટ, ઊ-ઉમલાઉટ, એસ-ત્સેટ"
+        }
+      ]
+    },
+    {
+      "title_gu": "સ્વરો — લાંબા અને ટૂંકા",
+      "explanation_gu": "જર્મનમાં પાંચ સ્વરો **a, e, i, o, u** દરેક **લાંબા** અથવા **ટૂંકા** હોઈ શકે છે. લાંબો સ્વર ખેંચીને બોલાય છે (જેમ “આ”), ટૂંકો ઝડપથી (જેમ “અ”).\n\n**નિયમ (સહેલો):**\n- સ્વર પછી **એક જ વ્યંજન** (કે *h*) હોય → સ્વર **લાંબો**: *Name, Vater, Zahn*\n- સ્વર પછી **બે વ્યંજન** (ડબલ જેમ *tt, nn* પણ) હોય → સ્વર **ટૂંકો**: *Hand, Mutter, Mann*\n- *ß* પહેલાંનો સ્વર **લાંબો** હોય છે: *Straße, groß*\n\nઅર્થ બદલાઈ શકે છે, તેથી લંબાઈ પર ધ્યાન આપો.",
+      "tables": [
+        {
+          "headers": ["સ્વર", "લાંબો (ખેંચીને)", "ટૂંકો (ઝડપથી)"],
+          "rows": [
+            ["a", "Name, Vater", "Hand, Mann"],
+            ["e", "Tee, sehr", "Bett, Hemd"],
+            ["i", "Kino, Tiger", "bitte, mit"],
+            ["o", "Brot, groß", "Sonne, Post"],
+            ["u", "Schuh, Gruß", "Mutter, Hund"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Name",
+          "gu": "લાંબો a: ના-મે"
+        },
+        {
+          "de": "Mann",
+          "gu": "ટૂંકો a: મ-ન્ન"
+        },
+        {
+          "de": "Tee",
+          "gu": "લાંબો e: તે"
+        },
+        {
+          "de": "Bett",
+          "gu": "ટૂંકો e: બે-ટ્ટ"
+        },
+        {
+          "de": "Brot",
+          "gu": "લાંબો o: બ્રોટ"
+        },
+        {
+          "de": "Sonne",
+          "gu": "ટૂંકો o: ઝો-ને"
+        },
+        {
+          "de": "Schuh",
+          "gu": "લાંબો u: શૂ"
+        },
+        {
+          "de": "Mutter",
+          "gu": "ટૂંકો u: મુ-ટર"
+        }
+      ]
+    },
+    {
+      "title_gu": "ä, ö, ü અને ß",
+      "explanation_gu": "આ ચાર અક્ષરો ગુજરાતી કે અંગ્રેજીમાં નથી. ઑડિયો હંમેશા સાચો માર્ગદર્શક છે; ગુજરાતી લિપિની મદદ માત્ર અંદાજ છે.\n\n- **ä** = ગુજરાતી **“એ”** જેવો (Mädchen). *e* જેવો જ બોલાય છે.\n- **ö** = ગુજરાતીમાં **બરાબર એવો અવાજ નથી.** “એ” બોલવાની તૈયારી કરો, પણ હોઠ “ઓ” ની જેમ ગોળ કરો. (schön)\n- **ü** = ગુજરાતીમાં **બરાબર એવો અવાજ નથી.** “ઈ” બોલવાની તૈયારી કરો, પણ હોઠ “ઊ” ની જેમ ગોળ કરો, જાણે સીટી વગાડતા હો. (für)\n- **ß** = તીક્ષ્ણ **“સ”** (Straße). અંગ્રેજી *ss* જેવો.\n\n**કીબોર્ડમાં ન મળે તો:** ä = *ae*, ö = *oe*, ü = *ue*, ß = *ss* લખી શકાય. આ વેબસાઇટ પણ આવા જવાબ સ્વીકારે છે, પણ સાચી જોડણી બતાવે છે.",
+      "tables": [
+        {
+          "headers": ["અક્ષર", "અવાજ", "ગુજરાતી મદદ", "ઉદાહરણ"],
+          "rows": [
+            ["ä", "એ", "એ", "Mädchen → મેડશેન"],
+            ["ö", "ગોળ હોઠ સાથે “એ” (અંદાજ)", "્યો", "schön → શ્યોન"],
+            ["ü", "ગોળ હોઠ સાથે “ઈ” (અંદાજ)", "્યૂ", "für → ફ્યૂર"],
+            ["ß", "તીક્ષ્ણ સ", "સ", "Straße → શ્ટ્રાસે"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mädchen",
+          "gu": "છોકરી (ä = એ)"
+        },
+        {
+          "de": "schön",
+          "gu": "સુંદર (ö = હોઠ ગોળ, “એ”)"
+        },
+        {
+          "de": "für",
+          "gu": "માટે (ü = હોઠ ગોળ, “ઈ”)"
+        },
+        {
+          "de": "Tür",
+          "gu": "દરવાજો (ü)"
+        },
+        {
+          "de": "Straße",
+          "gu": "રસ્તો (ß = સ)"
+        },
+        {
+          "de": "groß",
+          "gu": "મોટું (ß = સ)"
+        }
+      ]
+    },
+    {
+      "title_gu": "Das ist … (આ … છે)",
+      "explanation_gu": "આ પાઠના શબ્દો વાક્યમાં જોવા માટે એક સહેલો નમૂનો: **Das ist …** = “આ … છે”. હાલ તેને એક તૈયાર શબ્દસમૂહ તરીકે શીખો, વિગતવાર સમજૂતી આગળ આવશે.\n\n**નવું (પૂર્વદર્શન):** નામ પહેલાં **ein / eine** = “એક”.\n- **der**- અને **das**-શબ્દો સાથે → **ein** (ein Buch)\n- **die**-શબ્દો સાથે → **eine** (eine Tür)\n\nનામનું લિંગ (der/die/das) પ્રકરણ 3 માં વિગતે શીખીશું. અત્યારે દરેક શબ્દ **article સાથે** યાદ રાખો: *das Haus, die Tür, der Vater*.",
+      "examples": [
+        {
+          "de": "Das ist ein Haus.",
+          "gu": "આ એક ઘર છે."
+        },
+        {
+          "de": "Das ist eine Tür.",
+          "gu": "આ એક દરવાજો છે."
+        },
+        {
+          "de": "Das ist ein Auto.",
+          "gu": "આ એક ગાડી છે."
+        },
+        {
+          "de": "Das ist Käse.",
+          "gu": "આ ચીઝ છે.",
+          "note_gu": "Käse સાથે ein નથી, કારણ કે તે “ગણાય નહીં” તેવી વસ્તુ છે."
+        },
+        {
+          "de": "Das ist schön.",
+          "gu": "આ સુંદર છે."
         }
       ]
     }
@@ -74,141 +345,230 @@
     "lines": [
       {
         "speaker": "Anna",
-        "de": "Hallo! Ich bin Anna.",
-        "gu": "નમસ્તે! હું અન્ના છું."
+        "de": "Das ist ein Haus.",
+        "gu": "આ એક ઘર છે."
       },
       {
         "speaker": "Raj",
-        "de": "Hallo Anna! Ich bin Raj.",
-        "gu": "નમસ્તે અન્ના! હું રાજ છું."
+        "de": "Ja, das ist schön.",
+        "gu": "હા, આ સુંદર છે."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Und das ist ein Auto.",
+        "gu": "અને આ એક ગાડી છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Das Auto ist groß!",
+        "gu": "ગાડી મોટી છે!"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ja, das ist für Lukas.",
+        "gu": "હા, આ લુકાસ માટે છે."
       }
     ]
   },
   "exercises": [
     {
       "type": "mcq",
-      "prompt_gu": "\"હું છું\" ને જર્મનમાં શું કહેવાય?",
-      "options": ["ich bin", "ich ist", "ich bist"],
+      "prompt_gu": "Mädchen શબ્દમાં ä નો અવાજ ગુજરાતીના કયા અવાજ જેવો છે?",
+      "options": ["એ", "ઓ", "ઊ"],
       "answer": 0,
-      "explain_gu": "ich સાથે હંમેશા bin વપરાય છે.",
-      "topic_gu": "ક્રિયાપદ sein"
+      "explain_gu": "ä નો અવાજ “એ” જેવો છે, e ની જેમ બોલાય છે.",
+      "topic_gu": "ઉચ્ચાર"
     },
     {
-      "type": "fill",
-      "sentence_de": "Ich ___ Raj.",
-      "answers": ["bin"],
-      "hint_gu": "ક્રિયાપદ: sein",
-      "explain_gu": "ich સાથે sein નું રૂપ bin થાય છે.",
-      "topic_gu": "ક્રિયાપદ sein"
+      "type": "mcq",
+      "prompt_gu": "ü બોલતી વખતે હોઠ કેવા હોવા જોઈએ?",
+      "options": ["ગોળ, સીટી વગાડતા હો તેમ", "પહોળા, હસતા હો તેમ", "બંધ"],
+      "answer": 0,
+      "explain_gu": "ü માં “ઈ” બોલવાની તૈયારી સાથે હોઠ ગોળ કરવાના છે.",
+      "topic_gu": "ઉચ્ચાર"
     },
     {
-      "type": "fill",
-      "sentence_de": "Du ___ Priya.",
-      "answers": ["bist"],
-      "explain_gu": "du સાથે sein નું રૂપ bist થાય છે.",
-      "topic_gu": "ક્રિયાપદ sein"
+      "type": "mcq",
+      "prompt_gu": "Straße માં ß કયા અવાજ જેવો છે?",
+      "options": ["તીક્ષ્ણ “સ”", "“બ”", "“શ”"],
+      "answer": 0,
+      "explain_gu": "ß એટલે તીક્ષ્ણ s: Straße = શ્ટ્રાસે.",
+      "topic_gu": "ઉચ્ચાર"
     },
     {
-      "type": "article",
-      "noun": "Mann",
-      "answer": "der",
-      "explain_gu": "Mann પુલ્લિંગ છે, તેથી der Mann.",
-      "topic_gu": "નામનું લિંગ (der/die/das)"
+      "type": "mcq",
+      "prompt_gu": "Name શબ્દમાં પહેલો સ્વર a કેવો છે?",
+      "options": ["લાંબો", "ટૂંકો"],
+      "answer": 0,
+      "explain_gu": "a પછી એક જ વ્યંજન (m) છે, તેથી a લાંબો છે.",
+      "topic_gu": "સ્વરની લંબાઈ"
     },
     {
-      "type": "article",
-      "noun": "Frau",
-      "answer": "die",
-      "explain_gu": "Frau સ્ત્રીલિંગ છે, તેથી die Frau.",
-      "topic_gu": "નામનું લિંગ (der/die/das)"
+      "type": "mcq",
+      "prompt_gu": "Mutter શબ્દમાં u કેવો છે?",
+      "options": ["લાંબો", "ટૂંકો"],
+      "answer": 1,
+      "explain_gu": "u પછી બે વ્યંજન (tt) છે, તેથી u ટૂંકો છે.",
+      "topic_gu": "સ્વરની લંબાઈ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ö અને ü માટે સાચું વાક્ય કયું છે?",
+      "options": [
+        "ગુજરાતીમાં બરાબર એવો અવાજ નથી, ઑડિયો સાંભળીને શીખવો",
+        "બંને ગુજરાતીના “ઓ” અને “ઊ” જેવા જ છે",
+        "બંને શબ્દના અંતે જ આવે છે"
+      ],
+      "answer": 0,
+      "explain_gu": "ö અને ü ના અવાજ ગુજરાતીમાં નથી; હોઠ ગોળ કરીને “એ” અને “ઈ” બોલવાનો અંદાજ કરવો.",
+      "topic_gu": "ઉચ્ચાર"
     },
     {
       "type": "match",
       "pairs": [
         {
-          "de": "Hallo",
-          "gu": "નમસ્તે"
+          "de": "Hand",
+          "gu": "હાથ"
         },
         {
-          "de": "Mann",
-          "gu": "પુરુષ"
+          "de": "Buch",
+          "gu": "પુસ્તક"
         },
         {
-          "de": "Frau",
-          "gu": "સ્ત્રી"
+          "de": "Haus",
+          "gu": "ઘર"
+        },
+        {
+          "de": "Tür",
+          "gu": "દરવાજો"
+        },
+        {
+          "de": "Straße",
+          "gu": "રસ્તો"
         }
       ],
-      "explain_gu": "આ ત્રણે શબ્દો આ પાઠના શબ્દભંડોળમાંથી છે.",
+      "explain_gu": "આ બધા શબ્દો આ પાઠના શબ્દભંડોળમાંથી છે.",
       "topic_gu": "શબ્દભંડોળ"
     },
     {
+      "type": "article",
+      "noun": "Vater",
+      "answer": "der",
+      "explain_gu": "Vater પુલ્લિંગ છે, તેથી der Vater.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Tür",
+      "answer": "die",
+      "explain_gu": "Tür સ્ત્રીલિંગ છે, તેથી die Tür.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Mädchen",
+      "answer": "das",
+      "explain_gu": "Mädchen (-chen વાળા શબ્દો) હંમેશા das છે, તેથી das Mädchen.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Das ist ___ Buch.",
+      "answers": ["ein"],
+      "hint_gu": "ein કે eine?",
+      "explain_gu": "Buch das-શબ્દ છે, તેની સાથે “એક” માટે ein વપરાય છે.",
+      "topic_gu": "Das ist …"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Das ist ___ Tür.",
+      "answers": ["eine"],
+      "hint_gu": "ein કે eine?",
+      "explain_gu": "Tür die-શબ્દ છે, તેની સાથે “એક” માટે eine વપરાય છે.",
+      "topic_gu": "Das ist …"
+    },
+    {
       "type": "order",
-      "words": ["bin", "Ich", "Raj."],
-      "answer": "Ich bin Raj.",
-      "gu": "હું રાજ છું.",
-      "explain_gu": "જર્મન વાક્યમાં ક્રિયાપદ બીજા સ્થાને આવે છે: Ich (1) bin (2) Raj.",
-      "topic_gu": "વાક્યરચના"
+      "words": ["Haus.", "ein", "ist", "Das"],
+      "answer": "Das ist ein Haus.",
+      "gu": "આ એક ઘર છે.",
+      "explain_gu": "વાક્ય Das ist … થી શરૂ થાય છે; ક્રિયાપદ ist બીજા સ્થાને છે.",
+      "topic_gu": "Das ist …"
     },
     {
       "type": "listen",
-      "audio_text_de": "Hallo, ich bin Anna.",
-      "question_gu": "જે સાંભળો તે લખો.",
-      "answer": "Hallo, ich bin Anna.",
-      "explain_gu": "વાક્ય Hallo થી શરૂ થાય છે અને ich સાથે bin આવે છે.",
+      "audio_text_de": "Das ist schön.",
+      "question_gu": "કયો શબ્દ સંભળાયો? “Das ist …”",
+      "options": ["schön", "groß", "müde"],
+      "answer": 0,
+      "explain_gu": "વાક્યનો છેલ્લો શબ્દ schön છે (ö વાળો).",
       "topic_gu": "સાંભળીને સમજવું"
     },
     {
       "type": "listen",
-      "audio_text_de": "Er ist Lukas.",
-      "question_gu": "કોણ છે?",
-      "options": ["Raj", "Lukas", "Anna"],
-      "answer": 1,
-      "explain_gu": "સાંભળેલું વાક્ય છે: Er ist Lukas.",
+      "audio_text_de": "Straße",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Straße",
+      "explain_gu": "શબ્દ Straße છે; ß ની જગ્યાએ ss લખશો તો પણ ચાલશે, પણ સાચી જોડણી ß છે.",
       "topic_gu": "સાંભળીને સમજવું"
     },
     {
       "type": "translate",
-      "gu": "તું પ્રિયા છે.",
-      "answers_de": ["Du bist Priya."],
-      "explain_gu": "du (તું) સાથે bist વપરાય છે.",
-      "topic_gu": "ક્રિયાપદ sein"
+      "gu": "આ એક ઘર છે.",
+      "answers_de": ["Das ist ein Haus."],
+      "explain_gu": "Haus das-શબ્દ છે, તેથી ein Haus.",
+      "topic_gu": "Das ist …"
     },
     {
       "type": "speak",
-      "text_de": "Hallo, ich bin Raj.",
-      "gu": "નમસ્તે, હું રાજ છું.",
-      "explain_gu": "Hallo માં h સ્પષ્ટ બોલાય છે.",
-      "topic_gu": "બોલવું"
+      "text_de": "Das Mädchen ist müde.",
+      "gu": "છોકરી થાકેલી છે.",
+      "explain_gu": "ä = એ અને ü માં હોઠ ગોળ રાખો.",
+      "topic_gu": "ઉચ્ચાર"
     },
     {
       "type": "truefalse",
-      "text_de": "Raj: Ich bin Raj. Anna: Ich bin Anna.",
+      "text_de": "Das ist ein Auto. Das Auto ist groß. Das Auto ist für Anna.",
       "statements": [
         {
-          "de": "Raj ist Raj.",
+          "de": "Das Auto ist groß.",
           "answer": true
         },
         {
-          "de": "Anna ist Raj.",
+          "de": "Das Auto ist für Lukas.",
           "answer": false
         }
       ],
-      "explain_gu": "દરેક વ્યક્તિ પોતાનું નામ કહે છે: Raj ist Raj, Anna ist Anna.",
+      "explain_gu": "લખાણમાં ગાડી મોટી છે અને અન્ના માટે છે.",
       "topic_gu": "સાંભળીને સમજવું"
     }
   ],
   "speaking": {
-    "shadowing": ["Hallo!", "Ich bin Raj.", "Du bist Anna."],
-    "prompt_gu": "તમારો પરિચય આપો: \"Hallo, ich bin ...\"."
+    "shadowing": [
+      "Das ist ein Haus.",
+      "Das ist ein Mädchen.",
+      "Das ist schön.",
+      "Die Tür ist groß.",
+      "Das ist für Anna."
+    ],
+    "prompt_gu": "ધીમેથી આ શબ્દો મોટેથી બોલો: Mädchen, schön, Tür, für, Straße. પછી તમારા નામનો સ્પેલિંગ જર્મન અક્ષરોમાં બોલો."
   },
   "writing": {
-    "task_gu": "તમારું નામ લખીને જર્મનમાં પોતાનો પરિચય આપો.",
-    "model_answer_de": "Hallo, ich bin Raj.",
+    "task_gu": "ä, ö, ü, ß માંથી દરેક અક્ષર આવતો હોય એવા ચાર શબ્દો લખો (પાઠમાંથી જોઈ શકો). પછી “Das ist …” થી એક વાક્ય લખો.",
+    "model_answer_de": "Mädchen, schön, Tür, Straße. Das ist eine Tür.",
     "checklist_gu": [
-      "વાક્ય Hallo થી શરૂ થાય છે",
-      "ich પછી bin લખ્યું છે",
-      "વાક્યને અંતે પૂર્ણવિરામ છે"
+      "ચારે ખાસ અક્ષરો (ä ö ü ß) ઉપયોગ કર્યા",
+      "નામ મોટા અક્ષરથી શરૂ કર્યા (Mädchen, Tür, Straße)",
+      "વાક્ય Das ist … થી શરૂ થાય છે અને અંતે પૂર્ણવિરામ છે",
+      "Tür સાથે eine લખ્યું (ein નહીં)"
     ]
   },
-  "summary_gu": ["ich bin = હું છું", "du bist = તું છે", "der Mann, die Frau"]
+  "summary_gu": [
+    "જર્મનમાં 26 અક્ષરો છે, અને ચાર વધારાના: ä ö ü ß.",
+    "જર્મન જેમ લખાય છે તેમ બોલાય છે.",
+    "સ્વર પછી એક વ્યંજન → લાંબો; બે વ્યંજન → ટૂંકો.",
+    "ä ≈ “એ”; ö અને ü ગુજરાતીમાં નથી, હોઠ ગોળ કરવા; ß = તીક્ષ્ણ “સ”.",
+    "નવો શબ્દ હંમેશા article સાથે યાદ રાખો: das Haus, die Tür, der Vater.",
+    "“Das ist …” = “આ … છે”."
+  ]
 }
