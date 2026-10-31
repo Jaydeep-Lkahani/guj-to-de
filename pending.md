@@ -1,7 +1,7 @@
 # pending.md — German (A0 → B2) Learning Website in Gujarati
 
 > **Who reads this file:** the builder model (Claude Sonnet) and the project owner.
-> **Status:** Planning done (by Opus). Building in progress — Steps 1–3 done, next is Step 4.
+> **Status:** Planning done (by Opus). Building in progress — Steps 1–4 done, next is Step 5.
 > **Rule:** Every time a task below is finished, tick its checkbox `[x]` and add a one-line note in the **Change Log** at the bottom.
 
 ---
@@ -399,10 +399,10 @@ Each step = one Sonnet session (or a few). At the end of every step: run build +
 - **Done when:** a broken JSON fails validation with a clear message
 
 ### Step 4 — Lesson page & exercise engine
-- [ ] Lesson page renders all sections from §4
-- [ ] Components for all 9 exercise types
-- [ ] `answer-check.ts`: trim, ignore case for non-nouns, accept `ae/oe/ue/ss` but show correct spelling, ignore final punctuation; unit tests
-- [ ] Feedback UI: correct/wrong + Gujarati explanation, retry
+- [x] Lesson page renders all sections from §4
+- [x] Components for all 9 exercise types
+- [x] `answer-check.ts`: trim, ignore case for non-nouns, accept `ae/oe/ue/ss` but show correct spelling, ignore final punctuation; unit tests
+- [x] Feedback UI: correct/wrong + Gujarati explanation, retry
 - **Done when:** sample lesson fully playable; answer-check tests pass
 
 ### Step 5 — Audio & speaking
@@ -495,3 +495,4 @@ tick the boxes, update the Change Log, and tell me what to check.
 | 2026-10-31 | Step 1 done: Astro 7 + React + TS strict + Tailwind 4 project, fonts, Vitest/ESLint/Prettier, `CLAUDE.md`, banned-word check in `validate:content` (full Zod validation comes in Step 3). |
 | 2026-10-31 | Step 2 done: light/dark theme tokens (incl. der/die/das colours), `ui-gu.json` + typed `t()`, phone bottom nav + desktop side nav, base components (Button, Card, ProgressBar, LevelBadge, Callout, Table), empty shells for all page routes. Lesson shells exist only for Chapter 1 until real content (Step 4/8); `/dev/design` showcase is dev-only. |
 | 2026-10-31 | Step 3 done: Zod schemas in `src/content/schemas.ts` (all 9 exercise types), Astro collections in `src/content.config.ts`, `validate:content` with file + path + message errors, sample chapter fixture, 25 rule tests. **Decisions:** `explain_gu` is required on *every* exercise type (§7.6 says so; the §6 type listing omitted it for match/order/listen/translate/speak/truefalse). `test.json` shape is `{chapter, pass_mark (default 70), exercises}`, optional until a chapter is finished, 25–40 exercises when present. Astro 7 reads collections from `src/content.config.ts`, not `src/content/config.ts`. Astro warns "No files found" until Chapter 1 exists (Step 8). |
+| 2026-10-31 | Step 4 done: lesson page (all §4 sections), 9 exercise components + `ExerciseRunner` (check → feedback → retry / show answer → score = first-try correct), `answer-check.ts` (23 tests), chapter page, chapter-test page, minimal `tts.ts`/`AudioButton` for listening exercises (Step 5 upgrades them). `src/content/chapters/ch01` currently holds a copy of the **sample chapter as placeholder content** — Step 8 replaces it with the real Chapter 1. Speak exercise is "I said it" self-check until Step 5 adds recognition. Answer rules: only *final* punctuation is ignored (commas matter); nouns must be capitalised except a sentence-initial word. Added ä ö ü ß keys under typed answers. Note: the banned-word check also scans code identifiers, so never name variables `phase`. |

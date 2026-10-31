@@ -1,9 +1,14 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Card from '../../components/ui/Card.astro';
 import LevelBadge from '../../components/ui/LevelBadge.astro';
 import { LEVELS, chapterSlug } from '../../lib/chapters';
 import { t } from '../../lib/t';
+
+const titles = new Map(
+  (await getCollection('chapters')).map((m) => [m.data.number, m.data.title_gu] as const),
+);
 ---
 
 <Base title={t('nav.chapters')}>
@@ -20,6 +25,7 @@ import { t } from '../../lib/t';
               <span class="font-semibold">
                 {t('words.chapter')} {n}
               </span>
+              {titles.get(n) && <span class="block text-muted">{titles.get(n)}</span>}
             </Card>
           </li>
         ))}

@@ -1,0 +1,39 @@
+---
+import type { VocabItem } from '../content/schemas';
+import { t } from '../lib/t';
+
+interface Props {
+  item: VocabItem;
+  showPron?: boolean;
+}
+
+const { item, showPron = true } = Astro.props;
+
+const articleStyle = {
+  der: 'bg-der-soft text-der',
+  die: 'bg-die-soft text-die',
+  das: 'bg-das-soft text-das',
+};
+---
+
+<div class="rounded-xl border border-line bg-surface p-4">
+  <p class="flex flex-wrap items-baseline gap-x-2 text-xl font-bold" lang="de">
+    {item.gender && (
+      <span class={`rounded px-1.5 text-base ${articleStyle[item.gender]}`}>{item.gender}</span>
+    )}
+    <span>{item.de}</span>
+    {item.plural && (
+      <span class="text-sm font-normal text-muted">
+        <span lang="gu">{t('lesson.plural')}:</span> {item.plural}
+      </span>
+    )}
+  </p>
+  <p class="mt-1 text-lg">
+    {item.gu}
+    {item.pron_gu && showPron && <span class="ml-2 text-sm text-muted">({item.pron_gu})</span>}
+  </p>
+  <p class="mt-2 text-sm" lang="de">
+    {item.example_de}
+  </p>
+  <p class="text-sm text-muted">{item.example_gu}</p>
+</div>

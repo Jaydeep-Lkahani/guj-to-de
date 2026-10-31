@@ -1,0 +1,169 @@
+{
+  "id": "ch01-l01",
+  "number": 1,
+  "title_gu": "નમસ્તે અને પરિચય",
+  "goal_gu": "આ પાઠ પછી તમે નમસ્તે કહી શકશો અને પોતાનું નામ જર્મનમાં કહી શકશો.",
+  "vocab": [
+    {
+      "id": "ch01-l01-hallo",
+      "de": "Hallo",
+      "gender": null,
+      "gu": "નમસ્તે",
+      "pron_gu": "હાલો",
+      "example_de": "Hallo, ich bin Raj.",
+      "example_gu": "નમસ્તે, હું રાજ છું.",
+      "level": "A1"
+    },
+    {
+      "id": "ch01-l01-mann",
+      "de": "Mann",
+      "gender": "der",
+      "plural": "die Männer",
+      "gu": "પુરુષ",
+      "pron_gu": "માન",
+      "example_de": "Der Mann heißt Lukas.",
+      "example_gu": "તે પુરુષનું નામ લુકાસ છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch01-l01-frau",
+      "de": "Frau",
+      "gender": "die",
+      "plural": "die Frauen",
+      "gu": "સ્ત્રી",
+      "pron_gu": "ફ્રાઉ",
+      "example_de": "Die Frau heißt Priya.",
+      "example_gu": "તે સ્ત્રીનું નામ પ્રિયા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "ક્રિયાપદ sein (છું / છે / છો)",
+      "explanation_gu": "જર્મનમાં \"છું, છે, છો\" માટે *sein* વપરાય છે. વ્યક્તિ પ્રમાણે તેનું રૂપ બદલાય છે.",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "sein"],
+          "rows": [
+            ["ich", "bin"],
+            ["du", "bist"],
+            ["er / sie / es", "ist"]
+          ]
+        }
+      ],
+      "examples": [
+        { "de": "Ich bin Raj.", "gu": "હું રાજ છું." },
+        { "de": "Du bist Priya.", "gu": "તું પ્રિયા છે." },
+        { "de": "Er ist Lukas.", "gu": "તે લુકાસ છે.", "note_gu": "er = તે (પુરુષ)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      { "speaker": "Anna", "de": "Hallo! Ich bin Anna.", "gu": "નમસ્તે! હું અન્ના છું." },
+      { "speaker": "Raj", "de": "Hallo Anna! Ich bin Raj.", "gu": "નમસ્તે અન્ના! હું રાજ છું." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "\"હું છું\" ને જર્મનમાં શું કહેવાય?",
+      "options": ["ich bin", "ich ist", "ich bist"],
+      "answer": 0,
+      "explain_gu": "ich સાથે હંમેશા bin વપરાય છે."
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Raj.",
+      "answers": ["bin"],
+      "hint_gu": "ક્રિયાપદ: sein",
+      "explain_gu": "ich સાથે sein નું રૂપ bin થાય છે."
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ Priya.",
+      "answers": ["bist"],
+      "explain_gu": "du સાથે sein નું રૂપ bist થાય છે."
+    },
+    {
+      "type": "article",
+      "noun": "Mann",
+      "answer": "der",
+      "explain_gu": "Mann પુલ્લિંગ છે, તેથી der Mann."
+    },
+    {
+      "type": "article",
+      "noun": "Frau",
+      "answer": "die",
+      "explain_gu": "Frau સ્ત્રીલિંગ છે, તેથી die Frau."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "Hallo", "gu": "નમસ્તે" },
+        { "de": "Mann", "gu": "પુરુષ" },
+        { "de": "Frau", "gu": "સ્ત્રી" }
+      ],
+      "explain_gu": "આ ત્રણે શબ્દો આ પાઠના શબ્દભંડોળમાંથી છે."
+    },
+    {
+      "type": "order",
+      "words": ["bin", "Ich", "Raj."],
+      "answer": "Ich bin Raj.",
+      "gu": "હું રાજ છું.",
+      "explain_gu": "જર્મન વાક્યમાં ક્રિયાપદ બીજા સ્થાને આવે છે: Ich (1) bin (2) Raj."
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Hallo, ich bin Anna.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Hallo, ich bin Anna.",
+      "explain_gu": "વાક્ય Hallo થી શરૂ થાય છે અને ich સાથે bin આવે છે."
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Er ist Lukas.",
+      "question_gu": "કોણ છે?",
+      "options": ["Raj", "Lukas", "Anna"],
+      "answer": 1,
+      "explain_gu": "સાંભળેલું વાક્ય છે: Er ist Lukas."
+    },
+    {
+      "type": "translate",
+      "gu": "તું પ્રિયા છે.",
+      "answers_de": ["Du bist Priya."],
+      "explain_gu": "du (તું) સાથે bist વપરાય છે."
+    },
+    {
+      "type": "speak",
+      "text_de": "Hallo, ich bin Raj.",
+      "gu": "નમસ્તે, હું રાજ છું.",
+      "explain_gu": "Hallo માં h સ્પષ્ટ બોલાય છે."
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Raj: Ich bin Raj. Anna: Ich bin Anna.",
+      "statements": [
+        { "de": "Raj ist Raj.", "answer": true },
+        { "de": "Anna ist Raj.", "answer": false }
+      ],
+      "explain_gu": "દરેક વ્યક્તિ પોતાનું નામ કહે છે: Raj ist Raj, Anna ist Anna."
+    }
+  ],
+  "speaking": {
+    "shadowing": ["Hallo!", "Ich bin Raj.", "Du bist Anna."],
+    "prompt_gu": "તમારો પરિચય આપો: \"Hallo, ich bin ...\"."
+  },
+  "writing": {
+    "task_gu": "તમારું નામ લખીને જર્મનમાં પોતાનો પરિચય આપો.",
+    "model_answer_de": "Hallo, ich bin Raj.",
+    "checklist_gu": [
+      "વાક્ય Hallo થી શરૂ થાય છે",
+      "ich પછી bin લખ્યું છે",
+      "વાક્યને અંતે પૂર્ણવિરામ છે"
+    ]
+  },
+  "summary_gu": ["ich bin = હું છું", "du bist = તું છે", "der Mann, die Frau"]
+}

@@ -1,29 +1,80 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import EmptyShell from '../../../components/EmptyShell.astro';
 import Button from '../../../components/ui/Button.astro';
+import Card from '../../../components/ui/Card.astro';
 import LevelBadge from '../../../components/ui/LevelBadge.astro';
 import { chapterNumber, chapterNumbers, chapterSlug, levelOf } from '../../../lib/chapters';
 import { t } from '../../../lib/t';
 
-export function getStaticPaths() {
-  return chapterNumbers.map((n) => ({ params: { ch: chapterSlug(n) } }));
+export async function getStaticPaths() {
+  const metas = await getCollection('chapters');
+  const lessons = await getCollection('lessons');
+  const tests = await getCollection('chapterTests');
+  return chapterNumbers.map((n) => {
+    const slug = chapterSlug(n);
+    return {
+      params: { ch: slug },
+      props: {
+        meta: metas.find((m) => m.id === `${slug}/meta`)?.data,
+        lessonList: lessons
+          .filter((l) => l.id.startsWith(`${slug}/`))
+          .map((l) => l.data)
+          .sort((a, b) => a.number - b.number),
+        hasTest: tests.some((x) => x.id === `${slug}/test`),
+      },
+    };
+  });
 }
 
 const { ch } = Astro.params;
+const { meta, lessonList, hasTest } = Astro.props;
 const n = chapterNumber(ch);
 const title = `${t('words.chapter')} ${n}`;
 ---
 
-<Base title={title}>
-  <EmptyShell title={title}>
-    <p class="mb-4">
-      <LevelBadge level={levelOf(n)} />
-    </p>
-    <p class="mb-4">
-      <Button href={`/chapters/${ch}/test/`} variant="secondary">
-        {t('words.chapterTest')}
-      </Button>
-    </p>
-  </EmptyShell>
+<Base title={meta ? `${meta.title_gu} · ${title}` : title}>
+  {meta ? (
+    <>
+      <p class="mb-1 flex items-center gap-2 text-sm font-semibold text-brand">
+        {title} <LevelBadge level={levelOf(n)} />
+      </p>
+      <h1 class="mb-2 text-2xl font-bold">{meta.title_gu}</h1>
+      <p class="mb-6 text-muted">{meta.description_gu}</p>
+
+      <h2 class="mb-2 text-lg font-semibold">{t('lesson.canDo')}</h2>
+      <ul class="mb-6 list-disc space-y-1 pl-5">
+        {meta.can_do_gu.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+
+      <h2 class="mb-3 text-lg font-semibold">{t('lesson.lessons')}</h2>
+      <ul class="mb-6 grid gap-3">
+        {lessonList.map((l) => (
+          <li>
+            <Card href={`/chapters/${ch}/${l.id.slice(5)}/`}>
+              <span class="text-sm text-muted">
+                {t('words.lesson')} {l.number}
+              </span>
+              <span class="block font-semibold">{l.title_gu}</span>
+            </Card>
+          </li>
+        ))}
+      </ul>
+
+      {hasTest && (
+        <Button href={`/chapters/${ch}/test/`} variant="secondary">
+          {t('words.chapterTest')}
+        </Button>
+      )}
+    </>
+  ) : (
+    <EmptyShell title={title}>
+      <p class="mb-4">
+        <LevelBadge level={levelOf(n)} />
+      </p>
+    </EmptyShell>
+  )}
 </Base>
