@@ -1,0 +1,16 @@
+---
+import type { Level } from '../../lib/chapters';
+
+interface Props {
+  level: Level;
+}
+
+const { level } = Astro.props;
+---
+
+<span
+  class="inline-block rounded-md bg-brand-soft px-2 py-0.5 text-xs font-bold tracking-wide text-brand"
+  lang="de"
+>
+  {level}
+</span>

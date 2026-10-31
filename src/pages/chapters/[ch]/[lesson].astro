@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EmptyShell from '../../../components/EmptyShell.astro';
+import { chapterNumber, chapterSlug } from '../../../lib/chapters';
+import { t } from '../../../lib/t';
+
+// Placeholder: only Chapter 1 has lesson shells until real content exists (Step 4 / Step 8).
+export function getStaticPaths() {
+  return [1, 2, 3, 4, 5, 6].map((l) => ({
+    params: { ch: chapterSlug(1), lesson: `l${String(l).padStart(2, '0')}` },
+  }));
+}
+
+const { ch, lesson } = Astro.params;
+const title = `${t('words.chapter')} ${chapterNumber(ch)} · ${t('words.lesson')} ${Number(lesson.slice(1))}`;
+---
+
+<Base title={title}>
+  <EmptyShell title={title} />
+</Base>

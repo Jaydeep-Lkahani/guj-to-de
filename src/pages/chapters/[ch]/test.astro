@@ -1,0 +1,17 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EmptyShell from '../../../components/EmptyShell.astro';
+import { chapterNumber, chapterNumbers, chapterSlug } from '../../../lib/chapters';
+import { t } from '../../../lib/t';
+
+export function getStaticPaths() {
+  return chapterNumbers.map((n) => ({ params: { ch: chapterSlug(n) } }));
+}
+
+const n = chapterNumber(Astro.params.ch);
+const title = `${t('words.chapter')} ${n} · ${t('words.chapterTest')}`;
+---
+
+<Base title={title}>
+  <EmptyShell title={title} />
+</Base>

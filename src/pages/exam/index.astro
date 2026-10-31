@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import EmptyShell from '../../components/EmptyShell.astro';
+import Card from '../../components/ui/Card.astro';
+import { examIds } from '../../lib/exams';
+import { t } from '../../lib/t';
+---
+
+<Base title={t('nav.exams')}>
+  <EmptyShell title={t('nav.exams')}>
+    <ul class="mb-4 grid gap-3 sm:grid-cols-2">
+      {examIds.map((id) => (
+        <li>
+          <Card href={`/exam/${id}/`}>
+            <span lang="de" class="font-semibold">
+              {id.toUpperCase()}
+            </span>
+          </Card>
+        </li>
+      ))}
+    </ul>
+  </EmptyShell>
+</Base>

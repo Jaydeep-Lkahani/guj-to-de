@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EmptyShell from '../../../components/EmptyShell.astro';
+import Button from '../../../components/ui/Button.astro';
+import LevelBadge from '../../../components/ui/LevelBadge.astro';
+import { chapterNumber, chapterNumbers, chapterSlug, levelOf } from '../../../lib/chapters';
+import { t } from '../../../lib/t';
+
+export function getStaticPaths() {
+  return chapterNumbers.map((n) => ({ params: { ch: chapterSlug(n) } }));
+}
+
+const { ch } = Astro.params;
+const n = chapterNumber(ch);
+const title = `${t('words.chapter')} ${n}`;
+---
+
+<Base title={title}>
+  <EmptyShell title={title}>
+    <p class="mb-4">
+      <LevelBadge level={levelOf(n)} />
+    </p>
+    <p class="mb-4">
+      <Button href={`/chapters/${ch}/test/`} variant="secondary">
+        {t('words.chapterTest')}
+      </Button>
+    </p>
+  </EmptyShell>
+</Base>

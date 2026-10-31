@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import EmptyShell from '../components/EmptyShell.astro';
+import { t } from '../lib/t';
+---
+
+<Base title={t('nav.search')}>
+  <EmptyShell title={t('nav.search')} />
+</Base>

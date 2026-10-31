@@ -1,0 +1,52 @@
+---
+// Component showcase for development only: no pages are generated in production builds.
+import Base from '../../layouts/Base.astro';
+import Button from '../../components/ui/Button.astro';
+import Card from '../../components/ui/Card.astro';
+import ProgressBar from '../../components/ui/ProgressBar.astro';
+import LevelBadge from '../../components/ui/LevelBadge.astro';
+import Callout from '../../components/ui/Callout.astro';
+import Table from '../../components/ui/Table.astro';
+
+export function getStaticPaths() {
+  return import.meta.env.DEV ? [{ params: { page: 'design' } }] : [];
+}
+---
+
+<Base title="Design">
+  <h1 class="mb-4 text-2xl font-bold">Design</h1>
+  <div class="flex flex-col gap-6">
+    <div class="flex flex-wrap gap-2">
+      <Button>શરૂ કરો</Button>
+      <Button variant="secondary">પાછળ</Button>
+      <Button variant="ghost">આગળ</Button>
+    </div>
+    <div class="flex gap-2">
+      <LevelBadge level="A1" />
+      <LevelBadge level="A2" />
+      <LevelBadge level="B1" />
+      <LevelBadge level="B2" />
+    </div>
+    <ProgressBar value={60} label="60%" />
+    <Card>કાર્ડ</Card>
+    <Callout title="ટીપ" variant="tip">
+      સાચું જવાબ તપાસો.
+    </Callout>
+    <Callout variant="warn">ધ્યાન રાખો.</Callout>
+    <Callout>માહિતી.</Callout>
+    <p class="flex flex-wrap gap-2 text-xl font-semibold whitespace-nowrap" lang="de">
+      <span class="rounded bg-der-soft px-2 text-der">der Tisch</span>
+      <span class="rounded bg-die-soft px-2 text-die">die Lampe</span>
+      <span class="rounded bg-das-soft px-2 text-das">das Buch</span>
+    </p>
+    <Table
+      lang="de"
+      headers={['Person', 'sein', 'haben']}
+      rows={[
+        ['ich', 'bin', 'habe'],
+        ['du', 'bist', 'hast'],
+        ['er/sie/es', 'ist', 'hat'],
+      ]}
+    />
+  </div>
+</Base>

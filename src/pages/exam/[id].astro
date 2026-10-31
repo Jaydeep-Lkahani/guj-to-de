@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import EmptyShell from '../../components/EmptyShell.astro';
+import { examIds } from '../../lib/exams';
+import { t } from '../../lib/t';
+
+export function getStaticPaths() {
+  return examIds.map((id) => ({ params: { id } }));
+}
+
+const title = `${t('words.exam')} · ${Astro.params.id.toUpperCase()}`;
+---
+
+<Base title={title}>
+  <EmptyShell title={title} />
+</Base>

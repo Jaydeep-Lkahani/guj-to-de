@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/ui/Card.astro';
+import LevelBadge from '../../components/ui/LevelBadge.astro';
+import { LEVELS, chapterSlug } from '../../lib/chapters';
+import { t } from '../../lib/t';
+---
+
+<Base title={t('nav.chapters')}>
+  <h1 class="mb-4 text-2xl font-bold">{t('nav.chapters')}</h1>
+  {LEVELS.map(({ level, from, to }) => (
+    <section class="mb-8">
+      <h2 class="mb-3">
+        <LevelBadge level={level} />
+      </h2>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {Array.from({ length: to - from + 1 }, (_, i) => from + i).map((n) => (
+          <li>
+            <Card href={`/chapters/${chapterSlug(n)}/`}>
+              <span class="font-semibold">
+                {t('words.chapter')} {n}
+              </span>
+            </Card>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

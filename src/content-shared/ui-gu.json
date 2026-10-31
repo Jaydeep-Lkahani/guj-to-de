@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "જર્મન શીખો",
+    "tagline": "ગુજરાતીમાં A0 થી B2 સુધી જર્મન ભાષા"
+  },
+  "nav": {
+    "home": "મુખ્ય",
+    "chapters": "પ્રકરણો",
+    "review": "પુનરાવર્તન",
+    "progress": "પ્રગતિ",
+    "settings": "સેટિંગ્સ",
+    "pronunciation": "ઉચ્ચાર",
+    "exams": "પરીક્ષા અભ્યાસ",
+    "glossary": "વ્યાકરણ શબ્દકોશ",
+    "search": "શબ્દ શોધ",
+    "howToStudy": "અભ્યાસ કેવી રીતે કરવો",
+    "more": "વધુ",
+    "menu": "મુખ્ય મેનુ"
+  },
+  "pages": {
+    "home": "મુખ્ય પાનું",
+    "comingSoon": "આ પાનું ટૂંક સમયમાં તૈયાર થશે."
+  },
+  "theme": {
+    "toggle": "થીમ બદલો"
+  },
+  "words": {
+    "chapter": "પ્રકરણ",
+    "lesson": "પાઠ",
+    "vocabulary": "શબ્દભંડોળ",
+    "grammar": "વ્યાકરણ",
+    "dialogue": "સંવાદ",
+    "practice": "મહાવરો",
+    "test": "કસોટી",
+    "chapterTest": "પ્રકરણ કસોટી",
+    "exam": "પરીક્ષા",
+    "progress": "પ્રગતિ",
+    "pronunciation": "ઉચ્ચાર",
+    "review": "પુનરાવર્તન",
+    "start": "શરૂ કરો",
+    "next": "આગળ",
+    "back": "પાછળ",
+    "checkAnswer": "જવાબ તપાસો",
+    "correct": "સાચું",
+    "wrong": "ખોટું",
+    "tryAgain": "ફરી પ્રયાસ કરો",
+    "completed": "પૂર્ણ",
+    "locked": "લૉક",
+    "listen": "સાંભળો",
+    "speak": "બોલો",
+    "write": "લખો",
+    "read": "વાંચો"
+  }
+}

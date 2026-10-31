@@ -1,0 +1,45 @@
+---
+import { t } from '../lib/t';
+---
+
+<button
+  type="button"
+  data-theme-toggle
+  aria-label={t('theme.toggle')}
+  title={t('theme.toggle')}
+  class="inline-flex size-11 items-center justify-center rounded-lg text-muted hover:bg-surface-2 hover:text-fg"
+>
+  <svg
+    viewBox="0 0 24 24"
+    width="22"
+    height="22"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"></path>
+  </svg>
+</button>
+
+<script>
+  function toggleTheme() {
+    const root = document.documentElement;
+    const isDark = root.dataset.theme
+      ? root.dataset.theme === 'dark'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = isDark ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try {
+      localStorage.setItem('theme', next);
+    } catch {
+      // storage unavailable: the choice just lasts for this page view
+    }
+  }
+
+  document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+    button.addEventListener('click', toggleTheme);
+  });
+</script>

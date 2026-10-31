@@ -1,8 +1,107 @@
 @import 'tailwindcss';
 
-@theme {
+/* Colour tokens: light by default, dark via OS setting or the manual toggle (data-theme). */
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --fg: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+  --brand: #4338ca;
+  --brand-fg: #ffffff;
+  --brand-soft: #e0e7ff;
+  --der: #1d4ed8;
+  --der-soft: #dbeafe;
+  --die: #b91c1c;
+  --die-soft: #fee2e2;
+  --das: #15803d;
+  --das-soft: #dcfce7;
+  --ok: #15803d;
+  --ok-soft: #dcfce7;
+  --bad: #b91c1c;
+  --bad-soft: #fee2e2;
+  --warn: #a16207;
+  --warn-soft: #fef3c7;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0b1220;
+    --surface: #111a2e;
+    --surface-2: #19243b;
+    --fg: #e5e9f2;
+    --muted: #a3aec2;
+    --line: #27344f;
+    --brand: #818cf8;
+    --brand-fg: #0b1220;
+    --brand-soft: #1e2550;
+    --der: #93c5fd;
+    --der-soft: #172554;
+    --die: #fca5a5;
+    --die-soft: #450a0a;
+    --das: #86efac;
+    --das-soft: #052e16;
+    --ok: #86efac;
+    --ok-soft: #052e16;
+    --bad: #fca5a5;
+    --bad-soft: #450a0a;
+    --warn: #fcd34d;
+    --warn-soft: #3b2a05;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1220;
+  --surface: #111a2e;
+  --surface-2: #19243b;
+  --fg: #e5e9f2;
+  --muted: #a3aec2;
+  --line: #27344f;
+  --brand: #818cf8;
+  --brand-fg: #0b1220;
+  --brand-soft: #1e2550;
+  --der: #93c5fd;
+  --der-soft: #172554;
+  --die: #fca5a5;
+  --die-soft: #450a0a;
+  --das: #86efac;
+  --das-soft: #052e16;
+  --ok: #86efac;
+  --ok-soft: #052e16;
+  --bad: #fca5a5;
+  --bad-soft: #450a0a;
+  --warn: #fcd34d;
+  --warn-soft: #3b2a05;
+  color-scheme: dark;
+}
+
+@theme inline {
   --font-sans: 'Inter Variable', 'Noto Sans Gujarati', system-ui, sans-serif;
   --font-gu: 'Noto Sans Gujarati', 'Inter Variable', system-ui, sans-serif;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-soft: var(--brand-soft);
+  --color-der: var(--der);
+  --color-der-soft: var(--der-soft);
+  --color-die: var(--die);
+  --color-die-soft: var(--die-soft);
+  --color-das: var(--das);
+  --color-das-soft: var(--das-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
 }
 
 html {
@@ -13,4 +112,9 @@ html {
 /* German text uses the Latin font so ä ö ü ß render cleanly */
 :lang(de) {
   font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
 }

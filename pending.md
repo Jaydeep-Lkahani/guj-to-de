@@ -1,7 +1,7 @@
 # pending.md — German (A0 → B2) Learning Website in Gujarati
 
 > **Who reads this file:** the builder model (Claude Sonnet) and the project owner.
-> **Status:** Planning done (by Opus). Building in progress — Step 1 done, next is Step 2.
+> **Status:** Planning done (by Opus). Building in progress — Steps 1–2 done, next is Step 3.
 > **Rule:** Every time a task below is finished, tick its checkbox `[x]` and add a one-line note in the **Change Log** at the bottom.
 
 ---
@@ -382,11 +382,11 @@ Each step = one Sonnet session (or a few). At the end of every step: run build +
 - **Done when:** `npm run build` and `npm test` pass, blank Gujarati home page renders on phone width
 
 ### Step 2 — Design system & layout
-- [ ] Mobile-first layout: top bar, bottom nav on phone (મુખ્ય, પ્રકરણો, પુનરાવર્તન, પ્રગતિ, સેટિંગ્સ), side nav on desktop
-- [ ] Light + dark mode
-- [ ] Article colours (der blue / die red / das green) as design tokens
-- [ ] `ui-gu.json` for all UI strings + small `t()` helper
-- [ ] Base components: Button, Card, ProgressBar, LevelBadge, Callout, Table
+- [x] Mobile-first layout: top bar, bottom nav on phone (મુખ્ય, પ્રકરણો, પુનરાવર્તન, પ્રગતિ, સેટિંગ્સ), side nav on desktop
+- [x] Light + dark mode
+- [x] Article colours (der blue / die red / das green) as design tokens
+- [x] `ui-gu.json` for all UI strings + small `t()` helper
+- [x] Base components: Button, Card, ProgressBar, LevelBadge, Callout, Table
 - **Done when:** all pages exist as empty shells with navigation working at 360px width
 
 ### Step 3 — Content schemas & validation
@@ -490,3 +490,4 @@ tick the boxes, update the Change Log, and tell me what to check.
 |---|---|
 | 2026-10-31 | Plan created (Opus 5.5). Defaults chosen for open questions Q1–Q9. |
 | 2026-10-31 | Step 1 done: Astro 7 + React + TS strict + Tailwind 4 project, fonts, Vitest/ESLint/Prettier, `CLAUDE.md`, banned-word check in `validate:content` (full Zod validation comes in Step 3). |
+| 2026-10-31 | Step 2 done: light/dark theme tokens (incl. der/die/das colours), `ui-gu.json` + typed `t()`, phone bottom nav + desktop side nav, base components (Button, Card, ProgressBar, LevelBadge, Callout, Table), empty shells for all page routes. Lesson shells exist only for Chapter 1 until real content (Step 4/8); `/dev/design` showcase is dev-only. |

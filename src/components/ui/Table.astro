@@ -1,0 +1,30 @@
+---
+interface Props {
+  headers: string[];
+  rows: string[][];
+  lang?: string; // set to "de" for tables of German text
+}
+
+const { headers, rows, lang } = Astro.props;
+---
+
+<div class="overflow-x-auto rounded-lg border border-line">
+  <table class="w-full border-collapse text-left" lang={lang}>
+    <thead class="bg-surface-2">
+      <tr>
+        {headers.map((h) => (
+          <th class="px-3 py-2 font-semibold">{h}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr class="border-t border-line">
+          {row.map((cell) => (
+            <td class="px-3 py-2">{cell}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

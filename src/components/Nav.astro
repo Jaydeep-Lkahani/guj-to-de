@@ -1,0 +1,72 @@
+---
+import Icon from './Icon.astro';
+import { isActive, primaryNav, secondaryNav } from '../lib/nav';
+import { t } from '../lib/t';
+
+const pathname = Astro.url.pathname;
+const link = (href: string) =>
+  isActive(href, pathname)
+    ? 'bg-brand-soft text-brand font-semibold'
+    : 'text-muted hover:bg-surface-2 hover:text-fg';
+---
+
+{/* Phone: bottom bar */}
+<nav
+  aria-label={t('nav.menu')}
+  class="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface pb-[env(safe-area-inset-bottom)] md:hidden"
+>
+  <ul class="grid grid-cols-5">
+    {primaryNav.map((item) => (
+      <li>
+        <a
+          href={item.href}
+          aria-current={isActive(item.href, pathname) ? 'page' : undefined}
+          class={`flex min-h-14 flex-col items-center justify-center gap-0.5 px-1 py-1.5 text-[11px] leading-tight ${link(item.href)}`}
+        >
+          <Icon name={item.icon} />
+          <span>{t(item.key)}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+{/* Desktop: side nav */}
+<aside class="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col gap-6 overflow-y-auto border-r border-line bg-surface p-4 md:flex">
+  <a href="/" class="px-3 py-2 text-xl font-bold">
+    {t('app.title')}
+  </a>
+  <nav aria-label={t('nav.menu')} class="flex flex-col gap-6">
+    <ul class="flex flex-col gap-1">
+      {primaryNav.map((item) => (
+        <li>
+          <a
+            href={item.href}
+            aria-current={isActive(item.href, pathname) ? 'page' : undefined}
+            class={`flex items-center gap-3 rounded-lg px-3 py-2.5 ${link(item.href)}`}
+          >
+            <Icon name={item.icon} />
+            <span>{t(item.key)}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <div>
+      <p class="px-3 pb-1 text-sm font-semibold text-muted">{t('nav.more')}</p>
+      <ul class="flex flex-col gap-1">
+        {secondaryNav.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              aria-current={isActive(item.href, pathname) ? 'page' : undefined}
+              class={`flex items-center gap-3 rounded-lg px-3 py-2.5 ${link(item.href)}`}
+            >
+              <Icon name={item.icon} />
+              <span>{t(item.key)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+</aside>

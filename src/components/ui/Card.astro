@@ -1,0 +1,20 @@
+---
+interface Props {
+  href?: string;
+  class?: string;
+}
+
+const { href, class: extra = '' } = Astro.props;
+const base = 'block rounded-xl border border-line bg-surface p-4';
+const classes = href ? `${base} transition hover:border-brand ${extra}` : `${base} ${extra}`;
+---
+
+{href ? (
+  <a href={href} class={classes}>
+    <slot />
+  </a>
+) : (
+  <div class={classes}>
+    <slot />
+  </div>
+)}
