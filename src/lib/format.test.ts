@@ -14,6 +14,6 @@ describe('formatMinutes', () => {
 describe('tf', () => {
   it('fills placeholders and leaves unknown ones alone', () => {
     expect(tf('chapter.testFailed', { n: 70 })).toContain('70%');
-    expect(tf('chapter.lockedBody', { n: 3 })).toContain('{pass}');
+    expect(tf('chapter.testFailed', {})).toContain('{n}');
   });
 });

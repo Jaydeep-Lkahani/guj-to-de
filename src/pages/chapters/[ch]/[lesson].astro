@@ -6,7 +6,6 @@ import Callout from '../../../components/ui/Callout.astro';
 import Table from '../../../components/ui/Table.astro';
 import VocabCard from '../../../components/VocabCard.astro';
 import Dialogue from '../../../components/Dialogue.tsx';
-import ChapterGate from '../../../components/ChapterGate.tsx';
 import LessonComplete from '../../../components/LessonComplete.tsx';
 import LessonPractice from '../../../components/LessonPractice.tsx';
 import StudyTimer from '../../../components/StudyTimer.tsx';
@@ -14,7 +13,6 @@ import AudioButton from '../../../components/AudioButton.tsx';
 import AudioControls from '../../../components/AudioControls.tsx';
 import Recorder from '../../../components/Recorder.tsx';
 import ShadowingList from '../../../components/ShadowingList.tsx';
-import { getCatalog } from '../../../lib/catalog';
 import { chapterNumber } from '../../../lib/chapters';
 import { renderMarkdown } from '../../../lib/markdown';
 import { t } from '../../../lib/t';
@@ -37,7 +35,6 @@ export async function getStaticPaths() {
   });
 }
 
-const catalog = await getCatalog();
 const { ch } = Astro.params;
 const { data, prevId, nextId } = Astro.props;
 const heading = `${t('words.chapter')} ${chapterNumber(ch)} · ${t('words.lesson')} ${data.number}`;
@@ -45,9 +42,8 @@ const lessonHref = (id: string) => `/chapters/${ch}/${id.slice(5)}/`;
 ---
 
 <Base title={`${data.title_gu} · ${heading}`}>
-  <ChapterGate client:load chapter={chapterNumber(ch)} catalog={catalog} />
   <StudyTimer client:load />
-  <div data-gated>
+  <div>
     <p class="mb-1 text-sm text-muted">
       <a href={`/chapters/${ch}/`} class="hover:underline">
         ← {t('lesson.backToChapter')}

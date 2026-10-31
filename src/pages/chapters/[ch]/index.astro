@@ -2,11 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import EmptyShell from '../../../components/EmptyShell.astro';
-import ChapterGate from '../../../components/ChapterGate.tsx';
 import ChapterLessons from '../../../components/ChapterLessons.tsx';
 import Button from '../../../components/ui/Button.astro';
 import LevelBadge from '../../../components/ui/LevelBadge.astro';
-import { getCatalog } from '../../../lib/catalog';
 import { chapterNumber, chapterNumbers, chapterSlug, levelOf } from '../../../lib/chapters';
 import { t } from '../../../lib/t';
 
@@ -30,7 +28,6 @@ export async function getStaticPaths() {
   });
 }
 
-const catalog = await getCatalog();
 const { ch } = Astro.params;
 const { meta, lessonList, hasTest } = Astro.props;
 const n = chapterNumber(ch);
@@ -38,8 +35,7 @@ const title = `${t('words.chapter')} ${n}`;
 ---
 
 <Base title={meta ? `${meta.title_gu} · ${title}` : title}>
-  <ChapterGate client:load chapter={n} catalog={catalog} />
-  <div data-gated>
+  <div>
     {meta ? (
       <>
         <p class="mb-1 flex items-center gap-2 text-sm font-bold text-brand">

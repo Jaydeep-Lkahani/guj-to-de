@@ -3,7 +3,7 @@ import { recordTest } from '../lib/progress-logic';
 import { updateProgress } from '../lib/progress-store';
 import ExerciseRunner from './ExerciseRunner';
 
-/** A chapter test: the score is saved, and passing (≥ pass mark) unlocks the next chapter. */
+/** A chapter test: the score is saved; passing means score ≥ pass mark. Chapters are never locked. */
 export default function ChapterTestRunner({
   chapter,
   chapterTitle,

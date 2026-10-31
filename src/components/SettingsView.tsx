@@ -2,7 +2,7 @@ import { useRef, useState, type ReactNode } from 'react';
 import { exportProgress, importProgress, ProgressError } from '../lib/progress-schema';
 import { localDate } from '../lib/progress-logic';
 import { replaceProgress, resetProgress, updateProgress } from '../lib/progress-store';
-import { t, tf } from '../lib/t';
+import { t } from '../lib/t';
 import AudioControls from './AudioControls';
 import { Btn } from './exercises/ui';
 import { useProgress } from './use-progress';
@@ -45,7 +45,7 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
 
 const field = 'min-h-11 w-full max-w-xs rounded-xl border-2 border-line bg-bg px-3 py-2 text-lg';
 
-export default function SettingsView({ defaultPassMark = 70 }: { defaultPassMark?: number }) {
+export default function SettingsView() {
   const { data, ready, canSave } = useProgress();
   const fileInput = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ text: string; ok: boolean }>();
@@ -138,12 +138,6 @@ export default function SettingsView({ defaultPassMark = 70 }: { defaultPassMark
           />
         </div>
 
-        <Toggle
-          checked={settings.lockChapters}
-          onChange={(lockChapters) => set({ lockChapters })}
-          label={t('settingsPage.lockChapters')}
-          help={tf('settingsPage.lockHelp', { n: defaultPassMark })}
-        />
         <Toggle
           checked={settings.pronHelper}
           onChange={(pronHelper) => set({ pronHelper })}

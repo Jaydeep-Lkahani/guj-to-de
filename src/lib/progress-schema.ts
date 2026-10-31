@@ -30,7 +30,6 @@ const deckSchema = z.record(z.string(), cardStateSchema);
 export const settingsSchema = z.object({
   examDate: date.nullable().default(null),
   dailyGoalMinutes: z.number().int().min(1).max(1440).default(240), // pending.md Q2: 4 h/day
-  lockChapters: z.boolean().default(true),
   pronHelper: z.boolean().default(true), // pending.md Q9
 });
 

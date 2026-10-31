@@ -186,27 +186,6 @@ export function testPassed(data: ProgressData, chapter: number): boolean {
   return data.tests[String(chapter)]?.passed ?? false;
 }
 
-/**
- * The earlier chapter whose unpassed test keeps `chapter` locked, or null if it is open.
- * Chapter 1 is always open. A chapter without a test yet (content not written) does not hold the next one back.
- */
-export function blockingChapter(
-  chapter: number,
-  data: ProgressData,
-  catalog: Catalog,
-): number | null {
-  if (!data.settings.lockChapters) return null;
-  for (let n = 1; n < chapter; n++) {
-    const previous = catalog.find((c) => c.number === n);
-    if (previous?.hasTest && !testPassed(data, n)) return n;
-  }
-  return null;
-}
-
-export function isChapterUnlocked(chapter: number, data: ProgressData, catalog: Catalog): boolean {
-  return blockingChapter(chapter, data, catalog) === null;
-}
-
 export interface ChapterProgress {
   done: number;
   units: number; // lessons plus the test, if there is one
@@ -227,7 +206,7 @@ export type Task =
 /** What to do next: the first unfinished lesson, then the chapter test, then the next chapter. */
 export function nextTask(data: ProgressData, catalog: Catalog): Task | null {
   for (const chapter of catalog) {
-    if (chapter.lessons.length === 0 || !isChapterUnlocked(chapter.number, data, catalog)) continue;
+    if (chapter.lessons.length === 0) continue;
     const lesson = chapter.lessons.find((l) => !lessonDone(data, l.id));
     if (lesson) return { kind: 'lesson', chapter: chapter.number, lesson };
     if (chapter.hasTest && !testPassed(data, chapter.number)) {

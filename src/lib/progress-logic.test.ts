@@ -1,14 +1,12 @@
 import { describe, expect, it } from 'vitest';
 import {
   addDays,
-  blockingChapter,
   addStudySeconds,
   chapterProgress,
   completeLesson,
   computeStreak,
   daysBetween,
   daysUntil,
-  isChapterUnlocked,
   localDate,
   nextTask,
   recentStudy,
@@ -172,63 +170,6 @@ describe('recent study', () => {
       { date: '2026-10-30', minutes: 0 },
       { date: '2026-10-31', minutes: 10 },
     ]);
-  });
-});
-
-describe('unlocking', () => {
-  it('always opens chapter 1', () => {
-    expect(isChapterUnlocked(1, emptyProgress(), catalog)).toBe(true);
-  });
-
-  it('locks chapter 2 until the chapter 1 test is passed', () => {
-    expect(isChapterUnlocked(2, emptyProgress(), catalog)).toBe(false);
-    const failed = recordTest(
-      emptyProgress(),
-      1,
-      { ...result(5, 10), passMark: 70 },
-      at('2026-10-31'),
-    );
-    expect(isChapterUnlocked(2, failed, catalog)).toBe(false);
-    const passed = recordTest(
-      emptyProgress(),
-      1,
-      { ...result(7, 10), passMark: 70 },
-      at('2026-10-31'),
-    );
-    expect(isChapterUnlocked(2, passed, catalog)).toBe(true);
-  });
-
-  it('keeps later chapters locked behind an unpassed chapter', () => {
-    const passed1 = recordTest(
-      emptyProgress(),
-      1,
-      { ...result(9, 10), passMark: 70 },
-      at('2026-10-31'),
-    );
-    expect(isChapterUnlocked(3, passed1, catalog)).toBe(false); // chapter 2 test still open
-  });
-
-  it('does not let a chapter without a test yet hold the next one back', () => {
-    const noTest: Catalog = [{ ...catalog[0], hasTest: false }, catalog[1]];
-    expect(isChapterUnlocked(2, emptyProgress(), noTest)).toBe(true);
-  });
-
-  it('names the chapter whose test is blocking', () => {
-    expect(blockingChapter(1, emptyProgress(), catalog)).toBeNull();
-    expect(blockingChapter(2, emptyProgress(), catalog)).toBe(1);
-    expect(blockingChapter(3, emptyProgress(), catalog)).toBe(1);
-    const passed1 = recordTest(
-      emptyProgress(),
-      1,
-      { ...result(9, 10), passMark: 70 },
-      at('2026-10-31'),
-    );
-    expect(blockingChapter(3, passed1, catalog)).toBe(2);
-  });
-
-  it('opens everything when locking is switched off', () => {
-    const d = withData((x) => ({ ...x, settings: { ...x.settings, lockChapters: false } }));
-    expect(isChapterUnlocked(26, d, catalog)).toBe(true);
   });
 });
 

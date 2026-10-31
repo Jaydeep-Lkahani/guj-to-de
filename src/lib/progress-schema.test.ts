@@ -29,7 +29,6 @@ function filled() {
       ...d.settings,
       examDate: '2027-05-01',
       dailyGoalMinutes: 180,
-      lockChapters: false,
       pronHelper: false,
     },
   };
@@ -39,7 +38,7 @@ describe('emptyProgress', () => {
   it('has the defaults from pending.md', () => {
     expect(emptyProgress()).toMatchObject({
       version: CURRENT_VERSION,
-      settings: { examDate: null, dailyGoalMinutes: 240, lockChapters: true, pronHelper: true },
+      settings: { examDate: null, dailyGoalMinutes: 240, pronHelper: true },
     });
   });
 });
@@ -55,9 +54,16 @@ describe('migrateProgress', () => {
     expect(migrateProgress(raw).settings).toEqual({
       examDate: '2027-05-01',
       dailyGoalMinutes: 240,
-      lockChapters: true,
       pronHelper: true,
     });
+  });
+
+  it('still accepts saves from before chapter locking was removed', () => {
+    const raw = {
+      ...emptyProgress(),
+      settings: { ...emptyProgress().settings, lockChapters: true },
+    };
+    expect(migrateProgress(raw).settings).toEqual(emptyProgress().settings);
   });
 
   it('upgrades version 1 data (no flashcards) and keeps what was saved', () => {

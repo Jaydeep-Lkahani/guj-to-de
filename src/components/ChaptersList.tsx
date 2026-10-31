@@ -1,10 +1,10 @@
 import { LEVELS, chapterSlug } from '../lib/chapters';
-import { chapterProgress, isChapterUnlocked, type Catalog } from '../lib/progress-logic';
+import { chapterProgress, type Catalog } from '../lib/progress-logic';
 import { t } from '../lib/t';
-import { CheckIcon, LockIcon } from './icons';
+import { CheckIcon } from './icons';
 import { useProgress } from './use-progress';
 
-/** All 26 chapters grouped by level, with progress and a lock on chapters that are not open yet. */
+/** All 26 chapters grouped by level, with progress. Every chapter is always open. */
 export default function ChaptersList({ catalog }: { catalog: Catalog }) {
   const { data, ready } = useProgress();
 
@@ -25,7 +25,6 @@ export default function ChaptersList({ catalog }: { catalog: Catalog }) {
             {catalog
               .filter((c) => c.number >= from && c.number <= to)
               .map((chapter) => {
-                const locked = ready && !isChapterUnlocked(chapter.number, data, catalog);
                 const { percent, units } = chapterProgress(chapter, data);
                 const complete = ready && units > 0 && percent === 100;
                 const body = (
@@ -33,30 +32,17 @@ export default function ChaptersList({ catalog }: { catalog: Catalog }) {
                     <span
                       aria-hidden="true"
                       className={`grid size-11 shrink-0 place-items-center rounded-xl text-lg font-extrabold tabular-nums ${
-                        complete
-                          ? 'bg-ok-soft text-ok'
-                          : locked
-                            ? 'bg-surface text-muted'
-                            : 'bg-brand-soft text-brand'
+                        complete ? 'bg-ok-soft text-ok' : 'bg-brand-soft text-brand'
                       }`}
                     >
-                      {complete ? (
-                        <CheckIcon size={22} />
-                      ) : locked ? (
-                        <LockIcon size={20} />
-                      ) : (
-                        chapter.number
-                      )}
+                      {complete ? <CheckIcon size={22} /> : chapter.number}
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="flex items-center justify-between gap-2">
                         <span className="text-sm font-semibold text-muted">
                           {t('words.chapter')} {chapter.number}
                         </span>
-                        {locked && (
-                          <span className="text-xs text-muted">{t('chapter.locked')}</span>
-                        )}
-                        {!locked && ready && units > 0 && (
+                        {ready && units > 0 && (
                           <span className="text-sm font-bold text-brand tabular-nums">
                             {percent}%
                           </span>
@@ -85,21 +71,12 @@ export default function ChaptersList({ catalog }: { catalog: Catalog }) {
                 );
                 return (
                   <li key={chapter.number}>
-                    {locked ? (
-                      <div
-                        aria-disabled="true"
-                        className="block rounded-2xl border border-dashed border-line bg-surface-2 p-4 opacity-75"
-                      >
-                        {body}
-                      </div>
-                    ) : (
-                      <a
-                        href={`/chapters/${chapterSlug(chapter.number)}/`}
-                        className="block rounded-2xl border border-line bg-surface p-4 shadow-soft transition hover:-translate-y-0.5 hover:border-brand hover:shadow-lift"
-                      >
-                        {body}
-                      </a>
-                    )}
+                    <a
+                      href={`/chapters/${chapterSlug(chapter.number)}/`}
+                      className="block rounded-2xl border border-line bg-surface p-4 shadow-soft transition hover:-translate-y-0.5 hover:border-brand hover:shadow-lift"
+                    >
+                      {body}
+                    </a>
                   </li>
                 );
               })}
