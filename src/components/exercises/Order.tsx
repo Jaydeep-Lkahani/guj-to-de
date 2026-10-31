@@ -13,7 +13,7 @@ export default function Order({ exercise, locked, onCheck }: ExerciseProps<'orde
   const word = (id: number) => exercise.words[id];
 
   const tile =
-    'min-h-11 rounded-lg border px-3 py-2 font-semibold transition disabled:cursor-default';
+    'min-h-11 rounded-xl border px-3 py-2 font-semibold transition disabled:cursor-default';
 
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Order({ exercise, locked, onCheck }: ExerciseProps<'orde
       <p className="mt-1 mb-3 text-sm text-muted">{t('practice.tapWords')}</p>
       <div
         lang="de"
-        className="flex min-h-14 flex-wrap gap-2 rounded-lg border border-dashed border-line bg-surface-2 p-2"
+        className="flex min-h-14 flex-wrap gap-2 rounded-xl border border-dashed border-line bg-surface-2 p-2"
       >
         {built.map((id) => (
           <button

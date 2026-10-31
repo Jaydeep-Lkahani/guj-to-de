@@ -1,4 +1,5 @@
 import { t } from '../../lib/t';
+import { CheckIcon, CrossIcon } from '../icons';
 import { Btn } from './ui';
 
 export type FeedbackState = 'right' | 'wrong' | 'revealed';
@@ -28,10 +29,13 @@ export default function Feedback({
   return (
     <div
       role="status"
-      className={`mt-4 rounded-lg border-l-4 p-4 ${right ? 'border-ok bg-ok-soft' : 'border-bad bg-bad-soft'}`}
+      className={`mt-4 rounded-xl border-l-4 p-4 ${right ? 'border-ok bg-ok-soft' : 'border-bad bg-bad-soft'}`}
     >
-      <p className={`font-bold ${right ? 'text-ok' : 'text-bad'}`}>
-        {right ? `✓ ${t('words.correct')}` : `✗ ${t('words.wrong')}`}
+      <p
+        className={`flex items-center gap-2 text-lg font-extrabold ${right ? 'text-ok' : 'text-bad'}`}
+      >
+        {right ? <CheckIcon size={22} /> : <CrossIcon size={22} />}
+        {right ? t('words.correct') : t('words.wrong')}
       </p>
       {note && <p className="mt-1">{note}</p>}
       {state === 'revealed' && answerText && (

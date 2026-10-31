@@ -24,7 +24,7 @@ export default function Article({ exercise, locked, onCheck }: ExerciseProps<'ar
             aria-checked={selected === value}
             disabled={locked}
             onClick={() => setSelected(value)}
-            className={`min-h-12 rounded-lg border-2 text-lg font-bold transition ${
+            className={`min-h-12 rounded-xl border-2 text-lg font-bold transition ${
               selected === value ? on : 'border-line bg-surface hover:border-brand'
             }`}
           >

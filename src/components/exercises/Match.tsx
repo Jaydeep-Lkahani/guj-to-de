@@ -29,7 +29,7 @@ export default function Match({ exercise, locked, onCheck }: ExerciseProps<'matc
   };
 
   const cell = (state: 'matched' | 'picked' | 'miss' | 'idle') =>
-    `min-h-11 w-full rounded-lg border px-3 py-2 text-left font-semibold transition ${
+    `min-h-11 w-full rounded-xl border px-3 py-2 text-left font-semibold transition ${
       state === 'matched'
         ? 'border-ok bg-ok-soft text-ok'
         : state === 'miss'

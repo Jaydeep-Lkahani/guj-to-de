@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { blockingChapter, type Catalog } from '../lib/progress-logic';
 import { t, tf } from '../lib/t';
+import { LockIcon } from './icons';
 import { useProgress } from './use-progress';
 
 /**
@@ -20,14 +21,16 @@ export default function ChapterGate({ chapter, catalog }: { chapter: number; cat
   const blocking = catalog.find((c) => c.number === blocker);
   const slug = `ch${String(blocker).padStart(2, '0')}`;
   return (
-    <div role="alert" className="mb-6 rounded-lg border-l-4 border-warn bg-warn-soft p-4">
-      <p className="font-bold">🔒 {t('chapter.lockedTitle')}</p>
+    <div role="alert" className="mb-6 rounded-xl border-l-4 border-warn bg-warn-soft p-4">
+      <p className="flex items-center gap-2 font-bold">
+        <LockIcon size={20} /> {t('chapter.lockedTitle')}
+      </p>
       <p className="mt-1">
         {tf('chapter.lockedBody', { n: blocker, pass: blocking?.passMark ?? 70 })}
       </p>
       <a
         href={`/chapters/${slug}/test/`}
-        className="mt-3 inline-flex min-h-11 items-center rounded-lg bg-brand px-4 py-2 font-semibold text-brand-fg"
+        className="mt-3 inline-flex min-h-11 items-center rounded-xl bg-brand px-5 py-2 font-bold text-brand-fg shadow-soft"
       >
         {t('chapter.goToTest')}
       </a>

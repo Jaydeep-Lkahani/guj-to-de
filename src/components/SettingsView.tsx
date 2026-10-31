@@ -36,14 +36,14 @@ function Toggle({
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <section className="rounded-xl border border-line bg-surface p-4">
-      <h2 className="mb-4 text-lg font-bold">{title}</h2>
+    <section className="card p-5">
+      <h2 className="section-title mb-4">{title}</h2>
       <div className="flex flex-col gap-5">{children}</div>
     </section>
   );
 }
 
-const field = 'min-h-11 w-full max-w-xs rounded-lg border border-line bg-bg px-3 py-2 text-lg';
+const field = 'min-h-11 w-full max-w-xs rounded-xl border-2 border-line bg-bg px-3 py-2 text-lg';
 
 export default function SettingsView({ defaultPassMark = 70 }: { defaultPassMark?: number }) {
   const { data, ready, canSave } = useProgress();
@@ -90,7 +90,7 @@ export default function SettingsView({ defaultPassMark = 70 }: { defaultPassMark
   return (
     <div className="flex flex-col gap-6">
       {!canSave && (
-        <div role="alert" className="rounded-lg border-l-4 border-warn bg-warn-soft p-4">
+        <div role="alert" className="rounded-xl border-l-4 border-warn bg-warn-soft p-4">
           {t('settingsPage.cannotSave')}
         </div>
       )}

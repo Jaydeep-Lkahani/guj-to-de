@@ -42,20 +42,23 @@ const title = `${t('words.chapter')} ${n}`;
   <div data-gated>
     {meta ? (
       <>
-        <p class="mb-1 flex items-center gap-2 text-sm font-semibold text-brand">
+        <p class="mb-1 flex items-center gap-2 text-sm font-bold text-brand">
           {title} <LevelBadge level={levelOf(n)} />
         </p>
-        <h1 class="mb-2 text-2xl font-bold">{meta.title_gu}</h1>
+        <h1 class="page-title mb-2">{meta.title_gu}</h1>
         <p class="mb-6 text-muted">{meta.description_gu}</p>
 
-        <h2 class="mb-2 text-lg font-semibold">{t('lesson.canDo')}</h2>
-        <ul class="mb-6 list-disc space-y-1 pl-5">
+        <h2 class="section-title">{t('lesson.canDo')}</h2>
+        <ul class="card mb-8 grid gap-2 p-4">
           {meta.can_do_gu.map((item) => (
-            <li>{item}</li>
+            <li class="flex gap-2">
+              <span class="mt-2 size-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>
+              <span>{item}</span>
+            </li>
           ))}
         </ul>
 
-        <h2 class="mb-3 text-lg font-semibold">{t('lesson.lessons')}</h2>
+        <h2 class="section-title">{t('lesson.lessons')}</h2>
         <div class="mb-6">
           <ChapterLessons
             client:load

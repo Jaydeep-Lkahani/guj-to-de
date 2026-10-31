@@ -11,14 +11,15 @@ import {
   type Catalog,
 } from '../lib/progress-logic';
 import { t } from '../lib/t';
+import { CheckIcon } from './icons';
 import StudyChart from './StudyChart';
 import { useProgress } from './use-progress';
 
 function Tile({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-xl border border-line bg-surface p-4">
+    <div className="card p-4">
       <p className="text-sm text-muted">{label}</p>
-      <p className="mt-1 text-xl font-bold tabular-nums">{value}</p>
+      <p className="mt-1 text-2xl font-extrabold tabular-nums">{value}</p>
     </div>
   );
 }
@@ -54,7 +55,7 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
       </div>
 
       <section>
-        <h2 className="mb-3 text-xl font-bold">{t('progressPage.chapterScores')}</h2>
+        <h2 className="section-title">{t('progressPage.chapterScores')}</h2>
         {withContent.length === 0 ? (
           <p className="text-muted">{t('progressPage.noContent')}</p>
         ) : (
@@ -63,7 +64,7 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
               const test = data.tests[String(chapter.number)];
               const { done, units } = chapterProgress(chapter, data);
               return (
-                <li key={chapter.number} className="rounded-xl border border-line bg-surface p-4">
+                <li key={chapter.number} className="card p-4">
                   <p className="font-semibold">
                     {t('words.chapter')} {chapter.number} · {chapter.title}
                   </p>
@@ -83,9 +84,13 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
                             <>
                               <span className="tabular-nums">{Math.round(test.bestPct)}%</span>{' '}
                               <span className={test.passed ? 'text-ok' : 'text-bad'}>
-                                {test.passed
-                                  ? `✓ ${t('progressPage.passed')}`
-                                  : t('progressPage.notPassed')}
+                                {test.passed ? (
+                                  <span className="inline-flex items-center gap-1">
+                                    <CheckIcon size={16} /> {t('progressPage.passed')}
+                                  </span>
+                                ) : (
+                                  t('progressPage.notPassed')
+                                )}
                               </span>
                             </>
                           ) : (
@@ -108,20 +113,20 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
       </section>
 
       <section>
-        <h2 className="mb-1 text-xl font-bold">{t('progressPage.weakTopics')}</h2>
+        <h2 className="section-title">{t('progressPage.weakTopics')}</h2>
         {weak.length > 0 ? (
           <>
             <p className="mb-3 text-muted">{t('progressPage.weakHint')}</p>
             <ul className="grid gap-2">
               {weak.map((topic) => (
-                <li key={topic.topic} className="rounded-lg border border-line bg-surface p-3">
+                <li key={topic.topic} className="card p-3">
                   <div className="flex items-baseline justify-between gap-3">
                     <span className="font-semibold">{topic.topic}</span>
                     <span className="text-sm text-bad tabular-nums">{topic.percent}%</span>
                   </div>
                   <div className="mt-2 h-2 overflow-hidden rounded-full bg-surface-2">
                     <div
-                      className="h-full rounded-full bg-brand"
+                      className="h-full rounded-full bg-gradient-to-r from-brand to-accent"
                       style={{ width: `${topic.percent}%` }}
                     />
                   </div>
@@ -140,7 +145,7 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
       </section>
 
       <section>
-        <h2 className="mb-3 text-xl font-bold">{t('progressPage.studyChart')}</h2>
+        <h2 className="section-title">{t('progressPage.studyChart')}</h2>
         <StudyChart days={recentStudy(data, today, 14)} />
       </section>
     </div>

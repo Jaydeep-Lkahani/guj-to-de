@@ -7,6 +7,6 @@ const catalog = await getCatalog();
 ---
 
 <Base title={t('nav.progress')}>
-  <h1 class="mb-4 text-2xl font-bold">{t('nav.progress')}</h1>
+  <h1 class="page-title mb-5">{t('nav.progress')}</h1>
   <ProgressView client:load catalog={catalog} />
 </Base>

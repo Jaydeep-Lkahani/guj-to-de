@@ -19,7 +19,7 @@ export default function AudioControls() {
         <div
           role="group"
           aria-label={t('audio.speed')}
-          className="inline-flex rounded-lg border border-line bg-surface p-0.5"
+          className="inline-flex rounded-xl border border-line bg-surface p-0.5"
         >
           {speeds.map(({ value, label }) => (
             <button
@@ -37,7 +37,7 @@ export default function AudioControls() {
         </div>
       </div>
       {status !== 'ready' && (
-        <div role="alert" className="rounded-lg border-l-4 border-warn bg-warn-soft p-4">
+        <div role="alert" className="rounded-xl border-l-4 border-warn bg-warn-soft p-4">
           <p className="font-bold">
             {status === 'unsupported' ? t('audio.unsupportedTitle') : t('audio.noVoiceTitle')}
           </p>

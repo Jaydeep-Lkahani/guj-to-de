@@ -11,7 +11,7 @@ export default function ShadowingList({ lines }: { lines: string[] }) {
       {supported === false && <p className="mb-3 text-sm text-muted">{t('speech.fallbackNote')}</p>}
       <ol className="grid gap-3">
         {lines.map((line) => (
-          <li key={line} className="rounded-lg bg-surface-2 p-3">
+          <li key={line} className="rounded-xl border border-line bg-surface p-3 shadow-soft">
             <div className="flex items-center gap-3">
               <AudioButton text={line} />
               <p lang="de" className="text-lg">

@@ -8,12 +8,12 @@ interface Props {
 const { headers, rows, lang } = Astro.props;
 ---
 
-<div class="overflow-x-auto rounded-lg border border-line">
+<div class="overflow-x-auto rounded-xl border border-line shadow-soft">
   <table class="w-full border-collapse text-left" lang={lang}>
-    <thead class="bg-surface-2">
+    <thead class="bg-brand-soft text-brand">
       <tr>
         {headers.map((h) => (
-          <th class="px-3 py-2 font-semibold">{h}</th>
+          <th class="px-3 py-2.5 font-bold">{h}</th>
         ))}
       </tr>
     </thead>

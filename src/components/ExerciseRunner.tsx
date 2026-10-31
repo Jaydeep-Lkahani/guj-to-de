@@ -15,6 +15,7 @@ import Translate from './exercises/Translate';
 import TrueFalse from './exercises/TrueFalse';
 import type { CheckOutcome } from './exercises/types';
 import { Btn } from './exercises/ui';
+import { TrophyIcon } from './icons';
 
 type Status = 'answering' | FeedbackState;
 
@@ -134,9 +135,14 @@ export default function ExerciseRunner({
     const percent = Math.round((score / total) * 100);
     const passed = passMark !== undefined && percent >= passMark;
     return (
-      <div className="rounded-xl border border-line bg-surface p-5 text-center">
-        <p className="text-lg font-bold">{t('practice.done')}</p>
-        <p className="mt-2 text-3xl font-bold text-brand">
+      <div className="card p-6 text-center">
+        <span
+          className={`mx-auto grid size-14 place-items-center rounded-2xl ${passMark === undefined || passed ? 'bg-accent-soft text-accent-text' : 'bg-brand-soft text-brand'}`}
+        >
+          <TrophyIcon size={28} />
+        </span>
+        <p className="mt-3 text-lg font-extrabold">{t('practice.done')}</p>
+        <p className="mt-1 text-4xl font-extrabold text-brand tabular-nums">
           {score} / {total}
         </p>
         <p className="text-muted">
@@ -150,10 +156,7 @@ export default function ExerciseRunner({
         )}
         <div className="mt-4 flex flex-wrap justify-center gap-2">
           {passed && nextHref && (
-            <a
-              href={nextHref}
-              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-4 py-2 font-semibold text-brand-fg hover:opacity-90"
-            >
+            <a href={nextHref} className="btn-accent">
               {t('chapter.nextChapter')} →
             </a>
           )}
@@ -176,7 +179,7 @@ export default function ExerciseRunner({
           className="h-2.5 flex-1 overflow-hidden rounded-full bg-surface-2"
         >
           <div
-            className="h-full rounded-full bg-brand transition-all"
+            className="h-full rounded-full bg-gradient-to-r from-brand to-accent transition-all"
             style={{ width: `${((index + 1) / total) * 100}%` }}
           />
         </div>
@@ -184,7 +187,7 @@ export default function ExerciseRunner({
           {index + 1} / {total}
         </span>
       </div>
-      <div className="rounded-xl border border-line bg-surface p-4">
+      <div className="card p-4 sm:p-5">
         <div key={`${index}-${attempt}`}>
           {renderExercise(exercise, status !== 'answering', onCheck)}
         </div>

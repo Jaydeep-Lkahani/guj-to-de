@@ -40,6 +40,18 @@ export const CheckIcon = (p: IconProps) => (
   </Svg>
 );
 
+export const CrossIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M6 6l12 12M18 6L6 18" />
+  </Svg>
+);
+
+export const MicIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM6 11a6 6 0 0 0 12 0M12 17v4" />
+  </Svg>
+);
+
 export const ArrowIcon = (p: IconProps) => (
   <Svg {...p}>
     <path d="M5 12h14M13 6l6 6-6 6" />

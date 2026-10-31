@@ -66,7 +66,7 @@ export default function StudyChart({ days }: { days: Day[] }) {
                     </span>
                   )}
                   <div
-                    className="w-full max-w-6 rounded-t-[4px] bg-brand"
+                    className="w-full max-w-6 rounded-t-md bg-gradient-to-t from-brand to-[#7a4be0]"
                     style={{ height, margin: '0 1px' }}
                   />
                 </div>
@@ -75,7 +75,7 @@ export default function StudyChart({ days }: { days: Day[] }) {
             {active !== null && (
               <div
                 role="presentation"
-                className="pointer-events-none absolute -top-1 z-10 -translate-x-1/2 -translate-y-full whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-sm shadow-md"
+                className="pointer-events-none absolute -top-1 z-10 -translate-x-1/2 -translate-y-full whitespace-nowrap rounded-xl border border-line bg-surface px-3 py-1.5 text-sm shadow-md"
                 style={{
                   left: `${Math.min(88, Math.max(12, ((active + 0.5) / days.length) * 100))}%`,
                 }}

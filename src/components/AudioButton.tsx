@@ -41,7 +41,9 @@ export default function AudioButton({
       aria-pressed={playing}
       title={disabled ? t('audio.noVoiceTitle') : t('words.listen')}
       className={`inline-flex size-11 shrink-0 items-center justify-center rounded-full transition disabled:opacity-40 ${
-        playing ? 'bg-brand text-brand-fg' : 'bg-brand-soft text-brand hover:opacity-80'
+        playing
+          ? 'bg-brand text-brand-fg'
+          : 'bg-brand-soft text-brand hover:bg-brand hover:text-brand-fg'
       } ${className}`}
     >
       <svg

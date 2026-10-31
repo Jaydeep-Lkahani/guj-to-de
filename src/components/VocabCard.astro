@@ -16,11 +16,13 @@ const articleStyle = {
 };
 ---
 
-<div class="rounded-xl border border-line bg-surface p-4">
+<div class="card h-full p-4 transition hover:-translate-y-0.5 hover:shadow-lift">
   <div class="flex items-start justify-between gap-3">
     <p class="flex flex-wrap items-baseline gap-x-2 text-xl font-bold" lang="de">
       {item.gender && (
-        <span class={`rounded px-1.5 text-base ${articleStyle[item.gender]}`}>{item.gender}</span>
+        <span class={`rounded-md px-1.5 text-base font-bold ${articleStyle[item.gender]}`}>
+          {item.gender}
+        </span>
       )}
       <span>{item.de}</span>
       {item.plural && (

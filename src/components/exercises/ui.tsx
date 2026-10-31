@@ -77,7 +77,7 @@ export function GermanInput({
               key={ch}
               type="button"
               onClick={() => onChange(value + ch)}
-              className="size-11 rounded-lg border border-line bg-surface-2 text-lg font-semibold hover:bg-brand-soft"
+              className="size-11 rounded-xl border border-line bg-surface-2 text-lg font-semibold hover:bg-brand-soft"
             >
               {ch}
             </button>

@@ -5,6 +5,7 @@ import { t } from '../lib/t';
 import { useRecognitionSupported } from './hooks';
 import { Btn } from './exercises/ui';
 import Recorder from './Recorder';
+import { MicIcon } from './icons';
 
 type State = 'idle' | 'listening' | 'done' | 'error';
 
@@ -93,9 +94,15 @@ export default function SpeechChecker({
             {t('speech.listening')}
           </>
         ) : state === 'idle' ? (
-          `🎤 ${t('words.speak')}`
+          <>
+            <MicIcon size={18} className="mr-2" />
+            {t('words.speak')}
+          </>
         ) : (
-          `🎤 ${t('words.tryAgain')}`
+          <>
+            <MicIcon size={18} className="mr-2" />
+            {t('words.tryAgain')}
+          </>
         )}
       </Btn>
       {state === 'error' && error && (

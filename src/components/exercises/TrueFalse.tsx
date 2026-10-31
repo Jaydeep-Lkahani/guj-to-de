@@ -10,7 +10,7 @@ export default function TrueFalse({ exercise, locked, onCheck }: ExerciseProps<'
 
   return (
     <div>
-      <div className="mb-4 flex items-center gap-3 rounded-lg bg-surface-2 p-3">
+      <div className="mb-4 flex items-center gap-3 rounded-xl bg-surface-2 p-3">
         <AudioButton text={exercise.text_de} />
         <p lang="de" className="text-lg">
           {exercise.text_de}
