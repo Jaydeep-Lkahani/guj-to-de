@@ -1,9 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
-import EmptyShell from '../components/EmptyShell.astro';
+import ProgressView from '../components/ProgressView.tsx';
+import { getCatalog } from '../lib/catalog';
 import { t } from '../lib/t';
+const catalog = await getCatalog();
 ---
 
 <Base title={t('nav.progress')}>
-  <EmptyShell title={t('nav.progress')} />
+  <h1 class="mb-4 text-2xl font-bold">{t('nav.progress')}</h1>
+  <ProgressView client:load catalog={catalog} />
 </Base>

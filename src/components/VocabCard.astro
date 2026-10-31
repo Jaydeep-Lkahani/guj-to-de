@@ -5,10 +5,9 @@ import AudioButton from './AudioButton.tsx';
 
 interface Props {
   item: VocabItem;
-  showPron?: boolean;
 }
 
-const { item, showPron = true } = Astro.props;
+const { item } = Astro.props;
 
 const articleStyle = {
   der: 'bg-der-soft text-der',
@@ -34,7 +33,7 @@ const articleStyle = {
   </div>
   <p class="mt-1 text-lg">
     {item.gu}
-    {item.pron_gu && showPron && <span class="ml-2 text-sm text-muted">({item.pron_gu})</span>}
+    {item.pron_gu && <span class="pron-helper ml-2 text-sm text-muted">({item.pron_gu})</span>}
   </p>
   <p class="mt-2 text-sm" lang="de">
     {item.example_de}

@@ -2,9 +2,12 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import EmptyShell from '../../../components/EmptyShell.astro';
-import ExerciseRunner from '../../../components/ExerciseRunner.tsx';
 import AudioControls from '../../../components/AudioControls.tsx';
-import { chapterNumber, chapterNumbers, chapterSlug } from '../../../lib/chapters';
+import ChapterGate from '../../../components/ChapterGate.tsx';
+import ChapterTestRunner from '../../../components/ChapterTestRunner.tsx';
+import StudyTimer from '../../../components/StudyTimer.tsx';
+import { getCatalog } from '../../../lib/catalog';
+import { CHAPTER_COUNT, chapterNumber, chapterNumbers, chapterSlug } from '../../../lib/chapters';
 import { t } from '../../../lib/t';
 
 export async function getStaticPaths() {
@@ -18,21 +21,34 @@ export async function getStaticPaths() {
   });
 }
 
+const catalog = await getCatalog();
 const { test } = Astro.props;
 const n = chapterNumber(Astro.params.ch);
 const title = `${t('words.chapter')} ${n} · ${t('words.chapterTest')}`;
+const nextHref = n < CHAPTER_COUNT ? `/chapters/${chapterSlug(n + 1)}/` : undefined;
 ---
 
 <Base title={title}>
-  {test ? (
-    <>
-      <h1 class="mb-4 text-2xl font-bold">{title}</h1>
-      <div class="mb-6">
-        <AudioControls client:load />
-      </div>
-      <ExerciseRunner client:only="react" exercises={test.exercises} />
-    </>
-  ) : (
-    <EmptyShell title={title} />
-  )}
+  <ChapterGate client:load chapter={n} catalog={catalog} />
+  <div data-gated>
+    {test ? (
+      <>
+        <StudyTimer client:load />
+        <h1 class="mb-4 text-2xl font-bold">{title}</h1>
+        <div class="mb-6">
+          <AudioControls client:load />
+        </div>
+        <ChapterTestRunner
+          client:only="react"
+          chapter={n}
+          chapterTitle={`${t('words.chapter')} ${n}`}
+          exercises={test.exercises}
+          passMark={test.pass_mark}
+          nextHref={nextHref}
+        />
+      </>
+    ) : (
+      <EmptyShell title={title} />
+    )}
+  </div>
 </Base>

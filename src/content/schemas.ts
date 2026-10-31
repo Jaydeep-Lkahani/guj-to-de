@@ -41,7 +41,8 @@ export const grammarBlockSchema = z.object({
 });
 
 // Every exercise needs explain_gu (pending.md §7 rule 6), including types that §6 lists without it.
-const explain = { explain_gu: text };
+// topic_gu (optional) names the topic for the weak-topics list on the progress page.
+const explain = { explain_gu: text, topic_gu: text.optional() };
 
 const mcqSchema = z
   .object({

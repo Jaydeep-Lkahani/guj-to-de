@@ -142,3 +142,8 @@ html {
   padding: 0 0.25rem;
   border-radius: 0.25rem;
 }
+
+/* Settings → pronunciation helper off */
+html[data-pron='off'] .pron-helper {
+  display: none;
+}

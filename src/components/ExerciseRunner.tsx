@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import type { Exercise } from '../content/schemas';
 import { correctAnswerText } from '../lib/exercise-utils';
-import { t } from '../lib/t';
+import type { PracticeResult } from '../lib/progress-logic';
+import { t, tf } from '../lib/t';
 import Article from './exercises/Article';
 import Feedback, { type FeedbackState } from './exercises/Feedback';
 import Fill from './exercises/Fill';
@@ -42,7 +43,25 @@ function renderExercise(ex: Exercise, locked: boolean, onCheck: (o: CheckOutcome
 }
 
 /** Plays a list of exercises one at a time: check → feedback → retry / next. Score = right on first try. */
-export default function ExerciseRunner({ exercises }: { exercises: Exercise[] }) {
+interface Props {
+  exercises: Exercise[];
+  /** Topic recorded for exercises that have no topic_gu of their own. */
+  fallbackTopic?: string;
+  /** With a pass mark (chapter tests) the summary says whether the learner passed. */
+  passMark?: number;
+  /** Where "next chapter" leads after passing a test. */
+  nextHref?: string;
+  /** Called once each time the learner finishes the last exercise. */
+  onComplete?: (result: PracticeResult) => void;
+}
+
+export default function ExerciseRunner({
+  exercises,
+  fallbackTopic = '',
+  passMark,
+  nextHref,
+  onComplete,
+}: Props) {
   const [index, setIndex] = useState(0);
   const [status, setStatus] = useState<Status>('answering');
   const [note, setNote] = useState<string>();
@@ -87,6 +106,14 @@ export default function ExerciseRunner({ exercises }: { exercises: Exercise[] })
 
   const onNext = () => {
     if (isLast) {
+      onComplete?.({
+        correct: results.filter(Boolean).length,
+        total,
+        topics: exercises.map((ex, i) => ({
+          topic: ex.topic_gu ?? fallbackTopic,
+          correct: results[i] ?? false,
+        })),
+      });
       setSummary(true);
       return;
     }
@@ -104,16 +131,36 @@ export default function ExerciseRunner({ exercises }: { exercises: Exercise[] })
 
   if (summary) {
     const score = results.filter(Boolean).length;
+    const percent = Math.round((score / total) * 100);
+    const passed = passMark !== undefined && percent >= passMark;
     return (
       <div className="rounded-xl border border-line bg-surface p-5 text-center">
         <p className="text-lg font-bold">{t('practice.done')}</p>
         <p className="mt-2 text-3xl font-bold text-brand">
           {score} / {total}
         </p>
-        <p className="text-muted">{t('practice.score')}</p>
-        <Btn className="mt-4" onClick={restart}>
-          {t('practice.again')}
-        </Btn>
+        <p className="text-muted">
+          {t('practice.score')}
+          {passMark !== undefined && ` · ${percent}%`}
+        </p>
+        {passMark !== undefined && (
+          <p className={`mt-3 font-semibold ${passed ? 'text-ok' : 'text-bad'}`} role="status">
+            {passed ? t('chapter.testPassed') : tf('chapter.testFailed', { n: passMark })}
+          </p>
+        )}
+        <div className="mt-4 flex flex-wrap justify-center gap-2">
+          {passed && nextHref && (
+            <a
+              href={nextHref}
+              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-4 py-2 font-semibold text-brand-fg hover:opacity-90"
+            >
+              {t('chapter.nextChapter')} →
+            </a>
+          )}
+          <Btn variant={passed && nextHref ? 'secondary' : 'primary'} onClick={restart}>
+            {t('practice.again')}
+          </Btn>
+        </div>
       </div>
     );
   }

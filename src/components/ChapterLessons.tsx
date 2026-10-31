@@ -1,0 +1,50 @@
+import { t } from '../lib/t';
+import { useProgress } from './use-progress';
+
+interface Item {
+  id: string;
+  number: number;
+  title: string;
+  href: string;
+}
+
+/** The lessons of a chapter, with a tick for finished ones and the last practice score. */
+export default function ChapterLessons({ lessons }: { lessons: Item[] }) {
+  const { data, ready } = useProgress();
+  return (
+    <ul className="grid gap-3">
+      {lessons.map((lesson) => {
+        const record = ready ? data.lessons[lesson.id] : undefined;
+        return (
+          <li key={lesson.id}>
+            <a
+              href={lesson.href}
+              className="flex items-center gap-3 rounded-xl border border-line bg-surface p-4 transition hover:border-brand"
+            >
+              <span
+                aria-hidden="true"
+                className={`flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
+                  record?.completedOn ? 'bg-ok-soft text-ok' : 'bg-surface-2 text-muted'
+                }`}
+              >
+                {record?.completedOn ? '✓' : lesson.number}
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-sm text-muted">
+                  {t('words.lesson')} {lesson.number}
+                  {record?.completedOn && ` · ${t('words.completed')}`}
+                </span>
+                <span className="block font-semibold">{lesson.title}</span>
+                {record?.practice && (
+                  <span className="block text-sm text-muted">
+                    {t('chapter.practiceScore')}: {record.practice.correct}/{record.practice.total}
+                  </span>
+                )}
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}

@@ -30,6 +30,15 @@ const fullTitle = title === t('app.title') ? title : `${title} · ${t('app.title
       } catch {
         // storage unavailable: fall back to the OS theme
       }
+      try {
+        // pronunciation helper setting lives in the saved progress (see src/lib/progress-store.ts)
+        const progress = JSON.parse(localStorage.getItem('guj-de:progress') || 'null');
+        if (progress && progress.settings && progress.settings.pronHelper === false) {
+          document.documentElement.dataset.pron = 'off';
+        }
+      } catch {
+        // no saved settings: helper stays on
+      }
     </script>
   </head>
   <body class="min-h-dvh bg-bg text-fg">

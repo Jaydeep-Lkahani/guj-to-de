@@ -15,3 +15,10 @@ export function t(key: UiKey): string {
   if (typeof node !== 'string') throw new Error(`Missing UI string: ${key}`);
   return node;
 }
+
+/** Like t(), filling {name} placeholders, e.g. tf('chapter.testFailed', { n: 70 }). */
+export function tf(key: UiKey, vars: Record<string, string | number>): string {
+  return t(key).replace(/\{(\w+)\}/g, (match, name: string) =>
+    name in vars ? String(vars[name]) : match,
+  );
+}
