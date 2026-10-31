@@ -1,0 +1,568 @@
+{
+  "id": "ch02-l04",
+  "number": 4,
+  "title_gu": "નિયમિત ક્રિયાપદો: વર્તમાનકાળ",
+  "goal_gu": "આ પાઠ પછી તમે કોઈ પણ નિયમિત ક્રિયાપદ બધી વ્યક્તિઓ સાથે સાચા અંતથી બોલી શકશો, gern થી તમારા શોખ કહી શકશો અને બીજાને તેમનાં કામ અને શોખ વિશે પૂછી શકશો.",
+  "vocab": [
+    {
+      "id": "ch02-l04-machen",
+      "de": "machen",
+      "gender": null,
+      "gu": "કરવું, બનાવવું",
+      "pron_gu": "માખન",
+      "example_de": "Was machst du?",
+      "example_gu": "તું શું કરે છે?",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch02-l04-arbeiten",
+      "de": "arbeiten",
+      "gender": null,
+      "gu": "કામ કરવું",
+      "pron_gu": "આર્બાઇટન",
+      "example_de": "Raj arbeitet in München.",
+      "example_gu": "રાજ મ્યુનિકમાં કામ કરે છે.",
+      "level": "A1",
+      "tags": ["verb", "work"]
+    },
+    {
+      "id": "ch02-l04-warten",
+      "de": "warten",
+      "gender": null,
+      "gu": "રાહ જોવી",
+      "pron_gu": "વાર્ટન",
+      "example_de": "Priya wartet.",
+      "example_gu": "પ્રિયા રાહ જુએ છે.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch02-l04-spielen",
+      "de": "spielen",
+      "gender": null,
+      "gu": "રમવું, વગાડવું",
+      "pron_gu": "શ્પીલન",
+      "example_de": "Raj spielt gern Kricket.",
+      "example_gu": "રાજને ક્રિકેટ રમવું ગમે છે.",
+      "level": "A1",
+      "tags": ["verb", "hobby"]
+    },
+    {
+      "id": "ch02-l04-kochen",
+      "de": "kochen",
+      "gender": null,
+      "gu": "રાંધવું",
+      "pron_gu": "કોખન",
+      "example_de": "Priya kocht gern.",
+      "example_gu": "પ્રિયાને રાંધવું ગમે છે.",
+      "level": "A1",
+      "tags": ["verb", "hobby"]
+    },
+    {
+      "id": "ch02-l04-hoeren",
+      "de": "hören",
+      "gender": null,
+      "gu": "સાંભળવું",
+      "pron_gu": "હ્યોરન",
+      "example_de": "Ich höre Musik.",
+      "example_gu": "હું સંગીત સાંભળું છું.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch02-l04-kaufen",
+      "de": "kaufen",
+      "gender": null,
+      "gu": "ખરીદવું",
+      "pron_gu": "કાઉફન",
+      "example_de": "Wir kaufen Brot.",
+      "example_gu": "અમે બ્રેડ ખરીદીએ છીએ.",
+      "level": "A1",
+      "tags": ["verb", "shopping"]
+    },
+    {
+      "id": "ch02-l04-trinken",
+      "de": "trinken",
+      "gender": null,
+      "gu": "પીવું",
+      "pron_gu": "ટ્રિન્કન",
+      "example_de": "Lukas trinkt Kaffee.",
+      "example_gu": "લુકાસ કૉફી પીએ છે.",
+      "level": "A1",
+      "tags": ["verb", "food"]
+    },
+    {
+      "id": "ch02-l04-studieren",
+      "de": "studieren",
+      "gender": null,
+      "gu": "(યુનિવર્સિટીમાં) ભણવું",
+      "pron_gu": "શ્ટુડીરન",
+      "example_de": "Priya studiert Informatik.",
+      "example_gu": "પ્રિયા કમ્પ્યુટર સાયન્સ ભણે છે.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch02-l04-schreiben",
+      "de": "schreiben",
+      "gender": null,
+      "gu": "લખવું",
+      "pron_gu": "શ્રાઇબન",
+      "example_de": "Anna schreibt eine E-Mail.",
+      "example_gu": "અન્ના એક ઈમેલ લખે છે.",
+      "level": "A1",
+      "tags": ["verb"]
+    },
+    {
+      "id": "ch02-l04-tanzen",
+      "de": "tanzen",
+      "gender": null,
+      "gu": "નાચવું",
+      "pron_gu": "ટાન્ત્સન",
+      "example_de": "Tanzt du gern?",
+      "example_gu": "તને નાચવું ગમે છે?",
+      "level": "A1",
+      "tags": ["verb", "hobby"]
+    },
+    {
+      "id": "ch02-l04-gern",
+      "de": "gern",
+      "gender": null,
+      "gu": "ગમવું, રાજીખુશીથી",
+      "pron_gu": "ગેર્ન",
+      "example_de": "Ich spiele gern Fußball.",
+      "example_gu": "મને ફૂટબોલ રમવું ગમે છે.",
+      "level": "A1",
+      "tags": ["hobby"]
+    },
+    {
+      "id": "ch02-l04-musik",
+      "de": "Musik",
+      "gender": "die",
+      "gu": "સંગીત",
+      "pron_gu": "મુઝીક",
+      "example_de": "Hörst du gern Musik?",
+      "example_gu": "તને સંગીત સાંભળવું ગમે છે?",
+      "level": "A1",
+      "tags": ["noun", "hobby"]
+    },
+    {
+      "id": "ch02-l04-tee",
+      "de": "Tee",
+      "gender": "der",
+      "gu": "ચા",
+      "pron_gu": "ટે",
+      "example_de": "Ich trinke gern Tee.",
+      "example_gu": "મને ચા પીવી ગમે છે.",
+      "level": "A1",
+      "tags": ["noun", "food"]
+    },
+    {
+      "id": "ch02-l04-fussball",
+      "de": "Fußball",
+      "gender": "der",
+      "plural": "die Fußbälle",
+      "gu": "ફૂટબોલ",
+      "pron_gu": "ફૂસબાલ",
+      "example_de": "Lukas spielt Fußball.",
+      "example_gu": "લુકાસ ફૂટબોલ રમે છે.",
+      "level": "A1",
+      "tags": ["noun", "hobby"]
+    },
+    {
+      "id": "ch02-l04-kricket",
+      "de": "Kricket",
+      "gender": "das",
+      "gu": "ક્રિકેટ",
+      "pron_gu": "ક્રિકેટ",
+      "example_de": "Raj und Priya spielen Kricket.",
+      "example_gu": "રાજ અને પ્રિયા ક્રિકેટ રમે છે.",
+      "level": "A1",
+      "tags": ["noun", "hobby"]
+    },
+    {
+      "id": "ch02-l04-informatik",
+      "de": "Informatik",
+      "gender": "die",
+      "gu": "કમ્પ્યુટર સાયન્સ",
+      "pron_gu": "ઇન્ફોર્માટિક",
+      "example_de": "Ich studiere Informatik.",
+      "example_gu": "હું કમ્પ્યુટર સાયન્સ ભણું છું.",
+      "level": "A1",
+      "tags": ["noun", "work"]
+    },
+    {
+      "id": "ch02-l04-e-mail",
+      "de": "E-Mail",
+      "gender": "die",
+      "plural": "die E-Mails",
+      "gu": "ઈમેલ",
+      "pron_gu": "ઈમેલ",
+      "example_de": "Ich schreibe eine E-Mail.",
+      "example_gu": "હું એક ઈમેલ લખું છું.",
+      "level": "A1",
+      "tags": ["noun", "work"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "નિયમિત ક્રિયાપદ: મૂળ + અંત",
+      "explanation_gu": "જર્મન ક્રિયાપદ શબ્દકોશમાં **-en** થી પૂરું થાય છે: *mach**en***, *spiel**en***, *lern**en***. આ **મૂળ રૂપ (Infinitiv)** છે.\n\n**-en કાઢો, તો મૂળ (stem) મળે:** *mach-*, *spiel-*. પછી વ્યક્તિ પ્રમાણે અંત ઉમેરો. પ્રકરણ 1 માં *lernen, wohnen, kommen* સાથે આ અંત જોયા હતા; હવે આ નિયમ **બધાં નિયમિત ક્રિયાપદો** માટે છે.\n\nગુજરાતીમાં પણ આવું જ થાય છે: હું રમ**ું**, તું રમ**ે**, અમે રમ**ીએ**. મૂળ “રમ” એ જ રહે, માત્ર અંત બદલાય!\n\n**યાદ રાખવાની ટૂંકી રીત:** *-e, -st, -t, -en, -t, -en*.\n- *er/sie/es* અને *ihr* નો અંત સરખો: **-t**\n- *wir, sie* અને *Sie* નું રૂપ મૂળ રૂપ જેવું જ: **-en**",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "અંત", "machen", "spielen", "hören"],
+          "rows": [
+            ["ich", "-e", "mache", "spiele", "höre"],
+            ["du", "-st", "machst", "spielst", "hörst"],
+            ["er / sie / es", "-t", "macht", "spielt", "hört"],
+            ["wir", "-en", "machen", "spielen", "hören"],
+            ["ihr", "-t", "macht", "spielt", "hört"],
+            ["sie / Sie", "-en", "machen", "spielen", "hören"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Was machst du?",
+          "gu": "તું શું કરે છે?"
+        },
+        {
+          "de": "Ich höre Musik.",
+          "gu": "હું સંગીત સાંભળું છું."
+        },
+        {
+          "de": "Lukas spielt Fußball.",
+          "gu": "લુકાસ ફૂટબોલ રમે છે."
+        },
+        {
+          "de": "Wir kaufen Brot.",
+          "gu": "અમે બ્રેડ ખરીદીએ છીએ."
+        },
+        {
+          "de": "Ihr kocht gut!",
+          "gu": "તમે સરસ રાંધો છો!",
+          "note_gu": "ihr: -t (er જેવો જ અંત)"
+        },
+        {
+          "de": "Trinken Sie Tee?",
+          "gu": "આપ ચા પીઓ છો?"
+        }
+      ]
+    },
+    {
+      "title_gu": "ખાસ અંત: arbeiten, warten અને tanzen",
+      "explanation_gu": "**1. મૂળ -t કે -d થી પૂરું થાય** (*arbeit-*, *wart-*): *du*, *er/sie/es* અને *ihr* માં વચ્ચે **-e-** ઉમેરાય, જેથી બોલવામાં સહેલું પડે: *du arbeit**e**st*, *er arbeit**e**t*, *ihr arbeit**e**t*. પાઠ 2 નું *kosten* પણ આવું જ છે: *es kost**e**t*.\n\n**2. મૂળ -s, -ß કે -z થી પૂરું થાય** (*tanz-*, *heiß-*): *du* સાથે માત્ર **-t** ઉમેરાય (s બે વાર નહીં): *du tanz**t***, *du heiß**t***.\n\n**3. -ieren વાળાં ક્રિયાપદ** (*studieren*) પૂરેપૂરાં નિયમિત છે: *ich studiere, du studierst, er studiert …* (ભાર *ie* પર: શ્ટુ**ડી**રન).",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "arbeiten", "warten", "tanzen"],
+          "rows": [
+            ["ich", "arbeite", "warte", "tanze"],
+            ["du", "arbeitest", "wartest", "tanzt"],
+            ["er / sie / es", "arbeitet", "wartet", "tanzt"],
+            ["wir", "arbeiten", "warten", "tanzen"],
+            ["ihr", "arbeitet", "wartet", "tanzt"],
+            ["sie / Sie", "arbeiten", "warten", "tanzen"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Raj arbeitet in München.",
+          "gu": "રાજ મ્યુનિકમાં કામ કરે છે.",
+          "note_gu": "arbeit + e + t"
+        },
+        {
+          "de": "Wo arbeitest du?",
+          "gu": "તું ક્યાં કામ કરે છે?",
+          "note_gu": "arbeit + e + st"
+        },
+        {
+          "de": "Anna wartet.",
+          "gu": "અન્ના રાહ જુએ છે."
+        },
+        {
+          "de": "Tanzt du gern?",
+          "gu": "તને નાચવું ગમે છે?",
+          "note_gu": "du tanzt (tanzst નહીં)"
+        },
+        {
+          "de": "Priya studiert Informatik.",
+          "gu": "પ્રિયા કમ્પ્યુટર સાયન્સ ભણે છે."
+        }
+      ]
+    },
+    {
+      "title_gu": "gern: “મને … ગમે છે”",
+      "explanation_gu": "ગુજરાતીમાં કહીએ “મને ક્રિકેટ રમવું **ગમે છે**”. જર્મનમાં સીધું ક્રિયાપદ વાપરીને તેની સાથે **gern** (રાજીખુશીથી) મૂકાય: *Ich spiele **gern** Kricket.* (શબ્દશઃ: હું રાજીખુશીથી ક્રિકેટ રમું છું.)\n\n**gern ક્રિયાપદ પછી આવે છે:** *Ich koche gern.* (મને રાંધવું ગમે છે.)\n\n**પૂછવું:** *Was machst du gern?* (તને શું કરવું ગમે છે?) અથવા હા/ના પ્રશ્ન: *Spielst du gern Fußball?*\n\n**કામ વિશે પૂછવું:** *Was machst du?* (તું શું કરે છે?), *Wo arbeitest du?* (તું ક્યાં કામ કરે છે?), *Was studierst du?* (તું શું ભણે છે?)",
+      "examples": [
+        {
+          "de": "Ich spiele gern Kricket.",
+          "gu": "મને ક્રિકેટ રમવું ગમે છે."
+        },
+        {
+          "de": "Priya kocht gern.",
+          "gu": "પ્રિયાને રાંધવું ગમે છે."
+        },
+        {
+          "de": "Was machst du gern?",
+          "gu": "તને શું કરવું ગમે છે?"
+        },
+        {
+          "de": "Hörst du gern Musik?",
+          "gu": "તને સંગીત સાંભળવું ગમે છે?"
+        },
+        {
+          "de": "Was trinkst du gern? – Tee.",
+          "gu": "તને શું પીવું ગમે છે? – ચા."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Priya, was machst du in Deutschland?",
+        "gu": "પ્રિયા, તું જર્મનીમાં શું કરે છે?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Ich studiere Informatik in Berlin. Und du? Arbeitest du?",
+        "gu": "હું બર્લિનમાં કમ્પ્યુટર સાયન્સ ભણું છું. અને તું? તું કામ કરે છે?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ja, ich arbeite in Berlin. Ich bin Ingenieur.",
+        "gu": "હા, હું બર્લિનમાં કામ કરું છું. હું ઇજનેર છું."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Und was machst du gern?",
+        "gu": "અને તને શું કરવું ગમે છે?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ich spiele gern Fußball. Und du?",
+        "gu": "મને ફૂટબોલ રમવું ગમે છે. અને તને?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Ich koche gern und ich höre gern Musik.",
+        "gu": "મને રાંધવું ગમે છે અને સંગીત સાંભળવું ગમે છે."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Spielst du auch Kricket?",
+        "gu": "તું ક્રિકેટ પણ રમે છે?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Ja! Raj und ich spielen gern Kricket.",
+        "gu": "હા! રાજને અને મને ક્રિકેટ રમવું ગમે છે."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ gern Kricket.",
+      "answers": ["spiele"],
+      "hint_gu": "spielen",
+      "explain_gu": "ich સાથે અંત -e: spiel + e = spiele.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ Musik.",
+      "answers": ["hörst"],
+      "hint_gu": "hören",
+      "explain_gu": "du સાથે અંત -st: hör + st = hörst.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Er ___ in Berlin.",
+      "answers": ["arbeitet"],
+      "hint_gu": "arbeiten",
+      "explain_gu": "મૂળ arbeit- t થી પૂરું થાય છે, એટલે er સાથે વચ્ચે e: arbeit + e + t = arbeitet.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ Tee.",
+      "answers": ["trinken"],
+      "hint_gu": "trinken",
+      "explain_gu": "wir સાથે અંત -en, એટલે મૂળ રૂપ જેવું જ: trinken.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wo ___ du?",
+      "answers": ["arbeitest"],
+      "hint_gu": "arbeiten",
+      "explain_gu": "du સાથે -st, અને મૂળ t થી પૂરું થાય છે એટલે વચ્ચે e: arbeit + e + st = arbeitest.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ gern.",
+      "answers": ["tanzt"],
+      "hint_gu": "tanzen",
+      "explain_gu": "મૂળ tanz- z થી પૂરું થાય છે, એટલે du સાથે માત્ર -t: tanzt (tanzst નહીં).",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "machen નું મૂળ (stem) કયું છે?",
+      "options": ["mach-", "mache-", "machen-"],
+      "answer": 0,
+      "explain_gu": "મૂળ રૂપ machen માંથી -en કાઢો: mach-. પછી અંત ઉમેરો: mache, machst, macht …",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "du + warten = ?",
+      "options": ["du wartst", "du wartest", "du warten"],
+      "answer": 1,
+      "explain_gu": "મૂળ wart- t થી પૂરું થાય છે, એટલે વચ્ચે e આવે: du wartest.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“મને ચા પીવી ગમે છે.” સાચું વાક્ય કયું?",
+      "options": ["Ich trinke gern Tee.", "Ich gern trinke Tee.", "Gern ich trinke Tee."],
+      "answer": 0,
+      "explain_gu": "ક્રિયાપદ trinke બીજા સ્થાને અને gern તેની પછી: Ich trinke gern Tee.",
+      "topic_gu": "gern"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "કયાં બે સર્વનામો સાથે નિયમિત ક્રિયાપદનો અંત -t હોય છે (spielt)?",
+      "options": ["ich અને du", "er અને ihr", "wir અને Sie"],
+      "answer": 1,
+      "explain_gu": "er/sie/es spielt અને ihr spielt: બંનેમાં -t. wir અને Sie સાથે -en.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "machen", "gu": "કરવું" },
+        { "de": "spielen", "gu": "રમવું" },
+        { "de": "kochen", "gu": "રાંધવું" },
+        { "de": "kaufen", "gu": "ખરીદવું" },
+        { "de": "trinken", "gu": "પીવું" }
+      ],
+      "explain_gu": "આ બધાં નિયમિત ક્રિયાપદ છે: -e, -st, -t, -en, -t, -en.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "article",
+      "noun": "Musik",
+      "answer": "die",
+      "explain_gu": "die Musik (સંગીત).",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Fußball",
+      "answer": "der",
+      "explain_gu": "der Fußball (ફૂટબોલ). Ball પુલ્લિંગ છે: der Ball.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["gern.", "Priya", "kocht"],
+      "answer": "Priya kocht gern.",
+      "gu": "પ્રિયાને રાંધવું ગમે છે.",
+      "explain_gu": "ક્રિયાપદ kocht બીજા સ્થાને, gern ક્રિયાપદ પછી.",
+      "topic_gu": "gern"
+    },
+    {
+      "type": "order",
+      "words": ["du?", "Was", "studierst"],
+      "answer": "Was studierst du?",
+      "gu": "તું શું ભણે છે?",
+      "explain_gu": "W-પ્રશ્ન: Was (1) studierst (2) du (3).",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Lukas spielt gern Fußball.",
+      "question_gu": "તમે શું સાંભળ્યું?",
+      "options": [
+        "લુકાસને ફૂટબોલ રમવું ગમે છે.",
+        "લુકાસને ક્રિકેટ રમવું ગમે છે.",
+        "લુકાસને સંગીત સાંભળવું ગમે છે."
+      ],
+      "answer": 0,
+      "explain_gu": "spielt gern Fußball = ફૂટબોલ રમવું ગમે છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Wir hören Musik.",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Wir hören Musik.",
+      "explain_gu": "wir સાથે hören (-en). Musik નામ છે, એટલે મોટો M.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "તું ક્યાં કામ કરે છે?",
+      "answers_de": ["Wo arbeitest du?"],
+      "explain_gu": "Wo (ક્યાં) + arbeitest (du સાથે, વચ્ચે e) + du?",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich spiele gern Kricket.",
+      "gu": "મને ક્રિકેટ રમવું ગમે છે.",
+      "explain_gu": "spiele = શ્પીલે (શબ્દની શરૂઆતમાં sp = શ્પ).",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Das ist Anna. Sie wohnt in Hamburg und arbeitet dort. Sie ist Lehrerin. Anna tanzt gern und hört gern Musik. Sie trinkt gern Kaffee.",
+      "statements": [
+        { "de": "Anna arbeitet in Hamburg.", "answer": true },
+        { "de": "Anna ist Ärztin.", "answer": false },
+        { "de": "Anna trinkt gern Tee.", "answer": false },
+        { "de": "Anna hört gern Musik.", "answer": true }
+      ],
+      "explain_gu": "અન્ના હેમ્બર્ગમાં કામ કરે છે (dort = ત્યાં) અને શિક્ષિકા છે, ડૉક્ટર નહીં. તેને કૉફી ગમે છે, ચા નહીં.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Ich mache, du machst, er macht.",
+      "Wir machen, ihr macht, sie machen.",
+      "Ich arbeite, du arbeitest, er arbeitet.",
+      "Was machst du gern?",
+      "Ich spiele gern Kricket.",
+      "Priya kocht gern.",
+      "Wo arbeitest du?"
+    ],
+    "prompt_gu": "તમે શું કરો છો તે બોલો (Ich arbeite … / Ich studiere …), અને ગમતી ત્રણ વસ્તુઓ gern સાથે કહો. પછી મિત્રને પૂછો: “Was machst du gern?”"
+  },
+  "writing": {
+    "task_gu": "તમારા વિશે ચાર વાક્યો લખો: તમે ક્યાં રહો છો, શું કરો છો (કામ કે અભ્યાસ), અને તમને શું કરવું ગમે છે (gern સાથે બે વાક્યો).",
+    "model_answer_de": "Ich wohne in Ahmedabad. Ich studiere Informatik. Ich spiele gern Kricket. Ich höre auch gern Musik.",
+    "checklist_gu": [
+      "દરેક ક્રિયાપદનો ich સાથે અંત -e (wohne, studiere, spiele, höre)",
+      "ક્રિયાપદ બીજા સ્થાને",
+      "gern ક્રિયાપદ પછી",
+      "નામ મોટા અક્ષરથી (Informatik, Kricket, Musik)",
+      "દરેક વાક્યના અંતે પૂર્ણવિરામ"
+    ]
+  },
+  "summary_gu": [
+    "મૂળ રૂપ -en થી પૂરું થાય. -en કાઢો = મૂળ (mach-, spiel-).",
+    "અંત: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en.",
+    "મૂળ -t/-d થી પૂરું: વચ્ચે e (du arbeitest, er arbeitet).",
+    "મૂળ -s/-ß/-z થી પૂરું: du સાથે માત્ર -t (du tanzt, du heißt).",
+    "ગમવું = ક્રિયાપદ + gern: Ich spiele gern Kricket.",
+    "Was machst du? Wo arbeitest du? Was studierst du? Was machst du gern?"
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "id": "ch02-l03",
+  "number": 3,
+  "title_gu": "ક્રિયાપદ haben અને W-પ્રશ્નો",
+  "goal_gu": "આ પાઠ પછી તમે haben નાં બધાં રૂપો વાપરી શકશો (Ich habe Zeit, Ich habe Hunger) અને Wer? Was? Wann? Wie viele? જેવા પ્રશ્નો પૂછી શકશો.",
+  "vocab": [
+    {
+      "id": "ch02-l03-haben",
+      "de": "haben",
+      "gender": null,
+      "gu": "પાસે હોવું",
+      "pron_gu": "હાબન",
+      "example_de": "Hast du heute Zeit?",
+      "example_gu": "આજે તારી પાસે સમય છે?",
+      "level": "A1",
+      "tags": ["verb", "irregular"]
+    },
+    {
+      "id": "ch02-l03-wer",
+      "de": "wer",
+      "gender": null,
+      "gu": "કોણ",
+      "pron_gu": "વેર",
+      "example_de": "Wer ist das?",
+      "example_gu": "આ કોણ છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch02-l03-was",
+      "de": "was",
+      "gender": null,
+      "gu": "શું",
+      "pron_gu": "વાસ",
+      "example_de": "Was ist das?",
+      "example_gu": "આ શું છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch02-l03-wann",
+      "de": "wann",
+      "gender": null,
+      "gu": "ક્યારે",
+      "pron_gu": "વાન",
+      "example_de": "Wann hast du Zeit?",
+      "example_gu": "તારી પાસે ક્યારે સમય છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch02-l03-wie-viele",
+      "de": "wie viele",
+      "gender": null,
+      "gu": "કેટલા (ગણી શકાય તેવી વસ્તુઓ)",
+      "pron_gu": "વી ફીલે",
+      "example_de": "Wie viele Kinder hat Herr Patel?",
+      "example_gu": "શ્રી પટેલને કેટલાં બાળકો છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch02-l03-hunger",
+      "de": "Hunger",
+      "gender": "der",
+      "gu": "ભૂખ",
+      "pron_gu": "હુંગર",
+      "example_de": "Ich habe Hunger.",
+      "example_gu": "મને ભૂખ લાગી છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-durst",
+      "de": "Durst",
+      "gender": "der",
+      "gu": "તરસ",
+      "pron_gu": "ડુર્સ્ટ",
+      "example_de": "Hast du Durst?",
+      "example_gu": "તને તરસ લાગી છે?",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-frage",
+      "de": "Frage",
+      "gender": "die",
+      "plural": "die Fragen",
+      "gu": "પ્રશ્ન, સવાલ",
+      "pron_gu": "ફ્રાગે",
+      "example_de": "Ich habe eine Frage.",
+      "example_gu": "મારે એક પ્રશ્ન પૂછવો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-kind",
+      "de": "Kind",
+      "gender": "das",
+      "plural": "die Kinder",
+      "gu": "બાળક",
+      "pron_gu": "કિન્ટ",
+      "example_de": "Herr Patel hat zwei Kinder.",
+      "example_gu": "શ્રી પટેલને બે બાળકો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-kurs",
+      "de": "Kurs",
+      "gender": "der",
+      "plural": "die Kurse",
+      "gu": "કોર્સ, વર્ગ",
+      "pron_gu": "કુર્સ",
+      "example_de": "Der Kurs ist gut.",
+      "example_gu": "કોર્સ સારો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-pause",
+      "de": "Pause",
+      "gender": "die",
+      "plural": "die Pausen",
+      "gu": "વિરામ, બ્રેક",
+      "pron_gu": "પાઉઝે",
+      "example_de": "Wir haben jetzt Pause.",
+      "example_gu": "અત્યારે અમારે બ્રેક છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-idee",
+      "de": "Idee",
+      "gender": "die",
+      "plural": "die Ideen",
+      "gu": "વિચાર, આઇડિયા",
+      "pron_gu": "ઇડે",
+      "example_de": "Ich habe eine Idee!",
+      "example_gu": "મને એક વિચાર આવ્યો!",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-arbeit",
+      "de": "Arbeit",
+      "gender": "die",
+      "gu": "કામ",
+      "pron_gu": "આર્બાઇટ",
+      "example_de": "Ich habe heute viel Arbeit.",
+      "example_gu": "આજે મારે ઘણું કામ છે.",
+      "level": "A1",
+      "tags": ["noun", "work"]
+    },
+    {
+      "id": "ch02-l03-hausaufgabe",
+      "de": "Hausaufgabe",
+      "gender": "die",
+      "plural": "die Hausaufgaben",
+      "gu": "ગૃહકાર્ય, હોમવર્ક",
+      "pron_gu": "હાઉસઆઉફગાબે",
+      "example_de": "Wir haben viele Hausaufgaben.",
+      "example_gu": "અમારે ઘણું હોમવર્ક છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l03-frei",
+      "de": "frei",
+      "gender": null,
+      "gu": "ફ્રી, રજા પર",
+      "pron_gu": "ફ્રાઇ",
+      "example_de": "Ich habe morgen frei.",
+      "example_gu": "કાલે મારે રજા છે.",
+      "level": "A1",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "ch02-l03-jetzt",
+      "de": "jetzt",
+      "gender": null,
+      "gu": "હમણાં, અત્યારે",
+      "pron_gu": "યેત્સ્ટ",
+      "example_de": "Hast du jetzt Zeit?",
+      "example_gu": "અત્યારે તારી પાસે સમય છે?",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l03-morgen",
+      "de": "morgen",
+      "gender": null,
+      "gu": "આવતી કાલે",
+      "pron_gu": "મોર્ગન",
+      "example_de": "Lukas hat morgen Kurs.",
+      "example_gu": "લુકાસને કાલે વર્ગ છે.",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l03-leider",
+      "de": "leider",
+      "gender": null,
+      "gu": "કમનસીબે, માફ કરજો પણ…",
+      "pron_gu": "લાઇડર",
+      "example_de": "Leider nein.",
+      "example_gu": "માફ કરજો, ના.",
+      "level": "A1"
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "ક્રિયાપદ haben (પાસે હોવું)",
+      "explanation_gu": "**haben** = “પાસે હોવું”. *sein* પછીનું આ બીજું સૌથી મહત્વનું ક્રિયાપદ છે.\n\nગુજરાતીમાં આપણે કહીએ “**મારી પાસે** સમય છે”, પણ જર્મનમાં સીધું કહેવાય “**હું** સમય **ધરાવું છું**”: *Ich habe Zeit.* એટલે કર્તા (ich, du …) વાક્યની શરૂઆતમાં આવે છે.\n\n**ધ્યાન:** *du* અને *er/sie/es* માં **b નીકળી જાય છે**: *du **hast***, *er **hat*** (habst, habt નહીં). બાકીનાં રૂપો નિયમિત છે.",
+      "tables": [
+        {
+          "headers": ["વ્યક્તિ", "haben", "ગુજરાતી"],
+          "rows": [
+            ["ich", "habe", "મારી પાસે … છે"],
+            ["du", "hast", "તારી પાસે … છે"],
+            ["er / sie / es", "hat", "તેની પાસે … છે"],
+            ["wir", "haben", "અમારી પાસે … છે"],
+            ["ihr", "habt", "તમારી પાસે … છે"],
+            ["sie / Sie", "haben", "તેમની / આપની પાસે … છે"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Zeit.",
+          "gu": "મારી પાસે સમય છે."
+        },
+        {
+          "de": "Hast du ein Handy?",
+          "gu": "તારી પાસે મોબાઇલ છે?",
+          "note_gu": "du hast (b નથી)"
+        },
+        {
+          "de": "Herr Patel hat zwei Kinder.",
+          "gu": "શ્રી પટેલને બે બાળકો છે.",
+          "note_gu": "er hat (b નથી)"
+        },
+        {
+          "de": "Wir haben jetzt Pause.",
+          "gu": "અત્યારે અમારે બ્રેક છે."
+        },
+        {
+          "de": "Habt ihr morgen frei?",
+          "gu": "તમારે કાલે રજા છે?"
+        },
+        {
+          "de": "Haben Sie eine Frage?",
+          "gu": "આપને કોઈ પ્રશ્ન છે?"
+        }
+      ]
+    },
+    {
+      "title_gu": "haben સાથેનાં રોજનાં વાક્યો: Hunger, Durst, Zeit",
+      "explanation_gu": "ગુજરાતીમાં “મને ભૂખ **લાગી છે**”, પણ જર્મનમાં “હું ભૂખ **ધરાવું છું**”: *Ich habe Hunger.* અહીં **der/die/das વપરાતું નથી**.\n\n- *Ich habe Hunger.* = મને ભૂખ લાગી છે.\n- *Ich habe Durst.* = મને તરસ લાગી છે.\n- *Ich habe Zeit.* = મારી પાસે સમય છે.\n- *Ich habe frei.* = મારે રજા છે.\n- *Ich habe eine Frage.* = મારે એક પ્રશ્ન પૂછવો છે.\n\n**sein કે haben?** થાક એ હાલત છે, એટલે *sein*: *Ich **bin** müde.* પણ ભૂખ-તરસ માટે *haben*: *Ich **habe** Hunger.* (*Ich bin Hunger* ખોટું છે.)\n\n*(નવું: **Leider nein.** = “માફ કરજો, ના.” વિનમ્રતાથી ના પાડવા માટેનું તૈયાર વાક્ય. ના પાડવાની પૂરી રીત પ્રકરણ 3 માં.)*",
+      "tables": [
+        {
+          "headers": ["sein (હાલત / ઓળખ)", "haben (પાસે હોવું)"],
+          "rows": [
+            ["Ich bin müde.", "Ich habe Hunger."],
+            ["Ich bin Student.", "Ich habe Zeit."],
+            ["Ich bin zwanzig Jahre alt.", "Ich habe eine Frage."]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Hunger.",
+          "gu": "મને ભૂખ લાગી છે."
+        },
+        {
+          "de": "Hast du Durst?",
+          "gu": "તને તરસ લાગી છે?"
+        },
+        {
+          "de": "Priya hat heute viel Arbeit.",
+          "gu": "પ્રિયાને આજે ઘણું કામ છે."
+        },
+        {
+          "de": "Wir haben viele Hausaufgaben.",
+          "gu": "અમારે ઘણું હોમવર્ક છે."
+        },
+        {
+          "de": "Hast du jetzt Zeit? – Leider nein.",
+          "gu": "અત્યારે તારી પાસે સમય છે? – માફ કરજો, ના.",
+          "note_gu": "Leider nein = વિનમ્ર “ના”"
+        }
+      ]
+    },
+    {
+      "title_gu": "W-પ્રશ્નો: Wer? Was? Wann? …",
+      "explanation_gu": "જર્મનમાં મોટા ભાગના પ્રશ્ન-શબ્દો **W** થી શરૂ થાય છે, એટલે તેને **W-Fragen** કહે છે. પ્રકરણ 1 માં *Wie? Wo? Woher?* શીખ્યા; હવે થોડા વધુ.\n\n**વાક્યનો ક્રમ હંમેશા એક જ:** પ્રશ્ન-શબ્દ (1) + ક્રિયાપદ (2) + કર્તા (3) + બાકીનું.\n*Wann (1) hast (2) du (3) Zeit?*\n\nW-પ્રશ્નમાં અવાજ અંતે **નીચો** જાય છે (હા/ના પ્રશ્નમાં અંતે ઊંચો જાય).\n\n**wie viel કે wie viele?**\n- **wie viel** = ગણી ન શકાય તેવું, અને કિંમત: *Wie viel Zeit? Wie viel kostet das?*\n- **wie viele** = ગણી શકાય તેવી વસ્તુઓ (બહુવચન): *Wie viele Kinder? Wie viele Fragen?*",
+      "tables": [
+        {
+          "headers": ["પ્રશ્ન-શબ્દ", "ગુજરાતી", "ઉદાહરણ"],
+          "rows": [
+            ["Wer?", "કોણ?", "Wer ist das?"],
+            ["Was?", "શું?", "Was ist das?"],
+            ["Wann?", "ક્યારે?", "Wann hast du Zeit?"],
+            ["Wo?", "ક્યાં?", "Wo wohnst du?"],
+            ["Woher?", "ક્યાંથી?", "Woher kommst du?"],
+            ["Wie?", "કેવી રીતે? / કેવું?", "Wie heißt du?"],
+            ["Wie alt?", "કેટલી ઉંમર?", "Wie alt bist du?"],
+            ["Wie viel?", "કેટલું?", "Wie viel kostet das?"],
+            ["Wie viele?", "કેટલા?", "Wie viele Kinder hast du?"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wer ist das? – Das ist Lukas.",
+          "gu": "આ કોણ છે? – આ લુકાસ છે."
+        },
+        {
+          "de": "Was ist das? – Das ist ein Handy.",
+          "gu": "આ શું છે? – આ મોબાઇલ છે."
+        },
+        {
+          "de": "Wann hast du frei? – Morgen.",
+          "gu": "તારે ક્યારે રજા છે? – કાલે."
+        },
+        {
+          "de": "Wie viele Kinder hat Frau Weber? – Drei.",
+          "gu": "શ્રીમતી વેબરને કેટલાં બાળકો છે? – ત્રણ.",
+          "note_gu": "Kinder ગણી શકાય, એટલે wie viele"
+        },
+        {
+          "de": "Wie viel Zeit hast du?",
+          "gu": "તારી પાસે કેટલો સમય છે?",
+          "note_gu": "Zeit ગણી ન શકાય, એટલે wie viel"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Priya",
+        "de": "Hallo Raj! Hast du jetzt Zeit?",
+        "gu": "હાય રાજ! અત્યારે તારી પાસે સમય છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ja, ich habe jetzt Pause.",
+        "gu": "હા, અત્યારે મારે બ્રેક છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Super! Ich habe eine Frage. Wer ist das?",
+        "gu": "સરસ! મારે એક પ્રશ્ન પૂછવો છે. આ કોણ છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Das ist Lukas. Er ist Student.",
+        "gu": "આ લુકાસ છે. તે વિદ્યાર્થી છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Und wann hat Lukas Kurs?",
+        "gu": "અને લુકાસને વર્ગ ક્યારે છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Morgen. Er hat heute frei.",
+        "gu": "કાલે. આજે તેને રજા છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Ich habe Hunger. Hast du auch Hunger?",
+        "gu": "મને ભૂખ લાગી છે. તને પણ ભૂખ લાગી છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ja! Und ich habe Durst.",
+        "gu": "હા! અને મને તરસ પણ લાગી છે."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ Hunger.",
+      "answers": ["habe"],
+      "explain_gu": "ich સાથે haben નું રૂપ habe: Ich habe Hunger.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wann ___ du Zeit?",
+      "answers": ["hast"],
+      "explain_gu": "du સાથે hast (b નીકળી જાય છે, habst નહીં).",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Herr Patel ___ zwei Kinder.",
+      "answers": ["hat"],
+      "explain_gu": "Herr Patel = er, અને er સાથે hat.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ jetzt Pause.",
+      "answers": ["haben"],
+      "explain_gu": "wir સાથે haben (ક્રિયાપદનું મૂળ રૂપ).",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ihr ___ morgen frei.",
+      "answers": ["habt"],
+      "explain_gu": "ihr સાથે habt.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“મને તરસ લાગી છે.” જર્મનમાં?",
+      "options": ["Ich bin Durst.", "Ich habe Durst.", "Ich habe der Durst."],
+      "answer": 1,
+      "explain_gu": "ભૂખ-તરસ માટે haben વપરાય છે, અને der/die/das વગર: Ich habe Durst.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Wer ist das?” નો અર્થ શું?",
+      "options": ["આ શું છે?", "આ કોણ છે?", "આ ક્યાં છે?"],
+      "answer": 1,
+      "explain_gu": "wer = કોણ. was = શું, wo = ક્યાં.",
+      "topic_gu": "W-પ્રશ્નો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“___ hast du Zeit? – Morgen.” ખાલી જગ્યામાં શું આવે?",
+      "options": ["Wann", "Wer", "Woher"],
+      "answer": 0,
+      "explain_gu": "જવાબ “Morgen” (કાલે) એક સમય છે, એટલે પ્રશ્ન Wann (ક્યારે).",
+      "topic_gu": "W-પ્રશ્નો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“___ Kinder hast du?” ખાલી જગ્યામાં શું આવે?",
+      "options": ["Wie viel", "Wie viele", "Was"],
+      "answer": 1,
+      "explain_gu": "Kinder ગણી શકાય છે (બહુવચન), એટલે wie viele.",
+      "topic_gu": "W-પ્રશ્નો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Ich bin müde” અને “Ich habe Hunger”: કયું સાચું છે?",
+      "options": ["બંને સાચાં છે", "માત્ર પહેલું સાચું છે", "બંને ખોટાં છે"],
+      "answer": 0,
+      "explain_gu": "થાક એક હાલત છે: Ich bin müde. ભૂખ માટે haben: Ich habe Hunger. બંને સાચાં છે.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "wer", "gu": "કોણ" },
+        { "de": "was", "gu": "શું" },
+        { "de": "wann", "gu": "ક્યારે" },
+        { "de": "wo", "gu": "ક્યાં" },
+        { "de": "woher", "gu": "ક્યાંથી" }
+      ],
+      "explain_gu": "આ W-પ્રશ્ન-શબ્દો છે. તે હંમેશા પ્રશ્નની શરૂઆતમાં આવે.",
+      "topic_gu": "W-પ્રશ્નો"
+    },
+    {
+      "type": "article",
+      "noun": "Frage",
+      "answer": "die",
+      "explain_gu": "die Frage (પ્રશ્ન). બહુવચન: die Fragen.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Kind",
+      "answer": "das",
+      "explain_gu": "das Kind (બાળક). બહુવચન: die Kinder.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["Zeit?", "du", "Wann", "hast"],
+      "answer": "Wann hast du Zeit?",
+      "gu": "તારી પાસે ક્યારે સમય છે?",
+      "explain_gu": "W-પ્રશ્ન: પ્રશ્ન-શબ્દ (Wann) + ક્રિયાપદ (hast) + કર્તા (du) + બાકીનું.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Frage.", "habe", "eine", "Ich"],
+      "answer": "Ich habe eine Frage.",
+      "gu": "મારે એક પ્રશ્ન પૂછવો છે.",
+      "explain_gu": "ક્રિયાપદ habe બીજા સ્થાને: Ich (1) habe (2) eine Frage.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich habe morgen frei.",
+      "question_gu": "વ્યક્તિ શું કહે છે?",
+      "options": ["આજે મારે રજા છે.", "કાલે મારે રજા છે.", "કાલે મારે ઘણું કામ છે."],
+      "answer": 1,
+      "explain_gu": "morgen = કાલે, frei = રજા. (heute = આજે.)",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Hast du Hunger?",
+      "question_gu": "જે સાંભળો તે લખો.",
+      "answer": "Hast du Hunger?",
+      "explain_gu": "Hunger નામ છે, એટલે મોટો H. du સાથે hast.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "મને ભૂખ લાગી છે.",
+      "answers_de": ["Ich habe Hunger."],
+      "explain_gu": "જર્મનમાં “હું ભૂખ ધરાવું છું”: Ich habe Hunger (der વગર).",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "speak",
+      "text_de": "Wann hast du Zeit?",
+      "gu": "તારી પાસે ક્યારે સમય છે?",
+      "explain_gu": "W-પ્રશ્નમાં અવાજ અંતે નીચો જાય. wann = વાન (w = વ).",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Priya hat heute Kurs. Sie hat viele Hausaufgaben. Raj hat heute frei. Er hat Zeit, aber er hat Hunger.",
+      "statements": [
+        { "de": "Priya hat heute frei.", "answer": false },
+        { "de": "Raj hat Zeit.", "answer": true },
+        { "de": "Raj hat Hunger.", "answer": true }
+      ],
+      "explain_gu": "પ્રિયાને આજે વર્ગ છે (રજા નહીં). રાજને રજા છે, તેની પાસે સમય છે અને તેને ભૂખ લાગી છે. (aber = પણ)",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Ich habe Zeit.",
+      "Hast du Hunger?",
+      "Er hat zwei Kinder.",
+      "Wir haben jetzt Pause.",
+      "Habt ihr morgen frei?",
+      "Wer ist das?",
+      "Wann hast du Zeit?"
+    ],
+    "prompt_gu": "તમારા વિશે ત્રણ વાક્યો બોલો haben સાથે: આજે તમારી પાસે સમય છે? ભૂખ કે તરસ લાગી છે? કાલે રજા છે? પછી મિત્રને Wer?, Was? અને Wann? થી એક-એક પ્રશ્ન પૂછો."
+  },
+  "writing": {
+    "task_gu": "એક મિત્રને નાનો મેસેજ લખો: તમારી પાસે આજે સમય નથી પણ કાલે રજા છે. તેને પૂછો કે તેની પાસે ક્યારે સમય છે.",
+    "model_answer_de": "Hallo Lukas! Ich habe heute viel Arbeit. Ich habe morgen frei. Wann hast du Zeit? Bis bald, Raj",
+    "checklist_gu": [
+      "haben નાં સાચાં રૂપો: ich habe, du hast",
+      "Arbeit અને Zeit મોટા અક્ષરથી (નામ છે)",
+      "W-પ્રશ્નમાં ક્રિયાપદ બીજા સ્થાને: Wann hast du …?",
+      "પ્રશ્નના અંતે પ્રશ્નાર્થચિહ્ન (?)",
+      "શરૂઆતમાં અભિવાદન અને અંતે આવજો (Bis bald)"
+    ]
+  },
+  "summary_gu": [
+    "haben: habe, hast, hat, haben, habt, haben. du hast અને er hat માં b નથી.",
+    "Ich habe Hunger / Durst / Zeit / frei (der/die/das વગર).",
+    "હાલત માટે sein (Ich bin müde), ભૂખ-તરસ માટે haben (Ich habe Hunger).",
+    "નવા W-શબ્દો: Wer? (કોણ) Was? (શું) Wann? (ક્યારે)",
+    "W-પ્રશ્ન: પ્રશ્ન-શબ્દ + ક્રિયાપદ + કર્તા: Wann hast du Zeit?",
+    "wie viel (ગણી ન શકાય, કિંમત) / wie viele (ગણી શકાય: Kinder, Fragen)"
+  ]
+}

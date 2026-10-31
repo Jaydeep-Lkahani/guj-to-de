@@ -1,0 +1,637 @@
+{
+  "id": "ch02-l06",
+  "number": 6,
+  "title_gu": "મહિના, ઋતુઓ અને તારીખ",
+  "goal_gu": "આ પાઠ પછી તમે મહિના અને ઋતુઓ બોલી શકશો, આજની તારીખ કહી શકશો, તમારો જન્મદિવસ કહી શકશો અને વર્ષ જર્મનમાં બોલી શકશો.",
+  "vocab": [
+    {
+      "id": "ch02-l06-monat",
+      "de": "Monat",
+      "gender": "der",
+      "plural": "die Monate",
+      "gu": "મહિનો",
+      "pron_gu": "મોનાટ",
+      "example_de": "Das Jahr hat zwölf Monate.",
+      "example_gu": "વર્ષમાં બાર મહિના હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l06-januar",
+      "de": "Januar",
+      "gender": "der",
+      "gu": "જાન્યુઆરી",
+      "pron_gu": "યાનુઆર",
+      "example_de": "Der Januar hat einunddreißig Tage.",
+      "example_gu": "જાન્યુઆરીમાં એકત્રીસ દિવસ હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-februar",
+      "de": "Februar",
+      "gender": "der",
+      "gu": "ફેબ્રુઆરી",
+      "pron_gu": "ફેબ્રુઆર",
+      "example_de": "Der Februar hat achtundzwanzig Tage.",
+      "example_gu": "ફેબ્રુઆરીમાં અઠ્ઠાવીસ દિવસ હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-maerz",
+      "de": "März",
+      "gender": "der",
+      "gu": "માર્ચ",
+      "pron_gu": "મેર્ત્સ",
+      "example_de": "Mein Geburtstag ist im März.",
+      "example_gu": "મારો જન્મદિવસ માર્ચમાં છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-april",
+      "de": "April",
+      "gender": "der",
+      "gu": "એપ્રિલ",
+      "pron_gu": "આપ્રિલ",
+      "example_de": "Anna hat im April Geburtstag.",
+      "example_gu": "અન્નાનો જન્મદિવસ એપ્રિલમાં છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-mai",
+      "de": "Mai",
+      "gender": "der",
+      "gu": "મે",
+      "pron_gu": "માઇ",
+      "example_de": "Heute ist der erste Mai.",
+      "example_gu": "આજે પહેલી મે છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-juni",
+      "de": "Juni",
+      "gender": "der",
+      "gu": "જૂન",
+      "pron_gu": "યૂની",
+      "example_de": "Der Juni hat dreißig Tage.",
+      "example_gu": "જૂનમાં ત્રીસ દિવસ હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-juli",
+      "de": "Juli",
+      "gender": "der",
+      "gu": "જુલાઈ",
+      "pron_gu": "યૂલી",
+      "example_de": "Wir haben im Juli frei.",
+      "example_gu": "જુલાઈમાં અમારે રજા છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-august",
+      "de": "August",
+      "gender": "der",
+      "gu": "ઑગસ્ટ",
+      "pron_gu": "આઉગુસ્ટ",
+      "example_de": "Der fünfzehnte August ist ein Feiertag in Indien.",
+      "example_gu": "પંદરમી ઑગસ્ટ ભારતમાં રજાનો દિવસ છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-september",
+      "de": "September",
+      "gender": "der",
+      "gu": "સપ્ટેમ્બર",
+      "pron_gu": "ઝેપ્ટેમ્બર",
+      "example_de": "Der Kurs beginnt im September.",
+      "example_gu": "કોર્સ સપ્ટેમ્બરમાં શરૂ થાય છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-oktober",
+      "de": "Oktober",
+      "gender": "der",
+      "gu": "ઑક્ટોબર",
+      "pron_gu": "ઓક્ટોબર",
+      "example_de": "Der dritte Oktober ist ein Feiertag in Deutschland.",
+      "example_gu": "ત્રીજી ઑક્ટોબર જર્મનીમાં રજાનો દિવસ છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-november",
+      "de": "November",
+      "gender": "der",
+      "gu": "નવેમ્બર",
+      "pron_gu": "નોવેમ્બર",
+      "example_de": "Der November in Deutschland ist kalt.",
+      "example_gu": "જર્મનીમાં નવેમ્બર ઠંડો હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-dezember",
+      "de": "Dezember",
+      "gender": "der",
+      "gu": "ડિસેમ્બર",
+      "pron_gu": "ડેત્સેમ્બર",
+      "example_de": "Lukas hat im Dezember Geburtstag.",
+      "example_gu": "લુકાસનો જન્મદિવસ ડિસેમ્બરમાં છે.",
+      "level": "A1",
+      "tags": ["noun", "month"]
+    },
+    {
+      "id": "ch02-l06-fruehling",
+      "de": "Frühling",
+      "gender": "der",
+      "gu": "વસંત ઋતુ",
+      "pron_gu": "ફ્ર્યૂલિંગ",
+      "example_de": "Der Frühling beginnt im März.",
+      "example_gu": "વસંત માર્ચમાં શરૂ થાય છે.",
+      "level": "A1",
+      "tags": ["noun", "season"]
+    },
+    {
+      "id": "ch02-l06-sommer",
+      "de": "Sommer",
+      "gender": "der",
+      "gu": "ઉનાળો",
+      "pron_gu": "ઝોમર",
+      "example_de": "Der Sommer ist warm.",
+      "example_gu": "ઉનાળો ગરમ હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "season"]
+    },
+    {
+      "id": "ch02-l06-herbst",
+      "de": "Herbst",
+      "gender": "der",
+      "gu": "પાનખર ઋતુ",
+      "pron_gu": "હેર્પ્સ્ટ",
+      "example_de": "Der Herbst beginnt im September.",
+      "example_gu": "પાનખર સપ્ટેમ્બરમાં શરૂ થાય છે.",
+      "level": "A1",
+      "tags": ["noun", "season"]
+    },
+    {
+      "id": "ch02-l06-winter",
+      "de": "Winter",
+      "gender": "der",
+      "gu": "શિયાળો",
+      "pron_gu": "વિન્ટર",
+      "example_de": "Der Winter in Deutschland ist kalt.",
+      "example_gu": "જર્મનીમાં શિયાળો ઠંડો હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "season"]
+    },
+    {
+      "id": "ch02-l06-geburtstag",
+      "de": "Geburtstag",
+      "gender": "der",
+      "plural": "die Geburtstage",
+      "gu": "જન્મદિવસ",
+      "pron_gu": "ગેબુર્ટ્સટાક",
+      "example_de": "Wann hast du Geburtstag?",
+      "example_gu": "તારો જન્મદિવસ ક્યારે છે?",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l06-datum",
+      "de": "Datum",
+      "gender": "das",
+      "plural": "die Daten",
+      "gu": "તારીખ",
+      "pron_gu": "ડાટુમ",
+      "example_de": "Welches Datum ist heute?",
+      "example_gu": "આજે કઈ તારીખ છે?",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l06-feiertag",
+      "de": "Feiertag",
+      "gender": "der",
+      "plural": "die Feiertage",
+      "gu": "તહેવાર / જાહેર રજાનો દિવસ",
+      "pron_gu": "ફાઇઅરટાક",
+      "example_de": "Morgen ist ein Feiertag.",
+      "example_gu": "કાલે જાહેર રજા છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l06-warm",
+      "de": "warm",
+      "gender": null,
+      "gu": "ગરમ, હૂંફાળું",
+      "pron_gu": "વાર્મ",
+      "example_de": "Der Sommer in Gujarat ist sehr warm.",
+      "example_gu": "ગુજરાતમાં ઉનાળો ખૂબ ગરમ હોય છે.",
+      "level": "A1",
+      "tags": ["adjective", "weather"]
+    },
+    {
+      "id": "ch02-l06-kalt",
+      "de": "kalt",
+      "gender": null,
+      "gu": "ઠંડું",
+      "pron_gu": "કાલ્ટ",
+      "example_de": "Der Januar ist kalt.",
+      "example_gu": "જાન્યુઆરી ઠંડો હોય છે.",
+      "level": "A1",
+      "tags": ["adjective", "weather"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "મહિના અને ઋતુઓ: im Mai, im Sommer",
+      "explanation_gu": "**સારા સમાચાર:** જર્મન મહિનાનાં નામ અંગ્રેજી જેવાં જ છે, માત્ર ઉચ્ચાર થોડો જુદો: *Januar* = યાનુઆર (j = ય), *Juni* = યૂની, *Juli* = યૂલી, *Dezember* = ડેત્સેમ્બર (z = ત્સ). *November* માં v નો અવાજ “વ” છે (અહીં “ફ” નહીં).\n\n**બધા મહિના અને બધી ઋતુઓ der છે**, દિવસોની જેમ જ. અને મોટા અક્ષરથી લખાય.\n\n**“… મહિનામાં / … ઋતુમાં” = im:** *im Mai* (મેમાં), *im Sommer* (ઉનાળામાં).\n\n**um, am, im: ક્યારે કયું?** નીચેનું ટેબલ યાદ રાખો. આ ત્રણ નાના શબ્દો સમય વિશેનાં લગભગ બધાં વાક્યોમાં આવે છે.\n\n*ટિપ: ફોન પર Juni અને Juli સરખા સંભળાય છે, એટલે જર્મનો ઘણી વાર **Juno** અને **Julei** બોલે છે (zwei = zwo જેવું).*",
+      "tables": [
+        {
+          "headers": ["જર્મન", "ગુજરાતી"],
+          "rows": [
+            ["der Januar", "જાન્યુઆરી"],
+            ["der Februar", "ફેબ્રુઆરી"],
+            ["der März", "માર્ચ"],
+            ["der April", "એપ્રિલ"],
+            ["der Mai", "મે"],
+            ["der Juni", "જૂન"],
+            ["der Juli", "જુલાઈ"],
+            ["der August", "ઑગસ્ટ"],
+            ["der September", "સપ્ટેમ્બર"],
+            ["der Oktober", "ઑક્ટોબર"],
+            ["der November", "નવેમ્બર"],
+            ["der Dezember", "ડિસેમ્બર"]
+          ]
+        },
+        {
+          "headers": ["શબ્દ", "શેની સાથે", "ઉદાહરણ"],
+          "rows": [
+            ["um", "ઘડિયાળનો સમય", "um acht Uhr, um halb neun"],
+            ["am", "દિવસ, દિવસનો ભાગ, તારીખ", "am Montag, am Abend, am 3. Mai"],
+            ["im", "મહિનો, ઋતુ", "im Mai, im Sommer"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Kurs beginnt im September.",
+          "gu": "કોર્સ સપ્ટેમ્બરમાં શરૂ થાય છે."
+        },
+        {
+          "de": "Ich habe im Mai Geburtstag.",
+          "gu": "મારો જન્મદિવસ મેમાં છે."
+        },
+        {
+          "de": "Der Frühling beginnt im März.",
+          "gu": "વસંત માર્ચમાં શરૂ થાય છે."
+        },
+        {
+          "de": "Der Winter in Deutschland ist kalt.",
+          "gu": "જર્મનીમાં શિયાળો ઠંડો હોય છે."
+        },
+        {
+          "de": "Das Jahr hat zwölf Monate.",
+          "gu": "વર્ષમાં બાર મહિના હોય છે."
+        }
+      ]
+    },
+    {
+      "title_gu": "તારીખ: der erste, der zweite, der dritte …",
+      "explanation_gu": "તારીખ માટે **ક્રમવાચક સંખ્યા** (પહેલું, બીજું, ત્રીજું…) જોઈએ.\n\n**નિયમ:**\n- 1 થી 19: સંખ્યા + **-te**: *zwei**te***, *vier**te***, *zehn**te***, *neunzehn**te***\n- 20 અને પછી: સંખ્યા + **-ste**: *zwanzig**ste***, *einunddreißig**ste***\n- **ત્રણ અપવાદ:** *der **erste*** (1.), *der **dritte*** (3.), *der **siebte*** (7.). અને 8. = *achte* (માત્ર એક t).\n\n**લખવામાં** સંખ્યા પછી **બિંદુ (.)** મુકાય છે: *3.* = *dritte*. *Heute ist der 3. Mai.* વાંચો: *Heute ist der dritte Mai.*\n\n**“… તારીખે” = am + …ten:** *am 3. Mai* = *am dritt**en** Mai*. *am* પછી અંતે **n** ઉમેરાય છે.\n*(નવું: આ n કેમ આવે છે તે આગળનાં પ્રકરણોમાં શીખીશું. હાલ નિયમ યાદ રાખો: “der …te” પણ “am …ten”.)*\n\n**તારીખ લખવાની રીત ભારત જેવી જ:** દિવસ.મહિનો.વર્ષ → *31.10.2026*. (અમેરિકાની જેમ મહિનો પહેલાં નહીં.)",
+      "tables": [
+        {
+          "headers": ["લખાય", "Heute ist der …", "am …"],
+          "rows": [
+            ["1.", "erste", "ersten"],
+            ["2.", "zweite", "zweiten"],
+            ["3.", "dritte", "dritten"],
+            ["4.", "vierte", "vierten"],
+            ["7.", "siebte", "siebten"],
+            ["8.", "achte", "achten"],
+            ["12.", "zwölfte", "zwölften"],
+            ["20.", "zwanzigste", "zwanzigsten"],
+            ["31.", "einunddreißigste", "einunddreißigsten"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Welches Datum ist heute?",
+          "gu": "આજે કઈ તારીખ છે?"
+        },
+        {
+          "de": "Heute ist der erste Mai.",
+          "gu": "આજે પહેલી મે છે.",
+          "note_gu": "લખાય: der 1. Mai"
+        },
+        {
+          "de": "Heute ist der einunddreißigste Oktober.",
+          "gu": "આજે એકત્રીસમી ઑક્ટોબર છે."
+        },
+        {
+          "de": "Der Kurs beginnt am zweiten März.",
+          "gu": "કોર્સ બીજી માર્ચે શરૂ થાય છે.",
+          "note_gu": "am + …ten: am zweiten"
+        },
+        {
+          "de": "Der fünfzehnte August ist ein Feiertag in Indien.",
+          "gu": "પંદરમી ઑગસ્ટ ભારતમાં રજાનો દિવસ છે."
+        }
+      ]
+    },
+    {
+      "title_gu": "જન્મદિવસ અને વર્ષ",
+      "explanation_gu": "**જન્મદિવસ પૂછવો:** *Wann hast du Geburtstag?* અહીં **haben** વપરાય છે! (શબ્દશઃ: તું જન્મદિવસ ક્યારે ધરાવે છે?)\n- જવાબ: *Ich habe am 12. Mai Geburtstag.* (વાંચો: *am zwölften Mai*) અથવા ટૂંકમાં: *Am 12. Mai.*\n- બીજી રીત: *Mein Geburtstag ist am 12. Mai.*\n- શુભેચ્છા: *Alles Gute zum Geburtstag!* (જન્મદિવસની હાર્દિક શુભેચ્છા!)\n\n**વર્ષ બોલવું:**\n- **2000 પહેલાં:** “સો” ના ટુકડા, ગુજરાતી જેવું: *1999* = *neunzehnhundertneunundneunzig* (ઓગણીસસો નવ્વાણું)\n- **2000 થી:** હજાર + બાકીનું: *2026* = *zweitausendsechsundzwanzig* (બે હજાર છવ્વીસ)\n- વર્ષ સાથે સામાન્ય રીતે *in* લાગતું નથી: *Ich bin 2001 geboren.*\n\n*(નવું: **Ich bin … geboren** = “મારો જન્મ … માં થયો છે”. આને તૈયાર વાક્ય તરીકે યાદ રાખો.)*",
+      "tables": [
+        {
+          "headers": ["વર્ષ", "જર્મન"],
+          "rows": [
+            ["1985", "neunzehnhundertfünfundachtzig"],
+            ["1999", "neunzehnhundertneunundneunzig"],
+            ["2001", "zweitausendeins"],
+            ["2026", "zweitausendsechsundzwanzig"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wann hast du Geburtstag?",
+          "gu": "તારો જન્મદિવસ ક્યારે છે?"
+        },
+        {
+          "de": "Ich habe am vierzehnten März Geburtstag.",
+          "gu": "મારો જન્મદિવસ ચૌદમી માર્ચે છે."
+        },
+        {
+          "de": "Mein Geburtstag ist am zweiten Juni.",
+          "gu": "મારો જન્મદિવસ બીજી જૂને છે."
+        },
+        {
+          "de": "Alles Gute zum Geburtstag!",
+          "gu": "જન્મદિવસની હાર્દિક શુભેચ્છા!"
+        },
+        {
+          "de": "Ich bin neunzehnhundertneunundneunzig geboren.",
+          "gu": "મારો જન્મ 1999 માં થયો છે.",
+          "note_gu": "તૈયાર વાક્ય"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Raj, wann hast du Geburtstag?",
+        "gu": "રાજ, તારો જન્મદિવસ ક્યારે છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Am vierzehnten März. Und du?",
+        "gu": "ચૌદમી માર્ચે. અને તારો?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ich habe im Oktober Geburtstag, am dritten Oktober.",
+        "gu": "મારો જન્મદિવસ ઑક્ટોબરમાં છે, ત્રીજી ઑક્ટોબરે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Am dritten Oktober? Das ist ein Feiertag in Deutschland, ja?",
+        "gu": "ત્રીજી ઑક્ટોબરે? એ તો જર્મનીમાં રજાનો દિવસ છે, ખરું ને?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ja! Ich habe am Geburtstag frei.",
+        "gu": "હા! જન્મદિવસે મારે રજા હોય છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Super! Und welches Datum ist heute?",
+        "gu": "સરસ! અને આજે કઈ તારીખ છે?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Heute ist der einunddreißigste Oktober. Morgen ist der erste November.",
+        "gu": "આજે એકત્રીસમી ઑક્ટોબર છે. કાલે પહેલી નવેમ્બર છે."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Der November in Deutschland ist kalt, ja?",
+        "gu": "જર્મનીમાં નવેમ્બર ઠંડો હોય છે, ખરું ને?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ja, sehr kalt!",
+        "gu": "હા, ખૂબ ઠંડો!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "મહિના સાથે કયો શબ્દ આવે? “Der Kurs beginnt … Mai.”",
+      "options": ["um", "am", "im"],
+      "answer": 2,
+      "explain_gu": "મહિના અને ઋતુ સાથે im: im Mai. (um = ઘડિયાળનો સમય, am = દિવસ.)",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Heute ist der 3. Mai.” માં 3. કેવી રીતે વંચાય?",
+      "options": ["dreite", "dritte", "dreiste"],
+      "answer": 1,
+      "explain_gu": "3. = dritte. આ અપવાદ છે (erste, dritte, siebte).",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "7. (સાતમું) જર્મનમાં?",
+      "options": ["siebte", "siebzehnte", "siebenste"],
+      "answer": 0,
+      "explain_gu": "7. = siebte (sieben નો en નીકળી જાય). siebzehnte = 17.",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Heute ist der 20. Mai.” માં 20. કેવી રીતે વંચાય?",
+      "options": ["zwanzigte", "zwanzigste", "zwanzigten"],
+      "answer": 1,
+      "explain_gu": "20 અને પછી -ste: zwanzigste. (am સાથે હોત તો: am zwanzigsten.)",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Wann hast du Geburtstag?” નો સાચો જવાબ કયો?",
+      "options": ["Am zwölften Mai.", "Um zwölften Mai.", "Im zwölften Mai."],
+      "answer": 0,
+      "explain_gu": "તારીખ સાથે am, અને અંતે -ten: am zwölften Mai.",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "જર્મન પત્રમાં તારીખ 05.03.2026 લખી છે. તેનો અર્થ શું?",
+      "options": ["5 માર્ચ 2026", "3 મે 2026"],
+      "answer": 0,
+      "explain_gu": "જર્મનીમાં ભારતની જેમ દિવસ.મહિનો.વર્ષ લખાય: 05.03. = પાંચમી માર્ચ.",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Der Kurs beginnt ___ September.",
+      "answers": ["im"],
+      "hint_gu": "મહિનો",
+      "explain_gu": "મહિના સાથે im: im September.",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich habe ___ zweiten Juni Geburtstag.",
+      "answers": ["am"],
+      "hint_gu": "તારીખ",
+      "explain_gu": "તારીખ સાથે am: am zweiten Juni.",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Heute ist der ___ Mai.",
+      "answers": ["erste"],
+      "hint_gu": "1.",
+      "explain_gu": "1. = erste (અપવાદ). der સાથે અંતે -e: der erste Mai.",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wann ___ du Geburtstag?",
+      "answers": ["hast"],
+      "hint_gu": "haben",
+      "explain_gu": "જન્મદિવસ સાથે haben: Wann hast du Geburtstag?",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "Frühling", "gu": "વસંત" },
+        { "de": "Sommer", "gu": "ઉનાળો" },
+        { "de": "Herbst", "gu": "પાનખર" },
+        { "de": "Winter", "gu": "શિયાળો" }
+      ],
+      "explain_gu": "જર્મનીમાં ચાર ઋતુઓ છે, અને ચારેય der છે.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "article",
+      "noun": "Monat",
+      "answer": "der",
+      "explain_gu": "der Monat. બધા મહિના પણ der છે: der Mai, der Juni.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Datum",
+      "answer": "das",
+      "explain_gu": "das Datum (તારીખ). બહુવચન: die Daten.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["ist", "heute?", "Datum", "Welches"],
+      "answer": "Welches Datum ist heute?",
+      "gu": "આજે કઈ તારીખ છે?",
+      "explain_gu": "Welches Datum (પ્રશ્ન) + ist (ક્રિયાપદ) + heute.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Geburtstag.", "im", "habe", "Ich", "Mai"],
+      "answer": "Ich habe im Mai Geburtstag.",
+      "gu": "મારો જન્મદિવસ મેમાં છે.",
+      "explain_gu": "ક્રિયાપદ habe બીજા સ્થાને, સમય (im Mai) વચ્ચે, અને Geburtstag અંતે.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Heute ist der dritte Oktober.",
+      "question_gu": "આજે કઈ તારીખ છે?",
+      "options": ["3 ઑક્ટોબર", "30 ઑક્ટોબર", "3 ઑગસ્ટ"],
+      "answer": 0,
+      "explain_gu": "dritte = ત્રીજી, Oktober = ઑક્ટોબર. (30. = dreißigste.)",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Ich bin neunzehnhundertachtundneunzig geboren.",
+      "question_gu": "આ વ્યક્તિનો જન્મ કયા વર્ષે થયો?",
+      "options": ["1998", "1989", "2098"],
+      "answer": 0,
+      "explain_gu": "neunzehnhundert (1900) + acht und neunzig (98) = 1998.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "આજે પહેલી મે છે.",
+      "answers_de": ["Heute ist der erste Mai.", "Heute ist der 1. Mai."],
+      "explain_gu": "Heute ist der erste Mai. (der સાથે -e).",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich habe am vierzehnten März Geburtstag.",
+      "gu": "મારો જન્મદિવસ ચૌદમી માર્ચે છે.",
+      "explain_gu": "März = મેર્ત્સ (ä = એ, z = ત્સ). vierzehnten = ફિર્ત્સેન્ટન.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Priya hat am zweiten Juli Geburtstag. Raj hat im März Geburtstag. Der Sommer in Gujarat ist sehr warm. Der Winter in Deutschland ist kalt.",
+      "statements": [
+        { "de": "Priya hat im Juni Geburtstag.", "answer": false },
+        { "de": "Raj hat im März Geburtstag.", "answer": true },
+        { "de": "Der Winter in Deutschland ist warm.", "answer": false }
+      ],
+      "explain_gu": "પ્રિયાનો જન્મદિવસ Juli (જુલાઈ) માં છે, Juni (જૂન) માં નહીં. જર્મનીમાં શિયાળો kalt (ઠંડો) છે.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Januar, Februar, März, April, Mai, Juni.",
+      "Juli, August, September, Oktober, November, Dezember.",
+      "Frühling, Sommer, Herbst, Winter.",
+      "Welches Datum ist heute?",
+      "Heute ist der erste Mai.",
+      "Wann hast du Geburtstag?",
+      "Ich habe am vierzehnten März Geburtstag."
+    ],
+    "prompt_gu": "આજની તારીખ જર્મનમાં બોલો (Heute ist der …). પછી તમારો અને પરિવારના બે સભ્યોના જન્મદિવસ કહો: “Ich habe am … Geburtstag.” અને તમારા જન્મનું વર્ષ: “Ich bin … geboren.”"
+  },
+  "writing": {
+    "task_gu": "એક જર્મન મિત્રને જન્મદિવસ વિશે નાનો મેસેજ લખો: તમારો જન્મદિવસ ક્યારે છે, કઈ ઋતુમાં આવે છે, અને મિત્રને પૂછો કે તેનો જન્મદિવસ ક્યારે છે.",
+    "model_answer_de": "Hallo Anna! Ich habe am vierzehnten März Geburtstag. Der Frühling beginnt im März. Wann hast du Geburtstag? Bis bald, Raj",
+    "checklist_gu": [
+      "તારીખ સાથે am + …ten (am vierzehnten März)",
+      "મહિના અને ઋતુ સાથે im (im März)",
+      "Geburtstag સાથે haben (Ich habe …, Wann hast du …?)",
+      "મહિના, ઋતુ અને Geburtstag મોટા અક્ષરથી",
+      "પ્રશ્નના અંતે પ્રશ્નાર્થચિહ્ન (?)"
+    ]
+  },
+  "summary_gu": [
+    "મહિનાનાં નામ અંગ્રેજી જેવાં; બધા મહિના અને ઋતુઓ der.",
+    "um + ઘડિયાળનો સમય, am + દિવસ / તારીખ, im + મહિનો / ઋતુ.",
+    "ક્રમવાચક: 1–19 + te, 20 થી + ste. અપવાદ: erste, dritte, siebte.",
+    "Heute ist der dritte Mai. પણ am dritten Mai (am સાથે -ten).",
+    "Wann hast du Geburtstag? – Ich habe am … Geburtstag.",
+    "વર્ષ: 1999 = neunzehnhundertneunundneunzig, 2026 = zweitausendsechsundzwanzig."
+  ]
+}

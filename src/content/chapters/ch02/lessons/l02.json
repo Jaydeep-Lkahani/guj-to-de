@@ -1,0 +1,603 @@
+{
+  "id": "ch02-l02",
+  "number": 2,
+  "title_gu": "મોટી સંખ્યાઓ (21–1000) અને કિંમત",
+  "goal_gu": "આ પાઠ પછી તમે 1000 સુધીની કોઈ પણ સંખ્યા બોલી અને સમજી શકશો, દુકાનમાં કિંમત પૂછી શકશો અને યુરોમાં કિંમત સમજી શકશો.",
+  "vocab": [
+    {
+      "id": "ch02-l02-einundzwanzig",
+      "de": "einundzwanzig",
+      "gender": null,
+      "gu": "એકવીસ (21)",
+      "pron_gu": "આઇનઉન્ટત્સ્વાન્ત્સિશ",
+      "example_de": "Zwanzig plus eins ist einundzwanzig.",
+      "example_gu": "વીસ વત્તા એક બરાબર એકવીસ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-dreissig",
+      "de": "dreißig",
+      "gender": null,
+      "gu": "ત્રીસ (30)",
+      "pron_gu": "ડ્રાઇસિશ",
+      "example_de": "Zehn plus zwanzig ist dreißig.",
+      "example_gu": "દસ વત્તા વીસ બરાબર ત્રીસ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-vierzig",
+      "de": "vierzig",
+      "gender": null,
+      "gu": "ચાલીસ (40)",
+      "pron_gu": "ફિર્ત્સિશ",
+      "example_de": "Zwanzig plus zwanzig ist vierzig.",
+      "example_gu": "વીસ વત્તા વીસ બરાબર ચાલીસ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-fuenfzig",
+      "de": "fünfzig",
+      "gender": null,
+      "gu": "પચાસ (50)",
+      "pron_gu": "ફ્યૂન્ફત્સિશ",
+      "example_de": "Herr Patel ist fünfzig Jahre alt.",
+      "example_gu": "શ્રી પટેલ પચાસ વર્ષના છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-sechzig",
+      "de": "sechzig",
+      "gender": null,
+      "gu": "સાઠ (60)",
+      "pron_gu": "ઝેશત્સિશ",
+      "example_de": "Frau Weber ist sechzig Jahre alt.",
+      "example_gu": "શ્રીમતી વેબર સાઠ વર્ષનાં છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-siebzig",
+      "de": "siebzig",
+      "gender": null,
+      "gu": "સિત્તેર (70)",
+      "pron_gu": "ઝીપ્ત્સિશ",
+      "example_de": "Siebzig minus zehn ist sechzig.",
+      "example_gu": "સિત્તેર ઓછા દસ બરાબર સાઠ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-achtzig",
+      "de": "achtzig",
+      "gender": null,
+      "gu": "એંસી (80)",
+      "pron_gu": "આખ્ત્સિશ",
+      "example_de": "Achtzig plus zwanzig ist hundert.",
+      "example_gu": "એંસી વત્તા વીસ બરાબર સો.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-neunzig",
+      "de": "neunzig",
+      "gender": null,
+      "gu": "નેવું (90)",
+      "pron_gu": "નોયન્ત્સિશ",
+      "example_de": "Der Kaffee kostet neunzig Cent.",
+      "example_gu": "કૉફીની કિંમત નેવું સેન્ટ છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-hundert",
+      "de": "hundert",
+      "gender": null,
+      "gu": "સો (100)",
+      "pron_gu": "હુન્ડર્ટ",
+      "example_de": "Hundert Cent sind ein Euro.",
+      "example_gu": "સો સેન્ટ એટલે એક યુરો.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-tausend",
+      "de": "tausend",
+      "gender": null,
+      "gu": "હજાર (1000)",
+      "pron_gu": "ટાઉઝન્ટ",
+      "example_de": "Tausend Euro? Das ist teuer!",
+      "example_gu": "હજાર યુરો? આ તો મોંઘું છે!",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l02-euro",
+      "de": "Euro",
+      "gender": "der",
+      "plural": "die Euro",
+      "gu": "યુરો (જર્મનીનું ચલણ)",
+      "pron_gu": "ઓયરો",
+      "example_de": "Das kostet zehn Euro.",
+      "example_gu": "આની કિંમત દસ યુરો છે.",
+      "level": "A1",
+      "tags": ["noun", "money"]
+    },
+    {
+      "id": "ch02-l02-cent",
+      "de": "Cent",
+      "gender": "der",
+      "plural": "die Cent",
+      "gu": "સેન્ટ (યુરોનો સોમો ભાગ)",
+      "pron_gu": "સેન્ટ",
+      "example_de": "Das Brot kostet neunzig Cent.",
+      "example_gu": "બ્રેડની કિંમત નેવું સેન્ટ છે.",
+      "level": "A1",
+      "tags": ["noun", "money"]
+    },
+    {
+      "id": "ch02-l02-kosten",
+      "de": "kosten",
+      "gender": null,
+      "gu": "કિંમત હોવી",
+      "pron_gu": "કોસ્ટન",
+      "example_de": "Was kostet das?",
+      "example_gu": "આની કિંમત કેટલી છે?",
+      "level": "A1",
+      "tags": ["verb", "money"]
+    },
+    {
+      "id": "ch02-l02-wie-viel",
+      "de": "wie viel",
+      "gender": null,
+      "gu": "કેટલું",
+      "pron_gu": "વી ફીલ",
+      "example_de": "Wie viel kostet das Handy?",
+      "example_gu": "મોબાઇલની કિંમત કેટલી છે?",
+      "level": "A1",
+      "tags": ["question"]
+    },
+    {
+      "id": "ch02-l02-teuer",
+      "de": "teuer",
+      "gender": null,
+      "gu": "મોંઘું",
+      "pron_gu": "ટોયર",
+      "example_de": "Das Handy ist teuer.",
+      "example_gu": "મોબાઇલ મોંઘો છે.",
+      "level": "A1",
+      "tags": ["adjective", "money"]
+    },
+    {
+      "id": "ch02-l02-billig",
+      "de": "billig",
+      "gender": null,
+      "gu": "સસ્તું",
+      "pron_gu": "બિલિશ",
+      "example_de": "Das Brot ist billig.",
+      "example_gu": "બ્રેડ સસ્તી છે.",
+      "level": "A1",
+      "tags": ["adjective", "money"]
+    },
+    {
+      "id": "ch02-l02-kaffee",
+      "de": "Kaffee",
+      "gender": "der",
+      "gu": "કૉફી",
+      "pron_gu": "કાફે",
+      "example_de": "Der Kaffee kostet drei Euro.",
+      "example_gu": "કૉફીની કિંમત ત્રણ યુરો છે.",
+      "level": "A1",
+      "tags": ["noun", "food"]
+    },
+    {
+      "id": "ch02-l02-brot",
+      "de": "Brot",
+      "gender": "das",
+      "plural": "die Brote",
+      "gu": "બ્રેડ, રોટલી",
+      "pron_gu": "બ્રોટ",
+      "example_de": "Das Brot kostet zwei Euro.",
+      "example_gu": "બ્રેડની કિંમત બે યુરો છે.",
+      "level": "A1",
+      "tags": ["noun", "food"]
+    },
+    {
+      "id": "ch02-l02-handy",
+      "de": "Handy",
+      "gender": "das",
+      "plural": "die Handys",
+      "gu": "મોબાઇલ ફોન",
+      "pron_gu": "હેન્ડી",
+      "example_de": "Das Handy kostet dreihundert Euro.",
+      "example_gu": "મોબાઇલની કિંમત ત્રણસો યુરો છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "21 થી 99 — પહેલાં એકમ, પછી દશક (ગુજરાતી જેવું!)",
+      "explanation_gu": "સારા સમાચાર: જર્મનમાં 21 થી 99 **ગુજરાતીની જેમ જ** બોલાય છે, પહેલાં એકમ અને પછી દશક. ગુજરાતી “**એક**વીસ” = એક + વીસ, તેમ જર્મન **einundzwanzig** = ein + und + zwanzig (“એક અને વીસ”). અંગ્રેજી *twenty-one* માં ઊંધું છે, એટલે અહીં અંગ્રેજી પ્રમાણે ન વિચારો!\n\n**નિયમ:** એકમ + **und** + દશક, અને **બધું એક જ શબ્દમાં** લખાય: *fünfundvierzig* (45).\n- 21, 31, 41 … માં **eins નો s નીકળી જાય છે**: *einundzwanzig*, *einunddreißig*.\n\n**દશક:** મોટા ભાગે એકમ + **-zig**. ત્રણ ખાસ યાદ રાખો:\n- **dreißig** (30): -zig નહીં, **-ßig**\n- **sechzig** (60): s નીકળી જાય (sechzehn જેવું)\n- **siebzig** (70): en નીકળી જાય (siebzehn જેવું)",
+      "tables": [
+        {
+          "headers": ["અંક", "જર્મન", "ઉચ્ચાર"],
+          "rows": [
+            ["20", "zwanzig", "ત્સ્વાન્ત્સિશ"],
+            ["30", "dreißig", "ડ્રાઇસિશ"],
+            ["40", "vierzig", "ફિર્ત્સિશ"],
+            ["50", "fünfzig", "ફ્યૂન્ફત્સિશ"],
+            ["60", "sechzig", "ઝેશત્સિશ"],
+            ["70", "siebzig", "ઝીપ્ત્સિશ"],
+            ["80", "achtzig", "આખ્ત્સિશ"],
+            ["90", "neunzig", "નોયન્ત્સિશ"]
+          ]
+        },
+        {
+          "headers": ["અંક", "જર્મન", "શબ્દશઃ"],
+          "rows": [
+            ["21", "einundzwanzig", "એક અને વીસ"],
+            ["25", "fünfundzwanzig", "પાંચ અને વીસ"],
+            ["37", "siebenunddreißig", "સાત અને ત્રીસ"],
+            ["48", "achtundvierzig", "આઠ અને ચાલીસ"],
+            ["99", "neunundneunzig", "નવ અને નેવું"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwanzig plus fünf ist fünfundzwanzig.",
+          "gu": "વીસ વત્તા પાંચ બરાબર પચ્ચીસ.",
+          "note_gu": "fünf + und + zwanzig"
+        },
+        {
+          "de": "Ich bin vierunddreißig Jahre alt.",
+          "gu": "હું ચોત્રીસ વર્ષનો છું."
+        },
+        {
+          "de": "Herr Patel ist achtundfünfzig.",
+          "gu": "શ્રી પટેલ અઠ્ઠાવન વર્ષના છે."
+        },
+        {
+          "de": "Dreißig plus eins ist einunddreißig.",
+          "gu": "ત્રીસ વત્તા એક બરાબર એકત્રીસ.",
+          "note_gu": "eins નો s નીકળી ગયો: einund…"
+        },
+        {
+          "de": "Neunzig plus neun ist neunundneunzig.",
+          "gu": "નેવું વત્તા નવ બરાબર નવ્વાણું."
+        }
+      ]
+    },
+    {
+      "title_gu": "100 થી 1000",
+      "explanation_gu": "**hundert** = સો, **tausend** = હજાર. અહીં પણ ગુજરાતી જેવો જ ક્રમ: પહેલાં સો, પછી બાકીની સંખ્યા.\n- *zweihundert* (200) = zwei + hundert\n- *hundertfünf* (105) = hundert + fünf\n- *dreihundertfünfundvierzig* (345) = drei + hundert + fünf + und + vierzig\n\n100 = **hundert** અથવા **einhundert**, 1000 = **tausend** અથવા **eintausend**. આખી સંખ્યા **એક જ શબ્દમાં** લખાય છે, એટલે શબ્દ લાંબો થાય છે. ગભરાશો નહીં: તેને ટુકડાઓમાં વાંચો!",
+      "tables": [
+        {
+          "headers": ["અંક", "જર્મન", "ટુકડા"],
+          "rows": [
+            ["100", "hundert", "hundert"],
+            ["101", "hunderteins", "hundert + eins"],
+            ["110", "hundertzehn", "hundert + zehn"],
+            ["200", "zweihundert", "zwei + hundert"],
+            ["250", "zweihundertfünfzig", "zwei + hundert + fünfzig"],
+            ["345", "dreihundertfünfundvierzig", "drei + hundert + fünf + und + vierzig"],
+            ["999", "neunhundertneunundneunzig", "neun + hundert + neun + und + neunzig"],
+            ["1000", "tausend", "tausend"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Hundert plus hundert ist zweihundert.",
+          "gu": "સો વત્તા સો બરાબર બસો."
+        },
+        {
+          "de": "Das Handy kostet dreihundert Euro.",
+          "gu": "મોબાઇલની કિંમત ત્રણસો યુરો છે."
+        },
+        {
+          "de": "Der Kurs kostet vierhundertfünfzig Euro.",
+          "gu": "કોર્સની કિંમત ચારસો પચાસ યુરો છે."
+        },
+        {
+          "de": "Das Buch kostet hundertzwanzig Euro.",
+          "gu": "પુસ્તકની કિંમત એકસો વીસ યુરો છે."
+        },
+        {
+          "de": "Tausend Euro? Das ist teuer!",
+          "gu": "હજાર યુરો? આ તો મોંઘું છે!"
+        }
+      ]
+    },
+    {
+      "title_gu": "કિંમત પૂછવી: Was kostet …?",
+      "explanation_gu": "**કિંમત પૂછવી:** *Was kostet das?* અથવા *Wie viel kostet das?* (આની કિંમત કેટલી છે?)\n\n**kosten** નાં બે રૂપો યાદ રાખો: એક વસ્તુ માટે **kostet** (*Der Kaffee kostet …*), એકથી વધુ વસ્તુઓ માટે **kosten** (*Kaffee und Brot kosten …*).\n\n**કિંમત બોલવી:** *2,50 €* = *zwei Euro fünfzig*. વચ્ચે “Cent” શબ્દ સામાન્ય રીતે બોલાતો નથી.\n- જર્મનીમાં દશાંશ માટે **અલ્પવિરામ (,)** વપરાય છે, બિંદુ (.) નહીં: *2,50 €*.\n- **Euro નું બહુવચન બદલાતું નથી**: *ein Euro, zehn Euro* (Euros નહીં).\n- 1 € થી ઓછું હોય તો: *fünfzig Cent* (0,50 €).\n\n**teuer** = મોંઘું, **billig** = સસ્તું. દુકાનમાં કુલ રકમ કહેવા માટે તૈયાર વાક્ય: *Das macht sechs Euro.* (કુલ છ યુરો થયા.)",
+      "tables": [
+        {
+          "headers": ["લખાય", "બોલાય"],
+          "rows": [
+            ["1,00 €", "ein Euro"],
+            ["2,50 €", "zwei Euro fünfzig"],
+            ["9,99 €", "neun Euro neunundneunzig"],
+            ["0,80 €", "achtzig Cent"],
+            ["300,00 €", "dreihundert Euro"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Was kostet das?",
+          "gu": "આની કિંમત કેટલી છે?"
+        },
+        {
+          "de": "Der Kaffee kostet zwei Euro achtzig.",
+          "gu": "કૉફીની કિંમત 2,80 યુરો છે.",
+          "note_gu": "2,80 € = zwei Euro achtzig"
+        },
+        {
+          "de": "Kaffee und Brot kosten sechs Euro dreißig.",
+          "gu": "કૉફી અને બ્રેડની કિંમત 6,30 યુરો છે.",
+          "note_gu": "બે વસ્તુઓ, એટલે kosten"
+        },
+        {
+          "de": "Das Handy ist teuer.",
+          "gu": "મોબાઇલ મોંઘો છે."
+        },
+        {
+          "de": "Das macht neun Euro neunzig.",
+          "gu": "કુલ 9,90 યુરો થયા."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Verkäuferin",
+        "de": "Guten Morgen! Bitte schön?",
+        "gu": "શુભ સવાર! બોલો, શું આપું?"
+      },
+      {
+        "speaker": "Priya",
+        "de": "Guten Morgen! Was kostet der Kaffee?",
+        "gu": "શુભ સવાર! કૉફીની કિંમત કેટલી છે?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Der Kaffee kostet zwei Euro achtzig.",
+        "gu": "કૉફીની કિંમત 2,80 યુરો છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Und was kostet das Brot?",
+        "gu": "અને બ્રેડની કિંમત કેટલી છે?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Das Brot kostet drei Euro fünfzig.",
+        "gu": "બ્રેડની કિંમત 3,50 યુરો છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Kaffee und Brot, bitte.",
+        "gu": "કૉફી અને બ્રેડ આપજો."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Das macht sechs Euro dreißig.",
+        "gu": "કુલ 6,30 યુરો થયા."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Hier, bitte.",
+        "gu": "આ લો."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Danke schön! Tschüss!",
+        "gu": "ખૂબ આભાર! આવજો!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "einundvierzig એટલે કઈ સંખ્યા?",
+      "options": ["14", "41", "40"],
+      "answer": 1,
+      "explain_gu": "ein (1) + und + vierzig (40) = 41. ગુજરાતીની જેમ પહેલાં એકમ, પછી દશક.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "35 ને જર્મનમાં શું કહેવાય?",
+      "options": ["dreiundfünfzig", "fünfunddreißig", "dreißigfünf"],
+      "answer": 1,
+      "explain_gu": "35 = fünf (5) + und + dreißig (30) = fünfunddreißig. dreiundfünfzig = 53.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "30 નો સાચો સ્પેલિંગ કયો છે?",
+      "options": ["dreizig", "dreißig", "dreizehn"],
+      "answer": 1,
+      "explain_gu": "30 = dreißig (-ßig). બાકીના દશકો -zig થી બને, પણ 30 અપવાદ છે. dreizehn = 13.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "70 નો સાચો સ્પેલિંગ કયો છે?",
+      "options": ["siebenzig", "siebzig", "siebzehn"],
+      "answer": 1,
+      "explain_gu": "70 = siebzig. siebzehn (17) ની જેમ sieben નો en નીકળી જાય છે.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "2,50 € કેવી રીતે બોલાય?",
+      "options": ["zwei Euro fünfzig", "zwei Euros fünfzig", "fünfzig Euro zwei"],
+      "answer": 0,
+      "explain_gu": "પહેલાં યુરો, પછી સેન્ટ: zwei Euro fünfzig. Euro નું બહુવચન બદલાતું નથી.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Was ___ das?",
+      "answers": ["kostet"],
+      "hint_gu": "કિંમત પૂછો",
+      "explain_gu": "કિંમત પૂછવા: Was kostet das? (એક વસ્તુ, એટલે kostet).",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Das Handy kostet dreihundert ___.",
+      "answers": ["Euro"],
+      "hint_gu": "જર્મનીનું ચલણ",
+      "explain_gu": "Euro નામ છે, એટલે મોટો E. બહુવચનમાં પણ Euro જ રહે છે.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Zwanzig plus zwanzig ist ___.",
+      "answers": ["vierzig"],
+      "hint_gu": "20 + 20",
+      "explain_gu": "20 + 20 = 40 = vierzig.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Kaffee und Brot ___ sechs Euro.",
+      "answers": ["kosten"],
+      "hint_gu": "બે વસ્તુઓ",
+      "explain_gu": "કૉફી અને બ્રેડ = બે વસ્તુઓ, એટલે kosten (kostet નહીં).",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "dreißig", "gu": "30" },
+        { "de": "fünfzig", "gu": "50" },
+        { "de": "siebzig", "gu": "70" },
+        { "de": "hundert", "gu": "100" },
+        { "de": "tausend", "gu": "1000" }
+      ],
+      "explain_gu": "દશકો -zig થી બને (30 = dreißig અપવાદ). hundert = સો, tausend = હજાર.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "article",
+      "noun": "Kaffee",
+      "answer": "der",
+      "explain_gu": "der Kaffee (કૉફી).",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Handy",
+      "answer": "das",
+      "explain_gu": "das Handy (મોબાઇલ). બહુવચન: die Handys.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["kostet", "Was", "Kaffee?", "der"],
+      "answer": "Was kostet der Kaffee?",
+      "gu": "કૉફીની કિંમત કેટલી છે?",
+      "explain_gu": "પ્રશ્ન-શબ્દ Was પહેલા, ક્રિયાપદ kostet બીજા સ્થાને.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Euro.", "Buch", "zwölf", "Das", "kostet"],
+      "answer": "Das Buch kostet zwölf Euro.",
+      "gu": "પુસ્તકની કિંમત બાર યુરો છે.",
+      "explain_gu": "Das Buch (1) kostet (2) zwölf Euro: ક્રિયાપદ બીજા સ્થાને.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "achtundsechzig",
+      "question_gu": "તમે કઈ સંખ્યા સાંભળી?",
+      "options": ["86", "68", "58"],
+      "answer": 1,
+      "explain_gu": "acht (8) + und + sechzig (60) = 68. પહેલું સંભળાય તે એકમ છે.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Das kostet vier Euro zwanzig.",
+      "question_gu": "કિંમત કેટલી છે?",
+      "options": ["4,20 €", "20,40 €", "4,02 €"],
+      "answer": 0,
+      "explain_gu": "vier Euro zwanzig = 4 યુરો અને 20 સેન્ટ = 4,20 €.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "આ મોંઘું છે.",
+      "answers_de": ["Das ist teuer."],
+      "explain_gu": "આ = das, છે = ist, મોંઘું = teuer.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "translate",
+      "gu": "કૉફીની કિંમત કેટલી છે?",
+      "answers_de": ["Was kostet der Kaffee?", "Wie viel kostet der Kaffee?"],
+      "explain_gu": "Was kostet … ? અથવા Wie viel kostet … ? બંને સાચાં છે.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "speak",
+      "text_de": "Das macht sechs Euro dreißig.",
+      "gu": "કુલ 6,30 યુરો થયા.",
+      "explain_gu": "Euro = ઓયરો (eu = ઓય), dreißig = ડ્રાઇસિશ (ß = સ).",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Der Kaffee kostet zwei Euro achtzig. Das Brot kostet drei Euro fünfzig. Das Handy kostet dreihundert Euro. Das Handy ist teuer.",
+      "statements": [
+        { "de": "Das Brot kostet drei Euro fünfzig.", "answer": true },
+        { "de": "Der Kaffee kostet acht Euro.", "answer": false },
+        { "de": "Das Handy ist billig.", "answer": false }
+      ],
+      "explain_gu": "કૉફી 2,80 € ની છે (8 € ની નહીં), અને લખાણ કહે છે કે મોબાઇલ teuer (મોંઘો) છે, billig (સસ્તો) નહીં.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Zwanzig, dreißig, vierzig, fünfzig.",
+      "Sechzig, siebzig, achtzig, neunzig, hundert.",
+      "Einundzwanzig, zweiundzwanzig, dreiundzwanzig.",
+      "Was kostet das?",
+      "Der Kaffee kostet zwei Euro achtzig.",
+      "Das ist teuer!",
+      "Das macht sechs Euro dreißig."
+    ],
+    "prompt_gu": "તમારી ઉંમર જર્મનમાં કહો (Ich bin … Jahre alt.). પછી ઘરની ત્રણ વસ્તુઓની અંદાજિત કિંમત યુરોમાં બોલો, જેમ કે: “Das Handy kostet … Euro.”"
+  },
+  "writing": {
+    "task_gu": "દુકાનની એક નાની કિંમત-યાદી લખો: ત્રણ વસ્તુઓ અને તેની કિંમત (શબ્દોમાં), અને છેલ્લે એક વાક્ય: કઈ વસ્તુ મોંઘી કે સસ્તી છે.",
+    "model_answer_de": "Der Kaffee kostet zwei Euro neunzig. Das Brot kostet drei Euro zwanzig. Das Handy kostet dreihundertfünfzig Euro. Das Handy ist teuer.",
+    "checklist_gu": [
+      "દરેક વાક્યમાં kostet (એક વસ્તુ)",
+      "કિંમત: પહેલાં Euro, પછી સેન્ટ (zwei Euro neunzig)",
+      "Euro બહુવચનમાં પણ Euro જ",
+      "મોટી સંખ્યા એક જ શબ્દમાં (dreihundertfünfzig)",
+      "teuer કે billig સાથે ist"
+    ]
+  },
+  "summary_gu": [
+    "21–99: એકમ + und + દશક, ગુજરાતી જેવું: einundzwanzig (21), fünfundvierzig (45).",
+    "દશકો -zig થી; અપવાદ: dreißig (30), sechzig (60), siebzig (70).",
+    "hundert (100), tausend (1000). આખી સંખ્યા એક જ શબ્દમાં: dreihundertfünfundvierzig.",
+    "Was kostet das? / Wie viel kostet das? એક વસ્તુ: kostet, વધુ: kosten.",
+    "2,50 € = zwei Euro fünfzig. Euro નું બહુવચન Euro જ.",
+    "teuer = મોંઘું, billig = સસ્તું. Das macht … = કુલ … થયા."
+  ]
+}

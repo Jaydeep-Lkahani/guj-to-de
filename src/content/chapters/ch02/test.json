@@ -1,0 +1,308 @@
+{
+  "chapter": 2,
+  "pass_mark": 70,
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "17 નો સાચો સ્પેલિંગ કયો છે?",
+      "options": ["siebenzehn", "siebzehn", "siebzig"],
+      "answer": 1,
+      "explain_gu": "17 = siebzehn: sieben નો en નીકળી જાય. siebzig = 70.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "63 ને જર્મનમાં શું કહેવાય?",
+      "options": ["sechsunddreißig", "dreiundsechzig", "sechzigdrei"],
+      "answer": 1,
+      "explain_gu": "પહેલાં એકમ, પછી દશક: drei (3) + und + sechzig (60) = dreiundsechzig. sechsunddreißig = 36.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "250 ને જર્મનમાં શું કહેવાય?",
+      "options": ["zweihundertfünfzig", "fünfzigzweihundert", "zweifünfzighundert"],
+      "answer": 0,
+      "explain_gu": "પહેલાં સો, પછી બાકીનું: zwei + hundert + fünfzig, એક જ શબ્દમાં.",
+      "topic_gu": "સંખ્યા 21–1000"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "9,50 € કેવી રીતે બોલાય?",
+      "options": ["neun Euro fünfzig", "neun Euros fünfzig", "fünfzig Euro neun"],
+      "answer": 0,
+      "explain_gu": "પહેલાં યુરો, પછી સેન્ટ. Euro નું બહુવચન Euro જ રહે છે.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Kaffee und Tee ___ fünf Euro.” ખાલી જગ્યામાં શું આવે?",
+      "options": ["kostet", "kosten", "kostest"],
+      "answer": 1,
+      "explain_gu": "કૉફી અને ચા = બે વસ્તુઓ, એટલે kosten.",
+      "topic_gu": "કિંમત"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "er + haben = ?",
+      "options": ["er habt", "er hat", "er habe"],
+      "answer": 1,
+      "explain_gu": "er/sie/es સાથે hat (b નીકળી જાય). ihr habt, ich habe.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“___ ist das? – Das ist Frau Weber.” ખાલી જગ્યામાં શું આવે?",
+      "options": ["Was", "Wer", "Wann"],
+      "answer": 1,
+      "explain_gu": "જવાબ એક વ્યક્તિ છે, એટલે Wer (કોણ).",
+      "topic_gu": "W-પ્રશ્નો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "du + arbeiten = ?",
+      "options": ["du arbeitst", "du arbeitest", "du arbeiten"],
+      "answer": 1,
+      "explain_gu": "મૂળ arbeit- t થી પૂરું થાય, એટલે વચ્ચે e: du arbeitest.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“મને રાંધવું ગમે છે.” સાચું વાક્ય કયું?",
+      "options": ["Ich koche gern.", "Ich gern koche.", "Ich bin gern kochen."],
+      "answer": 0,
+      "explain_gu": "ક્રિયાપદ બીજા સ્થાને અને gern તેની પછી: Ich koche gern.",
+      "topic_gu": "gern"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“halb neun” એટલે કેટલા વાગ્યા?",
+      "options": ["8:30", "9:30", "9:15"],
+      "answer": 0,
+      "explain_gu": "halb + આવનારો કલાક: halb neun = નવ વાગવામાં અડધો કલાક = 8:30.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Viertel vor zwölf” એટલે કેટલા વાગ્યા?",
+      "options": ["11:45", "12:15", "12:45"],
+      "answer": 0,
+      "explain_gu": "Viertel vor zwölf = બાર વાગવામાં પા કલાક = પોણા બાર = 11:45.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“Ich habe ___ fünften Mai Geburtstag.” ખાલી જગ્યામાં શું આવે?",
+      "options": ["um", "am", "im"],
+      "answer": 1,
+      "explain_gu": "તારીખ સાથે am: am fünften Mai. (im Mai = મેમાં, પણ તારીખ હોય તો am.)",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Neun plus neun ist ___.",
+      "answers": ["achtzehn"],
+      "hint_gu": "9 + 9",
+      "explain_gu": "18 = acht + zehn = achtzehn.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ zweiundzwanzig Jahre alt.",
+      "answers": ["bin"],
+      "explain_gu": "ઉંમર sein થી કહેવાય: Ich bin … Jahre alt.",
+      "topic_gu": "ઉંમર"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir ___ heute frei.",
+      "answers": ["haben"],
+      "explain_gu": "wir સાથે haben: Wir haben heute frei.",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Du ___ viele Fragen.",
+      "answers": ["hast"],
+      "explain_gu": "du સાથે hast (habst નહીં).",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Anna ___ eine E-Mail.",
+      "answers": ["schreibt"],
+      "hint_gu": "schreiben",
+      "explain_gu": "Anna = sie, અને sie સાથે અંત -t: schreibt.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ihr ___ Fußball.",
+      "answers": ["spielt"],
+      "hint_gu": "spielen",
+      "explain_gu": "ihr સાથે અંત -t: spielt (er જેવો જ અંત).",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Was ___ du gern?",
+      "answers": ["machst"],
+      "hint_gu": "machen",
+      "explain_gu": "du સાથે અંત -st: machst.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Der Kurs beginnt ___ halb neun.",
+      "answers": ["um"],
+      "explain_gu": "ઘડિયાળના સમય સાથે um: um halb neun.",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wir haben ___ Sommer frei.",
+      "answers": ["im"],
+      "explain_gu": "ઋતુ સાથે im: im Sommer.",
+      "topic_gu": "um / am / im"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Es ist Viertel ___ acht.",
+      "answers": ["nach"],
+      "hint_gu": "8:15",
+      "explain_gu": "8:15 = સવા આઠ = Viertel nach acht.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "article",
+      "noun": "Uhr",
+      "answer": "die",
+      "explain_gu": "die Uhr (ઘડિયાળ). બહુવચન: die Uhren.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Brot",
+      "answer": "das",
+      "explain_gu": "das Brot (બ્રેડ). બહુવચન: die Brote.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Geburtstag",
+      "answer": "der",
+      "explain_gu": "der Geburtstag. Tag (દિવસ) der છે, એટલે Geburtstag પણ der.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "Dienstag", "gu": "મંગળવાર" },
+        { "de": "Freitag", "gu": "શુક્રવાર" },
+        { "de": "Juli", "gu": "જુલાઈ" },
+        { "de": "Winter", "gu": "શિયાળો" },
+        { "de": "Woche", "gu": "અઠવાડિયું" }
+      ],
+      "explain_gu": "દિવસો, મહિના અને ઋતુઓ આ પ્રકરણના પાઠ 5 અને 6 માંથી છે.",
+      "topic_gu": "શબ્દભંડોળ"
+    },
+    {
+      "type": "order",
+      "words": ["kostet", "Wie", "Handy?", "das", "viel"],
+      "answer": "Wie viel kostet das Handy?",
+      "gu": "મોબાઇલની કિંમત કેટલી છે?",
+      "explain_gu": "W-પ્રશ્ન: Wie viel (1) kostet (2) das Handy (3).",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["Uhr.", "um", "beginnt", "Der", "Kurs", "zehn"],
+      "answer": "Der Kurs beginnt um zehn Uhr.",
+      "gu": "વર્ગ દસ વાગ્યે શરૂ થાય છે.",
+      "explain_gu": "Der Kurs (1) beginnt (2) um zehn Uhr: ક્રિયાપદ બીજા સ્થાને.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "siebenundvierzig",
+      "question_gu": "તમે કઈ સંખ્યા સાંભળી?",
+      "options": ["74", "47", "17"],
+      "answer": 1,
+      "explain_gu": "sieben (7) + und + vierzig (40) = 47. પહેલું સંભળાય તે એકમ.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Es ist Viertel vor neun.",
+      "question_gu": "કેટલા વાગ્યા છે?",
+      "options": ["8:45", "9:15", "9:45"],
+      "answer": 0,
+      "explain_gu": "Viertel vor neun = નવ વાગવામાં પા કલાક = પોણા નવ = 8:45.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Meine Telefonnummer ist null, eins, sieben, zwo, neun, drei.",
+      "question_gu": "નંબર કયો છે?",
+      "options": ["017293", "017239", "071293"],
+      "answer": 0,
+      "explain_gu": "null (0), eins (1), sieben (7), zwo (2), neun (9), drei (3) = 017293.",
+      "topic_gu": "ફોન નંબર"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Wir haben am Donnerstag Kurs.",
+      "question_gu": "વર્ગ કયા દિવસે છે?",
+      "options": ["ગુરુવારે", "મંગળવારે", "શનિવારે"],
+      "answer": 0,
+      "explain_gu": "Donnerstag = ગુરુવાર. (Dienstag = મંગળવાર, Samstag = શનિવાર.)",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "તારી પાસે સમય છે?",
+      "answers_de": ["Hast du Zeit?", "Hast du jetzt Zeit?"],
+      "explain_gu": "હા/ના પ્રશ્ન: ક્રિયાપદ પહેલા. du સાથે hast: Hast du Zeit?",
+      "topic_gu": "ક્રિયાપદ haben"
+    },
+    {
+      "type": "translate",
+      "gu": "હું ચા પીઉં છું.",
+      "answers_de": ["Ich trinke Tee."],
+      "explain_gu": "ich સાથે અંત -e: trinke. Tee નામ છે, એટલે મોટો T.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "translate",
+      "gu": "કેટલા વાગ્યા છે?",
+      "answers_de": ["Wie spät ist es?", "Wie viel Uhr ist es?"],
+      "explain_gu": "Wie spät ist es? અથવા Wie viel Uhr ist es? બંને સાચાં.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "translate",
+      "gu": "તારો જન્મદિવસ ક્યારે છે?",
+      "answers_de": ["Wann hast du Geburtstag?", "Wann ist dein Geburtstag?"],
+      "explain_gu": "જર્મનમાં haben સાથે: Wann hast du Geburtstag?",
+      "topic_gu": "તારીખ"
+    },
+    {
+      "type": "speak",
+      "text_de": "Der Kurs beginnt am Montag um halb neun.",
+      "gu": "વર્ગ સોમવારે સાડા આઠ વાગ્યે શરૂ થાય છે.",
+      "explain_gu": "Montag = મોનટાક (અંતનો g = ક), halb = હાલ્પ (અંતનો b = પ).",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Hallo, ich heiße Lukas. Ich bin achtundzwanzig Jahre alt und arbeite in Berlin. Ich arbeite von Montag bis Freitag. Am Samstag spiele ich Fußball. Ich habe am zehnten Juni Geburtstag.",
+      "statements": [
+        { "de": "Lukas ist achtundzwanzig Jahre alt.", "answer": true },
+        { "de": "Lukas arbeitet am Samstag.", "answer": false },
+        { "de": "Lukas hat im Juni Geburtstag.", "answer": true }
+      ],
+      "explain_gu": "લુકાસ 28 વર્ષનો છે, સોમથી શુક્ર કામ કરે છે (શનિવારે ફૂટબોલ રમે છે) અને તેનો જન્મદિવસ 10 જૂને છે.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ]
+}

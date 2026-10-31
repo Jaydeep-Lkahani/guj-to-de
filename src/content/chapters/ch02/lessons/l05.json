@@ -1,0 +1,645 @@
+{
+  "id": "ch02-l05",
+  "number": 5,
+  "title_gu": "સમય અને અઠવાડિયાના દિવસો",
+  "goal_gu": "આ પાઠ પછી તમે “કેટલા વાગ્યા?” પૂછી અને જવાબ આપી શકશો (ઔપચારિક અને રોજિંદી બંને રીતે), અઠવાડિયાના દિવસો બોલી શકશો અને કહી શકશો કે કંઈક ક્યારે છે: am Montag um neun Uhr.",
+  "vocab": [
+    {
+      "id": "ch02-l05-uhr",
+      "de": "Uhr",
+      "gender": "die",
+      "plural": "die Uhren",
+      "gu": "ઘડિયાળ; વાગ્યે (સમય)",
+      "pron_gu": "ઊર",
+      "example_de": "Es ist drei Uhr.",
+      "example_gu": "ત્રણ વાગ્યા છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-stunde",
+      "de": "Stunde",
+      "gender": "die",
+      "plural": "die Stunden",
+      "gu": "કલાક",
+      "pron_gu": "શ્ટુન્ડે",
+      "example_de": "Ich lerne zwei Stunden Deutsch.",
+      "example_gu": "હું બે કલાક જર્મન શીખું છું.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-minute",
+      "de": "Minute",
+      "gender": "die",
+      "plural": "die Minuten",
+      "gu": "મિનિટ",
+      "pron_gu": "મિનૂટે",
+      "example_de": "Ich habe fünf Minuten Zeit.",
+      "example_gu": "મારી પાસે પાંચ મિનિટ છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-halb",
+      "de": "halb",
+      "gender": null,
+      "gu": "અડધું (halb drei = અઢી વાગ્યા)",
+      "pron_gu": "હાલ્પ",
+      "example_de": "Es ist halb drei.",
+      "example_gu": "અઢી વાગ્યા છે (2:30).",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l05-viertel",
+      "de": "Viertel",
+      "gender": "das",
+      "plural": "die Viertel",
+      "gu": "પા ભાગ (15 મિનિટ)",
+      "pron_gu": "ફિર્ટલ",
+      "example_de": "Es ist Viertel nach vier.",
+      "example_gu": "સવા ચાર વાગ્યા છે (4:15).",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-nach",
+      "de": "nach",
+      "gender": null,
+      "gu": "પછી (સમયમાં: … વાગીને)",
+      "pron_gu": "નાખ",
+      "example_de": "Es ist zehn nach acht.",
+      "example_gu": "આઠ વાગીને દસ મિનિટ થઈ છે (8:10).",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l05-vor",
+      "de": "vor",
+      "gender": null,
+      "gu": "પહેલાં (સમયમાં: … વાગવામાં)",
+      "pron_gu": "ફોર",
+      "example_de": "Es ist fünf vor neun.",
+      "example_gu": "નવ વાગવામાં પાંચ મિનિટ બાકી છે (8:55).",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l05-um",
+      "de": "um",
+      "gender": null,
+      "gu": "… વાગ્યે",
+      "pron_gu": "ઉમ",
+      "example_de": "Der Kurs beginnt um neun Uhr.",
+      "example_gu": "વર્ગ નવ વાગ્યે શરૂ થાય છે.",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l05-spaet",
+      "de": "spät",
+      "gender": null,
+      "gu": "મોડું",
+      "pron_gu": "શ્પેટ",
+      "example_de": "Wie spät ist es?",
+      "example_gu": "કેટલા વાગ્યા છે?",
+      "level": "A1",
+      "tags": ["time"]
+    },
+    {
+      "id": "ch02-l05-beginnen",
+      "de": "beginnen",
+      "gender": null,
+      "gu": "શરૂ થવું, શરૂ કરવું",
+      "pron_gu": "બેગિનન",
+      "example_de": "Wann beginnt der Kurs?",
+      "example_gu": "વર્ગ ક્યારે શરૂ થાય છે?",
+      "level": "A1",
+      "tags": ["verb", "time"]
+    },
+    {
+      "id": "ch02-l05-morgen-nomen",
+      "de": "Morgen",
+      "gender": "der",
+      "plural": "die Morgen",
+      "gu": "સવાર",
+      "pron_gu": "મોર્ગન",
+      "example_de": "Ich trinke am Morgen Tee.",
+      "example_gu": "હું સવારે ચા પીઉં છું.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-nachmittag",
+      "de": "Nachmittag",
+      "gender": "der",
+      "plural": "die Nachmittage",
+      "gu": "બપોર પછીનો સમય",
+      "pron_gu": "નાખમિટાક",
+      "example_de": "Wir haben am Nachmittag frei.",
+      "example_gu": "બપોર પછી અમારે રજા છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-abend",
+      "de": "Abend",
+      "gender": "der",
+      "plural": "die Abende",
+      "gu": "સાંજ",
+      "pron_gu": "આબન્ટ",
+      "example_de": "Lukas spielt am Abend Fußball.",
+      "example_gu": "લુકાસ સાંજે ફૂટબોલ રમે છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-woche",
+      "de": "Woche",
+      "gender": "die",
+      "plural": "die Wochen",
+      "gu": "અઠવાડિયું",
+      "pron_gu": "વોખે",
+      "example_de": "Die Woche hat sieben Tage.",
+      "example_gu": "અઠવાડિયામાં સાત દિવસ હોય છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "ch02-l05-montag",
+      "de": "Montag",
+      "gender": "der",
+      "plural": "die Montage",
+      "gu": "સોમવાર",
+      "pron_gu": "મોનટાક",
+      "example_de": "Ich arbeite am Montag.",
+      "example_gu": "હું સોમવારે કામ કરું છું.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-dienstag",
+      "de": "Dienstag",
+      "gender": "der",
+      "plural": "die Dienstage",
+      "gu": "મંગળવાર",
+      "pron_gu": "ડીન્સટાક",
+      "example_de": "Der Kurs beginnt am Dienstag.",
+      "example_gu": "વર્ગ મંગળવારે શરૂ થાય છે.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-mittwoch",
+      "de": "Mittwoch",
+      "gender": "der",
+      "plural": "die Mittwoche",
+      "gu": "બુધવાર",
+      "pron_gu": "મિટવોખ",
+      "example_de": "Hast du am Mittwoch Zeit?",
+      "example_gu": "બુધવારે તારી પાસે સમય છે?",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-donnerstag",
+      "de": "Donnerstag",
+      "gender": "der",
+      "plural": "die Donnerstage",
+      "gu": "ગુરુવાર",
+      "pron_gu": "ડોનર્સટાક",
+      "example_de": "Priya kocht am Donnerstag.",
+      "example_gu": "પ્રિયા ગુરુવારે રાંધે છે.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-freitag",
+      "de": "Freitag",
+      "gender": "der",
+      "plural": "die Freitage",
+      "gu": "શુક્રવાર",
+      "pron_gu": "ફ્રાઇટાક",
+      "example_de": "Wir tanzen am Freitag.",
+      "example_gu": "અમે શુક્રવારે નાચીએ છીએ.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-samstag",
+      "de": "Samstag",
+      "gender": "der",
+      "plural": "die Samstage",
+      "gu": "શનિવાર",
+      "pron_gu": "ઝામ્સટાક",
+      "example_de": "Raj spielt am Samstag Kricket.",
+      "example_gu": "રાજ શનિવારે ક્રિકેટ રમે છે.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-sonntag",
+      "de": "Sonntag",
+      "gender": "der",
+      "plural": "die Sonntage",
+      "gu": "રવિવાર",
+      "pron_gu": "ઝોનટાક",
+      "example_de": "Heute ist Sonntag.",
+      "example_gu": "આજે રવિવાર છે.",
+      "level": "A1",
+      "tags": ["noun", "day"]
+    },
+    {
+      "id": "ch02-l05-wochenende",
+      "de": "Wochenende",
+      "gender": "das",
+      "plural": "die Wochenenden",
+      "gu": "શનિ-રવિ, વીકએન્ડ",
+      "pron_gu": "વોખનએન્ડે",
+      "example_de": "Wir haben am Wochenende frei.",
+      "example_gu": "શનિ-રવિ અમારે રજા છે.",
+      "level": "A1",
+      "tags": ["noun", "time"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "કેટલા વાગ્યા? — ઔપચારિક રીત (24 કલાક)",
+      "explanation_gu": "**પ્રશ્ન:** *Wie spät ist es?* અથવા *Wie viel Uhr ist es?* (બંનેનો અર્થ: કેટલા વાગ્યા છે?)\n\n**જવાબ:** *Es ist … Uhr.* (… વાગ્યા છે.)\n\nરેડિયો, ટ્રેન, ઑફિસ અને એપોઇન્ટમેન્ટમાં જર્મનો **24 કલાકની** ઘડિયાળ વાપરે છે. ક્રમ: **કલાક + Uhr + મિનિટ**.\n- 8:05 = *acht Uhr fünf*\n- 14:30 = *vierzehn Uhr dreißig*\n- 20:45 = *zwanzig Uhr fünfundvierzig*\n\n**ધ્યાન:** *Uhr* વચ્ચે આવે છે, અને મિનિટ પછી “Minuten” બોલાતું નથી. 1:00 = *ein Uhr* (eins Uhr નહીં).\n\n**Uhr કે Stunde?** *Uhr* = ઘડિયાળનો સમય (*drei Uhr* = ત્રણ વાગ્યે). *Stunde* = કલાકનો સમયગાળો (*drei Stunden* = ત્રણ કલાક).",
+      "tables": [
+        {
+          "headers": ["ઘડિયાળ", "જર્મન (ઔપચારિક)"],
+          "rows": [
+            ["1:00", "ein Uhr"],
+            ["8:05", "acht Uhr fünf"],
+            ["12:15", "zwölf Uhr fünfzehn"],
+            ["14:30", "vierzehn Uhr dreißig"],
+            ["20:45", "zwanzig Uhr fünfundvierzig"],
+            ["23:50", "dreiundzwanzig Uhr fünfzig"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wie spät ist es?",
+          "gu": "કેટલા વાગ્યા છે?"
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "gu": "આઠ વાગ્યા છે."
+        },
+        {
+          "de": "Es ist vierzehn Uhr dreißig.",
+          "gu": "બપોરના 2:30 (14:30) થયા છે."
+        },
+        {
+          "de": "Wie viel Uhr ist es? – Es ist ein Uhr.",
+          "gu": "કેટલા વાગ્યા છે? – એક વાગ્યો છે.",
+          "note_gu": "ein Uhr (eins Uhr નહીં)"
+        },
+        {
+          "de": "Ich lerne drei Stunden Deutsch.",
+          "gu": "હું ત્રણ કલાક જર્મન શીખું છું.",
+          "note_gu": "Stunde = કલાકનો સમયગાળો"
+        }
+      ]
+    },
+    {
+      "title_gu": "રોજિંદી રીત: Viertel, halb, nach, vor (સવા, સાડા, પોણા જેવું!)",
+      "explanation_gu": "વાતચીતમાં જર્મનો 12 કલાકની ઘડિયાળ અને આ શબ્દો વાપરે છે. ગુજરાતીના **સવા, પોણા** જેવું જ છે!\n\n- **Viertel nach** drei = 3:15 = **સવા** ત્રણ\n- **Viertel vor** vier = 3:45 = **પોણા** ચાર (ગુજરાતીની જેમ જ આવનારા કલાક પરથી!)\n- **fünf nach** drei = 3:05, **zehn vor** vier = 3:50\n\n**સૌથી મહત્વનું: halb**\n*halb vier* = **3:30** (4:30 નહીં!). જર્મનમાં વિચાર એવો છે: “ચાર વાગવામાં અડધો કલાક”. એટલે *halb* પછી **આવનારો** કલાક બોલાય.\n- *halb drei* = 2:30 (અઢી)\n- *halb vier* = 3:30 (સાડા ત્રણ)\n- *halb zehn* = 9:30 (સાડા નવ)\n\nઅંગ્રેજી (UK) માં *half four* = 4:30 છે, એટલે ગોટાળો ન કરો. **halb + આવનારો કલાક** યાદ રાખો.\n\nરોજિંદી રીતમાં *Uhr* સામાન્ય રીતે બોલાતું નથી: *Es ist Viertel nach drei.*",
+      "tables": [
+        {
+          "headers": ["ઘડિયાળ", "જર્મન (રોજિંદી)", "ગુજરાતી"],
+          "rows": [
+            ["3:00", "drei (Uhr)", "ત્રણ"],
+            ["3:05", "fünf nach drei", "ત્રણ વાગીને પાંચ"],
+            ["3:15", "Viertel nach drei", "સવા ત્રણ"],
+            ["3:30", "halb vier", "સાડા ત્રણ"],
+            ["3:45", "Viertel vor vier", "પોણા ચાર"],
+            ["3:50", "zehn vor vier", "ચારમાં દસ બાકી"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es ist Viertel nach acht.",
+          "gu": "સવા આઠ વાગ્યા છે (8:15)."
+        },
+        {
+          "de": "Es ist halb drei.",
+          "gu": "અઢી વાગ્યા છે (2:30).",
+          "note_gu": "halb drei = 2:30, 3:30 નહીં"
+        },
+        {
+          "de": "Es ist halb zehn.",
+          "gu": "સાડા નવ વાગ્યા છે (9:30)."
+        },
+        {
+          "de": "Es ist Viertel vor sieben.",
+          "gu": "પોણા સાત વાગ્યા છે (6:45)."
+        },
+        {
+          "de": "Es ist zehn nach elf.",
+          "gu": "અગિયાર વાગીને દસ મિનિટ થઈ છે (11:10)."
+        }
+      ]
+    },
+    {
+      "title_gu": "ક્યારે? um + સમય, am + દિવસ",
+      "explanation_gu": "**um + સમય** = … વાગ્યે: *Der Kurs beginnt **um** neun Uhr.* પૂછવું: *Wann beginnt der Kurs?* અથવા *Um wie viel Uhr beginnt der Kurs?*\n\n**am + દિવસ** = … વારે: ***am** Montag* (સોમવારે), *am Wochenende* (શનિ-રવિ).\n\n**દિવસના ભાગ:** *am Morgen* (સવારે), *am Mittag* (બપોરે), *am Nachmittag* (બપોર પછી), *am Abend* (સાંજે), પણ **in der Nacht** (રાત્રે). આ તૈયાર શબ્દસમૂહો તરીકે યાદ રાખો.\n\n**બંને સાથે:** પહેલાં દિવસ, પછી સમય: *am Montag um neun Uhr*.\n\n**von … bis …** = … થી … સુધી: *Ich arbeite **von** neun **bis** fünf.* / *von Montag bis Freitag*.\n\n**બધા દિવસો der છે** અને મોટા અક્ષરથી લખાય (નામ છે!). આજનો દિવસ: *Welcher Tag ist heute? – Heute ist Montag.*\n\n*(નવું: સમય કે દિવસ વાક્યની **શરૂઆતમાં** પણ મૂકી શકાય. ત્યારે પણ ક્રિયાપદ **બીજા સ્થાને** જ રહે, અને કર્તા ક્રિયાપદ **પછી** આવે: *Am Samstag (1) spiele (2) ich (3) Kricket.* વિગતે પ્રકરણ 4 માં.)*",
+      "tables": [
+        {
+          "headers": ["જર્મન", "ગુજરાતી"],
+          "rows": [
+            ["der Montag", "સોમવાર"],
+            ["der Dienstag", "મંગળવાર"],
+            ["der Mittwoch", "બુધવાર"],
+            ["der Donnerstag", "ગુરુવાર"],
+            ["der Freitag", "શુક્રવાર"],
+            ["der Samstag", "શનિવાર"],
+            ["der Sonntag", "રવિવાર"]
+          ]
+        },
+        {
+          "headers": ["ક્યારે?", "શબ્દ", "ઉદાહરણ"],
+          "rows": [
+            ["ઘડિયાળનો સમય", "um", "um neun Uhr, um halb acht"],
+            ["દિવસ", "am", "am Montag, am Wochenende"],
+            ["દિવસનો ભાગ", "am / in der", "am Morgen, am Abend, in der Nacht"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wann beginnt der Kurs? – Um neun Uhr.",
+          "gu": "વર્ગ ક્યારે શરૂ થાય છે? – નવ વાગ્યે."
+        },
+        {
+          "de": "Ich arbeite am Montag.",
+          "gu": "હું સોમવારે કામ કરું છું."
+        },
+        {
+          "de": "Wir haben am Samstag um zehn Uhr Kurs.",
+          "gu": "શનિવારે દસ વાગ્યે અમારે વર્ગ છે.",
+          "note_gu": "પહેલાં દિવસ (am), પછી સમય (um)"
+        },
+        {
+          "de": "Raj arbeitet von Montag bis Freitag.",
+          "gu": "રાજ સોમવારથી શુક્રવાર સુધી કામ કરે છે."
+        },
+        {
+          "de": "Am Abend spielt Lukas Fußball.",
+          "gu": "સાંજે લુકાસ ફૂટબોલ રમે છે.",
+          "note_gu": "નવું: સમય પહેલા, ક્રિયાપદ હજી બીજા સ્થાને"
+        },
+        {
+          "de": "Welcher Tag ist heute? – Heute ist Mittwoch.",
+          "gu": "આજે કયો વાર છે? – આજે બુધવાર છે."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Priya",
+        "de": "Entschuldigung, wie spät ist es?",
+        "gu": "માફ કરજો, કેટલા વાગ્યા છે?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Es ist Viertel nach acht.",
+        "gu": "સવા આઠ વાગ્યા છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Danke! Wann beginnt der Deutschkurs?",
+        "gu": "આભાર! જર્મનનો વર્ગ ક્યારે શરૂ થાય છે?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Um halb neun. Wir haben noch Zeit.",
+        "gu": "સાડા આઠે. હજી આપણી પાસે સમય છે."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Haben wir am Freitag auch Kurs?",
+        "gu": "શુક્રવારે પણ આપણે વર્ગ છે?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Ja, von Montag bis Freitag, von halb neun bis zwölf Uhr.",
+        "gu": "હા, સોમવારથી શુક્રવાર સુધી, સાડા આઠથી બાર વાગ્યા સુધી."
+      },
+      {
+        "speaker": "Priya",
+        "de": "Und am Wochenende?",
+        "gu": "અને શનિ-રવિ?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Wir haben am Wochenende frei!",
+        "gu": "શનિ-રવિ આપણે રજા છે!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "“halb vier” એટલે કેટલા વાગ્યા?",
+      "options": ["3:30", "4:30", "4:15"],
+      "answer": 0,
+      "explain_gu": "halb + આવનારો કલાક: halb vier = ચાર વાગવામાં અડધો કલાક = 3:30.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "3:15 રોજિંદી રીતે કેવી રીતે બોલાય?",
+      "options": ["Viertel vor drei", "Viertel nach drei", "halb drei"],
+      "answer": 1,
+      "explain_gu": "3:15 = સવા ત્રણ = Viertel nach drei. Viertel vor drei = 2:45, halb drei = 2:30.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“પોણા સાત” (6:45) જર્મનમાં?",
+      "options": ["Viertel vor sieben", "Viertel nach sechs", "halb sieben"],
+      "answer": 0,
+      "explain_gu": "6:45 = સાત વાગવામાં પા કલાક = Viertel vor sieben. ગુજરાતીની જેમ આવનારા કલાક પરથી.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "14:30 ઔપચારિક રીતે (ટ્રેન, ઑફિસમાં) કેવી રીતે બોલાય?",
+      "options": ["vierzehn Uhr dreißig", "dreißig Uhr vierzehn", "vierzehn dreißig Minuten"],
+      "answer": 0,
+      "explain_gu": "ક્રમ: કલાક + Uhr + મિનિટ = vierzehn Uhr dreißig.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "અઠવાડિયાના દિવસોનું લિંગ શું છે?",
+      "options": ["der", "die", "das"],
+      "answer": 0,
+      "explain_gu": "બધા દિવસો der છે: der Montag, der Dienstag … der Sonntag. (das Wochenende અપવાદ, કારણ કે das Ende.)",
+      "topic_gu": "દિવસો"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Der Kurs beginnt ___ neun Uhr.",
+      "answers": ["um"],
+      "hint_gu": "… વાગ્યે",
+      "explain_gu": "ઘડિયાળના સમય સાથે um: um neun Uhr.",
+      "topic_gu": "um / am"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich arbeite ___ Montag.",
+      "answers": ["am"],
+      "hint_gu": "… વારે",
+      "explain_gu": "દિવસ સાથે am: am Montag.",
+      "topic_gu": "um / am"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Es ist Viertel ___ drei.",
+      "answers": ["vor"],
+      "hint_gu": "2:45",
+      "explain_gu": "2:45 = ત્રણ વાગવામાં પા કલાક = Viertel vor drei.",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wie ___ ist es?",
+      "answers": ["spät"],
+      "hint_gu": "કેટલા વાગ્યા?",
+      "explain_gu": "સમય પૂછવો: Wie spät ist es? (અથવા Wie viel Uhr ist es?)",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wann ___ der Kurs?",
+      "answers": ["beginnt"],
+      "hint_gu": "beginnen",
+      "explain_gu": "der Kurs = er, એટલે અંત -t: beginnt.",
+      "topic_gu": "ક્રિયાપદનાં રૂપો"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "Montag", "gu": "સોમવાર" },
+        { "de": "Mittwoch", "gu": "બુધવાર" },
+        { "de": "Donnerstag", "gu": "ગુરુવાર" },
+        { "de": "Samstag", "gu": "શનિવાર" },
+        { "de": "Sonntag", "gu": "રવિવાર" }
+      ],
+      "explain_gu": "મોટા ભાગના દિવસો -tag થી પૂરા થાય છે. Mittwoch = અઠવાડિયાનો વચ્ચેનો દિવસ (Mitte + Woche).",
+      "topic_gu": "દિવસો"
+    },
+    {
+      "type": "article",
+      "noun": "Wochenende",
+      "answer": "das",
+      "explain_gu": "das Wochenende. દિવસો der છે, પણ Wochenende das (das Ende = અંત).",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Stunde",
+      "answer": "die",
+      "explain_gu": "die Stunde (કલાક). બહુવચન: die Stunden.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["es?", "spät", "Wie", "ist"],
+      "answer": "Wie spät ist es?",
+      "gu": "કેટલા વાગ્યા છે?",
+      "explain_gu": "Wie spät (પ્રશ્ન) + ist (ક્રિયાપદ) + es.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["um", "Montag", "Ich", "am", "arbeite", "acht."],
+      "answer": "Ich arbeite am Montag um acht.",
+      "gu": "હું સોમવારે આઠ વાગ્યે કામ કરું છું.",
+      "explain_gu": "ક્રિયાપદ બીજા સ્થાને. પહેલાં દિવસ (am Montag), પછી સમય (um acht).",
+      "topic_gu": "um / am"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Es ist halb sieben.",
+      "question_gu": "કેટલા વાગ્યા છે?",
+      "options": ["6:30", "7:30", "6:15"],
+      "answer": 0,
+      "explain_gu": "halb sieben = સાત વાગવામાં અડધો કલાક = 6:30.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Der Kurs beginnt am Dienstag um zehn Uhr.",
+      "question_gu": "વર્ગ ક્યારે શરૂ થાય છે?",
+      "options": ["મંગળવારે 10 વાગ્યે", "ગુરુવારે 10 વાગ્યે", "મંગળવારે 2 વાગ્યે"],
+      "answer": 0,
+      "explain_gu": "Dienstag = મંગળવાર, um zehn Uhr = દસ વાગ્યે. (Donnerstag = ગુરુવાર, zwei = બે.)",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "translate",
+      "gu": "સવા આઠ વાગ્યા છે.",
+      "answers_de": ["Es ist Viertel nach acht.", "Es ist acht Uhr fünfzehn."],
+      "explain_gu": "8:15 = Viertel nach acht (રોજિંદી) અથવા acht Uhr fünfzehn (ઔપચારિક).",
+      "topic_gu": "સમય"
+    },
+    {
+      "type": "speak",
+      "text_de": "Wir haben am Wochenende frei.",
+      "gu": "શનિ-રવિ અમારે રજા છે.",
+      "explain_gu": "Wochenende = વોખનએન્ડે (ch = ખ, કારણ કે o પછી છે).",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Raj arbeitet von Montag bis Freitag. Er arbeitet von neun bis fünf. Am Samstag spielt er Kricket. Am Sonntag hat er frei.",
+      "statements": [
+        { "de": "Raj arbeitet am Samstag.", "answer": false },
+        { "de": "Raj arbeitet von neun bis fünf.", "answer": true },
+        { "de": "Raj hat am Sonntag frei.", "answer": true }
+      ],
+      "explain_gu": "રાજ સોમથી શુક્ર, નવથી પાંચ કામ કરે છે. શનિવારે ક્રિકેટ રમે છે (કામ નહીં) અને રવિવારે રજા છે.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Wie spät ist es?",
+      "Es ist acht Uhr.",
+      "Es ist Viertel nach drei.",
+      "Es ist halb vier.",
+      "Es ist Viertel vor vier.",
+      "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+      "Der Kurs beginnt am Montag um neun Uhr."
+    ],
+    "prompt_gu": "ઘડિયાળ જુઓ અને અત્યારનો સમય બે રીતે બોલો (ઔપચારિક અને રોજિંદી). પછી તમારું અઠવાડિયું કહો: કયા દિવસે અને કેટલા વાગ્યે તમે કામ કરો છો કે ભણો છો."
+  },
+  "writing": {
+    "task_gu": "તમારા અઠવાડિયાનું નાનું ટાઇમ-ટેબલ ચાર વાક્યોમાં લખો: કયા દિવસોએ કામ/અભ્યાસ, કેટલા વાગ્યાથી કેટલા સુધી, અને શનિ-રવિ શું કરો છો.",
+    "model_answer_de": "Ich lerne von Montag bis Freitag Deutsch. Der Kurs beginnt um halb neun. Ich lerne von halb neun bis zwölf Uhr. Am Samstag spiele ich Kricket.",
+    "checklist_gu": [
+      "દિવસ સાથે am, સમય સાથે um",
+      "von … bis … (થી … સુધી) વાપર્યું",
+      "halb + આવનારો કલાક (halb neun = 8:30)",
+      "દિવસો મોટા અક્ષરથી (Montag, Freitag)",
+      "ક્રિયાપદ બીજા સ્થાને: Am Samstag spiele ich …"
+    ]
+  },
+  "summary_gu": [
+    "Wie spät ist es? / Wie viel Uhr ist es? – Es ist … Uhr.",
+    "ઔપચારિક: કલાક + Uhr + મિનિટ (vierzehn Uhr dreißig).",
+    "રોજિંદી: Viertel nach (સવા), Viertel vor (પોણા), fünf nach, zehn vor.",
+    "halb + આવનારો કલાક: halb vier = 3:30.",
+    "um + સમય, am + દિવસ: am Montag um neun Uhr. von … bis … = થી … સુધી.",
+    "બધા દિવસો der: der Montag … der Sonntag. પણ das Wochenende."
+  ]
+}

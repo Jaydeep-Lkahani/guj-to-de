@@ -1,0 +1,611 @@
+{
+  "id": "ch02-l01",
+  "number": 1,
+  "title_gu": "સંખ્યા 0 થી 20, ઉંમર અને ફોન નંબર",
+  "goal_gu": "આ પાઠ પછી તમે 0 થી 20 સુધી ગણી શકશો, તમારી ઉંમર કહી શકશો અને ફોન નંબર જર્મનમાં બોલી અને સમજી શકશો.",
+  "vocab": [
+    {
+      "id": "ch02-l01-null",
+      "de": "null",
+      "gender": null,
+      "gu": "શૂન્ય (0)",
+      "pron_gu": "નુલ",
+      "example_de": "Null plus eins ist eins.",
+      "example_gu": "શૂન્ય વત્તા એક બરાબર એક.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-eins",
+      "de": "eins",
+      "gender": null,
+      "gu": "એક (1)",
+      "pron_gu": "આઇન્સ",
+      "example_de": "Eins plus eins ist zwei.",
+      "example_gu": "એક વત્તા એક બરાબર બે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-zwei",
+      "de": "zwei",
+      "gender": null,
+      "gu": "બે (2)",
+      "pron_gu": "ત્સ્વાઇ",
+      "example_de": "Raj spricht zwei Sprachen.",
+      "example_gu": "રાજ બે ભાષાઓ બોલે છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-drei",
+      "de": "drei",
+      "gender": null,
+      "gu": "ત્રણ (3)",
+      "pron_gu": "ડ્રાઇ",
+      "example_de": "Priya spricht drei Sprachen.",
+      "example_gu": "પ્રિયા ત્રણ ભાષાઓ બોલે છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-vier",
+      "de": "vier",
+      "gender": null,
+      "gu": "ચાર (4)",
+      "pron_gu": "ફીર",
+      "example_de": "Zwei plus zwei ist vier.",
+      "example_gu": "બે વત્તા બે બરાબર ચાર.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-fuenf",
+      "de": "fünf",
+      "gender": null,
+      "gu": "પાંચ (5)",
+      "pron_gu": "ફ્યૂન્ફ",
+      "example_de": "Fünf minus zwei ist drei.",
+      "example_gu": "પાંચ ઓછા બે બરાબર ત્રણ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-sechs",
+      "de": "sechs",
+      "gender": null,
+      "gu": "છ (6)",
+      "pron_gu": "ઝેક્સ",
+      "example_de": "Drei plus drei ist sechs.",
+      "example_gu": "ત્રણ વત્તા ત્રણ બરાબર છ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-sieben",
+      "de": "sieben",
+      "gender": null,
+      "gu": "સાત (7)",
+      "pron_gu": "ઝીબન",
+      "example_de": "Das Mädchen ist sieben Jahre alt.",
+      "example_gu": "છોકરી સાત વર્ષની છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-acht",
+      "de": "acht",
+      "gender": null,
+      "gu": "આઠ (8)",
+      "pron_gu": "આખ્ટ",
+      "example_de": "Vier plus vier ist acht.",
+      "example_gu": "ચાર વત્તા ચાર બરાબર આઠ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-neun",
+      "de": "neun",
+      "gender": null,
+      "gu": "નવ (9)",
+      "pron_gu": "નોયન",
+      "example_de": "Zehn minus eins ist neun.",
+      "example_gu": "દસ ઓછા એક બરાબર નવ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-zehn",
+      "de": "zehn",
+      "gender": null,
+      "gu": "દસ (10)",
+      "pron_gu": "ત્સેન",
+      "example_de": "Fünf plus fünf ist zehn.",
+      "example_gu": "પાંચ વત્તા પાંચ બરાબર દસ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-elf",
+      "de": "elf",
+      "gender": null,
+      "gu": "અગિયાર (11)",
+      "pron_gu": "એલ્ફ",
+      "example_de": "Zehn plus eins ist elf.",
+      "example_gu": "દસ વત્તા એક બરાબર અગિયાર.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-zwoelf",
+      "de": "zwölf",
+      "gender": null,
+      "gu": "બાર (12)",
+      "pron_gu": "ત્સ્વ્યોલ્ફ",
+      "example_de": "Sechs plus sechs ist zwölf.",
+      "example_gu": "છ વત્તા છ બરાબર બાર.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-dreizehn",
+      "de": "dreizehn",
+      "gender": null,
+      "gu": "તેર (13)",
+      "pron_gu": "ડ્રાઇત્સેન",
+      "example_de": "Zehn plus drei ist dreizehn.",
+      "example_gu": "દસ વત્તા ત્રણ બરાબર તેર.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-sechzehn",
+      "de": "sechzehn",
+      "gender": null,
+      "gu": "સોળ (16)",
+      "pron_gu": "ઝેશત્સેન",
+      "example_de": "Acht plus acht ist sechzehn.",
+      "example_gu": "આઠ વત્તા આઠ બરાબર સોળ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-siebzehn",
+      "de": "siebzehn",
+      "gender": null,
+      "gu": "સત્તર (17)",
+      "pron_gu": "ઝીપ્ત્સેન",
+      "example_de": "Der Junge ist siebzehn Jahre alt.",
+      "example_gu": "છોકરો સત્તર વર્ષનો છે.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-zwanzig",
+      "de": "zwanzig",
+      "gender": null,
+      "gu": "વીસ (20)",
+      "pron_gu": "ત્સ્વાન્ત્સિશ",
+      "example_de": "Zehn plus zehn ist zwanzig.",
+      "example_gu": "દસ વત્તા દસ બરાબર વીસ.",
+      "level": "A1",
+      "tags": ["number"]
+    },
+    {
+      "id": "ch02-l01-zahl",
+      "de": "Zahl",
+      "gender": "die",
+      "plural": "die Zahlen",
+      "gu": "સંખ્યા, આંકડો",
+      "pron_gu": "ત્સાલ",
+      "example_de": "Zwölf ist eine Zahl.",
+      "example_gu": "બાર એક સંખ્યા છે.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l01-telefonnummer",
+      "de": "Telefonnummer",
+      "gender": "die",
+      "plural": "die Telefonnummern",
+      "gu": "ફોન નંબર",
+      "pron_gu": "ટેલેફોનનુમર",
+      "example_de": "Wie ist Ihre Telefonnummer?",
+      "example_gu": "આપનો ફોન નંબર શું છે?",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l01-jahr",
+      "de": "Jahr",
+      "gender": "das",
+      "plural": "die Jahre",
+      "gu": "વર્ષ",
+      "pron_gu": "યાર",
+      "example_de": "Ich bin zwanzig Jahre alt.",
+      "example_gu": "હું વીસ વર્ષનો છું.",
+      "level": "A1",
+      "tags": ["noun"]
+    },
+    {
+      "id": "ch02-l01-alt",
+      "de": "alt",
+      "gender": null,
+      "gu": "…વર્ષનું (ઉંમર), જૂનું",
+      "pron_gu": "આલ્ટ",
+      "example_de": "Wie alt bist du?",
+      "example_gu": "તારી ઉંમર કેટલી છે?",
+      "level": "A1",
+      "tags": ["adjective"]
+    }
+  ],
+  "grammar": [
+    {
+      "title_gu": "સંખ્યા 0 થી 12 — મોઢે યાદ કરો",
+      "explanation_gu": "0 થી 12 સુધીની સંખ્યાઓ ગુજરાતીની જેમ **અલગ અલગ શબ્દો** છે, એટલે તેને મોઢે યાદ કરવી પડશે. રોજ મોટેથી ગણો: *null, eins, zwei …*\n\n**ઉચ્ચારમાં ધ્યાન રાખો:**\n- **zwei**: z = “ત્સ”, ei = “આઇ” → ત્સ્વાઇ\n- **vier**: v = “ફ” → ફીર\n- **sechs**: chs = “ક્સ” → ઝેક્સ\n- **zwölf**: ö માં હોઠ ગોળ → ત્સ્વ્યોલ્ફ\n\n**eins કે ein?** ગણતી વખતે અથવા એકલી સંખ્યા બોલતી વખતે **eins** બોલાય. નામની આગળ (*ein Buch*) **ein** આવે.\n\nગણિતમાં **plus** = વત્તા, **minus** = ઓછા, અને **ist** = બરાબર.",
+      "tables": [
+        {
+          "headers": ["અંક", "જર્મન", "ઉચ્ચાર"],
+          "rows": [
+            ["0", "null", "નુલ"],
+            ["1", "eins", "આઇન્સ"],
+            ["2", "zwei", "ત્સ્વાઇ"],
+            ["3", "drei", "ડ્રાઇ"],
+            ["4", "vier", "ફીર"],
+            ["5", "fünf", "ફ્યૂન્ફ"],
+            ["6", "sechs", "ઝેક્સ"],
+            ["7", "sieben", "ઝીબન"],
+            ["8", "acht", "આખ્ટ"],
+            ["9", "neun", "નોયન"],
+            ["10", "zehn", "ત્સેન"],
+            ["11", "elf", "એલ્ફ"],
+            ["12", "zwölf", "ત્સ્વ્યોલ્ફ"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eins, zwei, drei, vier, fünf.",
+          "gu": "એક, બે, ત્રણ, ચાર, પાંચ."
+        },
+        {
+          "de": "Zwei plus zwei ist vier.",
+          "gu": "બે વત્તા બે બરાબર ચાર.",
+          "note_gu": "ગણિતમાં ist = બરાબર"
+        },
+        {
+          "de": "Zehn minus drei ist sieben.",
+          "gu": "દસ ઓછા ત્રણ બરાબર સાત."
+        },
+        {
+          "de": "Sechs plus sechs ist zwölf.",
+          "gu": "છ વત્તા છ બરાબર બાર."
+        },
+        {
+          "de": "Priya spricht drei Sprachen.",
+          "gu": "પ્રિયા ત્રણ ભાષાઓ બોલે છે."
+        }
+      ]
+    },
+    {
+      "title_gu": "13 થી 20 — એકમ + zehn",
+      "explanation_gu": "13 થી 19 બનાવવાનું સહેલું છે: **એકમ + zehn** (દસ). અંગ્રેજીના *-teen* જેવું: *drei + zehn = dreizehn* (13).\n\nગુજરાતીમાં તેર, ચૌદ, પંદર… બધું અલગ યાદ રાખવું પડે છે, પણ જર્મનમાં 13 પછી એક જ નિયમ ચાલે છે. માત્ર **બે અપવાદ** યાદ રાખો:\n- **sechzehn** (16): sechs નો **s નીકળી જાય છે**. અહીં ch નો અવાજ હળવો “શ” છે.\n- **siebzehn** (17): sieben નો **en નીકળી જાય છે**.\n\n11 અને 12 (**elf, zwölf**) અલગ શબ્દો છે, અને 20 = **zwanzig**. અંતના **-ig** માં હળવો “શ” બોલાય છે: ત્સ્વાન્ત્સિશ.",
+      "tables": [
+        {
+          "headers": ["અંક", "જર્મન", "કેવી રીતે બને", "ઉચ્ચાર"],
+          "rows": [
+            ["13", "dreizehn", "drei + zehn", "ડ્રાઇત્સેન"],
+            ["14", "vierzehn", "vier + zehn", "ફિર્ત્સેન"],
+            ["15", "fünfzehn", "fünf + zehn", "ફ્યૂન્ફત્સેન"],
+            ["16", "sechzehn", "sech(s) + zehn", "ઝેશત્સેન"],
+            ["17", "siebzehn", "sieb(en) + zehn", "ઝીપ્ત્સેન"],
+            ["18", "achtzehn", "acht + zehn", "આખ્ત્સેન"],
+            ["19", "neunzehn", "neun + zehn", "નોયન્ત્સેન"],
+            ["20", "zwanzig", "નવો શબ્દ", "ત્સ્વાન્ત્સિશ"]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zehn plus vier ist vierzehn.",
+          "gu": "દસ વત્તા ચાર બરાબર ચૌદ."
+        },
+        {
+          "de": "Acht plus acht ist sechzehn.",
+          "gu": "આઠ વત્તા આઠ બરાબર સોળ.",
+          "note_gu": "sechzehn: sechs નો s નીકળી ગયો"
+        },
+        {
+          "de": "Zehn plus sieben ist siebzehn.",
+          "gu": "દસ વત્તા સાત બરાબર સત્તર.",
+          "note_gu": "siebzehn: sieben નો en નીકળી ગયો"
+        },
+        {
+          "de": "Der Junge ist fünfzehn Jahre alt.",
+          "gu": "છોકરો પંદર વર્ષનો છે."
+        },
+        {
+          "de": "Zehn plus zehn ist zwanzig.",
+          "gu": "દસ વત્તા દસ બરાબર વીસ."
+        }
+      ]
+    },
+    {
+      "title_gu": "ઉંમર અને ફોન નંબર",
+      "explanation_gu": "**ઉંમર:** જર્મનમાં ઉંમર **sein** થી કહેવાય છે, ગુજરાતીની જેમ જ: “હું વીસ વર્ષનો છું” = *Ich bin zwanzig Jahre alt.* વાતચીતમાં ટૂંકમાં: *Ich bin zwanzig.*\n- પ્રશ્ન: *Wie alt bist du?* (du) / *Wie alt sind Sie?* (Sie)\n- એક વર્ષ = *ein Jahr*, પણ બે કે વધુ = *Jahre*: *zwei Jahre*, *zwanzig Jahre*.\n- **ધ્યાન:** *Ich habe zwanzig Jahre* ખોટું છે. ઉંમર હંમેશા *sein* સાથે.\n\n**ફોન નંબર:** અંક **એક પછી એક** બોલો: *null, eins, sieben, sechs …* ફોન પર **zwei** ને બદલે ઘણી વાર **zwo** બોલાય છે, જેથી *drei* સાથે ગોટાળો ન થાય.\n- પ્રશ્ન: *Wie ist deine Telefonnummer?* (du) / *Wie ist Ihre Telefonnummer?* (Sie)\n- જવાબ: *Meine Telefonnummer ist …*\n\n*(નવું: **deine** = તારો, **Ihre** = આપનો, **meine** = મારો. હાલ આને તૈયાર વાક્ય તરીકે યાદ રાખો; વિગતે પ્રકરણ 6 માં.)*",
+      "examples": [
+        {
+          "de": "Wie alt bist du?",
+          "gu": "તારી ઉંમર કેટલી છે?"
+        },
+        {
+          "de": "Ich bin neunzehn Jahre alt.",
+          "gu": "હું ઓગણીસ વર્ષનો / વર્ષની છું."
+        },
+        {
+          "de": "Wie alt sind Sie?",
+          "gu": "આપની ઉંમર કેટલી છે?"
+        },
+        {
+          "de": "Wie ist Ihre Telefonnummer?",
+          "gu": "આપનો ફોન નંબર શું છે?"
+        },
+        {
+          "de": "Meine Telefonnummer ist null, eins, sieben, sechs, zwo, drei, vier, acht, fünf, neun, null, eins.",
+          "gu": "મારો ફોન નંબર 0176 2348 5901 છે.",
+          "note_gu": "zwo = zwei (ફોન પર)"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "Frau Weber",
+        "de": "Guten Tag! Wie heißen Sie?",
+        "gu": "નમસ્તે! આપનું નામ શું છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Guten Tag! Ich heiße Raj Patel.",
+        "gu": "નમસ્તે! મારું નામ રાજ પટેલ છે."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Wie alt sind Sie, Herr Patel?",
+        "gu": "આપની ઉંમર કેટલી છે, શ્રી પટેલ?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Ich bin zwanzig Jahre alt.",
+        "gu": "હું વીસ વર્ષનો છું."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Und wie ist Ihre Telefonnummer?",
+        "gu": "અને આપનો ફોન નંબર શું છે?"
+      },
+      {
+        "speaker": "Raj",
+        "de": "Null, eins, sieben, sechs, drei, zwo, acht, neun, null, vier, fünf, eins.",
+        "gu": "0176 3289 0451."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Wie bitte? Noch einmal, bitte.",
+        "gu": "શું કહ્યું? ફરી એકવાર, કૃપા કરીને."
+      },
+      {
+        "speaker": "Raj",
+        "de": "Null, eins, sieben, sechs – drei, zwo, acht, neun – null, vier, fünf, eins.",
+        "gu": "0176 – 3289 – 0451."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Danke, Herr Patel!",
+        "gu": "આભાર, શ્રી પટેલ!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt_gu": "zwölf એટલે કઈ સંખ્યા?",
+      "options": ["10", "11", "12"],
+      "answer": 2,
+      "explain_gu": "zwölf = 12 (બાર). 11 = elf, 10 = zehn.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "7 ને જર્મનમાં શું કહેવાય?",
+      "options": ["sieben", "siebzehn", "sechs"],
+      "answer": 0,
+      "explain_gu": "7 = sieben. siebzehn = 17 અને sechs = 6.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "sechs માં chs નો અવાજ કેવો છે?",
+      "options": ["ક્સ", "શ", "ખ"],
+      "answer": 0,
+      "explain_gu": "sechs માં chs = “ક્સ”: ઝેક્સ. (sechzehn માં ch હળવો “શ” છે.)",
+      "topic_gu": "ઉચ્ચાર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "16 નો સાચો સ્પેલિંગ કયો છે?",
+      "options": ["sechszehn", "sechzehn", "sechszen"],
+      "answer": 1,
+      "explain_gu": "16 = sechzehn. sechs નો છેલ્લો s નીકળી જાય છે.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "ફોન પર zwei ને બદલે ઘણી વાર શું બોલાય છે?",
+      "options": ["zwo", "zwa", "zwi"],
+      "answer": 0,
+      "explain_gu": "ફોન પર zwo બોલાય છે, જેથી zwei અને drei માં ગોટાળો ન થાય.",
+      "topic_gu": "ફોન નંબર"
+    },
+    {
+      "type": "mcq",
+      "prompt_gu": "“હું વીસ વર્ષનો છું.” સાચું વાક્ય કયું?",
+      "options": [
+        "Ich habe zwanzig Jahre.",
+        "Ich bin zwanzig Jahre alt.",
+        "Ich bin zwanzig Jahr alt."
+      ],
+      "answer": 1,
+      "explain_gu": "ઉંમર sein થી કહેવાય: Ich bin … Jahre alt. વીસ વર્ષ = Jahre (બહુવચન).",
+      "topic_gu": "ઉંમર"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Zwei plus zwei ist ___.",
+      "answers": ["vier"],
+      "hint_gu": "2 + 2",
+      "explain_gu": "2 + 2 = 4 = vier.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Zehn plus drei ist ___.",
+      "answers": ["dreizehn"],
+      "hint_gu": "10 + 3",
+      "explain_gu": "13 = drei + zehn = dreizehn.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Wie ___ bist du?",
+      "answers": ["alt"],
+      "hint_gu": "ઉંમર પૂછો",
+      "explain_gu": "ઉંમર પૂછવા માટે: Wie alt bist du?",
+      "topic_gu": "ઉંમર"
+    },
+    {
+      "type": "fill",
+      "sentence_de": "Ich ___ achtzehn Jahre alt.",
+      "answers": ["bin"],
+      "explain_gu": "ઉંમર sein થી કહેવાય. ich સાથે sein નું રૂપ bin.",
+      "topic_gu": "ઉંમર"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        { "de": "drei", "gu": "3" },
+        { "de": "acht", "gu": "8" },
+        { "de": "elf", "gu": "11" },
+        { "de": "fünfzehn", "gu": "15" },
+        { "de": "zwanzig", "gu": "20" }
+      ],
+      "explain_gu": "13 થી 19 = એકમ + zehn (fünf + zehn = 15). 20 = zwanzig.",
+      "topic_gu": "સંખ્યા 0–20"
+    },
+    {
+      "type": "article",
+      "noun": "Zahl",
+      "answer": "die",
+      "explain_gu": "die Zahl (સંખ્યા). બહુવચન: die Zahlen.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "article",
+      "noun": "Jahr",
+      "answer": "das",
+      "explain_gu": "das Jahr (વર્ષ). બહુવચન: die Jahre.",
+      "topic_gu": "નામનું લિંગ (der/die/das)"
+    },
+    {
+      "type": "order",
+      "words": ["du?", "alt", "Wie", "bist"],
+      "answer": "Wie alt bist du?",
+      "gu": "તારી ઉંમર કેટલી છે?",
+      "explain_gu": "પ્રશ્ન-શબ્દ પહેલા (Wie alt), પછી ક્રિયાપદ (bist), પછી du.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "order",
+      "words": ["alt.", "Jahre", "bin", "sechzehn", "Ich"],
+      "answer": "Ich bin sechzehn Jahre alt.",
+      "gu": "હું સોળ વર્ષનો છું.",
+      "explain_gu": "ક્રિયાપદ bin બીજા સ્થાને, અને alt અંતે: Ich bin … Jahre alt.",
+      "topic_gu": "વાક્યરચના"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "siebzehn",
+      "question_gu": "તમે કઈ સંખ્યા સાંભળી?",
+      "options": ["7", "16", "17"],
+      "answer": 2,
+      "explain_gu": "siebzehn = 17. અંતે -zehn છે, એટલે 13 થી 19 માંની સંખ્યા.",
+      "topic_gu": "સાંભળીને સમજવું"
+    },
+    {
+      "type": "listen",
+      "audio_text_de": "Meine Telefonnummer ist null, eins, fünf, zwo, acht.",
+      "question_gu": "નંબર કયો છે?",
+      "options": ["01528", "01582", "01258"],
+      "answer": 0,
+      "explain_gu": "null (0), eins (1), fünf (5), zwo (2), acht (8) = 01528.",
+      "topic_gu": "ફોન નંબર"
+    },
+    {
+      "type": "translate",
+      "gu": "તારી ઉંમર કેટલી છે?",
+      "answers_de": ["Wie alt bist du?"],
+      "explain_gu": "ઉંમર પૂછવી: Wie alt + bist + du?",
+      "topic_gu": "ઉંમર"
+    },
+    {
+      "type": "speak",
+      "text_de": "Ich bin zwanzig Jahre alt.",
+      "gu": "હું વીસ વર્ષનો છું.",
+      "explain_gu": "zwanzig = ત્સ્વાન્ત્સિશ: z બંને જગ્યાએ “ત્સ”, અને અંતે -ig હળવો “શ”.",
+      "topic_gu": "બોલવું"
+    },
+    {
+      "type": "truefalse",
+      "text_de": "Anna ist zwanzig Jahre alt. Lukas ist neunzehn. Das Mädchen ist sieben Jahre alt.",
+      "statements": [
+        { "de": "Anna ist zwanzig.", "answer": true },
+        { "de": "Lukas ist neun Jahre alt.", "answer": false },
+        { "de": "Das Mädchen ist sieben.", "answer": true }
+      ],
+      "explain_gu": "લખાણમાં લુકાસ neunzehn (19) વર્ષનો છે, neun (9) નહીં. અન્ના 20 અને છોકરી 7 વર્ષની છે.",
+      "topic_gu": "વાંચીને સમજવું"
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      "Null, eins, zwei, drei, vier, fünf.",
+      "Sechs, sieben, acht, neun, zehn.",
+      "Elf, zwölf, dreizehn, vierzehn, fünfzehn.",
+      "Sechzehn, siebzehn, achtzehn, neunzehn, zwanzig.",
+      "Wie alt bist du?",
+      "Ich bin zwanzig Jahre alt.",
+      "Wie ist Ihre Telefonnummer?"
+    ],
+    "prompt_gu": "20 થી 0 સુધી ઊંધું ગણો. પછી તમારો (અથવા કોઈ કાલ્પનિક) ફોન નંબર અંક પછી અંક બોલો: “Meine Telefonnummer ist …”. (20 થી મોટી ઉંમર હોય તો આગલા પાઠ પછી ઉંમર પણ બોલજો.)"
+  },
+  "writing": {
+    "task_gu": "કોઈ ફોર્મ ભરતા હો તેમ ત્રણ વાક્યો લખો: તમારું નામ, ઉંમર અને ફોન નંબર. અંકો શબ્દોમાં લખો.",
+    "model_answer_de": "Ich heiße Priya Shah. Ich bin neunzehn Jahre alt. Meine Telefonnummer ist null, eins, fünf, zwei, drei, acht, sieben, vier, sechs, neun, null, eins.",
+    "checklist_gu": [
+      "ઉંમર sein થી: Ich bin … Jahre alt.",
+      "Jahre (બહુવચન) અને અંતે alt",
+      "અંકોનો સાચો સ્પેલિંગ (ખાસ કરીને sechzehn, siebzehn, zwölf)",
+      "Telefonnummer મોટા T થી (નામ છે)",
+      "દરેક વાક્યના અંતે પૂર્ણવિરામ"
+    ]
+  },
+  "summary_gu": [
+    "0–12 મોઢે યાદ કરો: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf.",
+    "13–19 = એકમ + zehn. અપવાદ: sechzehn (16), siebzehn (17).",
+    "20 = zwanzig. અંતનો -ig હળવો “શ”.",
+    "ઉંમર: Ich bin … Jahre alt. પ્રશ્ન: Wie alt bist du? / Wie alt sind Sie?",
+    "ફોન નંબર અંક પછી અંક બોલો; ફોન પર zwei = zwo.",
+    "Wie ist Ihre Telefonnummer? – Meine Telefonnummer ist …"
+  ]
+}
