@@ -1,10 +1,17 @@
+import { useState } from 'react';
 import { t } from '../../lib/t';
 import AudioButton from '../AudioButton';
+import { useRecognitionSupported } from '../hooks';
+import SpeechChecker from '../SpeechChecker';
 import type { ExerciseProps } from './types';
 import { Btn } from './ui';
 
-// Step 5 adds speech recognition; until then the learner marks the sentence as spoken.
+// The browser listens and checks the words. Where that is impossible (Safari, mic blocked),
+// the learner records themself in SpeechChecker and marks the sentence as spoken.
 export default function Speak({ exercise, locked, onCheck }: ExerciseProps<'speak'>) {
+  const supported = useRecognitionSupported();
+  const [problem, setProblem] = useState(false);
+
   return (
     <div>
       <p className="mb-2 text-sm text-muted">{t('words.speak')}</p>
@@ -17,8 +24,16 @@ export default function Speak({ exercise, locked, onCheck }: ExerciseProps<'spea
           <p className="text-muted">{exercise.gu}</p>
         </div>
       </div>
-      {!locked && (
-        <Btn className="mt-4" onClick={() => onCheck({ correct: true })}>
+      <div className="mt-4">
+        <SpeechChecker
+          text={exercise.text_de}
+          disabled={locked}
+          onProblem={() => setProblem(true)}
+          onResult={(r) => onCheck({ correct: r.passed })}
+        />
+      </div>
+      {!locked && (supported === false || problem) && (
+        <Btn className="mt-4" variant="secondary" onClick={() => onCheck({ correct: true })}>
           {t('practice.spoken')}
         </Btn>
       )}

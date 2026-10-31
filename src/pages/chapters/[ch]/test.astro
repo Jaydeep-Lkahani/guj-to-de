@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import EmptyShell from '../../../components/EmptyShell.astro';
 import ExerciseRunner from '../../../components/ExerciseRunner.tsx';
+import AudioControls from '../../../components/AudioControls.tsx';
 import { chapterNumber, chapterNumbers, chapterSlug } from '../../../lib/chapters';
 import { t } from '../../../lib/t';
 
@@ -26,6 +27,9 @@ const title = `${t('words.chapter')} ${n} · ${t('words.chapterTest')}`;
   {test ? (
     <>
       <h1 class="mb-4 text-2xl font-bold">{title}</h1>
+      <div class="mb-6">
+        <AudioControls client:load />
+      </div>
       <ExerciseRunner client:only="react" exercises={test.exercises} />
     </>
   ) : (

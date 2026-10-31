@@ -84,5 +84,29 @@
     "score": "સાચા જવાબ",
     "again": "ફરીથી કરો",
     "noAudio": "આ ઉપકરણમાં જર્મન અવાજ ઉપલબ્ધ નથી."
+  },
+  "audio": {
+    "speed": "અવાજની ઝડપ",
+    "noVoiceTitle": "જર્મન અવાજ મળ્યો નથી",
+    "noVoiceBody": "આ ઉપકરણમાં જર્મન બોલતો અવાજ (text-to-speech voice) ઇન્સ્ટૉલ નથી. Android પર: Settings → Text-to-speech → Google → Install voice data → Deutsch. iPhone પર: Settings → Accessibility → Spoken Content → Voices → German. કમ્પ્યુટર પર Chrome અથવા Edge વાપરો.",
+    "unsupportedTitle": "અવાજ ઉપલબ્ધ નથી",
+    "unsupportedBody": "આ બ્રાઉઝરમાં અવાજ સપોર્ટ નથી. Chrome અથવા Edge વાપરો."
+  },
+  "speech": {
+    "listening": "સાંભળવાનું ચાલુ છે… (બંધ કરવા ટૅપ કરો)",
+    "heard": "સાંભળેલું",
+    "good": "સરસ! ઉચ્ચાર સાચો છે.",
+    "retry": "કેટલાક શબ્દો બરાબર ન સંભળાયા. ધીમેથી ફરી બોલો.",
+    "noSpeech": "કંઈ સંભળાયું નહીં. ફરી બોલો.",
+    "micDenied": "માઇક્રોફોનની પરવાનગી મળી નથી. બ્રાઉઝરની સેટિંગમાં માઇક્રોફોન ચાલુ કરો.",
+    "network": "બોલેલું ઓળખવા માટે ઇન્ટરનેટ જોઈએ.",
+    "failed": "બોલેલું ઓળખી શકાયું નહીં. ફરી પ્રયાસ કરો.",
+    "fallbackNote": "આ બ્રાઉઝર બોલેલું ઓળખી શકતું નથી. રેકોર્ડ કરો, તમારું રેકોર્ડિંગ સાંભળો અને મૂળ અવાજ સાથે સરખામણી કરો.",
+    "record": "રેકોર્ડ કરો",
+    "stopRecording": "રેકોર્ડિંગ બંધ કરો",
+    "recording": "રેકોર્ડિંગ ચાલુ છે…",
+    "yourRecording": "તમારું રેકોર્ડિંગ",
+    "recordAgain": "ફરી રેકોર્ડ કરો",
+    "noRecorder": "આ બ્રાઉઝરમાં રેકોર્ડિંગ શક્ય નથી."
   }
 }

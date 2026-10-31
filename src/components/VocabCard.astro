@@ -1,6 +1,7 @@
 ---
 import type { VocabItem } from '../content/schemas';
 import { t } from '../lib/t';
+import AudioButton from './AudioButton.tsx';
 
 interface Props {
   item: VocabItem;
@@ -17,17 +18,20 @@ const articleStyle = {
 ---
 
 <div class="rounded-xl border border-line bg-surface p-4">
-  <p class="flex flex-wrap items-baseline gap-x-2 text-xl font-bold" lang="de">
-    {item.gender && (
-      <span class={`rounded px-1.5 text-base ${articleStyle[item.gender]}`}>{item.gender}</span>
-    )}
-    <span>{item.de}</span>
-    {item.plural && (
-      <span class="text-sm font-normal text-muted">
-        <span lang="gu">{t('lesson.plural')}:</span> {item.plural}
-      </span>
-    )}
-  </p>
+  <div class="flex items-start justify-between gap-3">
+    <p class="flex flex-wrap items-baseline gap-x-2 text-xl font-bold" lang="de">
+      {item.gender && (
+        <span class={`rounded px-1.5 text-base ${articleStyle[item.gender]}`}>{item.gender}</span>
+      )}
+      <span>{item.de}</span>
+      {item.plural && (
+        <span class="text-sm font-normal text-muted">
+          <span lang="gu">{t('lesson.plural')}:</span> {item.plural}
+        </span>
+      )}
+    </p>
+    <AudioButton client:visible text={item.gender ? `${item.gender} ${item.de}` : item.de} />
+  </div>
   <p class="mt-1 text-lg">
     {item.gu}
     {item.pron_gu && showPron && <span class="ml-2 text-sm text-muted">({item.pron_gu})</span>}

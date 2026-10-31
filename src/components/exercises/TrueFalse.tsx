@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { t } from '../../lib/t';
+import AudioButton from '../AudioButton';
 import type { ExerciseProps } from './types';
 import { CheckButton, optionClass } from './ui';
 
@@ -9,9 +10,12 @@ export default function TrueFalse({ exercise, locked, onCheck }: ExerciseProps<'
 
   return (
     <div>
-      <p lang="de" className="mb-4 rounded-lg bg-surface-2 p-3 text-lg">
-        {exercise.text_de}
-      </p>
+      <div className="mb-4 flex items-center gap-3 rounded-lg bg-surface-2 p-3">
+        <AudioButton text={exercise.text_de} />
+        <p lang="de" className="text-lg">
+          {exercise.text_de}
+        </p>
+      </div>
       <ul className="grid gap-3">
         {exercise.statements.map((statement, i) => (
           <li key={i}>

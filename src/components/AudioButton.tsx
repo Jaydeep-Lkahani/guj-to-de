@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
-import { isTtsSupported, speak } from '../lib/tts';
+import { useEffect, useRef, useState } from 'react';
+import { speak, stopSpeaking } from '../lib/tts';
 import { t } from '../lib/t';
+import { useTtsStatus } from './hooks';
 
-/** Speaker button that reads German text aloud. */
+/** Speaker button that reads German text aloud at the chosen speed. */
 export default function AudioButton({
   text,
   className = '',
@@ -10,17 +11,38 @@ export default function AudioButton({
   text: string;
   className?: string;
 }) {
-  const [supported, setSupported] = useState(true);
-  useEffect(() => setSupported(isTtsSupported()), []);
+  const status = useTtsStatus();
+  const [playing, setPlaying] = useState(false);
+  const mounted = useRef(true);
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
+    };
+  }, []);
 
+  const onClick = async () => {
+    if (playing) {
+      stopSpeaking();
+      return;
+    }
+    setPlaying(true);
+    await speak(text);
+    if (mounted.current) setPlaying(false);
+  };
+
+  const disabled = status !== 'ready';
   return (
     <button
       type="button"
-      onClick={() => speak(text)}
-      disabled={!supported}
+      onClick={onClick}
+      disabled={disabled}
       aria-label={t('words.listen')}
-      title={supported ? t('words.listen') : t('practice.noAudio')}
-      className={`inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-brand-soft text-brand hover:opacity-80 disabled:opacity-40 ${className}`}
+      aria-pressed={playing}
+      title={disabled ? t('audio.noVoiceTitle') : t('words.listen')}
+      className={`inline-flex size-11 shrink-0 items-center justify-center rounded-full transition disabled:opacity-40 ${
+        playing ? 'bg-brand text-brand-fg' : 'bg-brand-soft text-brand hover:opacity-80'
+      } ${className}`}
     >
       <svg
         viewBox="0 0 24 24"

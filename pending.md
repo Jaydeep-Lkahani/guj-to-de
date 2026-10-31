@@ -1,7 +1,7 @@
 # pending.md — German (A0 → B2) Learning Website in Gujarati
 
 > **Who reads this file:** the builder model (Claude Sonnet) and the project owner.
-> **Status:** Planning done (by Opus). Building in progress — Steps 1–4 done, next is Step 5.
+> **Status:** Planning done (by Opus). Building in progress — Steps 1–5 done, next is Step 6.
 > **Rule:** Every time a task below is finished, tick its checkbox `[x]` and add a one-line note in the **Change Log** at the bottom.
 
 ---
@@ -406,9 +406,9 @@ Each step = one Sonnet session (or a few). At the end of every step: run build +
 - **Done when:** sample lesson fully playable; answer-check tests pass
 
 ### Step 5 — Audio & speaking
-- [ ] `tts.ts`: pick best `de-DE` voice, speed 0.7× / 1× toggle, graceful message if no German voice
-- [ ] AudioButton on every German word/sentence
-- [ ] `speech.ts`: speech recognition (`de-DE`), compare with target (word-level similarity), fallback record & playback
+- [x] `tts.ts`: pick best `de-DE` voice, speed 0.7× / 1× toggle, graceful message if no German voice
+- [x] AudioButton on every German word/sentence
+- [x] `speech.ts`: speech recognition (`de-DE`), compare with target (word-level similarity), fallback record & playback
 - **Done when:** works on Chrome Android + desktop Chrome; Safari shows fallback
 
 ### Step 6 — Progress, unlocking & dashboard
@@ -496,3 +496,4 @@ tick the boxes, update the Change Log, and tell me what to check.
 | 2026-10-31 | Step 2 done: light/dark theme tokens (incl. der/die/das colours), `ui-gu.json` + typed `t()`, phone bottom nav + desktop side nav, base components (Button, Card, ProgressBar, LevelBadge, Callout, Table), empty shells for all page routes. Lesson shells exist only for Chapter 1 until real content (Step 4/8); `/dev/design` showcase is dev-only. |
 | 2026-10-31 | Step 3 done: Zod schemas in `src/content/schemas.ts` (all 9 exercise types), Astro collections in `src/content.config.ts`, `validate:content` with file + path + message errors, sample chapter fixture, 25 rule tests. **Decisions:** `explain_gu` is required on *every* exercise type (§7.6 says so; the §6 type listing omitted it for match/order/listen/translate/speak/truefalse). `test.json` shape is `{chapter, pass_mark (default 70), exercises}`, optional until a chapter is finished, 25–40 exercises when present. Astro 7 reads collections from `src/content.config.ts`, not `src/content/config.ts`. Astro warns "No files found" until Chapter 1 exists (Step 8). |
 | 2026-10-31 | Step 4 done: lesson page (all §4 sections), 9 exercise components + `ExerciseRunner` (check → feedback → retry / show answer → score = first-try correct), `answer-check.ts` (23 tests), chapter page, chapter-test page, minimal `tts.ts`/`AudioButton` for listening exercises (Step 5 upgrades them). `src/content/chapters/ch01` currently holds a copy of the **sample chapter as placeholder content** — Step 8 replaces it with the real Chapter 1. Speak exercise is "I said it" self-check until Step 5 adds recognition. Answer rules: only *final* punctuation is ignored (commas matter); nouns must be capitalised except a sentence-initial word. Added ä ö ü ß keys under typed answers. Note: the banned-word check also scans code identifiers, so never name variables `phase`. |
+| 2026-10-31 | Step 5 done: `tts.ts` (best de-DE voice: prefers de-DE, natural/online/Google, avoids compact + macOS novelty voices; waits for Chrome's async voice list; refuses to read German with a non-German voice), 1×/0.7× speed (`audio-prefs.ts`, remembered), `AudioButton` on every German word/sentence, no-voice notice with install steps, `speech.ts` recognition (`de-DE`, Safari forced to fallback), word-level `speech-compare.ts` (pass ≥ 80% of words, order counts, digits→number words), `SpeechChecker` with per-word marks, `Recorder` record-and-playback fallback, `ShadowingList`. **Verified in the app browser only:** real macOS German voices, a faked recogniser (error/fail/pass), a synthetic audio stream for the recorder. **Not yet verified on a real Android Chrome phone, with a real microphone, or in real Safari** — do this before relying on it (see Step 9). Audio speed also needs a control on the Settings page (Step 6). |
